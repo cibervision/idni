@@ -268,10 +268,10 @@ input:-webkit-autofill:focus {
                 margin-right: 10px;
                 margin-left: 10px;
                 display: inline-block;
-                border-bottom: 5px solid #1088FE;
                 &.acitve,
                 &:hover{
-                    color:white
+                    color:white;
+					border-bottom: 5px solid #1088FE;
                 }
             }
         }
