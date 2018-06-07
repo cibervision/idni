@@ -59,16 +59,6 @@ function dispelParallax() {
 	$("#parallax").css('display','none');
 }
 
-function castSmoothScroll() {
-	$.srSmoothscroll({
-		step: 80,
-		speed: 300,
-		ease: 'linear'
-	});
-}
-
-
-
 function startSite() {
 
 	var platform = navigator.platform.toLowerCase();
