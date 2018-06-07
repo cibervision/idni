@@ -1,0 +1,290 @@
+---
+---
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,700,500);
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    background-color: transparent;
+    padding: 0px;
+    margin: 0px;
+    #wrapper {
+        position: relative;
+        min-height: 100%;
+        padding-bottom: 100px;
+    }
+}
+$color: #f05f3b;
+
+/*  
+	@Set transition for Object 
+	*/
+
+@mixin font_aws() {
+    font: normal normal normal 14px/1 FontAwesome;
+}
+
+/*  
+	@Set transition for Object 
+	*/
+
+@mixin tran($property, $time) {
+    transition: $property $time ease-out 0s;
+    -webkit-transform: $property $time ease-out 0s;
+}
+
+@mixin transform($property) {
+    transform: $property;
+    -webkit-transform: $property;
+}
+
+/*
+	@Set Width and Height for Object
+	width= @width;
+	height= @height;
+	*/
+
+@mixin dimension($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+/*
+	 @Border_Radius for object
+   @radius = 5px;
+   */
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    -o-border-radius: $radius;
+    border-radius: $radius;
+}
+
+/*
+** @shahow for object
+	@top = 100px;
+	@top = 100px;
+	@bottom = 100px;
+	@left   = 100px;
+	@color  = #fff;
+	*/
+
+@mixin box-shadow($top, $right, $bottom, $left, $color) {
+    box-shadow: $top $right $bottom $left $color;
+    -moz-box-shadow: $top $right $bottom $left $color;
+    -webkit-box-shadow: $top $right $bottom $left $color;
+    -o-box-shadow: $top $right $bottom $left $color;
+    -ms-box-shadow: $top $right $bottom $left $color;
+}
+
+/*
+** @Create three dot in string
+	@width = 100px;
+	*/
+
+@mixin dotThreeText($width) {
+    overflow: hidden;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: $width;
+}
+
+/* 
+** @Set X, backbround-position
+	@x = @y = 100px;
+	*/
+
+@mixin coor($x, $y) {
+    background-position: $x $y;
+}
+
+/*
+** @Reset property Input in CSS
+*/
+
+@mixin resetInput {
+    box-shadow: none;
+    outline: inherit;
+    border-radius: 0;
+    background-color: transparent;
+    border: none;
+}
+
+/*
+** @set color for Placeholder property Input
+	@color = #fff;
+	*/
+
+@mixin setColorPlacholder($object, $color) {
+    #{$object}::-webkit-input-placeholder {
+        /* WebKit browsers */
+        color: $color;
+    }
+    #{$object}:-moz-placeholder {
+        /* Mozilla Firefox 4 to 18 */
+        color: $color;
+        opacity: 1;
+    }
+    #{$object}::-moz-placeholder {
+        /* Mozilla Firefox 19+ */
+        color: $color;
+        opacity: 1;
+    }
+    #{$object}:-ms-input-placeholder {
+        /* Internet Explorer 10+ */
+        color: $color;
+    }
+}
+a {
+    outline: none !important;
+}
+.clear {
+    clear: both;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+ul {
+    padding-left: 0px;
+}
+.rml {
+    padding-left: 0px;
+}
+.rmr {
+    padding-right: 0px;
+}
+.rma {
+    padding: 0px !important;
+}
+.relative {
+    position: relative;
+}
+.margin-empty {
+    margin: 0 !important;
+}
+.absolute {
+    position: absolute;
+}
+textarea {
+    resize: none;
+}
+.block {
+    display: block;
+}
+.parent-block{
+    height: 100%;
+    width:100%;
+    display: table;
+}
+.child-block{
+    display: table-cell;
+    vertical-align: middle;
+     height: 100%;
+    width:100%;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:active,
+input:-webkit-autofill:focus {
+    background-color: #FFFFFF !important;
+    color: #555 !important;
+    -webkit-box-shadow: 0 0 0 1000px white inset !important;
+    -webkit-text-fill-color: #555555 !important;
+}
+.w3 {
+    font-weight: 300 !important;
+}
+.w4 {
+    font-weight: 400 !important;
+}
+.w5 {
+    font-weight: 500 !important;
+}
+.w7 {
+    font-weight: 700 !important;
+}
+.modal {
+    text-align: center;
+    padding: 0!important;
+}
+.modal-backdrop {
+    background: rgb(0, 0, 0);
+}
+.modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -4px;
+}
+.modal-content {
+    @include box-shadow(0, 8px, 37px, 0, rgba(0, 0, 0, .2) 0 40px 77px 0 rgba(0, 0, 0, .22));
+}
+.modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+////////////////////
+///////////////////
+//////////////////
+//////////////////
+#header{
+    .height-60{
+        height: 60px;
+    }
+    .header-background{
+        background-color:#021942;
+    } 
+    #logo{
+        width: 198px;
+        height: 34px;
+    }
+    .list-menu-desktop{
+        list-style: none;
+        display: inline-block;
+        li{
+            display: inline-block;
+            a{
+                font-size:16px;
+                color:#92A2C8;
+                padding-top: 20px;
+                padding-bottom: 18px;
+                padding-left: 15px;
+                padding-right: 15px;
+                margin-right: 10px;
+                margin-left: 10px;
+                display: inline-block;
+                border-bottom: 5px solid #1088FE;
+                &.acitve,
+                &:hover{
+                    color:white
+                }
+            }
+        }
+    }
+    .dropdown-lang{
+        display: inline-block;
+        margin-left: 20px;
+        .title-lang-default{
+            font-size: 16px;
+            color:#92A2C8;
+            margin-left: 7px;
+            margin-right: 7px;
+        }
+    }
+    .git-icon{
+        display: inline-block;
+        float: right;
+        text-align: right;
+        margin-top: 15px;
+    }
+}
+/* 02-END HEADER */
