@@ -383,11 +383,12 @@ input:-webkit-autofill:focus {
 }
 .content-about{
 	position: absolute;
-	top:15%;	
+	top:8%;	
 	margin: auto;
 	width: 100%;
 	color:white;
 	text-align: center;
+	z-index: 10;
 	h2{
 		font-size: 35px;
 	}
@@ -396,6 +397,10 @@ input:-webkit-autofill:focus {
 		font-weight: 300;
 		line-height: 26px;
 	}
+}
+.roots{
+	bottom: -190px;
+	position: relative;
 }
 /* END-PARALAX */
 .hidden-skew{
@@ -411,12 +416,14 @@ input:-webkit-autofill:focus {
 }
 .background-home{
 	background-color: #021942;
-    padding: 55px 0 0px 0px;
+    padding:0px;
     -webkit-transform: skew(0deg, 4deg);
     transform: skew(0deg, 4deg);
-    margin-top: -105px;
+    margin-top: -180px;
 	border-bottom-left-radius: 75px;
 	border-bottom-right-radius: 75px;
+	z-index: 9;
+	position: relative;
 }
 #section-download{
 	 -webkit-transform: skew(0deg, -4deg);
@@ -464,7 +471,47 @@ input:-webkit-autofill:focus {
 	}
 }
 #features{
-	padding-top: 100px;
+	position: relative;
+	z-index: 6;
+	background-color:#f0f4fa;
+	margin-top: -60px;
+	-webkit-transform: skew(0deg, 7deg);
+    transform: skew(0deg, 7deg);
+	padding-bottom: 135px;
+	overflow: hidden;
+	.dont-skew{
+		-webkit-transform: skew(0deg, -7deg);
+    	transform: skew(0deg, -7deg);
+	}
+	.arrow{
+		width: 50%;
+		position: absolute;
+		z-index: -1;
+		top: -60px;
+	}
+	.arrow-1{
+		left:-7%;
+		top: -100px;
+	}
+	.arrow-2{
+		right:0%;
+		
+	}
+	.content{
+		padding-top: 200px;
+	}
+	.list-feature{
+		list-style: none;
+		li{
+		    margin-top: 20px;
+    		margin-bottom: 10px;
+			.fimage{
+				width: 110px;
+				height: 110px;
+				cursor: pointer;
+			}
+		}
+	}
 }
 .width-100{
 	width: 100%;
@@ -486,20 +533,7 @@ input:-webkit-autofill:focus {
 		padding-top: 100%;  
 	}
 }
-#features{
-	.list-feature{
-		list-style: none;
-		li{
-		    margin-top: 20px;
-    		margin-bottom: 10px;
-			.fimage{
-				width: 110px;
-				height: 110px;
-				cursor: pointer;
-			}
-		}
-	}
-}
+
 
 .title-h3,
 .title-h2{
@@ -543,7 +577,7 @@ input:-webkit-autofill:focus {
 		background-repeat: no-repeat;
 		width: 421px;
 		height: 822px;
-		margin: auto;
+		margin: -110px auto auto auto;
 	}
 	.paddingTop{
 		padding-top:200px;
