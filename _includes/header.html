@@ -7,9 +7,9 @@
          {% assign boostrap = "css/boostrap.min.css" %}
          {% assign video = "css/video.css" %}
          {% assign another_var = "css/styles.css" %}
-         {% capture styles_boostrap %}{{ site.url }}{{ site.boostrap }}{% endcapture %}
-         {% capture styles_video %}{{ site.url }}{{ site.video }}{% endcapture %}
-         {% capture styles %}{{ site.url }}{{ site.another_var }}{% endcapture %}
+         {% capture styles_boostrap %}{{ site.url }}{{ boostrap }}{% endcapture %}
+         {% capture styles_video %}{{ site.url }}{{ video }}{% endcapture %}
+         {% capture styles %}{{ site.url }}{{ another_var }}{% endcapture %}
          <link rel="stylesheet" href={{styles_boostrap}}>
         <link rel="stylesheet" href={{styles_video}}>
         <link rel="stylesheet" href={{styles}}>
