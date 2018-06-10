@@ -480,6 +480,9 @@ input:-webkit-autofill:focus {
 	border-bottom-right-radius: 75px;
 	z-index: 9;
 	position: relative;
+	&.bg-agoras{
+		background-color: #F9B800;
+	}
 }
 #section-download{
 	 -webkit-transform: skew(0deg, -4deg);
@@ -595,15 +598,12 @@ input:-webkit-autofill:focus {
 	width: 55%;
 }
 .background-roots{
-	background-image: url('/assets/images/roots.png');
+	background-image: url('/assets/images/bg/layer2.png');
 	background-repeat: no-repeat;
 	width: 100%;
     background-size: contain;
-	&:before{
-		content: "";
-		display: block;
-		padding-top: 100%;  
-	}
+	height: 1100px;
+    background-position: 10px 140px;
 }
 
 
@@ -701,7 +701,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e9f7', end
 	border-bottom-right-radius: 75px;
 	padding-bottom: 100px;
 	margin-top:-75px;
-	
+	&.bg_white{
+		background: white !important;
+	}
 	.dont-skew{
 		 -webkit-transform: skew(0deg, -4deg);
     	transform: skew(0deg, -4deg);
@@ -976,6 +978,31 @@ footer{
 .keyart_layer.parallax {
 	position: fixed;
 }
+	#keyart-agoras-1{
+		background-image: url('/assets/images/bg/layer4.png');
+		background-size: cover;
+		top:0px;
+	}
+	#keyart-agoras-2{
+		    background-image: url('/assets/images/bg/layer2.png');
+			background-size: auto 75%;
+			background-position: top;
+			top: -10px;
+			left: 93px;
+			background-repeat: no-repeat;
+		
+	}
+	#keyart-agoras-3{
+		background-image: url(/assets/images/bg/layer3.png);
+		background-size: 100%;
+		top: -119px;
+		background-repeat: no-repeat;
+		background-position: left;
+	}
+	#keyart-agoras-5{
+		background-image: url('/assets/images/bg/layer6.png');
+		background-size: cover;
+	}
 	#keyart-0 {
 		background-image: url('/assets/images/ly0.png');
 		background-size: cover;
@@ -1439,13 +1466,34 @@ h1#firewatchlogo {
 	#wrapper-content{
 		margin-top: -85px;
 	}	
+	#keyart-agoras-3{
+		top:-10px;
+	}
+	#keyart-agoras-2{
+		top:200px;
+	}
+	.background-roots{
+		height: 800px;
+	}
+	.arrowf{
+		width: 70%;
+	}
+	#features .dont-skew .arrow-2{
+		right: -6%;
+    	top: -53px;
+	}
 }
 
 @media (max-width: 1550px) {
 	.content-about{
 		top:120px;
 	}
+	#keyart-agoras-3{
+		top:40px;
+	}
+	
 }
+
 
 @media (min-width: 976px) {
 	
