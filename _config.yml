@@ -32,8 +32,8 @@ plugins:
 
 sass:
     style: compressed
-    
-destination:     ./_site
+
+url: xxxx
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
