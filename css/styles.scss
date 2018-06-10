@@ -265,18 +265,21 @@ input:-webkit-autofill:focus {
   width: 100%;
   height: 100%;
 }
+.read-more{
+	text-decoration: underline;
+}
 .wave{
-  &:before,&:after{
-  content:"";
-  margin: 0 auto;
-  position:absolute;
-  top:20%;
-  left:50%;
-  opacity:0;
-  transform:translate(-50%,-50%) scale(0);
-  border:3px solid #0f88ff;
-  display:none;
-  @include circle(230px);
+	&:before,&:after{
+	content:"";
+	margin: 0 auto;
+	position:absolute;
+	top:20%;
+	left:50%;
+	opacity:0;
+	transform:translate(-50%,-50%) scale(0);
+	border:3px solid #0f88ff;
+	display:none;
+	@include circle(230px);
   }
   &:hover{
     &:before{
@@ -288,7 +291,6 @@ input:-webkit-autofill:focus {
       animation: spread-fade 1s 0.2s ease-in infinite;
     }
   }
-  
 }
 
 ////////////////////
@@ -296,10 +298,8 @@ input:-webkit-autofill:focus {
 //////////////////
 //////////////////
 #header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+   
+	position: relative;
     width: 100%;
     z-index: 1000;
     .height-60{
@@ -538,7 +538,7 @@ input:-webkit-autofill:focus {
 	position: relative;
 	z-index: 6;
 	background-color:#f0f4fa;
-	margin-top: -60px;
+	margin-top: -90px;
 	-webkit-transform: skew(0deg, 7deg);
     transform: skew(0deg, 7deg);
 	padding-bottom: 135px;
@@ -546,6 +546,13 @@ input:-webkit-autofill:focus {
 	.dont-skew{
 		-webkit-transform: skew(0deg, -7deg);
     	transform: skew(0deg, -7deg);
+		.arrow-1{
+			left: -20%;
+		}
+		.arrow-2{
+			right: -7%;
+			top: -90px;
+		}
 	}
 	
 	.content{
@@ -634,8 +641,12 @@ input:-webkit-autofill:focus {
 	z-index: 97;
 	background-color: white;
 	padding-bottom:100px;
+	-webkit-transform: skew(0deg, 7deg);
+    transform: skew(0deg, 7deg);
 	.content{
 		margin-top:50px;
+		-webkit-transform: skew(0deg, -7deg);
+   		 transform: skew(0deg, -7deg);
 	}
 	.line-26{
 		line-height: 25px;
@@ -903,6 +914,7 @@ footer{
 	#keyart-0 {
 		background-image: url('/assets/images/ly0.png');
 		background-size: cover;
+		top:0px;
 	}
 	#keyart-1 {
 		background-image: url('/assets/images/ly1.png');
