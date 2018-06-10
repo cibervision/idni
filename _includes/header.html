@@ -2,11 +2,12 @@
 <html>
     <head>
         <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
-        <title>{{ site.url }}</title>
-         <!---->
+        <title>Intelligent Devcenttrali Networks Initiatives (IDNI)</title>
+         <!--{{ page.title }}-->
+         {% capture styles %}{{ site.url }} -/styles.css {% endcapture %}
          <link rel="stylesheet" href="css/boostrap.min.css">
         <link rel="stylesheet" href="css/video.css">
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href={{styles}}>
     </head>
         <main>
             <header id="header" class="container-fluid">
