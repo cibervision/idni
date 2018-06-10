@@ -4,9 +4,14 @@
         <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
         <title>Intelligent Devcenttrali Networks Initiatives (IDNI)</title>
          <!--{{ page.title }}-->
-         {% capture styles %}{{ site.url }} -/styles.css {% endcapture %}
-         <link rel="stylesheet" href="css/boostrap.min.css">
-        <link rel="stylesheet" href="css/video.css">
+         {% assign boostrap = "css/boostrap.min.css" %}
+         {% assign video = "css/video.css" %}
+         {% assign another_var = "css/styles.css" %}
+         {% capture styles_boostrap %}{{ site.url }}{{ site.boostrap }}{% endcapture %}
+         {% capture styles_video %}{{ site.url }}{{ site.video }}{% endcapture %}
+         {% capture styles %}{{ site.url }}{{ site.another_var }}{% endcapture %}
+         <link rel="stylesheet" href={{styles_boostrap}}>
+        <link rel="stylesheet" href={{styles_video}}>
         <link rel="stylesheet" href={{styles}}>
     </head>
         <main>
