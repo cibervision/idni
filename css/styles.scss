@@ -598,7 +598,7 @@ input:-webkit-autofill:focus {
 	width: 55%;
 }
 .background-roots{
-	background-image: url('/assets/images/bg/layer2.png');
+	background-image: url('../assets/images/bg/layer2.png');
 	background-repeat: no-repeat;
 	width: 100%;
     background-size: contain;
@@ -852,13 +852,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e9f7', end
 			margin-right: 10px;
 			margin-left: 10px;
 			&.bg1{
-				background-image: url(/assets/images/bg1.png);
+				background-image: url(../assets/images/bg1.png);
 			}
 			&.bg2{
-				background-image: url(/assets/images/bg2.png);
+				background-image: url(../assets/images/bg2.png);
 			}
 			&.bg3{
-				background-image: url(/assets/images/bg3.png);
+				background-image: url(../assets/images/bg3.png);
 			}
 			span{
 				font-size: 19px;
@@ -979,12 +979,12 @@ footer{
 	position: fixed;
 }
 	#keyart-agoras-1{
-		background-image: url('/assets/images/bg/layer4.png');
+		background-image: url('../assets/images/bg/layer4.png');
 		background-size: cover;
 		top:0px;
 	}
 	#keyart-agoras-2{
-		    background-image: url('/assets/images/bg/layer2.png');
+		    background-image: url('../assets/images/bg/layer2.png');
 			background-size: auto 75%;
 			background-position: top;
 			top: -10px;
@@ -993,14 +993,14 @@ footer{
 		
 	}
 	#keyart-agoras-3{
-		background-image: url(/assets/images/bg/layer3.png);
+		background-image: url('../assets/images/bg/layer3.png');
 		background-size: 100%;
 		top: -119px;
 		background-repeat: no-repeat;
 		background-position: left;
 	}
 	#keyart-agoras-5{
-		background-image: url('/assets/images/bg/layer6.png');
+		background-image: url('../assets/images/bg/layer6.png');
 		background-size: cover;
 	}
 	#keyart-0 {
