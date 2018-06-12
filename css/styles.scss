@@ -321,7 +321,7 @@ input:-webkit-autofill:focus {
                 font-size:16px;
                 color:#92A2C8;
                 padding-top: 20px;
-                padding-bottom: 18px;
+                padding-bottom: 13px;
                 padding-left: 15px;
                 padding-right: 15px;
                 margin-right: 10px;
@@ -417,32 +417,39 @@ input:-webkit-autofill:focus {
     top: -189px;
 }
 #join-our{
-	background-color: #004da4;
+	background-color: white;
 	padding-top:240px;
 	padding-bottom:100px;
 	margin-top: -140px;
 	position: relative;
 	h3{
-		color:white;
+		 color: #535353;
 	}
 	ul{
 		display: inline-block;
 		list-style: none;
 		margin-bottom: 0px;
+		width: 100%;
+		&.marginBottom30{
+			margin-bottom: 30px;
+		}
 		li{
 			display: inline-block;
 			a{	
-				width: 140px;
+				 width: 160px;
 				height: 50px;
 				background:white;
-				margin-right: 10px;
+				margin-right: 25px;
 				display: block;
 				color:#4A4A4A;
 				position: relative;
 				@include border-radius(5px);
-				@include tran(background,0.2s);
+				@include tran(all,0.3s);
 				&:hover{
-					background: white;
+					// background: white;
+					i{
+						color:#021942;
+					}
 				}
 				img{
 				    width: 26px;
@@ -451,12 +458,19 @@ input:-webkit-autofill:focus {
 					left: 14px;
     				top: 11px;
 				}
+				i{
+					color:#585858;
+					font-size: 30px;
+					position: absolute;
+   					 top: 8px;
+					@include tran(all,0.2s);
+				}
 				span{
 					display: inline-block;
 					text-align: center;
 					width:100%;
 					font-size:16px;
-    				margin-left: 13px;
+    				margin-left: 0px;
 				}
 			}
 		}
@@ -688,18 +702,20 @@ input:-webkit-autofill:focus {
 	position: relative;
 	-webkit-transform: skew(0deg, 4deg);
     transform: skew(0deg, 4deg);
-	background: rgba(224,233,247,1);
 	padding-bottom: 50px;
+	background: rgba(224,233,247,1);
 background: -moz-linear-gradient(top, rgba(224,233,247,1) 0%, rgba(224,233,247,1) 19%, rgba(224,233,247,1) 34%, rgba(252,252,252,1) 70%, rgba(255,255,255,1) 100%);
 background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(224,233,247,1)), color-stop(19%, rgba(224,233,247,1)), color-stop(34%, rgba(224,233,247,1)), color-stop(70%, rgba(252,252,252,1)), color-stop(100%, rgba(255,255,255,1)));
 background: -webkit-linear-gradient(top, rgba(224,233,247,1) 0%, rgba(224,233,247,1) 19%, rgba(224,233,247,1) 34%, rgba(252,252,252,1) 70%, rgba(255,255,255,1) 100%);
 background: -o-linear-gradient(top, rgba(224,233,247,1) 0%, rgba(224,233,247,1) 19%, rgba(224,233,247,1) 34%, rgba(252,252,252,1) 70%, rgba(255,255,255,1) 100%);
 background: -ms-linear-gradient(top, rgba(224,233,247,1) 0%, rgba(224,233,247,1) 19%, rgba(224,233,247,1) 34%, rgba(252,252,252,1) 70%, rgba(255,255,255,1) 100%);
 background: linear-gradient(to bottom, rgba(224,233,247,1) 0%, rgba(224,233,247,1) 19%, rgba(224,233,247,1) 34%, rgba(252,252,252,1) 70%, rgba(255,255,255,1) 100%);
+
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e9f7', endColorstr='#ffffff', GradientType=0 );
+	
 	border-bottom-left-radius: 75px;
 	border-bottom-right-radius: 75px;
-	padding-bottom: 100px;
+	padding-bottom: 30px;
 	margin-top:-75px;
 	&.bg_white{
 		background: white !important;
@@ -720,7 +736,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e9f7', end
 		position: relative;
 		z-index: 1;
 		overflow: hidden;
-		
+		padding-bottom: 60px;
 	}
 	
 	.arrowf{
@@ -734,7 +750,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e9f7', end
 	}
 	.lines{
 		background-color: #1088FE;
-		height: 600px;
+		height: 1035px;
 		width: 2px;
 		margin: auto;
 		position: relative;
@@ -795,6 +811,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e9f7', end
 			top:435px; 
 		}
 		.sam-5{
+			top:590px; 
+		}
+		.sam-6{
+			top:735px; 
+		}
+		.sam-7{
+			top:880px; 
+		}
+		
+		.sam-8{
 			top:inherit;
 			bottom:-30px;;
 		}
@@ -827,8 +853,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e9f7', end
 		&.grp-4{
 			margin-top:100px;
 		}
+		&.grp-6{
+			margin-top:180px;
+		}
 		&.grp-5{
 			margin-top: 160px;
+		}
+		&.grp-7{
+			 margin-top: 170px;
+		}
+		&.grp-8{
+			margin-top: 180px;
 		}
 	}
 	.list-price{
@@ -903,7 +938,7 @@ footer{
 }
 
 .video-js{
-	margin-left: 25px;
+	margin-left: 23px;
 }
 .vjs-poster,
 .video-js{
@@ -915,6 +950,7 @@ footer{
 .video-js .vjs-tech{
 	top:88px;
 }
+
 .vjs-control-bar{
 	display: none !important;
 }
