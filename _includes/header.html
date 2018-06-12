@@ -6,13 +6,17 @@
          <!--{{ page.title }}-->
          {% assign boostrap = "css/boostrap.min.css" %}
          {% assign video = "css/video.css" %}
-         {% assign another_var = "css/styles.css" %}
+         {% assign another_var = "css/styles.css" %} 
+         {% assign awesome = "css/font-awesome.min.css" %}
          {% capture styles_boostrap %}{{ site.url }}{{ boostrap }}{% endcapture %}
+         {% capture styles_awesome %}{{ site.url }}{{ awesome }}{% endcapture %}
          {% capture styles_video %}{{ site.url }}{{ video }}{% endcapture %}
          {% capture styles %}{{ site.url }}{{ another_var }}{% endcapture %}
          <link rel="stylesheet" href={{styles_boostrap}}>
+         <link rel="stylesheet" href={{styles_awesome}}>
         <link rel="stylesheet" href={{styles_video}}>
         <link rel="stylesheet" href={{styles}}>
+        
     </head>
         <main>
             <header id="header" class="container-fluid">
