@@ -595,11 +595,11 @@ input:-webkit-autofill:focus {
 	top: -60px;	
 }
 .arrow-1{
-	left:-7%;
+	left:-20%;
 	top: -100px;
 }
 .arrow-2{
-	right:0%;
+	right:-20%;
 	
 }
 .width-100{
@@ -703,7 +703,7 @@ input:-webkit-autofill:focus {
 	-webkit-transform: skew(0deg, 4deg);
     transform: skew(0deg, 4deg);
 	padding-bottom: 50px;
-	background: rgba(224,233,247,1);
+	background: #F0F4FA !important;// rgba(224,233,247,1);
 background: -moz-linear-gradient(top, rgba(224,233,247,1) 0%, rgba(224,233,247,1) 19%, rgba(224,233,247,1) 34%, rgba(252,252,252,1) 70%, rgba(255,255,255,1) 100%);
 background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(224,233,247,1)), color-stop(19%, rgba(224,233,247,1)), color-stop(34%, rgba(224,233,247,1)), color-stop(70%, rgba(252,252,252,1)), color-stop(100%, rgba(255,255,255,1)));
 background: -webkit-linear-gradient(top, rgba(224,233,247,1) 0%, rgba(224,233,247,1) 19%, rgba(224,233,247,1) 34%, rgba(252,252,252,1) 70%, rgba(255,255,255,1) 100%);
