@@ -1,8 +1,18 @@
+
+function hoverContent(){
+	$('.block-hover').hover(function(){
+		$(this).parent('.parent-hover').find('.content-hover').addClass('active')
+	},function(){
+		$(this).parent('.parent-hover').find('.content-hover').removeClass('active')
+	})
+}
+
 $(function () {
   /* Call dropdown menu */
   $('.dropdown-toggle').dropdown();
+   /* */
+   hoverContent()
 });
-
 
 function castParallax() {
 	window.addEventListener("scroll", function(event){
