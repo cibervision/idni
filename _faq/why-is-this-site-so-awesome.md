@@ -1,9 +1,9 @@
 ---
 layout: blog-entry
-title: faq.why-is-this-site-so-awesome
+title: from-agorash-to-tml
 
-namespace: faq.why-is-this-site-so-awesome
-permalink: /blog/why-is-this-site-so-awesome
+namespace: from-agorash-to-tml
+permalink: /blog/from-agorash-to-tml
 permalink_cn: /blog/warum-is-diese-seite-so-toll
 ---
 

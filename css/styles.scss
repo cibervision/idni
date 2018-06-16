@@ -305,7 +305,9 @@ article.post{
 			content:"|"
 		}
 		&:last-child{
-			content: none;
+			&:after{
+				content: none;
+			}
 		}
 		a{
 			font-size: 15px;
