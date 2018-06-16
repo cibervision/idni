@@ -23,7 +23,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://localhost:4000/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
-
+lang: en
 # Build settings
 markdown: kramdown
 theme: minima
@@ -47,4 +47,6 @@ gems:
   - jekyll-multiple-languages-plugin
 languages: ["en", "cn"]
 exclude_from_localizations: ["assets","css"]
-defaultLang: en
+collections:
+  faq:
+    output: true

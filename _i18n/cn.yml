@@ -4,3 +4,6 @@ global:
 pages:
   home: CHINA
   work: Work
+  
+about:
+  out_vision: OUT vision china

@@ -2,12 +2,14 @@
 <html>
     <head>
         <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
-        <title>{{ page.title }}</title>
-        <link rel="stylesheet" href="{{site.url}}css/boostrap.min.css">
-        <link rel="stylesheet" href="{{site.url}}css/font-awesome.min.css">
-        <link rel="stylesheet" href="{{site.url}}css/video.css">
-        <link rel="stylesheet" href="{{site.url}}css/styles.css">
-       
+        <meta property="og:locale:alternate" content="en_EN" />
+        <meta charset="utf-8">
+        <title>Intelligent Devcenttrali Networks Initiatives (IDNI) - {{ page.title }}</title>
+        <link rel="stylesheet" href="{{site.url}}/css/boostrap.min.css">
+        <link rel="stylesheet" href="{{site.url}}/css/font-awesome.min.css">
+        <link rel="stylesheet" href="{{site.url}}/css/video.css">
+        <link rel="stylesheet" href="{{site.url}}/css/styles.css">
+        {% assign current = page.url | downcase | split: '/' %}
     </head>
         <main>
             <header id="header" class="container-fluid">
@@ -16,32 +18,34 @@
                         <div class="col-md-5 height-60">
                             <div class="parent-block">
                                 <div class="child-block">
-                                    <a href="/"><img id="logo" alt="TAU-LOGO" src="/assets/images/logo.png" /></a>
+                                    <a href="{{site.url}}"><img id="logo" alt="TAU-LOGO" src="{{site.url}}/assets/images/logo.png" /></a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-7">
                             <ul class="list-menu-desktop">
-                                <li><a href="/" class="acitve">Tau</a></li> 
-                                <li><a href="/agoras">Agoras</a></li>
-                                <li><a href="/about">About</a></li>
-                                <li><a href="#">Blog</a></li>
+                                 <ul>
+                                    <li><a href='{{site.url}}' {% if page.nav == 'home' %} class='active'{% endif %}>Tau</a></li>
+                                    <li><a href='{{site.url}}/agoras' {% if current[1] == 'agoras' %} class='active'{% endif %}>Agoras</a></li>
+                                    <li><a href='{{site.url}}/about' {% if current[1] == 'about' %} class='active'{% endif %}>About</a></li>
+                                    <li><a href='{{site.url}}/blog' {% if current[1] == 'blog' %} class='active'{% endif %}>Blog</a></li>
+                                </ul> 
                             </ul>
                             <div class="dropdown-lang">
                                 <div class="dropdown">
                                         <a id="dLabel" data-target="my-dropdown-lang" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                                            <img width="19" height="19" src="/assets/images/global.png" alt="global-icon-lang" />
+                                            <img width="19" height="19" src="{{site.url}}/assets/images/global.png" alt="global-icon-lang" />
                                             <span class="title-lang-default">English</span>
                                             <span class="caret"></span>
                                         </a>
                                         <ul id="my-dropdown-lang" class="dropdown-menu" aria-labelledby="dLabel">
-                                            <li><a href="#">English</a></li>
-                                            <li><a href="#">Chinese</a></li>
+                                            <li><a href="{{site.url}}">English</a></li>
+                                            <li><a href="{{site.url}}/cn">Chinese</a></li>
                                         </ul>
                                 </div>
                             </div>
                             <div class="git-icon">
-                                <a target="_blank" href="https://github.com/IDNI/tau"><img src="/assets/images/git.png" alt="github-icon" /></a>
+                                <a target="_blank" href="https://github.com/IDNI/tau"><img src="{{site.url}}/assets/images/git.png" alt="github-icon" /></a>
                             </div>
                         </div>
                     </div>

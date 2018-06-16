@@ -4,3 +4,8 @@ global:
 pages:
   home: English
   work: Work
+
+about:
+  out_vision: Our Vision
+
+
