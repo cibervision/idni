@@ -1,0 +1,11 @@
+global:
+  swedish: Svenska
+  english: English
+pages:
+  home: English
+  work: Work
+
+about:
+  out_vision: Our Vision
+
+
