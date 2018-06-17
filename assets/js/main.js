@@ -6,7 +6,7 @@ function hoverContent(){
 		$(this).parent('.parent-hover').find('.content-hover').removeClass('active')
 	})
 }
-
+AOS.init();
 $(function () {
   /* Call dropdown menu */
   $('.dropdown-toggle').dropdown();
