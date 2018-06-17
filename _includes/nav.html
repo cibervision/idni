@@ -1,0 +1,7 @@
+{% assign current = page.url | downcase | split: '/' %}
+<ul class="list-menu-desktop">
+    <li><a href='{{site.url}}' {% if page.nav == 'home' %} class='active'{% endif %} class="">Tau</a></li>
+    <li><a href='{{site.url}}/agoras' {% if current[1] == 'agoras' %} class='active'{% endif %}>Agoras</a></li>
+    <li><a href='{{site.url}}/about' {% if current[1] == 'about' %} class='active'{% endif %}>About</a></li>
+    <li><a href='{{site.url}}/blog' {% if current[1] == 'blog' %} class='active'{% endif %}>Blog</a></li>
+</ul>

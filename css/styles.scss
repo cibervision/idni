@@ -1447,14 +1447,74 @@ footer{
 	}
 	
 }
-
+#menu-mobile-button{
+	display: none;
+}
 
 /********************/
 /********************/
 /** RESPONSIVENESS **/
 /********************/
 /********************/
-
+@media (max-width: 1000px) {
+	#header{
+		#navigation{
+			margin: 0px;
+			.nav-main{
+				width: 100%;
+				position: absolute;
+				top: 59px;
+				left: 0;
+				@include tran(opacity,0.2s);
+				opacity: 0;
+				background-color: #010610;
+				&.active{
+					opacity: 1;
+					z-index: 999;
+				}
+			}
+			.list-menu-desktop{
+				display: block;
+				width: 100%;
+				li{
+					display: block;
+    				text-align: center;
+				}
+			}
+		}
+		.dropdown-lang,
+		.git-icon{
+			display: none;
+		}
+	}
+	#menu-mobile-button{
+		display: block;
+		position: absolute;
+		top: 3px;
+		right: -15px;
+		ul{
+			list-style: none;
+			display: inline-block;
+			li{
+				display: inline-block;
+				a{
+					font-size: 35px;
+    				color: white;
+					margin-right: 30px;
+					position: relative;
+					&.icon-git-nav{
+						top:-3px;
+						margin-right: 0px;
+						left: -20px;
+					}
+				}
+			}
+		}
+	}
+	#header .height-50{
+		height: 60px;
+	}
+}
 
 @media (max-width: 880px) {
 	

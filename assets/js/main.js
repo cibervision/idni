@@ -11,7 +11,14 @@ $(function () {
   /* Call dropdown menu */
   $('.dropdown-toggle').dropdown();
    /* */
-   hoverContent()
+   hoverContent();
+   /* */
+   $('#navigation-mobile').click(function(){
+		if(!$('.nav-main').hasClass('active'))
+			$('.nav-main').addClass('active');
+		else
+			$('.nav-main').removeClass('active');
+   })
 });
 
 function scrollingHeader(action){
