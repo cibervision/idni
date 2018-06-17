@@ -396,19 +396,44 @@ article.post{
 //////////////////
 //////////////////
 #header{
-   
-	position: relative;
+    top:0px;
+	position: fixed;
     width: 100%;
     z-index: 1000;
+	@include tran(all,0.4s);
+	&.fixed{
+		position: fixed;
+	}
+	&.top150{
+		top:-120px;
+	}
+	&.top0{
+		top:0px;
+	}
     .height-60{
         height: 60px;
+		@include tran(all,0.3s);
     }
+	.height-50{
+		height: 50px;
+		.list-menu-desktop li a{
+			padding-top: 15px;
+    		padding-bottom: 8px;
+		}
+		.git-icon{
+			margin-top: 10px;
+		}
+	}
     .header-background{
+		
         background-color:#021942;
     } 
     #logo{
         width: 198px;
-        height: 34px;
+		@include tran(all,0.3s);
+		&.width170{
+			width:170px;
+		}
     }
     .list-menu-desktop{
         list-style: none;
@@ -452,6 +477,7 @@ article.post{
         float: right;
         text-align: right;
         margin-top: 15px;
+		@include tran(all,0.3s);
     }
 }
 #header .list-menu-desktop li a.active{
@@ -462,7 +488,8 @@ article.post{
 
 /* START-PARALAX */
 .main-wrapper{
-    margin-top:60px;
+    top:120px;
+	position: relative;
 	.container-width{
 		width: 1300px;
 		margin:auto;
@@ -478,7 +505,7 @@ article.post{
 			//margin-top: -140px;
 		}
 		#roadmap{
-		    margin-top: -170px;
+		    margin-top: -160px;
 			padding-bottom: 120px;
 			.content{
 				padding-top:250px;
@@ -576,7 +603,7 @@ article.post{
 }
 .content-about{
 	position: absolute;
-	top:8%;	
+	top:6%;	
 	margin: auto;
 	width: 100%;
 	color:white;
@@ -1293,8 +1320,15 @@ footer{
 	top:0px;
 }
 #keyart-1 {
-	background-image: url('{{ site.url }}/assets/images/ly1.png');
-	background-size: auto;
+    background-image: url('{{ site.url }}/assets/images/ly1.png');
+    background-size: auto 724px;
+    background-position: unset;
+}
+#keyart-1b {
+	background-image: url('{{ site.url }}/assets/images/lylogo.png');
+	     background-size: auto 500px;
+    top: -379px;
+    background-repeat: no-repeat;
 }
 
 
@@ -1303,12 +1337,13 @@ footer{
 		background-size: auto;
 }
 #keyart-4 {
-		background-image: url('{{ site.url }}/assets/images/ly4.png');
-		background-size: auto;
+	background-image: url('{{ site.url }}/assets/images/ly4.png');
+    background-size: auto 953px;
+    background-position: top;
 }
 #keyart-5 {
 		background-image: url('{{ site.url }}/assets/images/ly5.png');
-		
+		    background-position: right;
 }
 #keyart-6 {
 	background-image: url('{{ site.url }}/assets/images/ly6.png');
@@ -1316,7 +1351,7 @@ footer{
 }
 #keyart-7 {
 		background-image: url('{{ site.url }}/assets/images/ly7.png');
-		background-size: auto 800px;
+		background-size: auto;
 }
 #keyart-8 {
 		background-image: url('{{ site.url }}/assets/images/ly8.png');
@@ -1333,10 +1368,10 @@ footer{
 #content-about{
 	background: #4F62E2;
 	width: 100%;
-	min-height: 700px;
+	min-height: 540px;
 	background-image: url('{{ site.url }}/assets/images/path.png');
 	background-repeat: no-repeat;
-	background-position: bottom; 
+	background-position: 0px 209px;
 	background-size:contain;
 	position: relative;
 	z-index: 999;
@@ -1359,7 +1394,7 @@ footer{
 #content-about{
 	h2{
 		color:white;
-		margin-top: 195px;
+		margin-top: 135px;
 		margin-bottom:20px;
 	}
 	p{
