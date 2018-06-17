@@ -628,6 +628,8 @@ article.post{
 		}
 		li{
 			display: inline-block;
+			 margin-left: 5px;
+    		margin-right: 5px;
 			a{	
 				 width: 160px;
 				height: 50px;
@@ -667,6 +669,11 @@ article.post{
 				}
 			}
 		}
+	}
+}
+#agoras #join-our ul li a:hover{
+	i{
+		color:#F9B800;
 	}
 }
 #wrapper-content{
@@ -774,9 +781,17 @@ article.post{
 		    margin-top: 20px;
     		margin-bottom: 10px;
 			.fimage{
-				width: 110px;
-				height: 110px;
+				width: 115px;
+				height: 115px;
 				cursor: pointer;
+				border:1px solid transparent;
+				padding:5px;
+				border-radius: 100%;
+				@include tran(border,0.3s);
+				&:hover{
+					border:1px solid #0f88ff;
+				}
+			
 			}
 		}
 	}
@@ -1305,7 +1320,7 @@ footer{
 }
 #keyart-8 {
 		background-image: url('{{ site.url }}/assets/images/ly8.png');
-		background-size: auto 850px;
+		background-size: contain;//auto 850px;
 }
 #keyart-9 {
 	background-image: url('{{ site.url }}/assets/images/ly9.png');
