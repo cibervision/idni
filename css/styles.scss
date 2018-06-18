@@ -864,7 +864,7 @@ article.post{
 		margin-bottom: 50px;
 	}
 	&.marginBottom5{
-		margin-bottom: 5px;
+		margin-bottom: 10px;
 	}
 }
 .h5-title{
@@ -955,6 +955,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e9f7', end
 		 -webkit-transform: skew(0deg, -4deg);
     	transform: skew(0deg, -4deg);
 		overflow: hidden;
+		width: 100%;
 	}
 
 	.price{
@@ -1170,6 +1171,7 @@ footer{
 			color: #92a2c8;
 			text-align: center;
 			display: inline-block;
+			padding-right: 10px;
 		}
 		a{
 			color: #92a2c8;
@@ -1208,6 +1210,13 @@ footer{
 					left: 0px;
 					font-size: 16px;
 
+				}
+				&.list-download{
+					padding-left: 0;
+    				margin-top: 20px;
+					a{
+						color: #92A2C8;
+					}
 				}
 			 }
 		}
@@ -1464,10 +1473,47 @@ footer{
 		width:100%;
 	}
 }
+@media (max-width: 1024px) {
+	.fdescription{
+		min-height: auto;
+	}
+}
+@media (max-width: 1023px) {
+	.fdescription{
+		min-height: 100px;
+	}
+}
+@media (max-width: 1024px) {
+	#blog #roadmap .content.blog{
+		padding-top: 100px;
+	}
+	#content-about{
+		background-position: 0px 110%;
+	}
+	#content-about h2{
+		margin-top: 75px;
+	}
+	.main-wrapper#page-about #roadmap{
+		padding-bottom: 55px;
+	}
 
-@media (max-width: 1000px) {
 	#parallax{
 		display: none;
+	}
+	#roadmap .list-price li{
+		margin-right: 1.5%;
+    	margin-left: 1.5%;
+		width: 30%;
+	}
+	#roadmap .list-price{
+		padding-bottom: 25px;
+	}
+	#roadmap .content{
+		padding-top: 75px;
+	}
+	#join-our{
+		padding-top: 200px;
+		padding-bottom: 120px;
 	}
 	#header{
 		#navigation{
@@ -1578,8 +1624,61 @@ footer{
 			top: 75px;
 		}
 	}
+	#features .content{
+		 padding-top: 130px;
+	}
+	#features .dont-skew .arrow-2{
+		 right: -24%;
+    	top: 150px;
+	}
+	#features .dont-skew .arrow-1 {
+		left: -30%;
+		top: 75px 
+	}
+	#agoras #features .dont-skew .arrow-2{
+		top: 61px;
+		right:-32%;
+	}
+	#agoras #features .dont-skew .arrow-1 {
+		left: -32%;
+		top: -39px;
+	}
+	#about #roadmap .arrow-2{
+		top: 100px;
+		right:-32%;
+	}
+	#about #roadmap .arrow-1{
+		top: 100px;
+		left:-32%;
+	}
 }
 @media (max-width: 768px) {
+	#features .dont-skew .arrow-2{
+		 right: -24%;
+    	top: 586px;
+	}
+	#features .dont-skew .arrow-1 {
+		left: -30%;
+		top: 200px;
+	}
+	#roadmap .content.blog{
+		padding-top: 95px;
+	}
+	footer #footer-contact .fmenu a{
+		text-align: center;
+	}
+	footer #footer-contact{
+		height: 140px;
+	}
+	footer #footer-contact .logo{
+		margin-top: 30px;
+	}
+	footer #footer-contact .list-in{
+		margin-top: 42px;
+	}
+	footer #footer-contact .fmenu{
+		margin-top: 30px;
+	}
 	#network .paddingTop{
 		padding-top: 0px;
 	}
@@ -1642,6 +1741,9 @@ footer{
 	}
 	.main-wrapper#page-about #roadmap{
 		padding-bottom: 45px;
+	}
+	#agoras #features{
+		padding-bottom: 120px;
 	}
 }
 @media (max-width: 767px) {
