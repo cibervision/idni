@@ -1447,7 +1447,8 @@ footer{
 	}
 	
 }
-#menu-mobile-button{
+#menu-mobile-button,
+#background-mobile-home{
 	display: none;
 }
 
@@ -1456,7 +1457,16 @@ footer{
 /** RESPONSIVENESS **/
 /********************/
 /********************/
+@media (max-width: 1300px) {
+	.main-wrapper .container-width{
+		width:100%;
+	}
+}
+
 @media (max-width: 1000px) {
+	#parallax{
+		display: none;
+	}
 	#header{
 		#navigation{
 			margin: 0px;
@@ -1520,44 +1530,103 @@ footer{
 		margin-top:5px;
 		margin-bottom: 5px;
 	}
+	#background-mobile-home{
+		background-image: url('{{ site.url }}/assets/images/tau-tablet.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+		height: 100%;
+		display: block;
+		padding-bottom: 100%;
+	}
+	#background-mobile-agoras{
+		background-image: url('{{ site.url }}/assets/images/bg-mobile-agoras.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+		height: 100%;
+		display: block;
+		padding-bottom: 100%;
+	}
+	.main-wrapper{
+		top:60px;
+	}
+	.background-home{
+		margin-top: -45px;
+		background-color: #001242;
+	}
+	.content-about{
+		top:0px;
+	}
+	.roots{
+		 bottom: -80px;
+	}
 }
-
-@media (max-width: 880px) {
-	
+@media (max-width: 768px) {
+	#network .paddingTop{
+		padding-top: 0px;
+	}
+	.title-h3, .title-h2{
+		font-size: 27px;
+	}
+	#features{
+		padding-bottom: 60px;
+	}
+	#network #tau-video{
+		margin: auto;
+	}
+	#roadmap .content{
+		padding-top: 55px;
+		padding-bottom: 30px;
+	}
+	#join-our{
+		padding-top: 185px;
+		margin-top: -154px;
+		padding-bottom: 160px;
+	}
+	#join-our ul li{
+		margin: auto;
+	}
+	#join-our ul.marginBottom30{
+		 margin-bottom: 0px;
+	}
+	#roadmap .list-price li{
+		width: 31%;
+		margin-right: 5px;
+   		 margin-left: 5px;
+	}
+	#roadmap .list-price{
+		    padding-bottom: 0px;
+	}
+	.title-h3.marginBottom5{
+		margin-bottom: 10px;
+	}
+	.background-roots{
+		height: 600px;
+	}
+	#roadmap .price{
+		font-size: 33px;
+	}
+	#content-about{
+		min-height: 430px;
+		background-position: 0px 110%;
+	}
+	.main-wrapper#page-about #roadmap .content{
+		padding-top: 200px;
+	}
+	#content-about h2{
+		 margin-top: 75px;
+	}
+	.marginbttom80{
+		margin-bottom: 50px;
+	}
+	.main-wrapper#page-about #roadmap .group-member.section-2{
+		 margin-top: 65px;
+	}
+	.main-wrapper#page-about #roadmap{
+		padding-bottom: 45px;
+	}
 }
-
-@media (max-width: 830px) {
-
-}
-
-@media (max-width: 820px) {
-
-
-}
-
-
-@media (max-width: 780px) {
-
-}
-
-@media (max-width: 750px) {
-	
-}
-
-@media (max-width: 740px) {
-	
-}
-
-@media (max-width: 730px) {
-
-}
-
- 
-/********************/
-/********************/
-/* ENABLES PARALLAX */
-/********************/
-/********************/
 @media (max-width: 767px) {
 	.video-js{
 		 margin-top: 0px;
@@ -1631,51 +1700,3 @@ footer{
 		margin: auto;
 	}
 }
-
-/*********************/
-/*********************/
-/* DISABLES PARALLAX */
-/*********************/
-/*********************/
-
-@media (max-width: 600px) {
-
-	#nonparallax {
-		display: block;
-	}
-	#parallax {
-		display: none;
-	}
-
-	#main {
-		padding-left: 10px;
-		padding-right: 10px;
-		padding-top: 70px;
-	}
-
-	.section.copyright p {
-		font-size: 12px;
-		line-height: 20px;
-		letter-spacing: 1px;
-	}
-	.section.companylinks .companies li h1 {
-		margin: 20px;
-	}
-}
-
-
-@media only screen and (max-device-width: 450px) {
-
-/* PARALLAX */
-
-	.keyart, .keyart_layer {
-		height: 550px;
-	}
-
-	.keyart_layer {
-		position: absolute;
-		background-size: auto 600px;
-	}
-}
-
-
