@@ -2,7 +2,7 @@
     <div id="roadmap">
             <div class="dont-skew width-100">
                 <div class="content container blog">
-                    <h2 class="text-center" id="h2-blog">Official articles</h2>   
+                    <h2 class="text-center" id="h2-blog">Official Articles</h2>   
                     <ul  class="list-lang none">
                         <li><a href="{{site.url}}/blog"><i class="fa fa-angle-left" aria-hidden="true"></i> Back to the list</a> </li>
                     </ul>
