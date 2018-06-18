@@ -4,6 +4,10 @@ global:
 pages:
   home: CHINA
   work: Work
-  
+
+tau:
+  what_is_tau_chain: 什么是Tau-Chain
+  content_what_is_tau_chain: Tau是基于区块链的分散式网络，可以根据用户的决定自动进行更改。 为了做出有效的决策，Tau将通过使用人机交互的范例帮助用户克服人类讨论中固有的瓶颈。 因此，Tau可以理解整个对话，并能够扩展人与人之间的协作，并为其用户创造知识
+
 about:
   out_vision: OUT vision china

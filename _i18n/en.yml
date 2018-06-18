@@ -5,6 +5,10 @@ pages:
   home: English
   work: Work
 
+tau:
+  what_is_tau_chain: What is Tau-Chain
+  content_what_is_tau_chain: Tau is a blockchain based decentralized network that can automatically be changed based on its users’ decisions. To reach effective decisions, Tau will help its users overcome the bottlenecks inherent in discussions among humans by using a paradigm of Human-Machine-Human communication. As such, Tau could understand the entire conversation and will be able to scale human collaboration and amplify the creation of knowledge for its users
+
 about:
   out_vision: Our Vision
 

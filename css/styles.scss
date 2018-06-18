@@ -638,7 +638,7 @@ article.post{
     top: -189px;
 }
 #join-our{
-	background-color: white;
+	background-color: #DBEBFC;
 	padding-top:240px;
 	padding-bottom:250px;
 	margin-top: -140px;
@@ -661,7 +661,6 @@ article.post{
 			a{	
 				 width: 160px;
 				height: 50px;
-				background:white;
 				margin-right: 25px;
 				display: block;
 				color:#4A4A4A;
@@ -671,7 +670,7 @@ article.post{
 				&:hover{
 					// background: white;
 					i{
-						color:#021942;
+						color:#1088FE;
 					}
 				}
 				img{
@@ -699,11 +698,7 @@ article.post{
 		}
 	}
 }
-#agoras #join-our ul li a:hover{
-	i{
-		color:#F9B800;
-	}
-}
+
 #wrapper-content{
 	position: relative;
 	z-index: 98; 
@@ -1164,15 +1159,20 @@ footer{
 	position: relative;
 	z-index: 999;
 	.footer-color{
+		text-align: center;
 		width: 100%;
 		height: 60px;
 		background-color:#021942;
 		clear: both;
-		p{
+		span{
 			margin: 0px;
 			font-size: 14px;
-			color: #FFFFFF;
+			color: #92a2c8;
 			text-align: center;
+			display: inline-block;
+		}
+		a{
+			color: #92a2c8;
 		}
 	}
 	#footer-contact{
@@ -1410,7 +1410,9 @@ footer{
 }
 /* MAIN STRUCTURE */
 
-
+#parallax{
+	display: block;
+}
 @media (max-width: 1600px){
 	#wrapper-content{
 		margin-top: -85px;
@@ -1540,7 +1542,7 @@ footer{
 		padding-bottom: 100%;
 	}
 	#background-mobile-agoras{
-		background-image: url('{{ site.url }}/assets/images/bg-mobile-agoras.png');
+		background-image: url('{{ site.url }}/assets/images/bg-tablet-agoras.png');
 		background-repeat: no-repeat;
 		background-size: cover;
 		width: 100%;
@@ -1560,6 +1562,21 @@ footer{
 	}
 	.roots{
 		 bottom: -80px;
+	}
+	.background-home.bg-agoras{
+		background-color: #f9b100;
+	}
+	#agoras{
+		.background-roots{
+			height: 435px;
+			background-position: 10px 20%;
+		}
+		#wrapper-content{
+			margin-top: 0px;
+		}
+		.content-about {
+			top: 75px;
+		}
 	}
 }
 @media (max-width: 768px) {
@@ -1582,7 +1599,7 @@ footer{
 	#join-our{
 		padding-top: 185px;
 		margin-top: -154px;
-		padding-bottom: 160px;
+		padding-bottom: 100px;
 	}
 	#join-our ul li{
 		margin: auto;
