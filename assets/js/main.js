@@ -91,3 +91,8 @@ function startSite() {
 }
 
 document.body.onload = startSite();
+
+$(document).ready(function(){
+	// $fn.scrollSpeed(step, speed, easing);
+	jQuery.scrollSpeed(200, 1000);
+});
