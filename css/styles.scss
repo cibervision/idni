@@ -1325,33 +1325,46 @@ footer{
 	background-size: cover;
 }
 
-
 #keyart-0 {
 	background-image: url('{{ site.url }}/assets/images/ly0.png');
 	background-size: cover;
-	top:0px;
+	top:-170px;
 }
 #keyart-1 {
-    background-image: url('{{ site.url }}/assets/images/ly1.png');
-    background-size: auto 724px;
-    background-position: unset;
+    background-image: url('{{ site.url }}/assets/images/tau_1.png');
+    background-size: auto 600px;
+    background-position: left top;
+    background-repeat: no-repeat;
+    top: 180px;
 }
 #keyart-1b {
 	background-image: url('{{ site.url }}/assets/images/lylogo.png');
-	     background-size: auto 500px;
-    top: -379px;
+	background-size: auto 170px;
+    top: 110px;
     background-repeat: no-repeat;
+    background-position: top;
 }
 
+#keyart-2 {
+    background-image: url('{{ site.url }}/assets/images/tau_2.png');
+    background-size: auto 720px;
+    background-position: left top;
+    background-repeat: no-repeat;
+    top: 130px;
+}
 
 #keyart-3 {
-		background-image: url('{{ site.url }}/assets/images/ly3.png');
-		background-size: auto;
+	background-image: url('{{ site.url }}/assets/images/tau_3.png');
+    background-size: auto 800px;
+    background-position: left top;
+    left: -155px;
+    top: 90px;
 }
 #keyart-4 {
 	background-image: url('{{ site.url }}/assets/images/ly4.png');
     background-size: auto 953px;
     background-position: top;
+    top: 140px;
 }
 #keyart-5 {
 		background-image: url('{{ site.url }}/assets/images/ly5.png');
@@ -1444,9 +1457,12 @@ footer{
 		right: -6%;
     	top: -53px;
 	}
+    #keyart-1b {
+        background-size: auto 135px;
+    }
 	#keyart-8{
-		    background-size: auto 80%;
-			background-position: center;
+	    background-size: auto 80%;
+		background-position: center;
 	}
 }
 
@@ -1474,6 +1490,9 @@ footer{
 	.main-wrapper .container-width{
 		width:100%;
 	}
+    #keyart-1b {
+        background-size: auto 90px;
+    }
 }
 @media (max-width: 1024px) {
 	.fdescription{
