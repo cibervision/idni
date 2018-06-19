@@ -1,5 +1,8 @@
 <h4>Archived posts</h4>
 <ul class="archive-list">
-    <li><a href="{{site.url}}/blog/the-new-tau">The New Tau</a></li>
-    <li><a href="{{site.url}}/blog/from-agorash-to-tml">Tau as a Generalized Blockchain</a></li>
+    {% for blog in site.data.blogen %}
+        {% if blog.key == 'archive' %}
+            <li><a href="{{site.url}}/blog/{{blog.link}}">{{ blog.title }}</a></li>
+        {% endif %}
+    {% endfor %}  
 </ul>

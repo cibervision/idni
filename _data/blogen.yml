@@ -1,0 +1,57 @@
+- title: The Art of Self-Reference
+  key: main
+  link: the-art-of-self-reference
+  author: Ohad Asor
+  date: May 27, 2018
+  content: This post, like the previous two, comes to shed light on the same subjects. The post "The New Tau" went bottom up from TML to Agoras and focused on scaling discussions.  The post "From Agoras to TML" went the other way around, and focused on knowledge economy. Here we approach the subject by emphasizing on self definition.
+
+- title: From Agoras to TML
+  link: from-agoras-to-tml
+  key: main
+  author: Ohad Asor
+  date: Mar 13, 2018
+  content: In the last blogpost we went through our five stages in chronological and conceptually bottom-up order language, knowledge, discussion, collaboration, change, and knowledge market. The first five steps are about creation of a knowledge society, and from there we can build a knowledge economy on top of it. On this post we go backwards we consider what we mean by knowledge economy and what is required for that to happen, and go down the hierarchy until language.
+
+- title: The New Tau
+  link: the-new-tau
+  key: main
+  author: Ohad Asor
+  date: Dec 31, 2017
+  content: We are interested in a process in which a small or very large group of people repeatedly reach and follow agreements. We refer to such processes as Social Choice. We identify five aspects arising from them language, knowledge, discussion, collaboration, and choice about choice. We propose a social choice mechanism by a careful consideration of these aspects.
+
+- title: "Tau and the Crisis of Truth"
+  link: tau-and-the-crisis-of-truth
+  key: main
+  author: Ohad Asor
+  date: Sep 11, 2016
+  content: We live in a world in which no one knows the law. Except trivial cases, you cannot know what is legal and what is not, all you can do is try and see what is the judge’s or policeman’s opinion after you've taken your actions, which of course differs from one to another.
+
+- title: "Project Roadmap"
+  link: project-roadmap
+  key: archive
+  author: Ohad Asor
+  date: Apr 9, 2016
+  content: Tau is a language. It is a programming language, but not only such. It may express virtually any arbitrary knowledge, rules, and processes. Examples are contracts, mathematical proofs, scientific facts and arguments, and legal documents.
+
+- title: "Tau as a Generalized Blockchain"
+  link: tau-as-a-generalized-blockchain
+  key: archive
+  author: Ohad Asor
+  date: Oct 17, 2015
+  content: Bitcoin may abstractly be described as a decentralized machine that appends new data (transactions) to a public shared database (ledger) given certain proofs (signatures).
+
+
+- title: "Proof of Code Execution"
+  link: proof-of-code-execution
+  author: Ohad Asor
+  key: archive
+  date: Sep 6, 2015
+  content: Putting it altogether, code is rules and queries, while the compiler (being essentially an autoprover) follows the rules and their consequences and outputs answers (while performing any side-effects).
+
+- title: Decentralized Democracy and the Role of the First Users
+  link: decentralized-democracy-and-the-role-of-the-first-users
+  author: Ohad Asor
+  key: archive
+  date: Sep 1, 2015
+  content: Recently we mentioned several times the logical and technological properties of tau, and now maybe it is time to take a step back and look at the broader picture. We mentioned that tau's programming language is actually rules and logic. 
+

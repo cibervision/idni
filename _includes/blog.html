@@ -8,35 +8,17 @@
     <div class="row">
         <div class="col-md-9">
             <ul class="list-blog">
-                <li>
-                    <h3><a href="{{site.url}}/blog/from-agorash-to-tml">From Agoras to TML</a></h3>
-                    <span class="author">Ohad Asor</span>
-                    <span class="dot"></span>
-                    <span class="date">Mar 13, 2018</span>
-                    <p class="blog-content">In the last blogpost we went through our five stages in chronological and conceptually bottom-up order: language, knowledge, discussion, collaboration, change, and knowledge market. The first five steps are about creation of a knowledge society, and from there we can build a knowledge economy on top of it…</p>
-                </li>
-                <li>
-                    <h3><a href="{{site.url}}/blog/the-new-tau">The New Tau</a></h3>
-                    <span class="author">The New Tau</span>
-                    <span class="dot"></span>
-                    <span class="date">Mar 13, 2018</span>
-                    <p class="blog-content">We are interested in a process in which a small or very large group of people repeatedly reach and follow agreements. We refer to such processes as Social Choice. We identify five aspects arising from them: language, knowledge, discussion, collaboration, and choice about choice…</p>
-                </li>
-                <li>
-                    <h3><a href="{{site.url}}/blog/from-agorash-to-tml">Tau and the Crisis of Truth</a></h3>
-                    <span class="author">Ohad Asor</span>
-                    <span class="dot"></span>
-                    <span class="date">Mar 13, 2018</span>
-                    <p class="blog-content">We live in a world in which no one knows the law. Except trivial cases, you cannot know what is legal and what is not, all you can do is try and see what is the judge’s or policeman’s opinion after you've taken your actions, which of course differs from one to another...</p>
-                </li>
-                <li>
-                    <h3><a href="{{site.url}}/blog/from-agorash-to-tml">Tau as a Generalized Blockchain</a></h3>
-                    <span class="author">Ohad Asor</span>
-                    <span class="dot"></span>
-                    <span class="date">Mar 13, 2018</span>
-                    <p class="blog-content">Bitcoin may abstractly be described as a decentralized machine that appends new data (transactions) to a public shared database (ledger) given certain proofs (signatures).
-        One immediately asks: what if we take the Blockchain algorithm and allow arbitrary data with multiple…</p>
-                </li>
+                {% for blog in site.data.blogen %}
+                    {% if blog.key == 'main' %}
+                    <li>
+                        <h3><a href="{{site.url}}/blog/{{blog.link}}">{{ blog.title }}</a></h3>
+                        <span class="author">{{blog.author}}</span>
+                        <span class="dot"></span>
+                        <span class="date">{{blog.date}}</span>
+                        <p class="blog-content">{{blog.content}}</p>
+                    </li>
+                    {% endif %}
+                {% endfor %}  
             </ul>
         </div>
         <div class="col-md-3">
