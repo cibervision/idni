@@ -1,4 +1,4 @@
- <div class="content container blog">
+<div class="content container blog">
     <h2 class="text-center" id="h2-blog">Official Articles</h2>   
     <ul  class="list-lang">
         <li><a href="#">All Language</a> </li>
@@ -6,16 +6,20 @@
         <li> <a href="#">Chinese</a> </li>
     </ul>
     <div class="row">
+        <h1>{{my_variable}}</h1>
         <div class="col-md-9">
             <ul class="list-blog">
                 {% for blog in site.data.blogen %}
                     {% if blog.key == 'main' %}
                     <li>
-                        <h3><a href="{{site.url}}/blog/{{blog.link}}">{{ blog.title }}</a></h3>
+                        <h3><a href="{{site.url}}/blog/{{blog.link}}" alt="{{blog.title}}">{{ blog.title }}</a></h3>
                         <span class="author">{{blog.author}}</span>
                         <span class="dot"></span>
                         <span class="date">{{blog.date}}</span>
-                        <p class="blog-content">{{blog.content}}</p>
+                        <p class="blog-content">
+                            {{blog.content}} 
+                            <a href="{{site.url}}/blog/{{blog.link}}">Read more...</a>
+                        </p>
                     </li>
                     {% endif %}
                 {% endfor %}  
