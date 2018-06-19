@@ -503,7 +503,7 @@ article.post{
 			}
 		}
 		#join-our{
-			//margin-top: -140px;
+			//margin-top: -140px; 
 		}
 		#roadmap{
 		    margin-top: -160px;
@@ -824,7 +824,7 @@ article.post{
 			
 			}
 		}
-	}
+	} 
 }
 .arrowf{
 	width: 50%;
@@ -853,7 +853,7 @@ article.post{
     top: 0;
 }
 .background-roots{
-	background-image: url('{{ site.url }}/assets/images/bg/layer2.png');
+	background-image: url('{{site.url}}/assets/images/bg/layer2.png');
 	background-repeat: no-repeat;
 	width: 100%;
     background-size: contain;
@@ -912,7 +912,7 @@ article.post{
 		max-height: inherit;
 	}
 	#tau-video{
-		background-image: url('{{ site.url }}/assets/images/phone2.png');
+		background-image: url('{{site.url}}/assets/images/phone2.png');
 		background-repeat: no-repeat;
 		width: 421px;
 		height: 822px;
@@ -1342,13 +1342,13 @@ article.post{
 			margin-right: 10px;
 			margin-left: 10px;
 			&.bg1{
-				background-image: url('{{ site.url }}/assets/images/bg1.png');
+				background-image: url('{{site.url}}/assets/images/bg1.png');
 			}
 			&.bg2{
-				background-image: url('{{ site.url }}/assets/images/bg2.png');
+				background-image: url('{{site.url}}/assets/images/bg2.png');
 			}
 			&.bg3{
-				background-image: url('{{ site.url }}/assets/images/bg3.png');
+				background-image: url('{{site.url}}/assets/images/bg3.png');
 			}
 			span{
 				font-size: 19px;
@@ -1461,7 +1461,7 @@ footer{
 	display: none !important;
 }
 .video-js .vjs-big-play-button{
-	background-image: url('{{ site.url }}/assets/images/play.png');
+	background-image: url('{{site.url}}/assets/images/play.png');
 	width: 110px;
 	height: 110px;
 	font-size: 0px;
@@ -1475,7 +1475,7 @@ footer{
     top: 48.7%;
     left: 3px;
 	&:hover{
-		background-image: url('{{ site.url }}/assets/images/play-hover.png');
+		background-image: url('{{site.url}}/assets/images/play-hover.png');
 	}
 }
 .vjs-error-display.vjs-modal-dialog {
@@ -1523,12 +1523,12 @@ footer{
 	position: fixed;
 }
 #keyart-agoras-1{
-	background-image: url('{{ site.url }}/assets/images/bg/layer4.png');
+	background-image: url('{{site.url}}/assets/images/bg/layer4.png');
 	background-size: cover;
 	top:0px;
 }
 #keyart-agoras-2{
-		background-image: url('{{ site.url }}/assets/images/bg/layer2.png');
+		background-image: url('{{site.url}}/assets/images/bg/layer2.png');
 		background-size: auto 75%;
 		background-position: top;
 		top: -10px;
@@ -1537,31 +1537,31 @@ footer{
 	
 }
 #keyart-agoras-3{
-	background-image: url('{{ site.url }}/assets/images/bg/layer3.png');
+	background-image: url('{{site.url}}/assets/images/bg/layer3.png');
 	background-size: 100%;
 	top: -119px;
 	background-repeat: no-repeat;
 	background-position: left;
 }
 #keyart-agoras-5{
-	background-image: url('{{ site.url }}/assets/images/bg/layer6.png');
+	background-image: url('{{site.url}}/assets/images/bg/layer6.png');
 	background-size: cover;
 }
 
 #keyart-0 {
-	background-image: url('{{ site.url }}/assets/images/ly0.png');
+	background-image: url('{{site.url}}/assets/images/ly0.png');
 	background-size: cover;
 	top:-170px;
 }
 #keyart-1 {
-    background-image: url('{{ site.url }}/assets/images/tau_1.png');
+    background-image: url('{{site.url}}/assets/images/tau_1.png');
     background-size: auto 600px;
     background-position: left top;
     background-repeat: no-repeat;
     top: 180px;
 }
 #keyart-1b {
-	background-image: url('{{ site.url }}/assets/images/lylogo.png');
+	background-image: url('{{site.url}}/assets/images/lylogo.png');
 	background-size: auto 170px;
     top: 110px;
     background-repeat: no-repeat;
@@ -1569,7 +1569,7 @@ footer{
 }
 
 #keyart-2 {
-    background-image: url('{{ site.url }}/assets/images/tau_2.png');
+    background-image: url('{{site.url}}/assets/images/tau_2.png');
     background-size: auto 720px;
     background-position: left top;
     background-repeat: no-repeat;
@@ -1577,14 +1577,14 @@ footer{
 }
 
 #keyart-3 {
-	background-image: url('{{ site.url }}/assets/images/tau_3.png');
+	background-image: url('{{site.url}}/assets/images/tau_3.png');
     background-size: auto 800px;
     background-position: left top;
     left: -155px;
     top: 90px;
 }
 #keyart-4 {
-	background-image: url('{{ site.url }}/assets/images/ly4.png');
+	background-image: url('{{site.url}}/assets/images/ly4.png');
     background-size: auto 953px;
     background-position: top;
     top: 140px;
@@ -1594,20 +1594,20 @@ footer{
 		    background-position: right;
 }
 #keyart-6 {
-	background-image: url('{{ site.url }}/assets/images/ly6.png');
+	background-image: url('{{site.url}}/assets/images/ly6.png');
 	background-size: auto 900px;
     background-position: unset;
 }
 #keyart-7 {
-		background-image: url('{{ site.url }}/assets/images/ly7.png');
+		background-image: url('{{site.url}}/assets/images/ly7.png');
 		background-size: auto;
 }
 #keyart-8 {
-		background-image: url('{{ site.url }}/assets/images/ly8.png');
+		background-image: url('{{site.url}}/assets/images/ly8.png');
 		background-size: contain;//auto 850px;
 }
 #keyart-9 {
-	background-image: url('{{ site.url }}/assets/images/ly9.png');
+	background-image: url('{{site.url}}/assets/images/ly9.png');
 	background-size: contain;
 }
 #keyart-scrim {
@@ -1618,7 +1618,7 @@ footer{
 	background: #4F62E2;
 	width: 100%;
 	min-height: 540px;
-	background-image: url('{{ site.url }}/assets/images/path.png');
+	background-image: url('{{site.url}}/assets/images/path.png');
 	background-repeat: no-repeat;
 	background-position: 0px 209px;
 	background-size:contain;
@@ -1925,7 +1925,7 @@ footer{
 		margin-bottom: 5px;
 	}
 	#background-mobile-home{
-		background-image: url('{{ site.url }}/assets/images/tau-tablet.jpg');
+		background-image: url('{{site.url}}/assets/images/tau-tablet.jpg');
 		background-repeat: no-repeat;
 		background-size: cover;
 		width: 100%;
@@ -1934,7 +1934,7 @@ footer{
 		padding-bottom: 100%;
 	}
 	#background-mobile-agoras{
-		background-image: url('{{ site.url }}/assets/images/bg-tablet-agoras.png');
+		background-image: url('{{site.url}}/assets/images/bg-tablet-agoras.png');
 		background-repeat: no-repeat;
 		background-size: cover;
 		width: 100%;
@@ -2193,7 +2193,7 @@ footer{
 		    margin-top: -20px;
 	}
 	#background-mobile-home{
-		background-image: url('{{ site.url }}/assets/images/tau-mobile.jpg');
+		background-image: url('{{site.url}}/assets/images/tau-mobile.jpg');
 		background-repeat: no-repeat;
 		background-size: cover;
 		width: 100%;
@@ -2202,7 +2202,7 @@ footer{
 		padding-bottom: 100%;
 	}
 	#background-mobile-agoras{
-		background-image: url('{{ site.url }}/assets/images/bg-tablet-agoras.png');
+		background-image: url('{{site.url}}/assets/images/bg-tablet-agoras.png');
 		background-repeat: no-repeat;
 		background-size: cover;
 		width: 100%;

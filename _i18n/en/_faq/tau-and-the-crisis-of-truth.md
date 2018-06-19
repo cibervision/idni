@@ -2,7 +2,7 @@
     <div class="hidden">
         {% assign index = false %}
         {% for blog in site.data.blogen %}
-            {% if blog.link == 'the-new-tau' %}
+            {% if blog.link == 'tau-and-the-crisis-of-truth' %}
                 {% increment indexLoop %}
                 {% assign index = indexLoop %}
                 {% assign title = blog.title %}
