@@ -714,7 +714,7 @@ article.post{
     padding: 150px 0 230px 0;
     -webkit-transform: skew(0deg, 4deg);
     transform: skew(0deg, 4deg);
-    margin-top: -50px;
+    margin-top: -70px;
 	border-bottom-left-radius: 75px;
 	border-bottom-right-radius: 75px;
 	z-index: 9;
@@ -793,6 +793,11 @@ article.post{
 	.dont-skew{
 		-webkit-transform: skew(0deg, -7deg);
     	transform: skew(0deg, -7deg);
+        .bg-back {
+            position: fixed;
+            left: 0;
+            top: 0;
+        }
 		.arrow-1{
 			left: -20%;
 		}
@@ -1224,20 +1229,20 @@ article.post{
             .grp-5 {
                 .point-time {
                     top: 15px;
-                    &:after {
-                        content: "";
-                        position: absolute;
-                        right: 8px;
-                        top: 10px;
-                        width: 1px;
-                        background: #1088FE;
-                        height: 150px;
-                        -webkit-transform: rotate(16deg);
-                        -moz-transform: rotate(16deg);
-                        -ms-transform: rotate(16deg);
-                        -o-transform: rotate(16deg);
-                        z-index: 1;
-                    }
+                    // &:after {
+                    //     content: "";
+                    //     position: absolute;
+                    //     right: 8px;
+                    //     top: 10px;
+                    //     width: 1px;
+                    //     background: #1088FE;
+                    //     height: 150px;
+                    //     -webkit-transform: rotate(16deg);
+                    //     -moz-transform: rotate(16deg);
+                    //     -ms-transform: rotate(16deg);
+                    //     -o-transform: rotate(16deg);
+                    //     z-index: 1;
+                    // }
                 }   
             }
             .grp-6 {
@@ -1551,7 +1556,7 @@ footer{
 #keyart-0 {
 	background-image: url('{{site.url}}/assets/images/ly0.png');
 	background-size: cover;
-	top:-170px;
+	top:-250px;
 }
 #keyart-1 {
     background-image: url('{{site.url}}/assets/images/tau_1.png');
@@ -1751,18 +1756,40 @@ footer{
                 .grp-2 {
                     .point-time {
                          &:after {
-                            height: 178px;
-                            -webkit-transform: rotate(-13deg);
-                            -moz-transform: rotate(-13deg);
-                            -ms-transform: rotate(-13deg);
-                            -o-transform: rotate(-13deg);
+                            height: 160px;
+                            -webkit-transform: rotate(-15deg);
+                            -moz-transform: rotate(-15deg);
+                            -ms-transform: rotate(-15deg);
+                            -o-transform: rotate(-15deg);
                         }
                     }   
                 }
                 .grp-3 {
                     .point-time {
                         &:after {
-                            height: 172px;
+                            height: 130px;
+                            -webkit-transform: rotate(18deg);
+                            -moz-transform: rotate(18deg);
+                            -ms-transform: rotate(18deg);
+                            -o-transform: rotate(18deg);
+                        }
+                    }   
+                }
+                .grp-4 {
+                    .point-time {
+                        &:after {
+                            height: 168px;
+                            -webkit-transform: rotate(-14deg);
+                            -moz-transform: rotate(-14deg);
+                            -ms-transform: rotate(-14deg);
+                            -o-transform: rotate(-14deg);
+                        }
+                    }   
+                }
+                .grp-5 {
+                    .point-time {
+                        &:after {
+                            height: 166px;
                             -webkit-transform: rotate(14deg);
                             -moz-transform: rotate(14deg);
                             -ms-transform: rotate(14deg);
@@ -1770,47 +1797,25 @@ footer{
                         }
                     }   
                 }
-                .grp-4 {
-                    .point-time {
-                        &:after {
-                            height: 149px;
-                            -webkit-transform: rotate(-16deg);
-                            -moz-transform: rotate(-16deg);
-                            -ms-transform: rotate(-16deg);
-                            -o-transform: rotate(-16deg);
-                        }
-                    }   
-                }
-                .grp-5 {
-                    .point-time {
-                        &:after {
-                            height: 209px;
-                            -webkit-transform: rotate(11deg);
-                            -moz-transform: rotate(11deg);
-                            -ms-transform: rotate(11deg);
-                            -o-transform: rotate(11deg);
-                        }
-                    }   
-                }
                 .grp-6 {
                     .point-time {
                         &:after {
-                            height: 94px;
-                            -webkit-transform: rotate(-24deg);
-                            -moz-transform: rotate(-24deg);
-                            -ms-transform: rotate(-24deg);
-                            -o-transform: rotate(-24deg);
+                            height: 135px;
+                            -webkit-transform: rotate(-17deg);
+                            -moz-transform: rotate(-17deg);
+                            -ms-transform: rotate(-17deg);
+                            -o-transform: rotate(-17deg);
                         }
                     }   
                 }
                 .grp-7 {
                     .point-time {
                         &:after {
-                            height: 236px;
-                            -webkit-transform: rotate(10deg);
-                            -moz-transform: rotate(10deg);
-                            -ms-transform: rotate(10deg);
-                            -o-transform: rotate(10deg);
+                            height: 177px;
+                            -webkit-transform: rotate(13deg);
+                            -moz-transform: rotate(13deg);
+                            -ms-transform: rotate(13deg);
+                            -o-transform: rotate(13deg);
                             z-index: 1;
                         }
                     }   
@@ -2010,6 +2015,37 @@ footer{
             padding-bottom: 30px;
         }
     }
+    #roadmap {
+        .content-lines {
+            &.grp-3 {
+                margin-top: 128px;
+            }
+            &.grp-5 {
+                margin-top: 195px;
+            }
+            &.grp-6 {
+                margin-top: 157px;
+            }
+            &.grp-8 {
+                margin-top: 160px;
+            }
+        }
+        .time-line {
+            .time-line-list {
+                .grp-3 {
+                    .point-time {
+                        &:after {
+                            height: 188px;
+                            -webkit-transform: rotate(12deg);
+                            -moz-transform: rotate(12deg);
+                            -ms-transform: rotate(12deg);
+                            -o-transform: rotate(12deg);
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 @media (max-width: 768px) {
 	#features .dont-skew .arrow-2{
@@ -2116,19 +2152,20 @@ footer{
         }
     }
 	.video-js{
-		 margin-top: 0px;
-		 margin-left: 0;
-		     width: 100%;
+		 margin: 0 auto;
 	}
 	#network #tau-video{
 		background-image: none;
-		width: 100%;
+		// width: 100%;
 		height: 100%;
 		margin: auto;
 	}
 	.vjs-poster, .video-js .vjs-tech{
 		top:0px;
 	}
+    .vjs-error-display.vjs-modal-dialog {
+        top: 0 !important;
+    }
 	#join-our ul li{
 	 	margin-left: auto;
     	margin-right: auto;
@@ -2157,6 +2194,66 @@ footer{
 		 margin-right: 0px;
 		 margin-bottom: 5px;
 	}
+    #roadmap {
+        .time-line {
+            .time-line-list {
+                .time-line-item:nth-child(even) {
+                    padding-left: 15px;
+                    padding-right: 50px;
+                    .point-time {
+                        left: inherit;
+                        right: -20px;
+                        top: 0;
+                    }
+                }
+                .time-line-item {
+                    &+ .time-line-item {
+                    }
+                }
+                .content-lines {
+                    margin: 0 !important;
+                    text-align: right;
+                    position: relative;
+                    padding-bottom: 60px;
+                    max-height: inherit;
+                    h5 {
+                        position: static;
+                    }
+                    .point-time {
+                        top: 0;
+                        &:after {
+                            display: none;
+                        }
+                    }
+                    &.grp-5 {
+                        .point-time {
+                            &:after {
+                                display: none;
+                            }
+                        }
+                        &:after {
+                            display: none;
+                        }
+                    }
+                    &.grp-2 {
+                        &:after {
+                            top: 39px;
+                        }
+                    }
+                    &:after {
+                        content: "";
+                        position: absolute;
+                        right: -32px;
+                        top: 18px;
+                        width: 1px;
+                        background: #1088FE;
+                        height: 100%;
+                        z-index: 1;
+                    }
+                }
+            }
+        }
+    }
 	.marginbttom50{
 		margin-bottom: 15px;
 	}
@@ -2213,6 +2310,14 @@ footer{
 	#wrapper-content{
 		margin-top: 0px;
 	}
+}
+@media (max-width: 479px) {
+    #network #tau-video {
+        width: 100%;
+    }
+    .my-video-dimensions {
+        width: 100%;
+    }
 }
 @media (max-width: 414px) {
 	.content-about p{
