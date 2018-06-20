@@ -47,11 +47,12 @@ function castParallax() {
 			direct = layer.getAttribute('data-direct');
 			var yPos = -(top * speed / 100);
 			if(direct === 'right'){
-				return layer.setAttribute('style', 'transform: translate3d(' + -yPos + 'px, 0px , 0px)');
-			}else{
-				
+				layer.setAttribute('style', 'transform: translate3d(' + -yPos + 'px, 0px , 0px)');
 			}
-			layer.setAttribute('style', 'transform: translate3d(0px, ' + yPos + 'px, 0px)');
+			else {
+				layer.setAttribute('style', 'transform: translate3d(0px, ' + yPos + 'px, 0px)');
+			}
+			
 
 		}
 	});
