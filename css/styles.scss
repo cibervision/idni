@@ -145,6 +145,7 @@ $wave:#021942;
   height: $size;
   border-radius:100%;
 }
+
 a {
     outline: none !important;
 }
@@ -848,10 +849,14 @@ article.post{
 }
 .width-100{
 	width: 100%;
+	.margin-auto{
+		margin: auto;
+	}
 }
 .max-width-100{
 	max-width: 100%;
 }
+
 .width-55{
 	width: 55%;
     position: absolute;
