@@ -27,7 +27,7 @@
   <div id="wrapper-content">
     <div class="background-home">
       <div class="width-55">
-        <div data-aos="fade-down" data-aos-delay="700"  data-aos-offset="1000"  data-aos-anchor=""><img class="width-100 max-width-100 roots" src=
+        <div data-aos="fade-down" data-aos-delay="700"  data-aos-offset="800"  data-aos-anchor=""><img class="width-100 max-width-100 roots" src=
         "{{site.url}}/assets/images/roots.png" /> </div>
       </div>
       <div id="section-download" class="hidden">
@@ -47,22 +47,24 @@
             (CN)</span></a>
           </li>
         </ul>
-      </div>
-    </div>
-    <div class="content-about" >
-      <div class="container">
-        <h2 class="title-h2">
-         {% t tau.what_is_tau_chain %}
-        </h2>
-        <div class="col-md-2"></div>
-        <div class="col-md-8">
-          <p>
-           {% t tau.content_what_is_tau_chain %}
-          </p>
+      </div><!-- section-download -->
+
+      <div class="content-about" >
+        <div class="container">
+          <h2 class="title-h2">
+           {% t tau.what_is_tau_chain %}
+          </h2>
+          <div class="col-md-2"></div>
+          <div class="col-md-8">
+            <p>
+             {% t tau.content_what_is_tau_chain %}
+            </p>
+          </div>
+          <div class="col-md-2"></div>
         </div>
-        <div class="col-md-2"></div>
-      </div>
-    </div>
+      </div><!-- content-about -->
+    </div><!-- background-home -->
+
     <div id="features">
       <div class="dont-skew">
          <div data-aos="fade-down" data-aos-delay="600" data-aos-anchor="#features">
@@ -180,7 +182,8 @@
     <div id="network">
       <div class="content">
         <div class="container">
-          <div class="col-md-6 paddingTop">
+          <div class="col-md-6 paddingTop" data-aos="fade-up"
+     data-aos-easing="ease-out-cubic" data-aos-duration="800">
             <h3 class="title-h3">
               The only dynamic decentralized social network
             </h3>
@@ -199,22 +202,23 @@
             </p>
           </div>
          <div class="col-md-6">
-                        <div id="tau-video">
-                            <video id="my-video" class="video-js" controls preload="auto" width="342" height="604"
-                                poster="{{site.url}}/assets/images/thumbnail-video.png" 
-                                data-setup="{}">
-                                <source src="{{site.url}}/assets/images/media/tau-video.mp4" type='video/mp4'>
-                                <source src="{{site.url}}/assets/images/media/tau-video.webm" type='video/webm'>
-                                <p class="vjs-no-js">
-                                To view this video please enable JavaScript, and consider upgrading to a web browser that
-                                <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-                                </p>
-                            </video>
-                        </div>
-                        <p class="description-video">
-                            The video above is only an illustration of Tau’s design. User discussions can focus on everyday subjects or particular disciplines (life science, politics, computer science, etc.). Only discussions about Tau’s specifications will change its protocol upon reaching an agreement
-                         </p>
-                    </div>
+            <div id="tau-video" data-aos="flip-left"
+data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+                <video id="my-video" class="video-js" controls preload="auto" width="342" height="604"
+                    poster="{{site.url}}/assets/images/thumbnail-video.png" 
+                    data-setup="{}">
+                    <source src="{{site.url}}/assets/images/media/tau-video.mp4" type='video/mp4'>
+                    <source src="{{site.url}}/assets/images/media/tau-video.webm" type='video/webm'>
+                    <p class="vjs-no-js">
+                    To view this video please enable JavaScript, and consider upgrading to a web browser that
+                    <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                    </p>
+                </video>
+            </div>
+            <p class="description-video">
+                The video above is only an illustration of Tau’s design. User discussions can focus on everyday subjects or particular disciplines (life science, politics, computer science, etc.). Only discussions about Tau’s specifications will change its protocol upon reaching an agreement
+             </p>
+          </div>
         </div>
       </div>
     </div>
@@ -250,7 +254,129 @@
             </p>
           </div>
           <div class="container">
-            <div class="col-md-5">
+            <div class="time-line">
+              <div class="row time-line-list">
+                <div class="col-sm-6 time-line-item">
+                  <div class="content-lines grp-2 text-right">
+                    <span class="timer">January 2019</span>
+                    <h5>
+                      Alpha Version Launched
+                      <span class="point-time"><span class="point"><em>&nbsp;</em></span></span>
+                    </h5>
+                    <p>
+                      Alpha is a social platform that allows efficient
+                      discussions even among very large numbers of
+                      participants. Today, an effective conversation
+                      cannot be held with too many people; However,
+                      Alpha will be able to scale discussions and
+                      detect logical points of consensus between users
+                      and allow users to explore the opinion map raised
+                      in the discussion, thus enabling better knowledge
+                      sharing and construction.
+                    </p>
+                  </div><!-- content-lines -->
+
+                  <div class="content-lines grp-4 text-right">
+                    <span class="timer">November 2019</span>
+                    <h5>
+                      Tau-Chain
+                      <span class="point-time"><span class="point"><em>&nbsp;</em></span></span>
+                    </h5>
+                    <p>
+                      Tau is applying all previous stages to itself.
+                      Tau is about perpetual collaborative development
+                      of itself based on users’ agreements. It will do
+                      so as a decentralized and blockchain-based p2p
+                      network.
+                    </p>
+                  </div><!-- content-lines -->
+
+                  <div class="content-lines grp-6 text-right">
+                    <span class="timer">020 Jan 2020</span>
+                    <h5>
+                      What is Lorem Ipsum?
+                      <span class="point-time"><span class="point"><em>&nbsp;</em></span></span>
+                    </h5>
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing
+                      and typesetting industry. Lorem Ipsum has been
+                      the industry's standard dummy text ever since the
+                      1500s
+                    </p>
+                  </div><!-- content-lines -->
+
+                  <div class="content-lines grp-8 text-right">
+                    <span class="timer">15 Jan 2020</span>
+                    <h5>
+                      Where does it come from?
+                      <span class="point-time"><span class="point"><em>&nbsp;</em></span></span>
+                    </h5>
+                    <p>
+                      Contrary to popular belief, Lorem Ipsum is not
+                      simply random text. It has roots in a piece of
+                      classical Latin literature from 45 BC
+                    </p>
+                  </div><!-- content-lines -->
+                </div><!-- time-line-item -->
+
+                <div class="col-sm-6 time-line-item">
+                  <div class="content-lines grp-1">
+                    <span class="timer">Agust 2018</span>
+                    <h5>
+                      TAU Meta Language (TML)
+                      <span class="point-time"><span class="point"><em>&nbsp;</em></span></span>
+                    </h5>
+                    <p>
+                      We will start by developing a metalanguage (TML)
+                      as a tool to define new languages such that they
+                      all translate to each other. This will form the
+                      "Internet of Languages".
+                    </p>
+                  </div><!-- content-lines -->
+
+                  <div class="content-lines grp-3">
+                    <span class="timer">July 2019</span>
+                    <h5>
+                      Beta Version Lauched
+                      <span class="point-time"><span class="point"><em>&nbsp;</em></span></span>
+                    </h5>
+                    <p>
+                      Beta will advance Alpha by allowing users to
+                      discuss code requirements and then automatically
+                      synthesized a correct-by-construction code.
+                    </p>
+                  </div><!-- content-lines -->
+
+                  <div class="content-lines grp-5">
+                    <span class="timer">01 Jan 2020</span>
+                    <h5>
+                      Agoras
+                      <span class="point-time"><span class="point"><em>&nbsp;</em></span></span>
+                    </h5>
+                    <p>
+                      A fully featured knowledge economy allowing
+                      knowledge-case transactions, computational
+                      resources market, and advanced financials..
+                    </p>
+                  </div><!-- content-lines -->
+
+                  <div class="content-lines grp-7">
+                    <span class="timer">10 Jan 2020</span>
+                    <h5>
+                      Where can I get some?
+                      <span class="point-time"><span class="point"><em>&nbsp;</em></span></span>
+                    </h5>
+                    <p>
+                      There are many variations of passages of Lorem
+                      Ipsum available, but the majority have suffered
+                      alteration in some form
+                    </p>
+                  </div><!-- content-lines -->
+                </div>
+              </div><!-- time-line-item -->
+            </div><!-- time-line -->
+
+            <!-- <div class="col-md-5">
               <div class="content-lines grp-2 text-right">
                 <span class="timer">January 2019</span>
                 <h5>
@@ -427,7 +553,7 @@
                   alteration in some form
                 </p>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
