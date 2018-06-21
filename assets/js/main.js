@@ -97,3 +97,15 @@ $(document).ready(function(){
 	// $fn.scrollSpeed(step, speed, easing);
 	jQuery.scrollSpeed(200, 1000);
 });
+
+$(window).resize(function() {
+    if ($('.list-feature .item-equal-height').length > 0) {
+        $('.list-feature .item-equal-height').matchHeight();
+    }
+});
+
+$(document).on("DOMContentLoaded", function(event) {
+    if ($('.list-feature .item-equal-height').length > 0) {
+        $('.list-feature .item-equal-height').matchHeight();
+    }
+});

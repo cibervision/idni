@@ -9,6 +9,7 @@ body {
     background-color: transparent;
     padding: 0px;
     margin: 0px;
+    min-width: 320px;
     #wrapper {
         position: relative;
         min-height: 100%;
@@ -1640,6 +1641,7 @@ footer{
         background-image: url('{{site.url}}/assets/images/bg/bg_wave.svg');
         -webkit-background-size: 100%;
         background-size: 100%;
+        background-repeat: no-repeat;
         height: 400px;
         position: relative;
         top: -180px;
@@ -2115,9 +2117,13 @@ footer{
 			top: 75px;
 		}
         .background-home {
-            .bg-agoras {
-                margin-top: -460px;
+            &.bg-agoras {
+                margin-top: -390px;
+                padding: 50px 0 40px;
             }
+        }
+        .background-wave {
+            top: -100px;
         }
 	}
 	#features .content{
@@ -2414,6 +2420,19 @@ footer{
 	}
 	#features{
 		padding-bottom: 90px;
+        .list-feature {
+            li {
+                .h5-title {
+                    margin-top: 10px;
+                }
+                .fdescription {
+                    min-height: inherit;
+                }
+                &+ li {
+                    margin-top: 60px;
+                }
+            }
+        }
 	}
 	#features .content{
 		padding-top: 145px;
@@ -2425,8 +2444,27 @@ footer{
 		font-size: 23px;
 	}
 	.list-lang{
-			margin-bottom: 5px;
+		margin-bottom: 5px;
 	}
+    #agoras {
+        .background-wave {
+            margin-top: -50px;
+            top: -75px;
+        }
+    }
+}
+@media (max-width: 639px) {
+    #agoras {
+        .background-wave {
+            margin-top: 40px;
+            top: -100px;
+        }
+        .background-home {
+            &.bg-agoras {
+                padding-top: 30px;
+            }
+        }
+    }
 }
 @media (max-width: 601px) {
 	.title-h3, .title-h2{
@@ -2467,6 +2505,15 @@ footer{
 	#wrapper-content{
 		margin-top: 0px;
 	}
+}
+@media (max-width: 595px) {
+    #agoras {
+        .background-home {
+            &.bg-agoras {
+                margin-top: -440px;
+            }
+        }
+    }
 }
 @media (max-width: 479px) {
     #network #tau-video {
