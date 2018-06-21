@@ -31,7 +31,7 @@
 
 - title: From Agoras to TML
   link: from-agoras-to-tml
-  id: 1
+  id: 0
   order: 2
   key: main
   author: Ohad Asor
@@ -60,10 +60,10 @@
                 <p>On this post we emphasized more on the top of the pyramid and less on its bottom, in contrary to the previous post. I hope it was somehow helpful. Thanks for reading!</p>
                 
 
-
+ 
 - title: The New Tau
   link: the-new-tau
-  id: 2
+  id: 1
   order: 3
   key: main
   author: Ohad Asor
@@ -103,7 +103,7 @@
 
 - title: "Tau and the Crisis of Truth"
   link: tau-and-the-crisis-of-truth
-  id: 3
+  id: 2
   order: 4
   key: main
   author: Ohad Asor
@@ -128,7 +128,7 @@
 - title: "Project Roadmap"
   link: project-roadmap
   key: archive
-  id: 4
+  id: 3
   order: 5
   author: Ohad Asor
   date: Apr 9, 2016
@@ -155,7 +155,7 @@
 - title: "Tau as a Generalized Blockchain"
   link: tau-as-a-generalized-blockchain
   key: archive
-  id: 5
+  id: 4
   order: 6
   author: Ohad Asor
   date: Oct 17, 2015
@@ -185,7 +185,7 @@
 
 - title: "Proof of Code Execution"
   link: proof-of-code-execution
-  id: 6
+  id: 5
   order: 7
   author: Ohad Asor
   key: archive
@@ -204,7 +204,7 @@
 - title: Decentralized Democracy and the Role of the First Users
   link: decentralized-democracy-and-the-role-of-the-first-users
   author: Ohad Asor
-  id: 7
+  id: 6
   order: 0 
   key: archive
   date: Sep 1, 2015
