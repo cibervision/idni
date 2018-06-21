@@ -323,6 +323,9 @@ article.post{
 #h2-blog{
 	margin-bottom: 40px;
 }
+.opacity0{
+	opacity: 0;
+}
 .archive-list{
 	list-style: none;
 	padding-left: 10px;
@@ -524,6 +527,7 @@ article.post{
 					img{
 						border-radius: 100%;
    					 	width: 160px;
+						margin-top:50px;
 					}
 					h5{
 						font-size: 16px;
@@ -536,44 +540,49 @@ article.post{
 					.icon-social{
 						font-size: 16px;
 						color: #9B9B9B;
+						margin-top: 15px;
 					}
 					.parent-hover{
 						position: relative;
 					}
 					.content-hover{
-					    opacity: 0;
+					    opacity: 1;
 						width: 95%;
-						padding: 15px;
 						font-size: 15px;
 						color: #000000;
 						text-align: center;
 						line-height: 24px;
-						position: absolute;
-						bottom: 45px;
-						left: 2.5%;
+						padding:0 5px;
+						margin: auto;
+						//position: absolute;
+						//bottom: 45px;
+						//left: 2.5%;
 						z-index: 0;
 						pointer-events: none;
-						background-color: white;
+						//background-color: white;
 						
 						@include tran(all,0.4s);
 						&.active{
 							opacity: 1;
 							bottom: 35px;
 						}
+						&.yann{
+							min-height: 195px;
+						}
 					}
 					.arrow_box:after { 	
-						top: 100%;
-						left: 50%;
-						border: solid transparent;
-						content: " ";
-						height: 0;
-						width: 0;
-						position: absolute;
-						pointer-events: none;
-						border-color: rgba(255, 255, 255, 0);
-						border-top-color: #ffffff;
-						border-width: 10px;
-						margin-left: -10px;
+						// top: 100%;
+						// left: 50%;
+						// border: solid transparent;
+						// content: " ";
+						// height: 0;
+						// width: 0;
+						// position: absolute;
+						// pointer-events: none;
+						// border-color: rgba(255, 255, 255, 0);
+						// border-top-color: #ffffff;
+						// border-width: 10px;
+						// margin-left: -10px;
 					}
 				}
 			}
@@ -1906,6 +1915,9 @@ footer{
 	}
 }
 @media (max-width: 1024px) {
+	.main-wrapper#page-about #roadmap .group-member .list .content-hover.yann{
+		min-height: 245px;
+	}
 	#blog #roadmap .content.blog{
 		padding-top: 100px;
 	}
@@ -2119,6 +2131,9 @@ footer{
     }
 }
 @media (max-width: 768px) {
+	.main-wrapper#page-about #roadmap .group-member .list .content-hover.yann{
+		min-height: 395px;
+	}
 	#features .dont-skew .arrow-2{
 		 right: -24%;
     	top: 586px;
@@ -2341,6 +2356,15 @@ footer{
 	#features .content{
 		padding-top: 145px;
 	}
+	#h2-blog{
+		font-size: 25px;
+	}
+	#page-blog .list-blog li h3{
+		font-size: 23px;
+	}
+	.list-lang{
+			margin-bottom: 5px;
+	}
 }
 @media (max-width: 601px) {
 	.title-h3, .title-h2{
@@ -2396,3 +2420,15 @@ footer{
 		line-height: 25px;
 	}
 }
+@media (max-width: 320px) {
+	#join-our ul li a {
+		width: 100%;	
+	}
+	#join-our ul li a i{
+		font-size: 25px;
+	}
+	#content-about h2{
+		margin-top: 25px;
+	}
+}
+
