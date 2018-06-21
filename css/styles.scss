@@ -727,6 +727,7 @@ article.post{
     }
 	&.bg-agoras{
 		background-color: #F9B800;
+        margin-top: -320px;
 	}
 }
 #section-download{
@@ -1532,31 +1533,96 @@ footer{
 .keyart_layer.parallax {
 	position: fixed;
 }
+
 #keyart-agoras-1{
-	background-image: url('{{site.url}}/assets/images/bg/layer4.png');
+	background-image: url('{{site.url}}/assets/images/bg/mountain_bg.svg');
 	background-size: cover;
 	top:0px;
 }
 #keyart-agoras-2{
-		background-image: url('{{site.url}}/assets/images/bg/layer2.png');
-		background-size: auto 75%;
-		background-position: top;
-		top: -10px;
-		left: 93px;
-		background-repeat: no-repeat;
-	
+	background-image: url('{{site.url}}/assets/images/bg/flower1.png');
+	background-size: auto 75%;
+	background-position: top;
+	top: -10px;
+	left: 350px;
+	background-repeat: no-repeat;
 }
 #keyart-agoras-3{
-	background-image: url('{{site.url}}/assets/images/bg/layer3.png');
-	background-size: 100%;
-	top: -119px;
-	background-repeat: no-repeat;
-	background-position: left;
+    background-image: url('{{site.url}}/assets/images/bg/flower2.png');
+    background-size: auto 75%;
+    background-position: top;
+    top: -10px;
+    left: 350px;
+    background-repeat: no-repeat;
+}
+#keyart-agoras-4{
+    background-image: url('{{site.url}}/assets/images/bg/flower3.png');
+    background-size: auto 75%;
+    background-position: top;
+    top: -10px;
+    left: 350px;
+    background-repeat: no-repeat;
 }
 #keyart-agoras-5{
-	background-image: url('{{site.url}}/assets/images/bg/layer6.png');
-	background-size: cover;
+    background-image: url('{{site.url}}/assets/images/bg/flower4.png');
+    background-size: auto 75%;
+    background-position: top;
+    top: -10px;
+    left: 350px;
+    background-repeat: no-repeat;
 }
+#keyart-agoras-6{
+    background-image: url('{{site.url}}/assets/images/bg/flower5.png');
+    background-size: auto 75%;
+    background-position: top;
+    top: -10px;
+    left: 350px;
+    background-repeat: no-repeat;
+}
+#keyart-agoras-7{
+	background-image: url('{{site.url}}/assets/images/bg/girl.svg');
+	background-size: auto 1000px;
+	top: -119px;
+	background-repeat: no-repeat;
+	background-position: -1px 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+#keyart-agoras-8{
+    background-image: url('{{site.url}}/assets/images/bg/agoras_logo.png');
+    background-size: auto 140px;
+    background-position: top;
+    background-repeat: no-repeat;
+    top: 300px;
+    z-index: 9999;
+    position: fixed;
+}
+#keyart-agoras-9{
+    background-image: url('{{site.url}}/assets/images/bg/agoras_txt.svg');
+    background-size: auto 94px;
+    background-position: top;
+    background-repeat: no-repeat;
+    top: 450px;
+}
+#agoras {
+    #wrapper-content {
+        overflow: inherit;
+    }
+    .background-wave {
+        background-image: url('{{site.url}}/assets/images/bg/bg_wave.svg');
+        -webkit-background-size: 100%;
+        background-size: 100%;
+        height: 400px;
+        position: relative;
+        top: -180px;
+    }
+}
+
+// #keyart-agoras-5{
+// 	background-image: url('{{site.url}}/assets/images/bg/layer6.png');
+// 	background-size: cover;
+// }
 
 #keyart-0 {
 	background-image: url('{{site.url}}/assets/images/ly0.png');
