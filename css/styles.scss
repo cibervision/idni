@@ -145,7 +145,13 @@ $wave:#021942;
   height: $size;
   border-radius:100%;
 }
-
+.width-list-100{
+	width: 100%;
+    text-align: right;
+}
+.none-padding{
+	padding: 0px;
+}
 a {
     outline: none !important;
 }

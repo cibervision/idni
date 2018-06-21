@@ -1,10 +1,11 @@
 <div class="main-wrapper" id="page-blog">
     <div class="hidden">
-        {% assign index = false %}
-        {% for blog in site.data.blogen %}
+        {% assign data = site.data.blogen %}
+        {% for blog in data %}
             {% if blog.link == 'the-new-tau' %}
-                {% increment indexLoop %}
-                {% assign index = indexLoop %}
+                {% assign index = blog.order %}
+                {% assign next = data[blog.order].link %}
+                {% assign prev = data[blog.id].link %}
                 {% assign title = blog.title %}
                 {% assign author = blog.author %}
                 {% assign date = blog.date %}
@@ -15,7 +16,7 @@
     <div id="roadmap">
             <div class="dont-skew width-100">
                 <div class="content container blog">
-                    {% include blog-header.html nextBlog=indexLoop prevBlog=2 %}
+                    {% include blog-header.html nextBlog=next prevBlog=prev %}
                     <div class="row">
                         <div class="col-md-9">
                             <ul class="list-blog">

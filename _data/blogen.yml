@@ -1,5 +1,7 @@
 - title: The Art of Self-Reference
   key: main
+  id: 7
+  order: 1
   link: the-art-of-self-reference
   author: Ohad Asor
   date: May 27, 2018
@@ -29,6 +31,8 @@
 
 - title: From Agoras to TML
   link: from-agoras-to-tml
+  id: 1
+  order: 2
   key: main
   author: Ohad Asor
   date: Mar 13, 2018
@@ -59,6 +63,8 @@
 
 - title: The New Tau
   link: the-new-tau
+  id: 2
+  order: 3
   key: main
   author: Ohad Asor
   date: Dec 31, 2017
@@ -97,6 +103,8 @@
 
 - title: "Tau and the Crisis of Truth"
   link: tau-and-the-crisis-of-truth
+  id: 3
+  order: 4
   key: main
   author: Ohad Asor
   date: Sep 11, 2016
@@ -120,6 +128,8 @@
 - title: "Project Roadmap"
   link: project-roadmap
   key: archive
+  id: 4
+  order: 5
   author: Ohad Asor
   date: Apr 9, 2016
   content: Tau is a language. It is a programming language, but not only such. It may express virtually any arbitrary knowledge, rules, and processes. Examples are contracts, mathematical proofs, scientific facts and arguments, and legal documents.
@@ -145,6 +155,8 @@
 - title: "Tau as a Generalized Blockchain"
   link: tau-as-a-generalized-blockchain
   key: archive
+  id: 5
+  order: 6
   author: Ohad Asor
   date: Oct 17, 2015
   content: Bitcoin may abstractly be described as a decentralized machine that appends new data (transactions) to a public shared database (ledger) given certain proofs (signatures).
@@ -173,6 +185,8 @@
 
 - title: "Proof of Code Execution"
   link: proof-of-code-execution
+  id: 6
+  order: 7
   author: Ohad Asor
   key: archive
   date: Sep 6, 2015
@@ -190,6 +204,8 @@
 - title: Decentralized Democracy and the Role of the First Users
   link: decentralized-democracy-and-the-role-of-the-first-users
   author: Ohad Asor
+  id: 7
+  order: 0 
   key: archive
   date: Sep 1, 2015
   content: Recently we mentioned several times the logical and technological properties of tau, and now maybe it is time to take a step back and look at the broader picture. We mentioned that tau's programming language is actually rules and logic. 
