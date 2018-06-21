@@ -15,7 +15,7 @@
     <div id="roadmap">
             <div class="dont-skew width-100">
                 <div class="content container blog">
-                    {% include blog-header.html %}
+                    {% include blog-header.html nextBlog=indexLoop prevBlog=2 %}
                     <div class="row">
                         <div class="col-md-9">
                             <ul class="list-blog">
