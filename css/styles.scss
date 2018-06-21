@@ -846,7 +846,20 @@ article.post{
 			
 			}
 		}
-	} 
+	}
+}
+#agoras {
+    #features {
+        .list-feature {
+            li {
+                .fimage {
+                    &:hover{
+                        border:1px solid #F8C41C;
+                    }
+                }
+            }
+        }
+    }
 }
 .arrowf{
 	width: 50%;
@@ -1556,48 +1569,47 @@ footer{
 }
 #keyart-agoras-2{
 	background-image: url('{{site.url}}/assets/images/bg/flower1.png');
-	background-size: auto 75%;
-	background-position: top;
+	background-size: auto 1000px;
+	background-position: left top;
 	top: -10px;
-	left: 350px;
+	left: 500px;
 	background-repeat: no-repeat;
 }
 #keyart-agoras-3{
     background-image: url('{{site.url}}/assets/images/bg/flower2.png');
-    background-size: auto 75%;
-    background-position: top;
+    background-size: auto 1000px;
+    background-position: left top;
     top: -10px;
-    left: 350px;
+    left: 500px;
     background-repeat: no-repeat;
 }
 #keyart-agoras-4{
     background-image: url('{{site.url}}/assets/images/bg/flower3.png');
-    background-size: auto 75%;
-    background-position: top;
+    background-size: auto 1000px;
+    background-position: left top;
     top: -10px;
-    left: 350px;
+    left: 500px;
     background-repeat: no-repeat;
 }
 #keyart-agoras-5{
     background-image: url('{{site.url}}/assets/images/bg/flower4.png');
-    background-size: auto 75%;
-    background-position: top;
+    background-size: auto 1000px;
+    background-position: left top;
     top: -10px;
-    left: 350px;
+    left: 500px;
     background-repeat: no-repeat;
 }
 #keyart-agoras-6{
     background-image: url('{{site.url}}/assets/images/bg/flower5.png');
-    background-size: auto 75%;
-    background-position: top;
+    background-size: auto 1000px;
+    background-position: left top;
     top: -10px;
-    left: 350px;
+    left: 500px;
     background-repeat: no-repeat;
 }
 #keyart-agoras-7{
 	background-image: url('{{site.url}}/assets/images/bg/girl.svg');
 	background-size: auto 1000px;
-	top: -119px;
 	background-repeat: no-repeat;
 	background-position: -1px 0;
     position: fixed;
@@ -1754,12 +1766,6 @@ footer{
 @media (max-width: 1600px){
 	#wrapper-content{
 		margin-top: -85px;
-	}	
-	#keyart-agoras-3{
-		top:-10px;
-	}
-	#keyart-agoras-2{
-		top:200px;
 	}
 	.background-roots{
 		height: 800px;
@@ -1785,10 +1791,6 @@ footer{
 	.content-about{
 		top:120px;
 	}
-	#keyart-agoras-3{
-		top:40px;
-	}
-	
 }
 #menu-mobile-button,
 #background-mobile-home{
@@ -1800,6 +1802,55 @@ footer{
 /** RESPONSIVENESS **/
 /********************/
 /********************/
+@media screen and (max-width: 1440px) {
+    #agoras {
+        .keyart {
+            height: 750px;
+        }
+    }
+    #wrapper-content{
+        margin-top: -50px;
+    }
+    .background-home {
+        &.bg-agoras {
+            margin-top: -420px;
+        }
+    }
+    #keyart-agoras-1 {
+        top: -150px;
+    }
+    #keyart-agoras-2{
+        background-size: auto 750px;
+        left: 415px;
+    }
+    #keyart-agoras-3{
+        background-size: auto 750px;
+        left: 415px;
+    }
+    #keyart-agoras-4{
+        background-size: auto 750px;
+        left: 415px;
+    }
+    #keyart-agoras-5{
+        background-size: auto 750px;
+        left: 415px;
+    }
+    #keyart-agoras-6{
+        background-size: auto 750px;
+        left: 415px;
+    }
+    #keyart-agoras-7{
+        background-size: auto 750px;
+    }
+    #keyart-agoras-8 {
+        background-size: auto 100px;
+    }
+    #keyart-agoras-9 {
+        background-size: auto 54px;
+        top: 410px;
+    }
+}
+
 @media (max-width: 1300px) {
 	.main-wrapper .container-width{
 		width:100%;
@@ -2050,7 +2101,7 @@ footer{
 		 bottom: -80px;
 	}
 	.background-home.bg-agoras{
-		background-color: #f9b100;
+		// background-color: #f9b100;
 	}
 	#agoras{
 		.background-roots{
@@ -2063,6 +2114,11 @@ footer{
 		.content-about {
 			top: 75px;
 		}
+        .background-home {
+            .bg-agoras {
+                margin-top: -460px;
+            }
+        }
 	}
 	#features .content{
 		 padding-top: 130px;
