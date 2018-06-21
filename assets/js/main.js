@@ -1,9 +1,9 @@
 
 function hoverContent(){
 	$('.block-hover').hover(function(){
-		$(this).parent('.parent-hover').find('.content-hover').addClass('active')
+		//$(this).parent('.parent-hover').find('.content-hover').addClass('active')
 	},function(){
-		$(this).parent('.parent-hover').find('.content-hover').removeClass('active')
+		//$(this).parent('.parent-hover').find('.content-hover').removeClass('active')
 	})
 }
 AOS.init();
