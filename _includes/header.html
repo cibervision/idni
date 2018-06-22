@@ -2,9 +2,24 @@
 <html>
     <head>
         <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
-        <meta property="og:locale:alternate" content="en_EN" />
         <meta charset="utf-8">
         <title>Intelligent Devcenttrali Networks Initiatives (IDNI) - {{ page.title }}</title>
+        <meta property="og:locale:alternate" content={{site.lang}} />
+        
+     
+        <meta name="twitter:card" content="{{page.card}}">
+        <meta name="twitter:site" content="@{{page.publisher_handle}}">
+        <meta name="twitter:title" content="{{page.title}}">
+        <meta name="twitter:description" content="{{page.description}}">
+        <meta name="twitter:creator" content="@{{page.creator}}">
+
+        <meta property="og:title"  content="{{page.title}}" />
+        <meta property="og:type"  content="{{page.type}}" />
+        <meta property="og:description"  content="{{page.title}}" /> 
+        <meta property="og:site_name" content="{{site.url}}{{page.permalink}}" />
+        <meta property="fb:admins"  content="{{page.fbnumberID}}" />
+  
+
         <link rel="stylesheet" href="{{site.url}}/css/boostrap.min.css">
         <link rel="stylesheet" href="{{site.url}}/css/font-awesome.min.css">
         <link rel="stylesheet" href="{{site.url}}/css/aos.css">

@@ -1,6 +1,7 @@
 ---
 layout: blog-entry
 title: from-agorash-to-tml
+nav: blog
 
 namespace: from-agorash-to-tml
 permalink: /blog/from-agorash-to-tml
