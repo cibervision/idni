@@ -524,7 +524,7 @@ article.post{
 			}
 			.group-member{
 				h3{
-					margin-bottom:50px;
+					margin-bottom:0px;
 				}
 				.list{
 					.block-hover{
@@ -534,7 +534,7 @@ article.post{
 					img{
 						border-radius: 100%;
    					 	width: 160px;
-						margin-top:50px;
+						margin-top:30px;
 					}
 					h5{
 						font-size: 16px;
@@ -578,7 +578,7 @@ article.post{
 							bottom: 35px;
 						}
 						&.yann{
-							min-height: 195px;
+							min-height: 165px;
 						}
 					}
 					.arrow_box:after { 	
@@ -663,7 +663,7 @@ article.post{
 #join-our{
 	background-color: #DBEBFC;
 	padding-top:240px;
-	padding-bottom:250px;
+	padding-bottom:210px;
 	margin-top: -140px;
 	position: relative;
 	h3{
@@ -706,13 +706,13 @@ article.post{
 				i{
 					color:#585858;
 					font-size: 30px;
-					position: absolute;
-   					 top: 8px;
+					position: relative;
+    				top: 26px;
 					@include tran(all,0.2s);
 				}
 				span{
 					display: inline-block;
-					text-align: center;
+					 padding-left: 36px; 
 					width:100%;
 					font-size:16px;
     				margin-left: 0px;
@@ -721,7 +721,14 @@ article.post{
 		}
 	}
 }
-
+#about #join-our{
+	padding-bottom: 155px;
+	padding-top: 210px;
+}
+#agoras #join-our{
+	padding-bottom: 190px;
+	padding-top: 210px;
+}
 #wrapper-content{
 	position: relative;
 	z-index: 98; 
@@ -1583,7 +1590,99 @@ footer{
 .keyart_layer.parallax {
 	position: fixed;
 }
+.wave-about{
+	position: absolute;
+    bottom: -44px;
+    z-index: 999;
+    overflow: hidden;
+    width: 100%;
+	#parallax{
+		.parallax{
+			position: absolute;
+		}
+	}
+}
+@-webkit-keyframes slide {
+    // from { background-position: 0 0; }
+    // to { background-position: 400px 0; }
+}
+#about-wave-1{
+	background-image: url('{{site.url}}/assets/images/bg_about/wave6.svg');
+	background-position: bottom;
+	//background-repeat: repeat-x;
+    left: -4000px;
+    height: 225px;
+    bottom: 0px;
+	 width: 5000px; 
+	 background-size: contain;
+}
+#about-wave-2{
+	background-image: url('{{site.url}}/assets/images/bg_about/wave7.svg');
+	background-position: bottom;
+	//background-repeat: repeat-x;
+    left: -800px;
+    height: 280px;
+ 	 bottom: 0px;
+	 width: 5000px;
+    background-size: contain;
 
+}
+#about-wave-3{
+	background-image: url('{{site.url}}/assets/images/bg_about/wave8.svg');
+	background-position: bottom;
+	//background-repeat: repeat-x;
+    left: -1500px;
+    height: 340px;
+     bottom: 0px;
+	 width: 5000px;
+	background-size: contain;
+
+}
+#about-wave-4{
+	background-image: url('{{site.url}}/assets/images/bg_about/wave9.svg');
+	background-position: bottom;
+	//background-repeat: repeat-x;
+    left: -1100px;
+    height: 360px;
+    bottom: 0px;
+	 width: 5000px;
+	background-size: contain;
+
+}
+
+#about-wave-5{
+	background-image: url('{{site.url}}/assets/images/bg_about/wave3.svg');
+	background-position: bottom;
+	//background-repeat: repeat-x;
+    left: -2000px;
+    height: 280px;
+     bottom: 0px;
+	 width: 5000px;
+	background-size: contain;
+
+}
+#about-wave-6{
+	background-image: url('{{site.url}}/assets/images/bg_about/wave2.svg');
+	background-position: bottom;
+	background-repeat: repeat-x;
+    left: -2000px;
+    height: 225px;
+    bottom: 0px;
+	width: 5000px;
+	background-size: contain;
+
+}
+#about-wave-7{
+	background-image: url('{{site.url}}/assets/images/bg_about/wave1.svg');
+	background-position: bottom;
+	background-repeat: repeat-x;
+    left: -2000px;
+    height: 225px;
+    bottom: 0px;
+	 width: 5000px;
+	background-size: contain;
+
+}
 #keyart-agoras-1{
 	background-image: url('{{site.url}}/assets/images/bg/mountain_bg.svg');
 	background-size: cover;
@@ -1843,7 +1942,7 @@ footer{
 	background: #4F62E2;
 	width: 100%;
 	min-height: 540px;
-	//background-image: url('{{site.url}}/assets/images/path.png');
+	background-image: url('{{site.url}}/assets/images/path.png');
 	background-repeat: no-repeat;
 	background-position: 0px 209px;
 	background-size:contain;
