@@ -15,6 +15,7 @@
         {% endfor %}
     </div>  
     <div id="roadmap">
+        <div class="dont-skew-wrap">
             <div class="dont-skew width-100">
                 <div class="content container blog">
                     {% include blog-header.html nextBlog=next prevBlog=prev %}
@@ -36,6 +37,7 @@
                     </div>
                 </div>
             </div>
+        </div>
      </div>
     {% include networks.html %}
 </div>

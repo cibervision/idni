@@ -251,6 +251,13 @@ article.post{
 		display: none!important;
 	}
 }
+#blog {
+    #roadmap {
+        margin-top: -150px;
+        .dont-skew {
+            padding-top: 150px;}
+    }
+}
 #page-blog{
 	background-color:#F0F4FA;
 	.list-blog{
@@ -518,7 +525,10 @@ article.post{
 		}
 		#roadmap{
 		    margin-top: -160px;
-			padding-bottom: 120px;
+			padding-top: 60px;
+            .dont-skew {
+                padding-bottom: 120px;
+            }
 			.content{
 				padding-top:250px;
 			}
@@ -1450,7 +1460,13 @@ article.post{
 		}
 	}
 }
-
+#agoras {
+    #roadmap {
+        .dont-skew {
+            background-image: none;
+        }
+    }
+}
 footer{
 	position: relative;
 	z-index: 999;
