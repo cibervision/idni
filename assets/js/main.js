@@ -52,12 +52,8 @@ function castParallax() {
 			else {
 				layer.setAttribute('style', 'transform: translate3d(0px, ' + yPos + 'px, 0px)');
 			}
-			
-
 		}
 	});
-
-
 }
 
 function dispelParallax() {
@@ -93,15 +89,43 @@ function startSite() {
 
 document.body.onload = startSite();
 
+function stickyLogo() {
+	// sticky logo
+	var posFront = $('.sticky-front').position().top;
+	var posBack = $('.wrap-logo-sticky').offset().top;
+	var posTrue = posBack - posFront;
+	$(window).scroll(function(event) {
+		var scrollTop = $(this).scrollTop();
+		if (scrollTop >= posTrue) {
+			$('.sticky-front').addClass('front-hide');
+			$('.sticky-back').addClass('back-show');
+		}
+		else {
+			$('.sticky-front').removeClass('front-hide');
+			$('.sticky-back').removeClass('back-show');
+		}
+	});
+}
+
 $(document).ready(function(){
 	// $fn.scrollSpeed(step, speed, easing);
 	jQuery.scrollSpeed(200, 1000);
+
+	// Sticky logo
+	if ($('.wrap-logo-sticky').length) {
+		stickyLogo();
+	}
 });
 
 $(window).resize(function() {
     if ($('.list-feature .item-equal-height').length > 0) {
         $('.list-feature .item-equal-height').matchHeight();
     }
+
+    // Sticky logo
+	if ($('.wrap-logo-sticky').length) {
+		stickyLogo();
+	}
 });
 
 $(document).on("DOMContentLoaded", function(event) {

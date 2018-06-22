@@ -1485,6 +1485,23 @@ footer{
 			 }
 		}
 	}
+    .support {
+        margin: 10px 0 0 0;
+        a {
+            color: #92A2C8;
+            margin: 0;
+            font-size: 15px;
+            i {
+                display: inline-block;
+                vertical-align: middle;
+            }
+            span {
+                display: inline-block;
+                vertical-align: middle;
+                padding-left: 10px;
+            }
+        }
+    }
 }
 
 .video-js{
@@ -1657,71 +1674,170 @@ footer{
 // 	background-size: cover;
 // }
 
+// #keyart-0 {
+// 	background-image: url('{{site.url}}/assets/images/ly0.png');
+// 	background-size: cover;
+// 	top:-250px;
+// }
+// #keyart-1 {
+//     background-image: url('{{site.url}}/assets/images/tau_1.png');
+//     background-size: auto 600px;
+//     background-position: left top;
+//     background-repeat: no-repeat;
+//     top: 180px;
+// }
+// #keyart-1b {
+// 	background-image: url('{{site.url}}/assets/images/lylogo.png');
+// 	background-size: auto 170px;
+//     top: 110px;
+//     background-repeat: no-repeat;
+//     background-position: top;
+// }
+
+// #keyart-2 {
+//     background-image: url('{{site.url}}/assets/images/tau_2.png');
+//     background-size: auto 720px;
+//     background-position: left top;
+//     background-repeat: no-repeat;
+//     top: 130px;
+// }
+
+// #keyart-3 {
+// 	background-image: url('{{site.url}}/assets/images/tau_3.png');
+//     background-size: auto 800px;
+//     background-position: left top;
+//     left: -155px;
+//     top: 90px;
+// }
+// #keyart-4 {
+// 	background-image: url('{{site.url}}/assets/images/ly4.png');
+//     background-size: auto 953px;
+//     background-position: top;
+//     top: 140px;
+// }
+// #keyart-5 {
+// 		background-image: url('{{ site.url }}/assets/images/ly5.png');
+// 		    background-position: right;
+// }
+// #keyart-6 {
+// 	background-image: url('{{site.url}}/assets/images/ly6.png');
+// 	background-size: auto 900px;
+//     background-position: unset;
+// }
+// #keyart-7 {
+// 		background-image: url('{{site.url}}/assets/images/ly7.png');
+// 		background-size: auto;
+// }
+// #keyart-8 {
+// 		background-image: url('{{site.url}}/assets/images/ly8.png');
+// 		background-size: contain;//auto 850px;
+// }
+// #keyart-9 {
+// 	background-image: url('{{site.url}}/assets/images/ly9.png');
+// 	background-size: contain;
+// }
+
+// Update new layer Tau parallax
 #keyart-0 {
-	background-image: url('{{site.url}}/assets/images/ly0.png');
-	background-size: cover;
-	top:-250px;
+    background-image: url('{{site.url}}/assets/images/bg_tau/layer1.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    top: 0;
 }
 #keyart-1 {
-    background-image: url('{{site.url}}/assets/images/tau_1.png');
-    background-size: auto 600px;
-    background-position: left top;
+    background-image: url('{{site.url}}/assets/images/bg_tau/layer2.svg');
+    background-size: 1920px auto;
+    background-position: center bottom;
     background-repeat: no-repeat;
-    top: 180px;
+    top: 50px;
 }
 #keyart-1b {
-	background-image: url('{{site.url}}/assets/images/lylogo.png');
-	background-size: auto 170px;
-    top: 110px;
+    background-image: url('{{site.url}}/assets/images/bg_tau/logo_text.svg');
+    background-size: auto;
+    top: 380px;
     background-repeat: no-repeat;
     background-position: top;
 }
 
 #keyart-2 {
-    background-image: url('{{site.url}}/assets/images/tau_2.png');
-    background-size: auto 720px;
-    background-position: left top;
+    background-image: url('{{site.url}}/assets/images/bg_tau/layer3.svg');
+    background-size: 1920px auto;
+    background-position: center bottom;
     background-repeat: no-repeat;
-    top: 130px;
+    top: 40px;
 }
 
 #keyart-3 {
-	background-image: url('{{site.url}}/assets/images/tau_3.png');
-    background-size: auto 800px;
-    background-position: left top;
-    left: -155px;
-    top: 90px;
+    background-image: url('{{site.url}}/assets/images/bg_tau/layer4.svg');
+    background-size: 1920px auto;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    top: 45px;
+    left: 245px;
 }
 #keyart-4 {
-	background-image: url('{{site.url}}/assets/images/ly4.png');
-    background-size: auto 953px;
-    background-position: top;
-    top: 140px;
+    background-image: url('{{site.url}}/assets/images/bg_tau/layer5.svg');
+    background-size: 1920px auto;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    top: 65px;
 }
 #keyart-5 {
-		background-image: url('{{ site.url }}/assets/images/ly5.png');
-		    background-position: right;
+    background-image: url('{{site.url}}/assets/images/bg_tau/layer6.svg');
+    background-size: 1920px auto;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    top: 170px;
 }
 #keyart-6 {
-	background-image: url('{{site.url}}/assets/images/ly6.png');
-	background-size: auto 900px;
-    background-position: unset;
+    background-image: url('{{site.url}}/assets/images/bg_tau/layer7.svg');
+    background-size: 1920px auto;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    top: 210px;
 }
 #keyart-7 {
-		background-image: url('{{site.url}}/assets/images/ly7.png');
-		background-size: auto;
+    background-image: url('{{site.url}}/assets/images/bg_tau/layer8.svg');
+    background-size: 1920px auto;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    top: 250px;
 }
 #keyart-8 {
-		background-image: url('{{site.url}}/assets/images/ly8.png');
-		background-size: contain;//auto 850px;
+    background-image: url('{{site.url}}/assets/images/bg_tau/layer9.svg');
+    background-size: 1920px auto;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    top: 300px;
 }
 #keyart-9 {
-	background-image: url('{{site.url}}/assets/images/ly9.png');
-	background-size: contain;
+    // background-image: url('{{site.url}}/assets/images/bg_tau/layer10.svg');
+    // background-size: auto 648px;
+    // background-position: center bottom;
+    // background-repeat: no-repeat;
 }
+
 #keyart-scrim {
 	background-color: #ffaf00;
 	opacity: 0;
+}
+#home {
+    .parallax-end {
+        background-image: url('{{site.url}}/assets/images/bg_tau/layer10.svg');
+        background-size: 1920px auto;
+        background-position: center top;
+        background-repeat: no-repeat;
+        height: 720px;
+        position: absolute;
+        left: 0;
+        bottom: -150px;
+        width: 100%;
+        z-index: 99;
+    }
+    #wrapper-content {
+        margin-top: 50px;
+    }
 }
 #content-about{
 	background: #4F62E2;
@@ -1783,13 +1899,6 @@ footer{
 		right: -6%;
     	top: -53px;
 	}
-    #keyart-1b {
-        background-size: auto 135px;
-    }
-	#keyart-8{
-	    background-size: auto 80%;
-		background-position: center;
-	}
 }
 
 
@@ -1803,12 +1912,99 @@ footer{
 	display: none;
 }
 
+// Sticky logo
+.sticky-logo {
+    position: fixed;
+    left: 0;
+    top: 217px;
+    height: 140px;
+    text-align: center;
+    width: 100%;
+    z-index: 99;
+    img {
+        width: 140px;
+    }
+}
+.wrap-logo-sticky {
+    position: relative;
+    .sticky-logo {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 140px;
+        text-align: center;
+        width: 100%;
+        z-index: 99;
+        img {
+            width: 140px;
+        }
+        visibility: hidden;
+        opacity: 0;
+        filter: alpha(opacity=0);
+    }
+    .sticky-content {
+        padding-top: 150px;
+    }
+}
+.front-hide {
+    visibility: hidden;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.back-show {
+    visibility: visible!important;
+    opacity: 1!important;
+    filter: alpha(opacity=100)!important;
+}
+
 /********************/
 /********************/
 /** RESPONSIVENESS **/
 /********************/
 /********************/
 @media screen and (max-width: 1440px) {
+    .sticky-logo {
+        top: 150px;
+    }
+    // Parallax home page
+    #keyart-0 {
+        top: -80px;
+    }
+    #keyart-1 {
+        background-size: 1440px auto;
+    }
+    #keyart-1b {
+        top: 310px;
+    }
+
+    #keyart-2 {
+        background-size: 1440px auto;
+    }
+    #keyart-3 {
+        background-size: 1440px auto;
+        left: 185px;
+        top: 52px;
+    }
+    #keyart-4 {
+        background-size: 1440px auto;
+    }
+    #keyart-5 {
+        background-size: 1440px auto;
+    }
+    #keyart-6 {
+        background-size: 1440px auto;
+    }
+    #keyart-7 {
+        background-size: 1440px auto;
+    }
+    #keyart-8 {
+        background-size: 1440px auto;
+    }
+    #home {
+        .keyart, .keyart_layer {
+            height: 750px;
+        }
+    }
     #agoras {
         .keyart {
             height: 750px;
@@ -1861,9 +2057,6 @@ footer{
 	.main-wrapper .container-width{
 		width:100%;
 	}
-    #keyart-1b {
-        background-size: auto 90px; 
-    }
     .background-home {
         padding: 100px 0 100px 0;
         .width-55 {
@@ -1971,6 +2164,19 @@ footer{
 	.fdescription{
 		min-height: auto;
 	}
+    .sticky-logo {
+        display: none;
+    }
+    .wrap-logo-sticky {
+        .sticky-content {
+            padding-top: 0;
+        }
+    }
+    #home {
+        #wrapper-content {
+            margin-top: -120px;
+        }
+    }
 }
 @media (max-width: 1023px) {
 	.fdescription{
@@ -2355,12 +2561,14 @@ footer{
     #roadmap {
         .time-line {
             .time-line-list {
-                .time-line-item:nth-child(even) {
-                    padding-left: 15px;
-                    padding-right: 50px;
+                .time-line-item:nth-child(even),
+                .time-line-item:nth-child(odd) {
+                    padding-left: 50px;
+                    padding-right: 15px;
                     .point-time {
-                        left: inherit;
-                        right: -20px;
+                        position: absolute!important;
+                        right: inherit;
+                        left: -46px;
                         top: 0;
                     }
                 }
@@ -2370,7 +2578,7 @@ footer{
                 }
                 .content-lines {
                     margin: 0 !important;
-                    text-align: right;
+                    text-align: left;
                     position: relative;
                     padding-bottom: 60px;
                     max-height: inherit;
@@ -2395,13 +2603,13 @@ footer{
                     }
                     &.grp-2 {
                         &:after {
-                            top: 39px;
+                            top: 15px;
                         }
                     }
                     &:after {
                         content: "";
                         position: absolute;
-                        right: -32px;
+                        left: -32px;
                         top: 18px;
                         width: 1px;
                         background: #1088FE;
@@ -2486,7 +2694,7 @@ footer{
 		margin: auto;
 	}
 	.background-home{
-		    margin-top: -20px;
+		margin-top: -20px;
 	}
 	#background-mobile-home{
 		background-image: url('{{site.url}}/assets/images/tau-mobile.jpg');
@@ -2496,6 +2704,7 @@ footer{
 		height: 100%;
 		display: block;
 		padding-bottom: 100%;
+        background-position: center -90px;
 	}
 	#background-mobile-agoras{
 		background-image: url('{{site.url}}/assets/images/bg-tablet-agoras.png');
@@ -2509,6 +2718,11 @@ footer{
 	#wrapper-content{
 		margin-top: 0px;
 	}
+    #home {
+        #wrapper-content {
+            margin-top: 0;
+        }
+    }
 }
 @media (max-width: 595px) {
     #agoras {

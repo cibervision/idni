@@ -1,8 +1,11 @@
 <div class="main-wrapper">
+  <div class="sticky-logo sticky-front">
+    <p><img src="{{site.url}}/assets/images/bg_tau/logo.svg" alt=""></p>
+  </div><!-- sticky-logo -->
 
   <div class="keyart" id="parallax">
     <div class="keyart_layer parallax" id="keyart-0" data-speed="0" style="transform: translate3d(0px, 0px, 0px)"></div>
-     <div class="keyart_layer parallax" id="keyart-1b" data-direct="top" data-speed="0" style="transform: translate3d(0px, 0px, 0px)"></div>
+     <div class="keyart_layer parallax" id="keyart-1b" data-direct="top" data-speed="3" style="transform: translate3d(0px, 0px, 0px)"></div>
     <!-- 00.0 -->
     <div class="keyart_layer parallax" id="keyart-1"  data-speed="5" style="transform: translate3d(0px, 0px, 0px)"></div>
 
@@ -22,6 +25,8 @@
     <div class="keyart_layer parallax" id="keyart-8" data-speed="30" style="transform: translate3d(0px, 0px, 0px)"></div>
     <!-- 100. -->
     <div class="keyart_layer" id="keyart-9" data-speed="60" style="transform: translate3d(0px, 0px, 0px)"></div>
+
+    <div class="parallax-end"></div>
   </div>
   <div id="background-mobile-home"></div>
   <div id="wrapper-content">
@@ -49,18 +54,25 @@
         </ul>
       </div><!-- section-download -->
 
-      <div class="content-about" >
+      <div class="content-about">
         <div class="container">
-          <h2 class="title-h2">
-           {% t tau.what_is_tau_chain %}
-          </h2>
-          <div class="col-md-2"></div>
-          <div class="col-md-8">
-            <p>
-             {% t tau.content_what_is_tau_chain %}
-            </p>
-          </div>
-          <div class="col-md-2"></div>
+          <div class="wrap-logo-sticky">
+            <div class="sticky-logo sticky-back">
+              <p><img src="{{site.url}}/assets/images/bg_tau/logo.svg" alt=""></p>
+            </div><!-- sticky-logo -->
+            <div class="sticky-content">
+              <h2 class="title-h2">
+               {% t tau.what_is_tau_chain %}
+              </h2>
+              <div class="row">
+                <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                  <p>
+                   {% t tau.content_what_is_tau_chain %}
+                  </p>  
+                </div>
+              </div>
+            </div><!-- sticky-content -->
+          </div><!-- wrap-logo-sticky -->
         </div>
       </div><!-- content-about -->
     </div><!-- background-home -->
@@ -241,7 +253,7 @@
               The Roadmap
             </h3>
             <div class="row">
-              <div class="col-sm-8 col-sm-offset-2">
+              <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
                 <p class="fdescription max-inherit text-center marginbttom80">
                   We designed a five-stage roadmap where each stage can
                   support the development of the next one. We expect to
