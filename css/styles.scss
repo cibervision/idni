@@ -2608,6 +2608,9 @@ footer{
 	}
 }
 @media (max-width: 767px) {
+	.main-wrapper#page-about #roadmap .group-member .list .content-hover.yann{
+		min-height: auto;
+	}
     .background-home {
         padding: 50px 0 50px 0;
         .roots {
