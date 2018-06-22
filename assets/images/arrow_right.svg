@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="474px" height="989px" viewBox="0 0 474 989" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Fill 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="51.6913103%" y1="11.4378145%" x2="50%" y2="95.3960441%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#DFE8F7" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Tau-home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="TAU_home" transform="translate(-966.000000, -3260.000000)" fill="url(#linearGradient-1)">
+            <g id="Roadmap" transform="translate(0.000000, 3069.000000)">
+                <g id="What-is-Tau-Copy-2">
+                    <path d="M1687.6786,-54 L980.833595,645.350618 C961.242377,664.734118 961.029928,696.315498 980.358598,715.960815 L1637.70515,1384.07617 L1879.80618,1253.20449 L1342.16622,715.563108 C1322.64004,696.036878 1322.64007,664.378646 1342.16629,644.852453 L1884.38953,102.629852 L1687.6786,-54 Z" id="Fill-1"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
