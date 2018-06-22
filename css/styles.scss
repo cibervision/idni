@@ -749,7 +749,7 @@ article.post{
 }
 .background-home{
 	background-color: #021942;
-    padding: 150px 0 230px 0;
+    padding: 250px 0 250px 0;
     -webkit-transform: skew(0deg, 4deg);
     transform: skew(0deg, 4deg);
     margin-top: -70px;
@@ -767,6 +767,7 @@ article.post{
 	&.bg-agoras{
 		background-color: #F9B800;
         margin-top: -320px;
+        padding-top: 50px;
 	}
 }
 #section-download{
@@ -1774,21 +1775,21 @@ footer{
     left: 0;
     top: 0;
 }
-#keyart-agoras-8{
-    background-image: url('{{site.url}}/assets/images/bg/agoras_logo.png');
-    background-size: auto 140px;
-    background-position: top;
-    background-repeat: no-repeat;
-    top: 300px;
-    z-index: 9999;
-    position: fixed;
-}
+// #keyart-agoras-8{
+//     background-image: url('{{site.url}}/assets/images/bg/agoras_logo.png');
+//     background-size: auto 140px;
+//     background-position: top;
+//     background-repeat: no-repeat;
+//     top: 300px;
+//     z-index: 9999;
+//     position: fixed;
+// }
 #keyart-agoras-9{
     background-image: url('{{site.url}}/assets/images/bg/agoras_txt.svg');
     background-size: auto 94px;
     background-position: top;
     background-repeat: no-repeat;
-    top: 450px;
+    top: 470px;
 }
 #agoras {
     #wrapper-content {
@@ -2082,6 +2083,17 @@ footer{
         padding-top: 150px;
     }
 }
+#agoras {
+    .sticky-logo {
+        top: 300px;
+    }
+    .wrap-logo-sticky {
+        position: relative;
+        .sticky-logo {
+            top: 0;
+        }
+    }
+}
 .front-hide {
     visibility: hidden;
     opacity: 0;
@@ -2102,6 +2114,15 @@ footer{
     .sticky-logo {
         top: 150px;
     }
+    #agoras {
+        .sticky-logo {
+            top: 250px;
+        }
+        #keyart-agoras-9 {
+            top: 410px;
+        }
+    }
+
     // Parallax home page
     #keyart-0 {
         top: -80px;
@@ -2180,13 +2201,6 @@ footer{
     #keyart-agoras-7{
         background-size: auto 750px;
     }
-    #keyart-agoras-8 {
-        background-size: auto 100px;
-    }
-    #keyart-agoras-9 {
-        background-size: auto 54px;
-        top: 410px;
-    }
 }
 
 @media (max-width: 1300px) {
@@ -2194,7 +2208,7 @@ footer{
 		width:100%;
 	}
     .background-home {
-        padding: 100px 0 100px 0;
+        padding: 150px 0 150px 0;
         .width-55 {
             img {
                 max-height: 600px;
