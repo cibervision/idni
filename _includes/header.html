@@ -19,7 +19,7 @@
         <meta property="og:site_name" content="{{site.url}}{{page.permalink}}" />
         <meta property="fb:admins"  content="{{page.fbnumberID}}" />
   
-
+        
         <link rel="stylesheet" href="{{site.url}}/css/boostrap.min.css">
         <link rel="stylesheet" href="{{site.url}}/css/font-awesome.min.css">
         <link rel="stylesheet" href="{{site.url}}/css/aos.css">
@@ -32,8 +32,12 @@
                     <div class="container rma" id="navigation">
                         <div class="col-md-5 height-60">
                             <div class="parent-block">
+                                {% assign url = site.lang %}
+                                {% if site.lang == 'en' %}
+                                    {% assign url = '' %}
+                                {% endif %}
                                 <div class="child-block">
-                                    <a href="{{site.url}}/{{site.lang}}"><img id="logo" alt="TAU-LOGO" src="{{site.url}}/assets/images/logo_header.svg" /></a>
+                                    <a href="{{site.url}}/{{url}}"><img id="logo" alt="TAU-LOGO" src="{{site.url}}/assets/images/logo_header.svg" /></a>
                                 </div>
                             </div>
                         </div>

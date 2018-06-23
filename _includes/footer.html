@@ -4,8 +4,12 @@
             <div id="footer-contact">
                 <div class="container">
                     <div class="row">
+                        {% assign url = site.lang %}
+                        {% if site.lang == 'en' %}
+                            {% assign url = '' %}
+                        {% endif %}
                         <div class="col-md-3 col-sm-4 col-xs-12">
-                            <a href="{{site.url}}/"><img class="logo" alt="TAU-LOGO" src="{{site.url}}/assets/images/logo_header.svg" /></a>
+                            <a href="{{site.url}}/{{url}}"><img class="logo" alt="TAU-LOGO" src="{{site.url}}/assets/images/logo_header.svg" /></a>
                             <p class="support"><a href="mailto:support@idni.org"><i class="fa fa-envelope" aria-hidden="true"></i><span>support@idni.org</span></a></p>
                         </div>
                         <div class="col-md-5 col-sm-5 col-xs-12">
