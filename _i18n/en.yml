@@ -222,14 +222,14 @@ term_condition:
           Team or individuals associated with the Company or Agoras Parties, past and present and during the
           Private Sale.
         </p>
-        <p><span class="de">Severability</span>&#58 The Purchaser and the Company agree that if any portion of these Terms or the Agoras
+        <p><span class="de">Severability</span>&#58; The Purchaser and the Company agree that if any portion of these Terms or the Agoras
           Product Purchase Agreement is found illegal or unenforceable, in whole or in part, such provision shall,
           as to such jurisdiction, be ineffective solely to the extent of such determination of invalidity or
           unenforceability without affecting the validity or enforceability thereof in any other manner or
           jurisdiction and without affecting the remaining provisions of the Terms or Agoras Product Purchase
           Agreement, which shall continue to be in full force and effect.
         </p>
-        <p><span class="de">No Waiver</span>&#58 The failure of the Company to require or enforce strict performance by the Purchaser of
+        <p><span class="de">No Waiver</span>&#58; The failure of the Company to require or enforce strict performance by the Purchaser of
           any provision of these Terms or the Agoras Product Purchase Agreement or the Company failure to
           exercise any right under these agreements shall not be construed as a waiver or relinquishment of the
           Company right to assert or rely upon any such provision or right in that or any other instance. The
@@ -241,7 +241,7 @@ term_condition:
           physical writing, hand signed by the Purchaser and a duly appointed officer, employee, or agent of the
           Company or Agoras Parties.
         </p>
-        <p><span class="de">Updates to the Terms and Conditions of the Agoras Private Sale</span>&#58 the Company reserves the right, at its
+        <p><span class="de">Updates to the Terms and Conditions of the Agoras Private Sale</span>&#58; the Company reserves the right, at its
           sole discretion, to change, modify, add, or remove portions of the Terms and Agoras Product Purchase
           Agreement, at any time during the sale by posting the amended Terms on the Agoras website
           (<a target="_blank" href="http://idni.org">http://idni.org</a> or on Bitcointalk’s official thread). Any Purchaser will be deemed to have accepted such
@@ -250,7 +250,7 @@ term_condition:
           then­current version of the Terms, you should not purchase Agoras. To the extent the Terms conflict
           with the Agoras Product Purchase Agreement, the Terms shall govern.
         </p>
-        <p><b><span class="de">The Private Sell​</span>&#58 You can participate in the private sell by sending bitcoin to the following bitcoin
+        <p><b><span class="de">The Private Sell​</span>&#58; You can participate in the private sell by sending bitcoin to the following bitcoin
           address:1BzwxgzrdiW5Gdc3kfoUgxeHAhRjnMmrVs. Please note that there will a be a time period
           between the time of purchase of Agoras in the Private Sale and the inception of the Agoras Platform
           system with the creation of the Genesis Block and the Agoras distributions to Purchaser. If your funds
@@ -264,14 +264,14 @@ term_condition:
           average price index</a> at the time when the payment is accepted and confirmed in our system. ​Agoras
           price will be according to the rate mentioned above.
         </p>
-        <p>Sale prices is according to the declared on Bitcointalk thread&#58 we sell 50% of coins for approx $2M&#58
+        <p>Sale prices is according to the declared on Bitcointalk thread&#58; we sell 50% of coins for approx $2M&#58
           The current price is $100 for 3.5 million (3,500,000) Agora coins, and will go up in 2% every week.
           Total number of coins is 147,000,000,000. This sale will go into BTC address
           1BzwxgzrdiW5Gdc3kfoUgxeHAhRjnMmrVs and everything will be calculated according to the
           BTC/USD rate at the moment of transfar (according to blockchain.info website showing the tx value at
           the time transacted).
         </p>
-        <p><span class="de">RISK FACTORS</span></p>
+        <p class="none-padding"><span class="de"><b>RISK FACTORS</b></span></p>
         <p>Virtual tokens & coins is a futuristic area that carries the potential of high risks. The primary risk factors but not the only ones, when buying Agoras are the following:</p>
         <p>
         <ul>
@@ -283,7 +283,7 @@ term_condition:
         </ul>
         </p>
         <p>The risks listed above, and other risks of same or different nature, make the possibility for Agoras to lose most or all of their value. <b>You should not buy Agoras with funds that you can’t afford to lose.</b></p>
-        <p><span class="de">DISCLAIMERS</span></p>
+        <p class="none-padding"><span class="de"><b>DISCLAIMERS</b></span></p>
         <p><b>This Is Not a Currency, Stock or Equity</b>&#58; ​The Agoras is a virtual private tokens. Thus they are not
           "real equity” and carry no voting rights or any legally binding claim to any tangible or intangible assets.
           The digital token known as Agoras is intended only for accessing the Agoras Network software after its
@@ -300,5 +300,5 @@ term_condition:
         <p><a target="_blank" href="https://bitcointalk.org/index.php?topic=736447.msg10403838#msg10403838">https://bitcointalk.org/index.php?topic=736447.msg10403838#msg10403838</a></p>
         <p>--- ­­­Contacting Us­­­ ---</p>
         <p>This is meant to be a private sale, so <b>please don’t share this document with any other person</b>​.If you have any comments, questions, and/or suggestions, we will be happy to answer through email.</p>
-        <p>Yours sincerely,</p>
-        <p>Agoras Team.</p>
+        <p class="none-padding">Yours sincerely,</p>
+        <p class="none-padding">Agoras Team.</p>
