@@ -336,6 +336,42 @@ article.post{
 }
 #h2-blog{
 	margin-bottom: 40px;
+	&.h2-term{
+		margin-bottom: 10px;
+	}
+}
+.timer{
+	font-size: 15px;
+}
+.term-condition{
+	h3{
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
+	.term-content{
+		p{
+			font-size: 15px;
+    		color: #4A4A4A;
+			margin-bottom: 20px;
+			line-height: 23px;
+			&.none-padding{
+				margin-bottom: 0px;
+			}
+		}	
+	}
+	ul{
+		list-style: none;
+		padding-left: 30px;
+		margin-bottom: 30px;
+		li{
+			font-size: 15px;
+    		color: #4A4A4A;
+			margin-bottom: 20px;
+		}
+	}
+	.de{
+		text-decoration: underline;
+	}
 }
 .opacity0{
 	opacity: 0;
@@ -1052,7 +1088,9 @@ article.post{
 
 	.price{
 		font-size: 35px;
-		color: #F9B800;
+		a{
+			color: #F9B800;
+		}
 	}
 
 	.content{
@@ -2345,7 +2383,7 @@ footer{
 		min-height: 245px;
 	}
 	#blog #roadmap .content.blog{
-		padding-top: 100px;
+		padding-top: 35px;
 	}
 	#content-about{
 		background-position: 0px 110%;

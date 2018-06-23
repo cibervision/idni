@@ -2,7 +2,7 @@
     <div id="roadmap">
         <div class="dont-skew-wrap">
             <div class="dont-skew width-100">
-               {% include blog.html %}
+               {% include term-and-conditions.html %}
             </div>
         </div>
      </div>

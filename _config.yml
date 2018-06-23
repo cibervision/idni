@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog 
-url: "https://hontthuc.github.io/stag_idni_v1" # the base hostname & protocol for your site, e.g. http://example.com 
+url: "https://hontthuc.github.io/stag_idni_v1" # the base hostname & protocol for your site, e.g. http://example.com  
 #url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com 
 #https://hontthuc.github.io/stag_idni_v1/
 #
@@ -48,7 +48,7 @@ sass:
 #   - vendor/ruby/
 gems: 
   - jekyll-multiple-languages-plugin
-languages: ["en", "cn"]
+languages: ["en", "cn", "es"]
 exclude_from_localizations: ["assets","css"]
 collections:
   faq:

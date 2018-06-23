@@ -19,6 +19,10 @@ $(function () {
 		else
 			$('.nav-main').removeClass('active');
    })
+
+    // $.getJSON("https://api.coinmarketcap.com/v2/ticker/2337/", function(result){
+	// 	console.log('result',result);
+    // });
 });
 
 function scrollingHeader(action){

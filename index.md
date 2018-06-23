@@ -2,6 +2,7 @@
 layout: default
 title: Home
 nav: home
+namespace: home
 permalink: /
 ---
 

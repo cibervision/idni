@@ -1,11 +1,11 @@
 
 pages:
-  home: CHINA
+  home: English
   work: Work
 
 tau:
-  what_is_tau_chain: 什么是Tau-Chain
-  content_what_is_tau_chain: Tau是基于区块链的分散式网络，可以根据用户的决定自动进行更改。 为了做出有效的决策，Tau将通过使用人机交互的范例帮助用户克服人类讨论中固有的瓶颈。 因此，Tau可以理解整个对话，并能够扩展人与人之间的协作，并为其用户创造知识
+  what_is_tau_chain: What is Tau-Chain
+  content_what_is_tau_chain: Tau is a blockchain based decentralized network that can automatically be changed based on its users’ decisions. To reach effective decisions, Tau will help its users overcome the bottlenecks inherent in discussions among humans by using a paradigm of Human-Machine-Human communication. As such, Tau could understand the entire conversation and will be able to scale human collaboration and amplify the creation of knowledge for its users
   tau_feature: Tau-chain Main Features
   only_dynamic: The only dynamic decentralized social network
   content_only_dynamic: When Tau’s community will face a decision to change Tau or its blockchain protocol, they will just need to express their opinions and perspectives, like we do today in the social networks, and Tau will self-amend itself based on users’ agreement. Considering the perspectives of the entire community (unlike voting) is the only way to reach a decentralized decision that benefits all users. Tau’s ability to scale discussions is the only decentralized solution to create a true dynamic protocol.
@@ -20,6 +20,7 @@ agoras:
   cryptocurrency: Our Cryptocurrency (AGRS)
   content_cryptocurrency : Lorem ipsum dolor sit amet, porro pertinacia ut pro, et per eros duis insolens. Debet scribentur ne quo, et sit sumo latine. Ex tollit utinam blandit sed. Dico movet fabellas eum in, vim ne diam salutatus sententiae. Ne per quot propriae deserunt. Lorem ipsum dolor sit amet, porro pertinacia ut pro, et per eros duis insolens. Debet scribentur ne quo, et sit sumo latine. Ex tollit utinam blandit sed. Dico movet fabellas eum in, vim ne diam salutatus sententiae. Ne per quot propriae deserunt.
   exchanges: Exchanges
+
 
 about:
   our_vision: Our Vision
