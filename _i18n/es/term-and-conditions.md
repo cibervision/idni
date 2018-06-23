@@ -1,0 +1,1 @@
+{% include term-and-conditions.html %}
