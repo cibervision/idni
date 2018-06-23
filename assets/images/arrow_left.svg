@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="529px" height="1004px" viewBox="0 0 529 1004" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>Fill 1 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="95.3960441%" x2="50%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#DFE8F7" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Tau-home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Agoras_home" transform="translate(0.000000, -1283.000000)" fill="url(#linearGradient-1)">
+            <g id="Features" transform="translate(0.000000, 1283.000000)">
+                <g id="What-is-Tau-Copy">
+                    <path d="M199.07513,-82 L-354.644661,471.719791 C-374.170876,491.246006 -374.170876,522.904255 -354.644661,542.430469 L182.785609,1079.86074 L544.416648,1079.86074 L6.77668853,542.219358 C-12.7494922,522.693128 -12.7494619,491.034896 6.7767562,471.508703 L549,-70.7138983 L199.07513,-82 Z" id="Fill-1-Copy" transform="translate(79.500000, 498.930369) scale(-1, 1) translate(-79.500000, -498.930369) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

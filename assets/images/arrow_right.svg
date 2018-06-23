@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="539px" height="1122px" viewBox="0 0 539 1122" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Fill 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="670" height="1139"></rect>
+        <linearGradient x1="50%" y1="83.5622538%" x2="50%" y2="9.12934821%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#DFE8F7" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Tau-home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="About-us" transform="translate(-901.000000, -659.000000)">
+            <g id="Team" transform="translate(-377.000000, 287.000000)">
+                <g id="Fill-1" transform="translate(1147.000000, 368.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Mask"></g>
+                    <path d="M743.416244,-69 L145.588052,530.747225 C126.115238,550.282548 126.140568,581.89711 145.644661,601.401204 L683.13154,1138.88808 L1044.76258,1138.88808 L507.12262,601.246702 C487.596439,581.720471 487.596469,550.06224 507.122687,530.536047 L1049.34593,-11.6865545 L743.416244,-69 Z" fill="url(#linearGradient-3)" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

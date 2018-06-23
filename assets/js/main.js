@@ -126,6 +126,11 @@ $(window).resize(function() {
         $('.list-feature .item-equal-height').matchHeight();
     }
 
+    // Member
+    if ($('.member-list .member-item').length > 0) {
+        $('.member-list .member-item').matchHeight();
+    }
+
     // Sticky logo
 	if ($('.wrap-logo-sticky').length) {
 		stickyLogo();
@@ -135,5 +140,10 @@ $(window).resize(function() {
 $(document).on("DOMContentLoaded", function(event) {
     if ($('.list-feature .item-equal-height').length > 0) {
         $('.list-feature .item-equal-height').matchHeight();
+    }
+    
+    // Member
+    if ($('.member-list .member-item').length > 0) {
+        $('.member-list .member-item').matchHeight();
     }
 });
