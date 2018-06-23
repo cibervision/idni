@@ -2360,6 +2360,11 @@ footer{
 	#parallax{
 		display: none;
 	}
+    #roadmap {
+        .dont-skew {
+            padding-top: 50px;
+        }
+    }
 	#roadmap .list-price li{
 		margin-right: 1.5%;
     	margin-left: 1.5%;
@@ -2674,8 +2679,15 @@ footer{
 	.main-wrapper#page-about #roadmap{
 		padding-bottom: 45px;
 	}
+    #home {
+        #roadmap {
+            .dont-skew {
+                padding-top: 0;
+            }
+        }
+    }
 	#agoras #features{
-		padding-bottom: 120px;
+		padding-bottom: 50px;
 	}
 }
 @media (max-width: 767px) {
@@ -2691,9 +2703,11 @@ footer{
 	.video-js{
 		 margin: 0 auto;
 	}
+    #network {
+        padding-bottom: 20px;
+    }
 	#network #tau-video{
 		background-image: none;
-		// width: 100%;
 		height: 100%;
 		margin: auto;
 	}
@@ -2804,7 +2818,7 @@ footer{
 		max-height: auto;
 	}
 	#features{
-		padding-bottom: 90px;
+		padding-bottom: 50px;
         .dont-skew {
             padding-bottom: 0;
         }
