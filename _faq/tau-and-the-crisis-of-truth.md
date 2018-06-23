@@ -12,4 +12,7 @@ fbnumberID: ARSPSs08qmchtVLR0kVb_UwG5dfUzbNOBDDfZ_RFFn44FfdJN0Crymsm2kcHsTqcYEg
 
 namespace: faq.tau-and-the-crisis-of-truth
 permalink: /blog/tau-and-the-crisis-of-truth
+permalink_en: /blog/tau-and-the-crisis-of-truth
+permalink_es: /blog/tau-and-the-crisis-of-truth
+
 ---

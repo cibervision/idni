@@ -12,4 +12,6 @@ fbnumberID: ARSPSs08qmchtVLR0kVb_UwG5dfUzbNOBDDfZ_RFFn44FfdJN0Crymsm2kcHsTqcYEg
 
 namespace: faq.the-art-of-self-reference
 permalink: /blog/the-art-of-self-reference
+permalink_en: /blog/the-art-of-self-reference
+permalink_es: /blog/the-art-of-self-reference
 ---

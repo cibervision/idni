@@ -12,4 +12,6 @@ fbnumberID: ARSPSs08qmchtVLR0kVb_UwG5dfUzbNOBDDfZ_RFFn44FfdJN0Crymsm2kcHsTqcYEg
 
 namespace: faq.the-new-tau
 permalink: /blog/the-new-tau
+permalink_en: /blog/the-new-tau
+permalink_es: /blog/the-new-tau
 ---

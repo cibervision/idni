@@ -12,4 +12,6 @@ fbnumberID: ARSPSs08qmchtVLR0kVb_UwG5dfUzbNOBDDfZ_RFFn44FfdJN0Crymsm2kcHsTqcYEg
 
 namespace: faq.proof-of-code-execution
 permalink: /blog/proof-of-code-execution
+permalink_en: /blog/proof-of-code-execution
+permalink_es: /blog/proof-of-code-execution
 ---

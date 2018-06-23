@@ -12,4 +12,6 @@ fbnumberID: ARSPSs08qmchtVLR0kVb_UwG5dfUzbNOBDDfZ_RFFn44FfdJN0Crymsm2kcHsTqcYEg
 
 namespace: faq.tau-as-a-generalized-blockchain
 permalink: /blog/tau-as-a-generalized-blockchain
+permalink_en: /blog/tau-as-a-generalized-blockchain
+permalink_es: /blog/tau-as-a-generalized-blockchain
 ---

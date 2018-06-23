@@ -12,4 +12,6 @@ fbnumberID: ARSPSs08qmchtVLR0kVb_UwG5dfUzbNOBDDfZ_RFFn44FfdJN0Crymsm2kcHsTqcYEg
 
 namespace: faq.project-roadmap
 permalink: /blog/project-roadmap
+permalink_en: /blog/project-roadmap
+permalink_es: /blog/project-roadmap
 ---
