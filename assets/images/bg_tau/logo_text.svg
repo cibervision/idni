@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="441px" height="31px" viewBox="0 0 441 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
     <title>Tau, Understanding E</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="Roboto-Medium, Roboto" font-size="32" font-weight="400">
-        <g id="landing" transform="translate(-739.000000, -387.000000)" fill="#053871">
-            <g id="logo" transform="translate(739.000000, 217.000000)">
-                <text id="Tau,-Understanding-E">
-                    <tspan x="0.375" y="194">Tau, Understanding Each Other</tspan>
-                </text>
+    <g id="Tau-home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="Roboto-Medium, Roboto" font-size="32" font-weight="400">
+        <g id="TAU_home" transform="translate(-500.000000, -289.000000)" fill="#0796CF">
+            <g id="header">
+                <g id="Parallax" transform="translate(0.000000, 2.000000)">
+                    <g id="Group">
+                        <g id="logo" transform="translate(499.250000, 162.750000)">
+                            <text id="Tau,-Understanding-E">
+                                <tspan x="0.375" y="148">Tau, Understanding Each Other</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
             </g>
         </g>
     </g>

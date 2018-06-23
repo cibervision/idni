@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="512px" height="39px" viewBox="0 0 512 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
-    <title>Agoras Knowledge Eco</title>
+<svg width="416px" height="31px" viewBox="0 0 416 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Agoras, Knowledge Ec</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Tau-home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="Roboto-Medium, Roboto" font-size="40" font-weight="400">
-        <g id="Agoras_home" transform="translate(-464.000000, -345.000000)" fill="#FFFFFF">
+    <g id="Tau-home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="Roboto-Medium, Roboto" font-size="32" font-weight="400">
+        <g id="TAU_home" transform="translate(-512.000000, -369.000000)" fill="#FFFFFF">
             <g id="header">
-                <g id="Group-2" transform="translate(464.000000, 192.000000)">
-                    <text id="Agoras-Knowledge-Eco">
-                        <tspan x="0.31640625" y="183">Agoras Knowledge Economy</tspan>
-                    </text>
+                <g id="Parallax" transform="translate(0.000000, 2.000000)">
+                    <g id="Group">
+                        <g id="logo" transform="translate(499.250000, 162.750000)">
+                            <text id="Agoras,-Knowledge-Ec">
+                                <tspan x="12.9375" y="228">Agoras, Knowledge Economy</tspan>
+                            </text>
+                        </g>
+                    </g>
                 </g>
             </g>
         </g>

@@ -799,8 +799,11 @@ article.post{
 	z-index: 9;
 	position: relative;
     .width-55 {
+        background: url('{{site.url}}/assets/images/bg_tau/roots.svg') no-repeat left center;
+        background-attachment: fixed;
         img {
             max-height: 800px;
+            visibility: hidden;
         }
     }
 	&.bg-agoras{
@@ -808,6 +811,11 @@ article.post{
         margin-top: -320px;
         padding-top: 50px;
 	}
+}
+#home {
+    .wrap-root {
+        
+    }
 }
 #section-download{
 	 -webkit-transform: skew(0deg, -4deg);
@@ -880,7 +888,7 @@ article.post{
         -webkit-background-size: contain;
         background-size: contain;
 		-webkit-transform: skew(0deg, -7deg);
-    	transform: skew(0deg, -7deg);
+    	transform: skew(0deg, -7deg); 
         padding-bottom: 135px;
         .bg-back {
             position: fixed;
@@ -921,6 +929,9 @@ article.post{
 	}
 }
 #agoras {
+    #roadmap {
+        overflow: inherit;
+    }
     #features {
         .list-feature {
             li {
@@ -961,7 +972,7 @@ article.post{
 	width: 55%;
     position: absolute;
     left: 0;
-    top: 160px;
+    bottom: 0;
 }
 .background-roots{
 	background-image: url('{{site.url}}/assets/images/bg/layer2.png');
@@ -1690,16 +1701,16 @@ footer{
 	background-position: center bottom;
 	background-repeat: repeat-x;
 	background-size: auto 250px;
-    width: 5000px;
-    left: -1000px;
+    width: 7000px;
+    left: -3000px;
 }
 #about-wave-2{
     background-image: url('{{site.url}}/assets/images/bg_about/wave2.svg');
     background-position: center bottom;
     background-repeat: repeat-x;
     background-size: auto 250px;
-    width: 5000px;
-    left: -1000px;
+    width: 7000px;
+    left: -3000px;
 
 }
 #about-wave-3{
@@ -1707,8 +1718,8 @@ footer{
     background-position: center bottom;
     background-repeat: repeat-x;
     background-size: auto 250px;
-    width: 5000px;
-    left: -1000px;
+    width: 7000px;
+    left: -3000px;
 
 }
 #about-wave-4{
@@ -1716,18 +1727,18 @@ footer{
     background-position: center bottom;
     background-repeat: repeat-x;
     background-size: auto 250px;
-    width: 5000px;
-    left: -1000px;
+    width: 7000px;
+    left: -3000px;
 }
 
 #about-wave-5{
 	// background-image: url('{{site.url}}/assets/images/bg_about/wave3.svg');
 	// background-position: bottom;
 	// //background-repeat: repeat-x;
- //    left: -2000px;
+ //    left: -2500px;
  //    height: 280px;
  //     bottom: 0px;
-	//  width: 5000px;
+	//  width: 7000px;
 	// background-size: contain;
 
 }
@@ -1735,10 +1746,10 @@ footer{
 	background-image: url('{{site.url}}/assets/images/bg_about/wave2.svg');
 	background-position: bottom;
 	background-repeat: repeat-x;
-    left: -2000px;
+    left: -2500px;
     height: 225px;
     bottom: 0px;
-	width: 5000px;
+	width: 7000px;
 	background-size: contain;
 
 }
@@ -1746,10 +1757,10 @@ footer{
 	background-image: url('{{site.url}}/assets/images/bg_about/wave1.svg');
 	background-position: bottom;
 	background-repeat: repeat-x;
-    left: -2000px;
+    left: -2500px;
     height: 225px;
     bottom: 0px;
-	 width: 5000px;
+	 width: 7000px;
 	background-size: contain;
 
 }
@@ -2138,6 +2149,106 @@ footer{
 /** RESPONSIVENESS **/
 /********************/
 /********************/
+@media screen and (min-width: 1921px) {
+    .background-home {
+        top: -100px;
+    }
+    #home {
+        .parallax-end {
+            -webkit-background-size: 2560px;
+            background-size: 2560px;
+            height: 920px;
+            bottom: -50px;
+        }
+        #features {
+            margin-top: -220px;
+        }
+    }
+    #agoras {
+        .sticky-logo {
+            top: 390px;
+        }
+        #features {
+            margin-top: -220px;
+        }
+    }
+    .keyart, .keyart_layer {
+        height: 1440px;
+    }
+    .sticky-logo {
+        top: 390px;
+    }
+    #keyart-1 {
+        -webkit-background-size: 2560px;
+        background-size: 2560px;
+    }
+    #keyart-1b {
+        top: 560px;
+    }
+    #keyart-2 {
+        -webkit-background-size: 2560px;
+        background-size: 2560px;
+        top: -10px;
+    }
+    #keyart-3 {
+        -webkit-background-size: 2560px;
+        background-size: 2560px;
+        left: 320px;
+        top: -5px;
+    }
+    #keyart-4 {
+        -webkit-background-size: 2560px;
+        background-size: 2560px;
+        top: 20px;
+    }
+    #keyart-5 {
+        -webkit-background-size: 2560px;
+        background-size: 2560px;
+        top: 120px;
+    }
+    #keyart-6 {
+        -webkit-background-size: 2560px;
+        background-size: 2560px;
+        top: 160px;
+    }
+    #keyart-7 {
+        -webkit-background-size: 2560px;
+        background-size: 2560px;
+        top: 200px;
+    }
+    #keyart-8 {
+        -webkit-background-size: 2560px;
+        background-size: 2560px;
+        top: 250px;
+    }
+    #keyart-agoras-2 {
+        top: 215px;
+        left: 860px;
+    }
+    #keyart-agoras-3 {
+        top: 215px;
+        left: 860px;
+    }
+    #keyart-agoras-4 {
+        top: 215px;
+        left: 860px;
+    }
+    #keyart-agoras-5 {
+        top: 215px;
+        left: 860px;
+    }
+    #keyart-agoras-6 {
+        top: 215px;
+        left: 860px;
+    }
+    #keyart-agoras-7 {
+        -webkit-background-size: auto 1440px;
+        background-size: auto 1440px;
+    }
+    #keyart-agoras-9 {
+        top: 560px;
+    }
+}
 @media screen and (max-width: 1440px) {
     .sticky-logo {
         top: 150px;
@@ -2727,8 +2838,8 @@ footer{
 	}
     .background-home {
         padding: 50px 0 50px 0;
-        .roots {
-            // bottom: -190px;
+        .width-55 {
+            background: none;
         }
     }
 	.video-js{
