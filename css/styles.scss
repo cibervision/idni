@@ -329,6 +329,11 @@ article.post{
 			color: #4A4A4A;
 			padding: 0px 10px;
 		}
+		&.disabled{
+			a{
+				color: #a7a7a7;
+			}
+		}
 	}
 }
 #roadmap .content.blog{
@@ -2554,6 +2559,9 @@ footer{
 	}
 }
 @media screen and (max-width: 991px) {
+	#blog #roadmap .content.blog{
+		padding-top: 90px;
+	}
     #features {
         background-image: none;
         .dont-skew {
@@ -2966,6 +2974,10 @@ footer{
 	.content-about p{
 		font-size: 14px;
 		line-height: 25px;
+	}
+	.list-lang li a{
+		font-size: 13px;
+    	padding: 0px 2px;
 	}
 }
 @media (max-width: 320px) {
