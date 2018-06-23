@@ -796,8 +796,6 @@ article.post{
     .width-55 {
         img {
             max-height: 800px;
-            opacity: .2;
-            filter: alpha(opacity=20);
         }
     }
 	&.bg-agoras{
@@ -958,7 +956,7 @@ article.post{
 	width: 55%;
     position: absolute;
     left: 0;
-    top: 0;
+    top: 160px;
 }
 .background-roots{
 	background-image: url('{{site.url}}/assets/images/bg/layer2.png');
@@ -1668,7 +1666,7 @@ footer{
 }
 .wave-about{
 	position: absolute;
-    bottom: -44px;
+    bottom: 0;
     z-index: 999;
     overflow: hidden;
     width: 100%;
@@ -1683,58 +1681,49 @@ footer{
     // to { background-position: 400px 0; }
 }
 #about-wave-1{
-	background-image: url('{{site.url}}/assets/images/bg_about/wave6.svg');
-	background-position: bottom;
-	//background-repeat: repeat-x;
-    left: -4000px;
-    height: 225px;
-    bottom: 0px;
-	 width: 5000px; 
-	 background-size: contain;
+	background-image: url('{{site.url}}/assets/images/bg_about/wave1.svg');
+	background-position: center bottom;
+	background-repeat: repeat-x;
+	background-size: auto 250px;
+    width: 5000px;
+    left: -1000px;
 }
 #about-wave-2{
-	background-image: url('{{site.url}}/assets/images/bg_about/wave7.svg');
-	background-position: bottom;
-	//background-repeat: repeat-x;
-    left: -800px;
-    height: 280px;
- 	 bottom: 0px;
-	 width: 5000px;
-    background-size: contain;
+    background-image: url('{{site.url}}/assets/images/bg_about/wave2.svg');
+    background-position: center bottom;
+    background-repeat: repeat-x;
+    background-size: auto 250px;
+    width: 5000px;
+    left: -1000px;
 
 }
 #about-wave-3{
-	background-image: url('{{site.url}}/assets/images/bg_about/wave8.svg');
-	background-position: bottom;
-	//background-repeat: repeat-x;
-    left: -1500px;
-    height: 340px;
-     bottom: 0px;
-	 width: 5000px;
-	background-size: contain;
+    background-image: url('{{site.url}}/assets/images/bg_about/wave3.svg');
+    background-position: center bottom;
+    background-repeat: repeat-x;
+    background-size: auto 250px;
+    width: 5000px;
+    left: -1000px;
 
 }
 #about-wave-4{
-	background-image: url('{{site.url}}/assets/images/bg_about/wave9.svg');
-	background-position: bottom;
-	//background-repeat: repeat-x;
-    left: -1100px;
-    height: 360px;
-    bottom: 0px;
-	 width: 5000px;
-	background-size: contain;
-
+    background-image: url('{{site.url}}/assets/images/bg_about/wave4.svg');
+    background-position: center bottom;
+    background-repeat: repeat-x;
+    background-size: auto 250px;
+    width: 5000px;
+    left: -1000px;
 }
 
 #about-wave-5{
-	background-image: url('{{site.url}}/assets/images/bg_about/wave3.svg');
-	background-position: bottom;
-	//background-repeat: repeat-x;
-    left: -2000px;
-    height: 280px;
-     bottom: 0px;
-	 width: 5000px;
-	background-size: contain;
+	// background-image: url('{{site.url}}/assets/images/bg_about/wave3.svg');
+	// background-position: bottom;
+	// //background-repeat: repeat-x;
+ //    left: -2000px;
+ //    height: 280px;
+ //     bottom: 0px;
+	//  width: 5000px;
+	// background-size: contain;
 
 }
 #about-wave-6{
@@ -1824,10 +1813,10 @@ footer{
 // }
 #keyart-agoras-9{
     background-image: url('{{site.url}}/assets/images/bg/agoras_txt.svg');
-    background-size: auto 94px;
+    background-size: auto 31px;
     background-position: top;
     background-repeat: no-repeat;
-    top: 470px;
+    top: 380px;
 }
 #agoras {
     #wrapper-content {
@@ -1987,10 +1976,6 @@ footer{
     top: 300px;
 }
 #keyart-9 {
-    // background-image: url('{{site.url}}/assets/images/bg_tau/layer10.svg');
-    // background-size: auto 648px;
-    // background-position: center bottom;
-    // background-repeat: no-repeat;
 }
 
 #keyart-scrim {
@@ -2017,8 +2002,6 @@ footer{
 #content-about{
 	background: #4F62E2;
 	width: 100%;
-	min-height: 540px;
-	background-image: url('{{site.url}}/assets/images/path.png');
 	background-repeat: no-repeat;
 	background-position: 0px 209px;
 	background-size:contain;
@@ -2029,6 +2012,8 @@ footer{
     -webkit-border-radius:0% 0% 1197px 1166px/ 0% 0% 119px 110px;
 	-webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC); 
 	//fixes overflow:hidden for safari
+    padding: 135px 0;
+    overflow: hidden;
 }
 #curveDownColor{
 	 position: absolute;
@@ -2043,7 +2028,7 @@ footer{
 #content-about{
 	h2{
 		color:white;
-		margin-top: 135px;
+		margin-top: 0;
 		margin-bottom:20px;
 	}
 	p{
@@ -2123,7 +2108,7 @@ footer{
 }
 #agoras {
     .sticky-logo {
-        top: 300px;
+        top: 217px;
     }
     .wrap-logo-sticky {
         position: relative;
@@ -2154,10 +2139,10 @@ footer{
     }
     #agoras {
         .sticky-logo {
-            top: 250px;
+            top: 150px;
         }
         #keyart-agoras-9 {
-            top: 410px;
+            top: 310px;
         }
     }
 
@@ -2385,12 +2370,16 @@ footer{
 	#blog #roadmap .content.blog{
 		padding-top: 35px;
 	}
-	#content-about{
-		background-position: 0px 110%;
-	}
-	#content-about h2{
-		margin-top: 75px;
-	}
+    #content-about {
+        background: #4F62E2;
+        width: 100%;
+        background-image: url('{{site.url}}/assets/images/path.png');
+        background-repeat: no-repeat;
+        background-position: center 115%;
+        -webkit-background-size: auto 200px;
+        background-size: auto 200px;
+        padding: 100px 0;
+    }
 	.main-wrapper#page-about #roadmap{
 		padding-bottom: 55px;
 	}
@@ -2398,6 +2387,11 @@ footer{
 	#parallax{
 		display: none;
 	}
+    #roadmap {
+        .dont-skew {
+            padding-top: 50px;
+        }
+    }
 	#roadmap .list-price li{
 		margin-right: 1.5%;
     	margin-left: 1.5%;
@@ -2693,15 +2687,11 @@ footer{
 	#roadmap .price{
 		font-size: 33px;
 	}
-	#content-about{
-		min-height: 430px;
-		background-position: 0px 110%;
-	}
 	.main-wrapper#page-about #roadmap .content{
 		padding-top: 200px;
 	}
-	#content-about h2{
-		 margin-top: 75px;
+	#content-about {
+        padding: 60px 0;
 	}
 	.marginbttom80{
 		margin-bottom: 50px;
@@ -2712,8 +2702,15 @@ footer{
 	.main-wrapper#page-about #roadmap{
 		padding-bottom: 45px;
 	}
+    #home {
+        #roadmap {
+            .dont-skew {
+                padding-top: 0;
+            }
+        }
+    }
 	#agoras #features{
-		padding-bottom: 120px;
+		padding-bottom: 50px;
 	}
 }
 @media (max-width: 767px) {
@@ -2729,9 +2726,11 @@ footer{
 	.video-js{
 		 margin: 0 auto;
 	}
+    #network {
+        padding-bottom: 20px;
+    }
 	#network #tau-video{
 		background-image: none;
-		// width: 100%;
 		height: 100%;
 		margin: auto;
 	}
@@ -2842,7 +2841,7 @@ footer{
 		max-height: auto;
 	}
 	#features{
-		padding-bottom: 90px;
+		padding-bottom: 50px;
         .dont-skew {
             padding-bottom: 0;
         }
@@ -2876,6 +2875,14 @@ footer{
         .background-wave {
             margin-top: -50px;
             top: -75px;
+        }
+    }
+    .background-home {
+        .width-55 {
+            top: 60px;
+            img {
+                max-height: 300px;
+            }
         }
     }
 }
@@ -2967,9 +2974,6 @@ footer{
 	}
 	#join-our ul li a i{
 		font-size: 25px;
-	}
-	#content-about h2{
-		margin-top: 25px;
 	}
 }
 

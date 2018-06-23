@@ -113,7 +113,7 @@ function stickyLogo() {
 
 $(document).ready(function(){
 	// $fn.scrollSpeed(step, speed, easing);
-	jQuery.scrollSpeed(200, 1000);
+	// jQuery.scrollSpeed(200, 1000);
 
 	// Sticky logo
 	if ($('.wrap-logo-sticky').length) {

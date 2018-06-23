@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="2000px" height="277px" viewBox="0 0 2000 277" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 14</title>
+<svg width="2880px" height="284px" viewBox="0 0 2880 284" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>layer4</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <path d="M0,0 L2000,0 L2000,201 C1677.90766,260.964252 1348.656,291.6192 1012.24501,292.964844 C675.834018,294.310488 338.419015,266.322206 0,209 L0,0 Z" id="path-1"></path>
-    </defs>
-    <g id="Tau-home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-14" transform="translate(0.000000, -16.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <g id="Mask-Copy-3"></g>
-            <path d="M-19.4991089,123.430252 C133.610346,59.2732765 239.232206,24.5068185 297.366473,19.130878 C384.567872,11.0669671 474.991197,19.7542526 681.666944,100.709044 C888.342692,181.663836 1166.862,271.225993 1321.55735,241.080234 C1476.25271,210.934474 1606.38626,85.460629 1781.9221,108.677051 C1898.946,124.154666 1983.509,135.524594 2035.61111,142.786835 L2087.4841,361.415522 L1482.82544,348.604373 L369.22077,379.932946 L-45.2530292,307.973131 L-19.4991089,123.430252 Z" id="Path-11" fill="#FFFFFF" opacity="0.05" mask="url(#mask-2)"></path>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.05">
+        <g id="layer4" fill="#FFFFFF">
+            <path d="M1440,136.174265 L1440,283.188108 L0,283.188108 L0,165.816495 C103.958817,184.03288 179.29866,188.290865 226.019531,178.590451 C299.074219,163.422483 587.074219,25.067014 685.914062,8.21935773 C784.753906,-8.62829852 799.773437,-7.53064227 1179.00781,89.863889 C1288.64486,118.020749 1375.64226,133.457541 1440,136.174265 Z" id="Combined-Shape"></path>
+            <path d="M2880,136.174265 L2880,283.188108 L1440,283.188108 L1440,165.816495 C1543.95882,184.03288 1619.29866,188.290865 1666.01953,178.590451 C1739.07422,163.422483 2027.07422,25.067014 2125.91406,8.21935773 C2224.75391,-8.62829852 2239.77344,-7.53064227 2619.00781,89.863889 C2728.64486,118.020749 2815.64226,133.457541 2880,136.174265 Z" id="Combined-Shape-Copy-8" transform="translate(2160.000000, 141.594054) scale(-1, 1) translate(-2160.000000, -141.594054) "></path>
         </g>
     </g>
 </svg>
