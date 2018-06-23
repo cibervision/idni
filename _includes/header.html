@@ -43,12 +43,21 @@
                                 <div class="dropdown">
                                         <a id="dLabel" data-target="my-dropdown-lang" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                                             <img width="19" height="19" src="{{site.url}}/assets/images/global.png" alt="global-icon-lang" />
+                                            {% if site.lang == 'en' %}
                                             <span class="title-lang-default">English</span>
+                                             {% endif %}
+                                             {% if site.lang == 'cn' %}
+                                            <span class="title-lang-default">Chinese</span>
+                                             {% endif %}
+                                             {% if site.lang == 'es' %}
+                                            <span class="title-lang-default">Spanish</span>
+                                             {% endif %}
                                             <span class="caret"></span>
                                         </a>
                                         <ul id="my-dropdown-lang" class="dropdown-menu" aria-labelledby="dLabel">
                                             <li><a href="{{site.url}}">English</a></li>
                                             <li><a href="{{site.url}}/cn">Chinese</a></li>
+                                            <li><a href="{{site.url}}/es">Spanish</a></li>
                                         </ul>
                                 </div>
                             </div>

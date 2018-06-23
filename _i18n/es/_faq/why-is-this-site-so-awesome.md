@@ -1,0 +1,73 @@
+<div class="main-wrapper" id="page-blog">
+    <div id="roadmap">
+        <div class="dont-skew-wrap">
+            <div class="dont-skew width-100">
+                <div class="content container blog">
+                    <h2 class="text-center" id="h2-blog">Official Articles</h2>   
+                    <ul  class="list-lang none">
+                        <li><a href="{{site.url}}/blog"><i class="fa fa-angle-left" aria-hidden="true"></i> Back to the list</a> </li>
+                    </ul>
+                    <div class="row">
+                        <div class="col-md-9">
+                            <ul class="list-blog">
+                                <li>
+                                    <h3><a href="{{site.url}}/faq/why-is-this-site-so-awesome">From Agoras to TML</a></h3>
+                                    <span class="author">Ohad Asor</span>
+                                    <span class="dot"></span>
+                                    <span class="date">Mar 13, 2018</span>
+                                    <p class="blog-content">
+                                        In the last blogpost we went through our five stages in chronological and conceptually bottom-up order: language, knowledge, discussion, collaboration, change, and knowledge market. The first five steps are about creation of a knowledge society, and from there we can build a knowledge economy on top of it. On this post we go backwards: we consider what we mean by knowledge economy and what is required for that to happen, and go down the hierarchy until language.</p>
+
+ <p class="blog-content">To make the ideas more concrete, let's consider a decentralized search engine, which was one of Agoras' goals that was later generalized into the concept of knowledge economy. Google has ~1M physical servers which need to crawl, index, and search the internet. I don't know how big their data is, but it must be huge. So having the whole internet indexed and to actually search it, one needs enormous amounts of computing power and data storage. In a decentralized network featuring a decentralized search engine, who is going to pay for that?</p>
+
+ <p class="blog-content">Since this task of maintaining a web search engine depends on "physical" data: on data that is completely unknown until someone goes to the internet and discovers it. Therefore, such a task cannot be completely trustless, as one cannot prove that they downloaded and indexed into the search engine the correct data, and didn't modify, replace, or omit it. But although this problem isn't completely solvable, it is still solvable to some probabilistic extent, with risks that can be lowered arbitrarily, theoretically. We will not cover this whole subject now, but we did on Zennet's materials, cf. e.g. http://zennet.sc/about or more documents in Zennet's bitcointalk thread. My pricing formula appears at http://zennet.sc/zennetpricing.pdf which eliminates the risk of mispricing, a risk that can be significantly exploited. Additional way to probabilistically verify unverifiable computations is to calculate the same thing more than once (by randomly choosing more providers), so increasing the cost linearly, decreases the risk exponentially (e.g. x10 more cost yields ^10 less risk).</p>
+
+ <p class="blog-content">So having a decentralized search engine requires Zennet-like capabilities, the ability to fairly rent (and rent-out) computational resources, under acceptable risk in the user's terms (as a function of cost). Our knowledge market will surely require such capabilities, and is therefore one of the three main ingredients of Agoras. But let's continue: say we have hardware rent market, what's next towards a decentralized search engine?</p>
+
+ <p class="blog-content">A web search engine consists of users and maintainers. The users supply search queries, and the maintainers answer the queries quickly, and to do so quickly they must have the whole web already indexed and stored. Naturally, users have to pay to maintainers a payment that depends on the amount of usage and the cost of maintenance.</p>
+
+ <p class="blog-content">But in a decentralized network, the users and the maintainers are really the same entity. To maintain the network all one has to do is to run the client and by that participate in indexing and searching. A user might query a certain amount of queries per day, while their computer can answer another certain amount of queries per day (to other users as, no single user will store the whole internet, while you can't predict what you're going to query tomorrow). The computer, can probably answer orders of magnitudes more queries than a single average user can manually provide. So a home user who uses dozens or hundreds of "googlings" per day, and also runs a client that supports the network, I'd expect such a user not only to not have to pay, but to earn, as they'll serve others more than they consume. But we will also have heavier users, such that for example consumes the search services automatically in large magnitudes. Such users will have to pay and will probably not end up break even. It's a zero-sum game, but the money flows from the big entities to the smaller ones.</p>
+
+ <p class="blog-content">OK so we described a system that one can type a query and "ask the internet", and the engine returns an answer, together with an economic system that supports the production, pricing, shipment, and arena (agora), of some knowledge (the knowledge of the text on the web). Now it begins to sound as an example of a knowledge economy.</p>
+
+ <p class="blog-content">If stopping here, we didn't actually contribute much: so we'll have a better and decentralized search engine that gives many users some income, but life will continue more or less the same. Searching, as we know it, is no different that searching a web page with Ctrl-F together with a thesaurus. That's what Google is more or less using, it Ctrl-F's the internet with an open thesaurus. But making an economy out of knowledge has many more possibilities. Importantly, we'd like to incorporate into our knowledge economy also deeper and more meaningful knowledge than "those words or their equivalents are mentioned on that website".</p>
+
+ <p class="blog-content">Ultimately, we'd like to upload many (if not most) of our thoughts, opinions, and intellect, to the internet. We already do it. But all our search engines know to do is to use Ctrl-F and a thesaurus. namely it operates in a very shallow level, not even "shallow understanding". But knowledge that people actually seek for, is never this way. We don't seek for documents that contain certain words, but for documents that actually answer our question. Similarly, we don't seek for professionals in which all they know is to search the internet, but when we seek for professionals we expect from them a deep understanding of their subject of expertise, not by their ability to mention a bag of words. Otherwise we'd do good enough with Google and wouldn't need professionals anymore.</p>
+
+ <p class="blog-content">And we'd like to have a futuristic electronic knowledge economy out of this all. To shed a broader light on the picture (and leaving aside for this post the whole monetary side of the economy, the monetary features that Agoras will support), an economy cannot exist without a society, and is a thing within society. Unsurprisingly, all economists consider themselves as a kind of social scientists. Unlike physics, economics depends, and cannot be defined without, concepts that exist purely in human's imagination. The principle that yields this status of economics is simple but very deep: we cannot have an economy without some subjective valuation (or "utility function"), namely the ability to say "I prefer this over that". Can think of it like taste: some prefer chocolate over ice cream, while some crazies prefer ice cream over chocolate. They might even be ready to pay different prices. In the bottom line, it comes down to ethical value systems in the broad sense, defining good and bad, better and worse. Which are indeed not physical terms but exist purely on our imagination. And this doesn't make them a single bit less important.</p>
+
+ <p class="blog-content">Let me give a (really) pale example of a knowledge-economical feature that can be made over Agoras thanks to its Tau underlying infrastructure, giving it access to meaningful knowledge. Suppose there's some institute or faculty of philosophy that took the hard mission to formalize whole philosophy books in a tau-comprehensible language. They might offer you to submit questions and get answers that rely on their expensive proprietary database, for payment. Then can just declare this data, over the platform, to be private, and to incorporate it into certain discussions only upon paid subscription.</p>
+
+ <p class="blog-content">Each one of us is a research institute of something, featuring unique knowledge. Such knowledge should have direct economic value, namely a pure knowledge-cash transaction.</p>
+
+ <p class="blog-content">Alright so we need also a "knowledge society" to be the framework that our "knowledge economy" lives at. We will touch several aspects in which it is required, but let's follow our route and speak about the ability to change. An economy, is a game, and it's highly undesirable to not be able to change the rules of the game over time, which is again a social choice and highly depends on ethical values. Only society decides the new economical (and social) rules, as otherwise it's technically not going to happen. But what does it mean to "change the economy" or "change the society"?</p>
+
+ <p class="blog-content">It means a lot, but we don't care. We are computer people. Our knowledge society and economy, Tau and Agoras, are computer programs. So "what does it mean to change economy/society" comes to a very clear practical concept: a decentralized network that changes its own code.</p>
+
+ <p class="blog-content">To change its own code, as it sounds, is a sensitive thing to do, both by practice and by design, both from technical reasons and social reasons. The old tau considered only the technical side (and even that in a wrong way), and neglected the social side. Indeed there are questions that we don't know to give an apriori answer as there is no best answer, for example: who can change the rules (in a decentralized setting)? There is no perfect answer to this question, and every solution suffers from major disadvantages, yet, as there is no other way, the users will have to decide which partial solution they see as less worse. So the "governance model" will ultimately have to be decided by the users, and that's one of the benefits of beginning the discussion platform centralized, to reach a broad and machine-assisted consensus about the nature of the decentralized network since its beginning.</p>
+
+ <p class="blog-content">But aside "who gets to change the rules" there are many, many social aspects in the process of change that require attention and do have good solutions. For some taste of those aspects please see the previous blogpost (for example "who gets to vote" vs "who gets to decide what to vote over", a question that becomes meaningless given our vote-less solution).</p>
+
+ <p class="blog-content">A self amending core, is the Tau, as also explained in the latter post. After we have the ability to change, we can proceed to an evolving electronic knowledge economy. So we covered two steps on our way down: from knowledge market to change, namely from Agoras to Tau. Let's keep going down backwards through collaboration (beta), discussion and knowledge (alpha), and language (TML). But we'll do it in short.</p>
+
+ <p class="blog-content">Collaboration, as "change" above, means a lot, but we don't care as we're computer people. To collaborate means to do something together, and the maximum that we can do in the computer world, is to run a program. Any p2p network is a form of collaboration: coordinated execution of code. On Tau we'll use the language translation abilities of TML in order to convert specification of programs to code of programs, automatically, and by that building and running a program together reduces to discussions, enhanced with the ability to convert logic to code, run it, and coordinate its execution among parties.</p>
+
+ <p class="blog-content">From here to discussions. In order to agree which code to run (or even organize the opinions out of a large groups), and which new rules to set, and to actually have an electronic knowledge society, and to formalize knowledge in a human-convenient process, and to have this all effectively in a very large scale (millions or more of users), we need discussions that scale. And for this topic I have no choice but refer you again to the last blogpost.</p>
+
+ <p class="blog-content">We reached down our road to the fundamental concepts of knowledge itself, and language that is even more fundamental than knowledge. Our knowledge society/economy can be fruitful more than as in the existing world, only if the machine have access to the meaning of things said, and not just to how they're written. We create the Internet of Languages, by letting users define new knowledge-representation languages (that might be very close to natural languages), and by that making an ever growing classes of documents to become machine comprehensible (let alone an ever growing number of documents). TML and the internet of languages will widely support more kinds languages than just knowledge representation, but that'd be enough for now.</p>
+
+ <p class="blog-content">On this post we emphasized more on the top of the pyramid and less on its bottom, in contrary to the previous post. I hope it was somehow helpful. Thanks for reading!
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            {% include blog-archive.html %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+    {% include networks.html %}
+</div>
