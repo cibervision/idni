@@ -1020,7 +1020,9 @@ article.post{
 
 	.price{
 		font-size: 35px;
-		color: #F9B800;
+		a{
+			color: #F9B800;
+		}
 	}
 
 	.content{
