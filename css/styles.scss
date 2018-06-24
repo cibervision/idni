@@ -509,7 +509,7 @@ article.post{
                 margin-right: 10px;
                 margin-left: 10px;
                 display: inline-block;
-				font-weight: 300;
+				font-weight: 400;
 				text-decoration: none;
 				@include tran(all,0.3s);
 				border-bottom: 5px solid transparent;
@@ -800,11 +800,11 @@ article.post{
 	z-index: 9;
 	position: relative;
     .width-55 {
-        background: url('{{site.url}}/assets/images/bg_tau/roots.svg') no-repeat left center;
-        background-attachment: fixed;
+        // background: url('{{site.url}}/assets/images/bg_tau/roots.svg') no-repeat left center;
+        // background-attachment: fixed;
         img {
             max-height: 800px;
-            visibility: hidden;
+            // visibility: hidden;
         }
     }
 	&.bg-agoras{
@@ -973,7 +973,7 @@ article.post{
 	width: 55%;
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: -210px;
 }
 .background-roots{
 	background-image: url('{{site.url}}/assets/images/bg/layer2.png');
@@ -1468,9 +1468,9 @@ article.post{
 			width: 354px;
 			height: 80px;
 			background-color: white;
-			-webkit-box-shadow: 0px 0px 27px 1px rgba(207,207,207,1);
-			-moz-box-shadow: 0px 0px 27px 1px rgba(207,207,207,1);
-			box-shadow: 0px 0px 27px 1px rgba(207,207,207,1);
+			-webkit-box-shadow: 0 0 30px 0 rgba(0,77,164,0.15);
+			-moz-box-shadow: 0 0 30px 0 rgba(0,77,164,0.15);
+			box-shadow: 0 0 30px 0 rgba(0,77,164,0.15);
 			border-radius: 5px;
 			background-size: contain;
 			background-repeat: no-repeat;
@@ -1484,13 +1484,25 @@ article.post{
 				}
 			}
 			&.bg1{
-				background-image: url('{{site.url}}/assets/images/bg1.png');
+                &:hover {
+                    background: url('{{site.url}}/assets/images/bg1.png') no-repeat 0 bottom;
+                    -webkit-background-size: 100%;
+                    background-size: 100%;
+                }
 			}
 			&.bg2{
-				background-image: url('{{site.url}}/assets/images/bg2.png');
+                &:hover {
+                    background: url('{{site.url}}/assets/images/bg2.png') no-repeat 0 bottom;
+                    -webkit-background-size: 100%;
+                    background-size: 100%;
+                }
 			}
 			&.bg3{
-				background-image: url('{{site.url}}/assets/images/bg3.png');
+				&:hover {
+                    background: url('{{site.url}}/assets/images/bg3.png') no-repeat 0 bottom;
+                    -webkit-background-size: 100%;
+                    background-size: 100%;
+                }
 			}
 			.txt{
 				font-size: 17px;
@@ -1525,6 +1537,16 @@ article.post{
 			}
 		}
 	}
+}
+#home {
+    #roadmap {
+        .dont-skew {
+            background:  url('{{site.url}}/assets/images/roots-left.svg') no-repeat left center, url('{{site.url}}/assets/images/arrow_left.svg') no-repeat left center;
+            background-attachment: fixed;
+            -webkit-background-size: contain;
+            background-size: contain;
+        }
+    }   
 }
 #agoras {
     #roadmap {
@@ -2747,6 +2769,13 @@ footer{
                         }
                     }
                 }
+            }
+        }
+    }
+    #home {
+        #roadmap {
+            .dont-skew {
+                background-image: none;
             }
         }
     }
