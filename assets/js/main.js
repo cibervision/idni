@@ -35,64 +35,6 @@ function scrollingHeader(action){
 	}
 }
 
-function castParallax() {
-	window.addEventListener("scroll", function(event){
-		var top = this.pageYOffset;
-		if(top > 300){
-			scrollingHeader(true);
-		}else{
-			scrollingHeader(false);
-		}
-		var layers = document.getElementsByClassName("parallax");
-		var layer, speed, yPos, direct;
-		for (var i = 0; i < layers.length; i++) {
-			layer = layers[i];
-			speed = layer.getAttribute('data-speed');
-			direct = layer.getAttribute('data-direct');
-			var yPos = -(top * speed / 100);
-			if(direct === 'right'){
-				layer.setAttribute('style', 'transform: translate3d(' + -yPos + 'px, 0px , 0px)');
-			}
-			else {
-				layer.setAttribute('style', 'transform: translate3d(0px, ' + yPos + 'px, 0px)');
-			}
-		}
-	});
-}
-
-function dispelParallax() {
-	$("#nonparallax").css('display','block');
-	$("#parallax").css('display','none');
-}
-
-function startSite() {
-
-	var platform = navigator.platform.toLowerCase();
-	var userAgent = navigator.userAgent.toLowerCase();
-
-	if ( platform.indexOf('ipad') != -1  ||  platform.indexOf('iphone') != -1 ) 
-	{
-		dispelParallax();
-	}
-	
-	else if (platform.indexOf('win32') != -1 || platform.indexOf('linux') != -1)
-	{
-		castParallax();					
-		// if ($.browser.webkit)
-		// {
-		// 	//castSmoothScroll();
-		// }
-	}
-	
-	else
-	{
-		castParallax();
-	}
-
-}
-
-document.body.onload = startSite();
-
 function stickyLogo() {
 	// sticky logo
 	var posFront = $('.sticky-front').position().top;
@@ -147,3 +89,70 @@ $(document).on("DOMContentLoaded", function(event) {
         $('.member-list .member-item').matchHeight();
     }
 });
+
+
+function castParallax() {
+  var opThresh = 350;
+  var opFactor = 750;
+
+  window.addEventListener("scroll", function(event) {
+    var top = this.pageYOffset;
+	if(top > 300){
+		scrollingHeader(true);
+	}else{
+		scrollingHeader(false);
+	}
+    var layers = document.getElementsByClassName("parallax");
+    var layer, speed, yPos;
+    for (var i = 0; i < layers.length; i++) {
+      layer = layers[i];
+      speed = layer.getAttribute("data-speed");
+      direct = layer.getAttribute('data-direct');
+      var yPos = -(top * speed / 100);
+      // layer.setAttribute(
+      //   "style",
+      //   "transform: translate3d(0px, " + yPos + "px, 0px)"
+      // );
+		if(direct === 'right'){
+			layer.setAttribute('style', 'transform: translate3d(' + -yPos + 'px, 0px , 0px)');
+		}
+		else {
+			layer.setAttribute('style', 'transform: translate3d(0px, ' + yPos + 'px, 0px)');
+		}
+    }
+  });
+}
+
+function dispelParallax() {
+  $("#nonparallax").css("display", "block");
+  $("#parallax").css("display", "none");
+}
+
+function castSmoothScroll() {
+  $.srSmoothscroll({
+    step: 80,
+    speed: 300,
+    ease: "linear"
+  });
+}
+
+function startSite() {
+  var platform = navigator.platform.toLowerCase();
+  var userAgent = navigator.userAgent.toLowerCase();
+
+  if (platform.indexOf("ipad") != -1 || platform.indexOf("iphone") != -1) {
+    dispelParallax();
+  } else if (
+    platform.indexOf("win32") != -1 ||
+    platform.indexOf("linux") != -1
+  ) {
+    castParallax();
+    if ($.browser.webkit) {
+      castSmoothScroll();
+    }
+  } else {
+    castParallax();
+  }
+}
+
+document.body.onload = startSite();
