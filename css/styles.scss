@@ -509,7 +509,7 @@ article.post{
                 margin-right: 10px;
                 margin-left: 10px;
                 display: inline-block;
-				font-weight: 300;
+				font-weight: 400;
 				text-decoration: none;
 				@include tran(all,0.3s);
 				border-bottom: 5px solid transparent;
@@ -529,7 +529,6 @@ article.post{
             color:#92A2C8;
             margin-left: 7px;
             margin-right: 7px;
-            font-weight: 300;
         }
     }
     .git-icon{
