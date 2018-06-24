@@ -714,7 +714,7 @@ article.post{
 #join-our{
 	background-color: #DBEBFC;
 	padding-top:240px;
-	padding-bottom:210px;
+	padding-bottom:170px;
 	margin-top: -140px;
 	position: relative;
 	h3{
@@ -732,6 +732,7 @@ article.post{
 			display: inline-block;
 			 margin-left: 5px;
     		margin-right: 5px;
+			margin-bottom: 40px;
 			a{	
 				 width: 160px;
 				height: 50px;
@@ -2686,7 +2687,11 @@ footer{
 		left:-32%;
 	}
 }
+
 @media screen and (max-width: 991px) {
+	.hidden-989{
+		display: none !important;
+	}
 	#blog #roadmap .content.blog{
 		padding-top: 90px;
 	}
@@ -2880,9 +2885,12 @@ footer{
 	 	margin-left: auto;
     	margin-right: auto;
 	}
+	#agoras #join-our{
+		padding-bottom: 130px;
+	}
 	#join-our{
 		padding-top: 180px;
-		padding-bottom: 170px;
+		padding-bottom: 130px;
 	}
 	#join-our ul.marginBottom30{
 		margin-bottom: 0px;
