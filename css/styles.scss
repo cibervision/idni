@@ -693,6 +693,10 @@ article.post{
 		line-height: 26px;
 	}
 }
+.float-left{
+	float: left;
+}
+
 .roots{
 	// bottom: -190px;
 	position: relative;
@@ -1478,39 +1482,48 @@ article.post{
 			margin-right: 10px;
 			margin-left: 10px;
 			@include tran(all,0.2s);
+			border: 2px solid transparent;
+			border-radius: 4px;
 			&:hover{
-				i,.txt{
-					color:#1088FE;
-				}
+				border: 2px solid #F8C41C; 
+				// i,.txt{
+				// 	color:#1088FE;
+				// }
 			}
 			&.bg1{
                 &:hover {
-                    background: url('{{site.url}}/assets/images/bg1.png') no-repeat 0 bottom;
-                    -webkit-background-size: 100%;
-                    background-size: 100%;
+                    // background: url('{{site.url}}/assets/images/bg1.png') no-repeat 0 bottom;
+                    // -webkit-background-size: 100%;
+                    // background-size: 100%;
                 }
 			}
 			&.bg2{
                 &:hover {
-                    background: url('{{site.url}}/assets/images/bg2.png') no-repeat 0 bottom;
-                    -webkit-background-size: 100%;
-                    background-size: 100%;
+                    // background: url('{{site.url}}/assets/images/bg2.png') no-repeat 0 bottom;
+                    // -webkit-background-size: 100%;
+                    // background-size: 100%;
                 }
 			}
 			&.bg3{
 				&:hover {
-                    background: url('{{site.url}}/assets/images/bg3.png') no-repeat 0 bottom;
-                    -webkit-background-size: 100%;
-                    background-size: 100%;
+                    // background: url('{{site.url}}/assets/images/bg3.png') no-repeat 0 bottom;
+                    // -webkit-background-size: 100%;
+                    // background-size: 100%;
                 }
 			}
 			.txt{
-				font-size: 17px;
+				font-size: 19px;
 				color: #4A4A4A;
-				display: inline-block;
+				display: block;
 				padding-left: 17px;
 				font-weight: 500;
 				@include tran(all,0.2s);
+			}
+			.text-link{
+				display: block;
+				padding-left: 18px;
+				color:#919191;
+				font-size: 15px;
 			}
 			img{
 			    width: 45px;
