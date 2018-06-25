@@ -1972,7 +1972,8 @@ footer{
 
 // Update new layer Tau parallax
 #keyart-0 {
-    background-image: url('{{site.url}}/assets/images/bg_tau/layer1.svg');
+    // background-image: url('{{site.url}}/assets/images/bg_tau/layer1.svg');
+    background-image: url('{{site.url}}/assets/images/bg_tau/layer1.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
@@ -2640,13 +2641,14 @@ footer{
 		margin-bottom: 5px;
 	}
 	#background-mobile-home{
-		background-image: url('{{site.url}}/assets/images/tau-tablet.jpg');
+		background-image: url('{{site.url}}/assets/images/tau-tablet.png');
 		background-repeat: no-repeat;
 		background-size: cover;
 		width: 100%;
 		height: 100%;
 		display: block;
 		padding-bottom: 100%;
+        background-position: center;
 	}
 	#background-mobile-agoras{
 		background-image: url('{{site.url}}/assets/images/bg-tablet-agoras.png');
@@ -2656,6 +2658,7 @@ footer{
 		height: 100%;
 		display: block;
 		padding-bottom: 100%;
+        background-position: center;
 	}
 	.main-wrapper{
 		top:60px;
@@ -3104,7 +3107,7 @@ footer{
 		margin-top: -20px;
 	}
 	#background-mobile-home{
-		background-image: url('{{site.url}}/assets/images/tau-mobile.jpg');
+		background-image: url('{{site.url}}/assets/images/tau-mobile.png');
 		background-repeat: no-repeat;
 		background-size: cover;
 		width: 100%;
