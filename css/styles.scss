@@ -1486,30 +1486,7 @@ article.post{
 			border-radius: 4px;
 			&:hover{
 				border: 2px solid #F8C41C; 
-				// i,.txt{
-				// 	color:#1088FE;
-				// }
-			}
-			&.bg1{
-                &:hover {
-                    // background: url('{{site.url}}/assets/images/bg1.png') no-repeat 0 bottom;
-                    // -webkit-background-size: 100%;
-                    // background-size: 100%;
-                }
-			}
-			&.bg2{
-                &:hover {
-                    // background: url('{{site.url}}/assets/images/bg2.png') no-repeat 0 bottom;
-                    // -webkit-background-size: 100%;
-                    // background-size: 100%;
-                }
-			}
-			&.bg3{
-				&:hover {
-                    // background: url('{{site.url}}/assets/images/bg3.png') no-repeat 0 bottom;
-                    // -webkit-background-size: 100%;
-                    // background-size: 100%;
-                }
+			
 			}
 			.txt{
 				font-size: 19px;
@@ -1925,14 +1902,6 @@ footer{
 //     top: 110px;
 //     background-repeat: no-repeat;
 //     background-position: top;
-// }
-
-// #keyart-2 {
-//     background-image: url('{{site.url}}/assets/images/tau_2.png');
-//     background-size: auto 720px;
-//     background-position: left top;
-//     background-repeat: no-repeat;
-//     top: 130px;
 // }
 
 // #keyart-3 {
@@ -2727,6 +2696,9 @@ footer{
 }
 
 @media screen and (max-width: 991px) {
+	.opacity0{
+		display: none;
+	}
 	.hidden-989{
 		display: none !important;
 	}

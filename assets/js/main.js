@@ -147,9 +147,9 @@ function startSite() {
     platform.indexOf("linux") != -1
   ) {
     castParallax();
-    if ($.browser.webkit) {
-      castSmoothScroll();
-    }
+    // if ($.browser.webkit) {
+    //   castSmoothScroll();
+    // }
   } else {
     castParallax();
   }

@@ -1,3 +1,4 @@
+
 <div class="main-wrapper" id="page-blog">
     <div class="hidden">
         {% assign index = false %}

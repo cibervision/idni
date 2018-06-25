@@ -25,7 +25,7 @@ agoras:
 
 about:
   our_vision: Our Vision
-  content: Agoras is a new, smart economy, where everyone can generate income by conducting knowledge-based transactions. Leveraging Tau’s design and architecture, Agoras will connect users with relevant knowledge to solve complex problems in different disciplines. Agoras will use its own smart contract capabilities to avoid fraudulent activities, set transaction price and verify “shipping” of knowledge. As AGRS will inherit Tau's architecture, the parameters of AGRS will be dynamic and can be changed based on the community desire
+  content: We aim to build a better society where knowledge can be better distributed to solve complex problem in our society. With the help of machines, our development can solve the knowledge and opinions scaling problem. No more forgotten or dismissed knowledge, not more bottlenecks in discovery and transfer of knowledge
   our_team: Our Team
   our_team_content: We gathered people who are passionate about changing our world and motivate to build a better society. Our team is composed of professionals from different industries and practices, to make sure our development is relevant to people from all disciplines
   core_team: Core Team
@@ -34,7 +34,7 @@ networks:
   title: Join Our Social Networks
 
 term_condition:
-  title: Term and Conditions
+  title: Terms and Conditions
   timer: Last updated&#58; 10 Feb 2015
   content: <h3>Agoras Product Purchase Agreement</h3>
         <p>By purchasing future Agoras tokens the Purchaser expressly agrees to all of the terms and conditions set forth in the accompanying Terms and Conditions of the Agoras Private Sale (the “Terms”), which is incorporated by reference herein, as well as the Agoras Product Purchase Agreement. All capitalized terms in this agreement will be given the same effect and meaning as in the Terms.</p>
@@ -138,7 +138,7 @@ term_condition:
           Agoras resulting from actions taken by, or omitted by Purchasers. If you do not have such experience
           or expertise, then you should not purchase Agoras or participate in the private sale of Agoras.
         </p>
-        <p>Acceptance of Terms and Conditions of the Agoras Sale</span>&#58; By sending BTC to the following bitcoin
+        <p><span class="de">Acceptance of Terms and Conditions of the Agoras Sale</span>&#58; By sending BTC to the following bitcoin
           address&#58; 1BzwxgzrdiW5Gdc3kfoUgxeHAhRjnMmrVs, the Purchaser&#58; (i) consents and agrees to the
         </p>
         <p>Terms and the Agoras Product Purchase Agreement; (ii) represents and warrants that the Purchaser is
