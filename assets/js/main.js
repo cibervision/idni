@@ -65,7 +65,7 @@ $(document).ready(function(){
 
 $(window).resize(function() {
     if ($('.list-feature .item-equal-height').length > 0) {
-        $('.list-feature .item-equal-height').matchHeight();
+        //$('.list-feature .item-equal-height').matchHeight();
     }
 
     // Member
@@ -80,8 +80,12 @@ $(window).resize(function() {
 });
 
 $(document).on("DOMContentLoaded", function(event) {
+
     if ($('.list-feature .item-equal-height').length > 0) {
-        $('.list-feature .item-equal-height').matchHeight();
+        // $('.list-feature .item-equal-height').matchHeight({
+        //   byRow : false,
+        //   property: 'height'
+        // })
     }
     
     // Member
