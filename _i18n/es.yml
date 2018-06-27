@@ -13,6 +13,44 @@ tau:
   the_road_map: The Roadmap
   content_the_road_map: We designed a five-stage roadmap where each stage can support the development of the next one. We expect to complete the development of TML and Alpha Tau, during 2018. Using Alpha Tau’s discussion platform an infinite number of developers can join the project to support building Beta Tau expediting its go-to-market date. After Beta Tau is developed, it will only be a matter of time until Tau-Chain is completed as all technical challenges will be resolved using Beta Tau.
 
+  feature_lang_title : Language
+  feature_lang_content: We build the Internet of Languages, featuring Tau Meta Language (TML), a self-defining meta language for defining and translating new languages.
+
+  feature_knowledge_title : Knowledge,
+  feature_knowledge_content: Using any knowledge-representation language defined in TML, knowledge can be shared and stored in one place.
+
+  feature_economy_title : Economy,
+  feature_economy_content: We build Agoras, a futuristic knowledge economy, to allow pure knowledge-cash transactions …
+
+  feature_collaboration_title : Collaboration,
+  feature_collaboration_content: We build the Internet of Languages, featuring Tau Meta Language (TML), a self-defining meta language for defining and translating new languages.
+
+  feature_discussion_title : Discussion,
+  feature_discussion_content: We work on solving the problem of nonscaling discussions. We build a platform allowing efficient discussions in any scale, by human-machine-human communication.
+
+  feature_choice_title : Language,
+  feature_choice_content: We work on an innovative, logic based, social choice mechanism.
+
+  roadmap_title_tau_meta: TAU Meta Language (TML)
+  roadmap_date_tau_meta: Agust 2018
+  roadmap_content_tau_meta: We will start by developing a metalanguage (TML) as a tool to define new languages such that they all translate to each other. This will form the "Internet of Languages".
+
+  roadmap_title_alpha: Alpha Version Launched
+  roadmap_date_alpha: January 2019
+  roadmap_content_alpha: Alpha is a social platform that allows efficient discussions even among very large numbers of participants. Today, an effective conversation cannot be held with too many people; However, Alpha will be able to scale discussions and detect logical points of consensus between users and allow users to explore the opinion map raised in the discussion, thus enabling better knowledge sharing and construction.
+
+  roadmap_title_beta: Beta Version Lauched
+  roadmap_date_beta: July 2019
+  roadmap_content_beta: Beta will advance Alpha by allowing users to discuss code requirements and then automatically synthesized a correct-by-construction code.
+
+  roadmap_title_tau_chain: Tau-Chain 
+  roadmap_date_tau_chain: November 2019
+  roadmap_content_tau_chain: Tau is applying all previous stages to itself. Tau is about perpetual collaborative development of itself based on users’ agreements. It will do so as a decentralized and blockchain-based p2p network.
+
+  roadmap_title_agoras: Agoras  
+  roadmap_date_agoras: 01 Jan 2020
+  roadmap_content_agoras: A fully featured knowledge economy allowing knowledge-case transactions, computational resources market, and advanced financials.
+
 agoras:
   what_is_agoras: What is Agoras
   content_what_is_agoras: Agoras is a new, smart economy, where everyone can generate income by conducting knowledge-based transactions. Leveraging Tau’s design and architecture, Agoras will connect users with relevant knowledge to solve complex problems in different disciplines. Agoras will use its own smart contract capabilities to avoid fraudulent activities, set transaction price and verify “shipping” of knowledge. As AGRS will inherit Tau's architecture, the parameters of AGRS will be dynamic and can be changed based on the community desire
@@ -20,6 +58,22 @@ agoras:
   cryptocurrency: Our Cryptocurrency (AGRS)
   content_cryptocurrency : Lorem ipsum dolor sit amet, porro pertinacia ut pro, et per eros duis insolens. Debet scribentur ne quo, et sit sumo latine. Ex tollit utinam blandit sed. Dico movet fabellas eum in, vim ne diam salutatus sententiae. Ne per quot propriae deserunt. Lorem ipsum dolor sit amet, porro pertinacia ut pro, et per eros duis insolens. Debet scribentur ne quo, et sit sumo latine. Ex tollit utinam blandit sed. Dico movet fabellas eum in, vim ne diam salutatus sententiae. Ne per quot propriae deserunt.
   exchanges: Exchanges
+
+  feature_knowledge_economy_title: Knowledge Economy
+  feature_knowledge_economy_content: With all facilities to create a fully featured economy, including production, shipment, pricing, supply, demand, and arena.
+
+  feature_computational_title: Computational Resources Market
+  feature_computational_content: To be able to rent or rent out computational resources.
+
+  feature_advanced_title: Advanced finaicials
+  feature_advanced_content: Including for example the ability to obtain risk-free interest without any creation of new money.
+
+  feature_vel_title: Vel maiorum reprehendunt ad
+  feature_vel_content: Cum maiorum voluptaria omittantur te. Qui eligendi pericula ea, no primis graeci ius, id mel utroque volumus .
+
+  feature_dictas_title: Dictas pertinax tractatos ex nam
+  feature_dictas_content: Quem vocent sanctus sea ex. At quem augue virtute eos, quo odio graeci accusamus ad, sit nihil rationibus id.
+
 
 
 about:

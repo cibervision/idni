@@ -1364,20 +1364,20 @@ article.post{
             .grp-5 {
                 .point-time {
                     top: 15px;
-                    // &:after {
-                    //     content: "";
-                    //     position: absolute;
-                    //     right: 8px;
-                    //     top: 10px;
-                    //     width: 1px;
-                    //     background: #1088FE;
-                    //     height: 150px;
-                    //     -webkit-transform: rotate(16deg);
-                    //     -moz-transform: rotate(16deg);
-                    //     -ms-transform: rotate(16deg);
-                    //     -o-transform: rotate(16deg);
-                    //     z-index: 1;
-                    // }
+                    &:after {
+                        content: "";
+                        position: absolute;
+                        right: 8px;
+                        top: 10px;
+                        width: 1px;
+                        background: #1088FE;
+                        height: 150px;
+                        -webkit-transform: rotate(16deg);
+                        -moz-transform: rotate(16deg);
+                        -ms-transform: rotate(16deg);
+                        -o-transform: rotate(16deg);
+                        z-index: 1;
+                    }
                 }   
             }
             .grp-6 {
@@ -1443,22 +1443,22 @@ article.post{
 			margin-top:80px;
 		}
 		&.grp-3{
-			margin-top:145px;
+			margin-top:165px;
 		}
 		&.grp-4{
-			margin-top:100px;
+			margin-top:160px;
 		}
 		&.grp-6{
-			margin-top:180px;
+			margin-top:185px;
 		}
 		&.grp-5{
 			margin-top: 160px;
 		}
 		&.grp-7{
-			 margin-top: 170px;
+			 margin-top: 90px;
 		}
 		&.grp-8{
-			margin-top: 180px;
+			margin-top: 205px;
 		}
 	}
 	.list-price{
@@ -2449,10 +2449,10 @@ footer{
                     .point-time {
                         &:after {
                             height: 135px;
-                            -webkit-transform: rotate(-17deg);
-                            -moz-transform: rotate(-17deg);
-                            -ms-transform: rotate(-17deg);
-                            -o-transform: rotate(-17deg);
+                            -webkit-transform: rotate(-14deg);
+                            -moz-transform: rotate(-14deg);
+                            -ms-transform: rotate(-14deg);
+                            -o-transform: rotate(-14deg);
                         }
                     }   
                 }
@@ -2471,6 +2471,18 @@ footer{
             }
         }
     }
+	#roadmap .content-lines.grp-3{
+		margin-top: 145px;
+	}
+	#roadmap .content-lines.grp-4{
+		margin-top: 180px;
+	}
+	#roadmap .content-lines.grp-6{
+		margin-top: 205px;
+	}
+	#roadmap .content-lines.grp-8{
+		margin-top: 180px;
+	}
 }
 @media (max-width: 1024px) {
 	.fdescription{
@@ -2722,6 +2734,9 @@ footer{
             padding-bottom: 30px;
         }
     }
+	#roadmap .time-line .time-line-list .grp-6 .point-time:after{
+		height: 180px;
+	}
     #roadmap {
         .dont-skew-wrap {
             background: none;
@@ -2732,16 +2747,22 @@ footer{
         }
         .content-lines {
             &.grp-3 {
-                margin-top: 128px;
+                margin-top: 145px;
+            }
+			&.grp-4 {
+                margin-top: 220px;
             }
             &.grp-5 {
                 margin-top: 195px;
             }
             &.grp-6 {
-                margin-top: 157px;
+                margin-top: 180px;
+            }
+			&.grp-7 {
+                margin-top: 65px;
             }
             &.grp-8 {
-                margin-top: 160px;
+                margin-top: 200px;
             }
         }
         .time-line {
@@ -2962,16 +2983,6 @@ footer{
                             display: none;
                         }
                     }
-                    &.grp-5 {
-                        .point-time {
-                            &:after {
-                                display: none;
-                            }
-                        }
-                        &:after {
-                            display: none;
-                        }
-                    }
                     &.grp-2 {
                         &:after {
                             top: 15px;
@@ -2987,6 +2998,11 @@ footer{
                         height: 100%;
                         z-index: 1;
                     }
+					&.grp-7{
+						 &:after {
+							 content: none;
+						 }
+					}
                 }
             }
         }
@@ -3046,6 +3062,7 @@ footer{
             }
         }
     }
+
 }
 @media (max-width: 639px) {
     #agoras {

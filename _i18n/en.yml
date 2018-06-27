@@ -5,14 +5,65 @@ pages:
 
 tau:
   what_is_tau_chain: What is Tau-Chain
-  content_what_is_tau_chain: Tau is a blockchain based decentralized network that can automatically be changed based on its users’ decisions. To reach effective decisions, Tau will help its users overcome the bottlenecks inherent in discussions among humans by using a paradigm of Human-Machine-Human communication. As such, Tau could understand the entire conversation and will be able to scale human collaboration and amplify the creation of knowledge for its users
+  content_what_is_tau_chain: Tau is a network that we build, intended to solve bottlenecks inherent in human communication, specifically large scale discussions. For that we develop a paradigm which we call Human-Machine-Human communication. Tau will be a blockchain-based peer-to-peer decentralized network, that will be able to automatically redefine and recode itself based on its users’ opinions and consensus. It will be able to do so for anything else that a group of people intend to collaborate on or discuss over. To make it actually happen in real life and large scale, users will have to speak in languages that machines can understand. Given that, Tau will be able to understand the entire conversation and to scale human collaboratio, and to amplify the creation of knowledge and the information efficiency of human interaction. The interface languages can be many and update with time, thanks to an infrastructure network we build called the Internet of Languages.
   tau_feature: Tau-chain Main Features
   only_dynamic: The only dynamic decentralized social network
-  content_only_dynamic: When Tau’s community will face a decision to change Tau or its blockchain protocol, they will just need to express their opinions and perspectives, like we do today in the social networks, and Tau will self-amend itself based on users’ agreement. Considering the perspectives of the entire community (unlike voting) is the only way to reach a decentralized decision that benefits all users. Tau’s ability to scale discussions is the only decentralized solution to create a true dynamic protocol.
-  content_video: The video above is only an illustration of Tau’s design. User discussions can focus on everyday subjects or particular disciplines (life science, politics, computer science, etc.). Only discussions about Tau’s specifications will change its protocol upon reaching an agreement
+  content_only_dynamic: When Tau’s community will face a decision to change the Tau network code, or rules, or protocols, they will simply need to express their opinions and perspectives, like we do today in the social networks and everyday life. Once they do so in a language available over the network, Tau will self-amend itself based on users’ agreement. This, while taking into account the perspectives of the entire community, unlike in the common method of voting where people are free to vote but not to propose what to vote over. It is the only way to reach a decentralized decision that benefits all users. Tau’s ability to scale discussions is the only decentralized solution to create a true dynamic protocol.
+  content_video: The video above is only a highly iniial illustration of how discussions over Tau may take form. User discussions can focus on everyday subjects or particular disciplines, even science and politics. Tau will be aware to discussions about itself and change accordingly.
   the_road_map: The Roadmap
-  content_the_road_map: We designed a five-stage roadmap where each stage can support the development of the next one. We expect to complete the development of TML and Alpha Tau, during 2018. Using Alpha Tau’s discussion platform an infinite number of developers can join the project to support building Beta Tau expediting its go-to-market date. After Beta Tau is developed, it will only be a matter of time until Tau-Chain is completed as all technical challenges will be resolved using Beta Tau.
+  content_the_road_map: We designed a five-stage roadmap where each stage supports the development of the next one and is a useful technological innovation by its own. We expect to complete the development of TML and Alpha Tau, during 2018. Using Alpha Tau’s discussion platform an infinite number of developers can join the project to support building Beta Tau expediting its go-to-market date. After Beta Tau is developed, it will only be a matter of time until Tau-Chain is completed as all technical challenges will be resolved using Beta Tau, collaboratively, and hopefully in a development scale never seen before.
+ 
+  feature_lang_title : Language
+  feature_lang_content: We build the Internet of Languages, featuring Tau Meta Language (TML), a self-defining meta language for defining and translating formal languages. It will allow ever developing interfaces between humans and machines, and various formats to coexist and present knowledge in various ways.
 
+  feature_knowledge_title : Knowledge
+  feature_knowledge_content: Using any knowledge-representation language defined in TML, knowledge can be processed by machines as if the machines understand it. The knowledge can then be queried, stored, and shared in a network.
+
+  feature_economy_title : Economy
+  feature_economy_content: We build Agoras, a futuristic knowledge economy, to allow pure knowledge-cash transactions …
+
+  feature_collaboration_title : Collaboration
+  feature_collaboration_content: We build the Internet of Languages, featuring Tau Meta Language (TML), a self-defining meta language for defining and translating formal languages.
+
+  feature_discussion_title : Discussion
+  feature_discussion_content: We work on solving the problem of poor scaling of discussion. We build a platform allowing efficient discussions in any scale, by human-machine-human communication.
+
+  feature_choice_title : Choice
+  feature_choice_content: We work on an innovative, logic based, social choice mechanism. We will not need to vote, only to express our opinion. By that the right to vote will be equal to the right to propose, in a practical way, for the first time.
+
+  roadmap_title_tau_meta: TML Implementation
+  roadmap_date_tau_meta: Q4 2018
+  roadmap_content_tau_meta: Implementation of self-definition of TML and Futamura's projections mark the readiness of TML and the end of this milestone.
+
+  roadmap_title_alpha: TAU Meta Language (TML)
+  roadmap_date_alpha: Agust 2018
+  roadmap_content_alpha: We will start by developing a metalanguage (TML) as a tool to define new languages such that they all translate to each other. This will form the "Internet of Languages".
+
+  roadmap_title_beta: Internet of Languages
+  roadmap_date_beta: Q4 2018
+  roadmap_content_beta: Given TML we will build the essential user interface and features around it in order to have a system usable for defining, storing, and translating languages.
+
+  roadmap_title_tau_chain: Knowledge Network
+  roadmap_date_tau_chain: Q4 2018
+  roadmap_content_tau_chain: Towards a discussion platform, we will first create an infrastructure to store and query bulks of knowledge represented by languages from the Internet of Languages.
+
+  roadmap_title_agoras: Alpha Version Launched  
+  roadmap_date_agoras: January 2019
+  roadmap_content_agoras: Alpha is a social platform that allows efficient discussions even among very large numbers of participants. Today, an effective conversation cannot be held with too many people; However, Alpha will be able to scale discussions and detect logical points of consensus between users and allow users to explore the opinion map raised in the discussion, thus enabling better knowledge sharing and construction.
+
+  roadmap_title_6: Beta Version Lauched  
+  roadmap_date_6: July 2019
+  roadmap_content_6: Beta will advance Alpha by allowing users to discuss code requirements and then automatically synthesized a correct-by-construction code.
+
+
+  roadmap_title_7: Tau-Chain
+  roadmap_date_7: November 2019
+  roadmap_content_7: Tau is applying all previous stages to itself. Tau is about perpetual collaborative development of itself based on users’ agreements. It will do so as a decentralized and blockchain-based p2p network.
+
+
+  roadmap_title_8: Agoras
+  roadmap_date_8: 01 Jan 2020
+  roadmap_content_8: A fully featured knowledge economy allowing knowledge-case transactions, computational resources market, and advanced financials..
   
 agoras:
   what_is_agoras: What is Agoras
@@ -22,13 +73,53 @@ agoras:
   content_cryptocurrency : Lorem ipsum dolor sit amet, porro pertinacia ut pro, et per eros duis insolens. Debet scribentur ne quo, et sit sumo latine. Ex tollit utinam blandit sed. Dico movet fabellas eum in, vim ne diam salutatus sententiae. Ne per quot propriae deserunt. Lorem ipsum dolor sit amet, porro pertinacia ut pro, et per eros duis insolens. Debet scribentur ne quo, et sit sumo latine. Ex tollit utinam blandit sed. Dico movet fabellas eum in, vim ne diam salutatus sententiae. Ne per quot propriae deserunt.
   exchanges: Exchanges
 
+  feature_knowledge_economy_title: Knowledge Economy
+  feature_knowledge_economy_content: With all facilities to create a fully featured economy, including production, shipment, pricing, supply, demand, and arena.
+
+  feature_computational_title: Computational Resources Market
+  feature_computational_content: To be able to rent or rent out computational resources.
+
+  feature_advanced_title: Advanced finaicials
+  feature_advanced_content: Including for example the ability to obtain risk-free interest without any creation of new money.
+
+  feature_vel_title: Vel maiorum reprehendunt ad
+  feature_vel_content: Cum maiorum voluptaria omittantur te. Qui eligendi pericula ea, no primis graeci ius, id mel utroque volumus .
+
+  feature_dictas_title: Dictas pertinax tractatos ex nam
+  feature_dictas_content: Quem vocent sanctus sea ex. At quem augue virtute eos, quo odio graeci accusamus ad, sit nihil rationibus id.
+
 
 about:
   our_vision: Our Vision
-  content: We aim to build a better society where knowledge can be better distributed to solve complex problem in our society. With the help of machines, our development can solve the knowledge and opinions scaling problem. No more forgotten or dismissed knowledge, not more bottlenecks in discovery and transfer of knowledge
+  content: We aim to build a better society where knowledge can be better distributed and solve complex problem. With the help of machines, our development can solve the knowledge and opinions scaling problem. No more forgotten or dismissed knowledge, not more bottlenecks in discovery and transfer of knowledge.
   our_team: Our Team
   our_team_content: We gathered people who are passionate about changing our world and motivate to build a better society. Our team is composed of professionals from different industries and practices, to make sure our development is relevant to people from all disciplines
   core_team: Core Team
+
+  team_carrier_isar: Strategy and Operations
+  team_content_isar: Isar has 3 years of consulting experience from Ernst & Young, where he worked with Israeli startup companies. He is a veteran member of the Israeli Bitcoin Community and the president and co-founder of the Blockchain and Innovation Club at Cornell University. Isar is an MBA candidate at Cornell University and holds a LL.M and BS in Economics.
+
+  team_carrier_isar: Strategy and Operations
+  team_content_isar: Isar has 3 years of consulting experience from Ernst & Young, where he worked with Israeli startup companies. He is a veteran member of the Israeli Bitcoin Community and the president and co-founder of the Blockchain and Innovation Club at Cornell University. Isar is an MBA candidate at Cornell University and holds a LL.M and BS in Economics.
+
+  team_carrier_isar: Strategy and Operations
+  team_content_isar: Isar has 3 years of consulting experience from Ernst & Young, where he worked with Israeli startup companies. He is a veteran member of the Israeli Bitcoin Community and the president and co-founder of the Blockchain and Innovation Club at Cornell University. Isar is an MBA candidate at Cornell University and holds a LL.M and BS in Economics.
+
+  team_carrier_isar: Strategy and Operations
+  team_content_isar: Isar has 3 years of consulting experience from Ernst & Young, where he worked with Israeli startup companies. He is a veteran member of the Israeli Bitcoin Community and the president and co-founder of the Blockchain and Innovation Club at Cornell University. Isar is an MBA candidate at Cornell University and holds a LL.M and BS in Economics.
+
+  team_carrier_isar: Strategy and Operations
+  team_content_isar: Isar has 3 years of consulting experience from Ernst & Young, where he worked with Israeli startup companies. He is a veteran member of the Israeli Bitcoin Community and the president and co-founder of the Blockchain and Innovation Club at Cornell University. Isar is an MBA candidate at Cornell University and holds a LL.M and BS in Economics.
+
+  team_carrier_isar: Strategy and Operations
+  team_content_isar: Isar has 3 years of consulting experience from Ernst & Young, where he worked with Israeli startup companies. He is a veteran member of the Israeli Bitcoin Community and the president and co-founder of the Blockchain and Innovation Club at Cornell University. Isar is an MBA candidate at Cornell University and holds a LL.M and BS in Economics.
+
+  team_carrier_isar: Strategy and Operations
+  team_content_isar: Isar has 3 years of consulting experience from Ernst & Young, where he worked with Israeli startup companies. He is a veteran member of the Israeli Bitcoin Community and the president and co-founder of the Blockchain and Innovation Club at Cornell University. Isar is an MBA candidate at Cornell University and holds a LL.M and BS in Economics.
+
+  team_carrier_isar: Strategy and Operations
+  team_content_isar: Isar has 3 years of consulting experience from Ernst & Young, where he worked with Israeli startup companies. He is a veteran member of the Israeli Bitcoin Community and the president and co-founder of the Blockchain and Innovation Club at Cornell University. Isar is an MBA candidate at Cornell University and holds a LL.M and BS in Economics.
+
 
 networks:
   title: Join Our Social Networks
