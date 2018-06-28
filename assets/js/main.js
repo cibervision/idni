@@ -96,13 +96,14 @@ $(document).on("DOMContentLoaded", function(event) {
     }
 
     getHeightScreen();
+    //alert($(window).height() -100);
 
 
 });
 
 function getHeightScreen(){
   if($(window).width() < 768){
-    $('.height-bg-mobile').css({height:$(window).height() -100});
+    $('.height-bg-mobile').css({height:$(window).height()+ 10});
   }
 }
 
