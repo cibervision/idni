@@ -539,6 +539,15 @@ article.post{
 		@include tran(all,0.3s);
     }
 }
+.text-coinmarketcap{
+	color:#FF001F !important;
+}
+.text-pre-sale{
+	.mrg-1{
+		margin-bottom: 1px;
+		min-height: auto !important;
+	}
+}
 #header .list-menu-desktop li a.active{
 	color:white;
 	 border-bottom: 5px solid #1088FE;
@@ -1006,7 +1015,7 @@ article.post{
 		margin-bottom: 50px;
 	}
 	&.marginBottom5{
-		margin-bottom: 10px;
+		margin-bottom: 15px;
 	}
 }
 .h5-title{
