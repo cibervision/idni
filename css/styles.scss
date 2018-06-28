@@ -2511,7 +2511,7 @@ footer{
     }
     #home {
         #wrapper-content {
-            margin-top: -120px;
+            margin-top: 0px;
         }
     }
     .background-home {
@@ -2642,10 +2642,10 @@ footer{
 		height: 100%;
 		display: block;
 		padding-bottom: 100%;
-        background-position: center;
+        background-position: left;
 	}
 	#background-mobile-agoras{
-		background-image: url('{{site.url}}/assets/images/bg-tablet-agoras.png');
+		background-image: url('{{site.url}}/assets/images/agoras-tablet.png');
 		background-repeat: no-repeat;
 		background-size: cover;
 		width: 100%;
@@ -3119,7 +3119,7 @@ footer{
 		height: 100%;
 		display: block;
 		padding-bottom: 100%;
-        background-position: center -90px;
+        ///background-position: center -90px;
 	}
 	#background-mobile-agoras{
 		background-image: url('{{site.url}}/assets/images/bg-tablet-agoras.png');
@@ -3178,3 +3178,11 @@ footer{
 	}
 }
 
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+		#background-mobile-agoras{
+			height: 575px !important;
+		}
+	}

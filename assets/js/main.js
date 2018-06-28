@@ -73,10 +73,12 @@ $(window).resize(function() {
         $('.member-list .member-item').matchHeight();
     }
 
-    // Sticky logo
-	if ($('.wrap-logo-sticky').length) {
-		stickyLogo();
-	}
+      // Sticky logo
+    if ($('.wrap-logo-sticky').length) {
+      stickyLogo();
+    }
+
+    getHeightScreen();
 });
 
 $(document).on("DOMContentLoaded", function(event) {
@@ -92,7 +94,17 @@ $(document).on("DOMContentLoaded", function(event) {
     if ($('.member-list .member-item').length > 0) {
         $('.member-list .member-item').matchHeight();
     }
+
+    getHeightScreen();
+
+
 });
+
+function getHeightScreen(){
+  if($(window).width() < 768){
+    $('.height-bg-mobile').css({height:$(window).height() -100});
+  }
+}
 
 
 function castParallax() {
