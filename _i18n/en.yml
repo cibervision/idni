@@ -74,29 +74,30 @@ tau:
   
 agoras:
   what_is_agoras: What is Agoras
-  content_what_is_agoras: Agoras is a new, smart economy, where everyone can generate income by conducting knowledge-based transactions. Leveraging Tau’s design and architecture, Agoras will connect users with relevant knowledge to solve complex problems in different disciplines. Agoras will use its own smart contract capabilities to avoid fraudulent activities, set transaction price and verify “shipping” of knowledge. As AGRS will inherit Tau's architecture, the parameters of AGRS will be dynamic and can be changed based on the community desire
+  content_what_is_agoras: Agoras will be a fully featured intelligent economy revolving around the production, distribution and pricing of knowledge, thereby aligning monetary incentives with Tau’s capabilities over which it is constructed. Agoras will also share Tau’s dynamic architecture, allowing its parameters to be amended based on the community's desire in real time. In addition, it will feature a computational resource market as well as advanced financial tools such as a derivatives exchange that allows risk-free interest with zero inflation.
   main_features: Agoras Main Features
-  cryptocurrency: Our Cryptocurrency (AGRS)
-  content_cryptocurrency : Lorem ipsum dolor sit amet, porro pertinacia ut pro, et per eros duis insolens. Debet scribentur ne quo, et sit sumo latine. Ex tollit utinam blandit sed. Dico movet fabellas eum in, vim ne diam salutatus sententiae. Ne per quot propriae deserunt. Lorem ipsum dolor sit amet, porro pertinacia ut pro, et per eros duis insolens. Debet scribentur ne quo, et sit sumo latine. Ex tollit utinam blandit sed. Dico movet fabellas eum in, vim ne diam salutatus sententiae. Ne per quot propriae deserunt.
+  cryptocurrency: Our Future Cryptocurrency (AGRS)
+  content_cryptocurrency1 : Agoras will be the coin of natural and artificial knowledge over the new online society that we are building. Agoras will represent all tradable knowledge and computational resources on the network, while acting as the first monetary market to acquire risk-free interest without printing new money.
+  content_cryptocurrency2: Agoras efficiency will allow us to have a well-priced derivatives market to allow hedging, price-stability, and risk-free interest.
   exchanges: Exchanges
   pre_sale: Pre-Sale
-  pre_sale_content_1: We made a pre-sale of part of the future Agoras coins, and the rest will be pre-sold on a later stage. There is a total amount of 42,000,000 intermediate coins (IDNI Agoras Tokens), that represent 100% of future Agoras coins.
+  pre_sale_content_1: We made a pre-sale of part of the future Agoras coins, and the rest will be pre-sold on a later stage. There is a total amount of 42,000,000 intermediate coins (IDNI Agoras Tokens) that represent 100% of future Agoras coins.
   pre_sale_content_2: IDNI Agoras (AGRS, Omni asset ID 58) is listed on <a class="text-coinmarketcap" target="_blank" href="https://coinmarketcap.com/currencies/agoras-tokens/">coinmarketcap</a> featuring a partial list of exchanges.
   pre_sale_content_3: IMPORTANT&#58; BEWARE OF FAKE TOKENS! ALWAYS VALIDATE THE ASSET ID!
   pre_sale_content_4: Please read our pre-sale
 
 
-  feature_knowledge_economy_title: Knowledge Economy
-  feature_knowledge_economy_content: With all facilities to create a fully featured economy, including production, shipment, pricing, supply, demand, and arena.
+  feature_knowledge_economy_title: Computational Resources Market
+  feature_knowledge_economy_content: The combined computational power of all the servers of Google, Apple and Facebook is only a tiny fraction of the total processing power of the hundreds of millions of smartphones and PCs sitting idle in the hands of ordinary users. To enable users of the Tau network to tap into this unharnessed resource, a rental market for computational processing power will be built in Agoras. The design is based on the Zennet project and its innovative pricing formula...
 
-  feature_computational_title: Computational Resources Market
-  feature_computational_content: To be able to rent or rent out computational resources.
+  feature_computational_title: Advanced Financial Tools
+  feature_computational_content: Agoras economy will naturally contain various types of players, such as hardware owners/renters, knowledge owners/buyers, miners and exchanges, where each player has his own hedging needs. Our economy will contain an advanced and electronic derivatives market that absents any leverage and allows risk-free interest, without the need to print new “money” (tokens).
 
-  feature_advanced_title: Advanced finaicials
-  feature_advanced_content: Including for example the ability to obtain risk-free interest without any creation of new money.
+  feature_advanced_title: Automated Businesses
+  feature_advanced_content: By leveraging the power of Tau, Agoras participants will have access to a vast wealth of knowledge on every imaginable topic like the economy, law, society and information about merchants and their goods available on the market. It can then operate as user’s personal automatic businessman, intelligently tailoring complex deals in a manner that provides them a competitive edge.
 
-  feature_vel_title: Vel maiorum reprehendunt ad
-  feature_vel_content: Cum maiorum voluptaria omittantur te. Qui eligendi pericula ea, no primis graeci ius, id mel utroque volumus .
+  feature_vel_title: Efficiency and Fairness
+  feature_vel_content: The efficiency of a market is first and foremost a function of the speed at which information propagates within that market. As our economy is entirely online, information can flow quickly and freely so we can expect Agoras to be highly efficient. This creates a fairer market in terms of information availability being more even. Another aspect of fairness is that resources on our network are typically bought by larger entities and sold by the wider audience&colon; larger players are more likely the ones who need to rent millions of computers and are willing to pay for the unique knowledge held by the user-base, while smaller participants can simply rent out their idle computing power. We can therefore expect to see money flowing in the right direction&colon; from the rich to the poor.
 
   feature_dictas_title: Dictas pertinax tractatos ex nam
   feature_dictas_content: Quem vocent sanctus sea ex. At quem augue virtute eos, quo odio graeci accusamus ad, sit nihil rationibus id.
@@ -104,16 +105,16 @@ agoras:
 
 about:
   our_vision: Our Vision
-  content: We aim to build a better society where knowledge can be better distributed and solve complex problem. With the help of machines, our development can solve the knowledge and opinions scaling problem. No more forgotten or dismissed knowledge, not more bottlenecks in discovery and transfer of knowledge.
+  content: We aim to build a better society where knowledge can be created more efficiently and better distributed to solve complex problems. With the help of machines, we can solve the knowledge and opinions scaling problem. No more forgotten or dismissed knowledge, and no more bottlenecks in the discovery and transfer of knowledge.
   our_team: Our Team
-  our_team_content: We gathered people who are passionate about changing our world and motivate to build a better society. Our team is composed of professionals from different industries and practices, to make sure our development is relevant to people from all disciplines
+  our_team_content: We gathered people who are passionate about changing our world and to build a better society. Our team is composed of professionals across different industries and practices, to make sure our development is relevant to people from all disciplines.
   core_team: Core Team
 
   team_carrier_isar: Strategy and Operations
   team_content_isar: Isar has 3 years of consulting experience from Ernst & Young, where he worked with startup companies. He is a veteran member of the Israeli Bitcoin Community and the president and co-founder of the Blockchain and Innovation Club at Cornell University. Isar is an MBA candidate at Cornell University and holds a LL.M and BS in Economics.
 
   team_carrier_ohad: Development
-  team_content_ohad: Ohad is a Software Developer and Mathematician on the top tech companies in Israel since 1995. He was the youngest university student in Israel, studying Mathematics and Computer Science. Of his additional fields of interests are physics, philosophy, psychology, and economics
+  team_content_ohad: Ohad is a Software Developer and Mathematician at top tech companies in Israel since 1995. He was the youngest university student in Israel, studying Mathematics and Computer Science. Over the years he has accumulated extensive knowledge and experience in programming and various areas of math, with recent focus on and logic, machine learning, complexity theory, philosophy of science, economics, social choice, and decentralized networks. He designed and implements Tau and Agoras. As the founder, he is currently leading the development of the project.
 
   team_carrier_karov: Legal
   team_content_karov: Karov is a Lawyer with over 20 years of post-qualified experience in number of jurisdictions. He is providing (as Behest.io) legal and consulting services for blockchain enterprises, while serving as a general counsel for ET3. Karov holds a LL.M and BS in Economics.
@@ -128,7 +129,7 @@ about:
   team_content_yann: Yann has abundant project management experience working in China Academy of Social Sciences, the top research institute in China. He is an entrepreneur (founded SPO and LunarX), an angel investor and a veteran in the crypto-world, where he helped building communities for various projects since 2013. Yann holds a M.Phil and B.Eng.
 
   team_carrier_ethan: Marketing
-  team_content_ethan: Ethan has over 14 years of experience as a product and marketing manager in a global megabank and an online forex company, focusing mainly on large enterprises. In the past few years, he was providing marketing and community building services to several ICO projects, including Starbase, Mainstreet, SingularDTV, Firstblood and BlockCDN. Ethan holds a BS in Business Management
+  team_content_ethan: Ethan has over 14 years of experience as a product and marketing manager in a global megabank and an online forex company, focusing mainly on large enterprises. In the past few years, he was providing marketing and community building services to several ICO projects, including Starbase, Mainstreet, SingularDTV, Firstblood and BlockCDN. Ethan holds a BS in Business Management.
 
   team_carrier_capitanArt: Design
   team_content_capitanArt: CapitanArt is a graphic design and 3D animation business, led by Juan, a graphic illustrator with more than 20 years of experience, and his brother Jordi, a member of the Blockchain Association in Catalonia. CapitanArt provides design and concept art services for top companies such as Amazon, Ubisoft and Motorola. Juan is a master and a trainer for digital drawing, while Jordi has BS in computer science and telecommunications.

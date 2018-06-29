@@ -1522,7 +1522,7 @@ article.post{
 #home {
     #roadmap {
         .dont-skew {
-            background:  url('{{site.url}}/assets/images/roots-left.svg') no-repeat left center, url('{{site.url}}/assets/images/arrow_left.svg') no-repeat left center;
+            background:  url('{{site.url}}/assets/images/roots-left.png') no-repeat left center, url('{{site.url}}/assets/images/arrow_left.svg') no-repeat left center;
             background-attachment: fixed;
             -webkit-background-size: contain;
             background-size: contain;
@@ -1786,7 +1786,7 @@ footer{
 
 }
 #keyart-agoras-1{
-	background-image: url('{{site.url}}/assets/images/bg/mountain_bg.svg');
+	background-image: url('{{site.url}}/assets/images/bg/mountain_bg.png');
 	background-size: cover;
 	top:0px;
 }
@@ -2858,6 +2858,16 @@ footer{
 	.main-wrapper#page-about #roadmap .group-member .list .content-hover.yann{
 		min-height: auto;
 	}
+    .main-wrapper#page-about #roadmap .dont-skew {
+        padding-bottom: 0;
+    }
+    .group-member {
+        .member-item {
+            &+ .member-item {
+                margin-top: 30px;
+            }
+        }
+    }
     .background-home {
         padding: 50px 0 50px 0;
         .width-55 {

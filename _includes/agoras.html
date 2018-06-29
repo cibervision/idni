@@ -33,7 +33,7 @@
               {% t agoras.what_is_agoras %}
             </h2>
             <div class="row">
-              <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+              <div class="col-sm-10 col-sm-offset-1">
                 <p>
                  {% t agoras.content_what_is_agoras %}
                 </p>
@@ -51,25 +51,25 @@
             <h3 class="text-center title-h3">
               {% t agoras.main_features %}
             </h3>
-            <ul class="list-feature">
-              <li class="col-md-4 col-sm-6 item-equal-height">
+            <ul class="list-feature row">
+              <li class="col-sm-6 item-equal-height">
                 <!--wave center-->
                 <div class="text-center this-is-wave-center">
                   <img class="fimage" src=
-                  "{{site.url}}/assets/images/icon-economy-v2.png"
+                  "{{site.url}}/assets/images/agoras_computational.svg"
                   alt="icon-economy" />
                 </div>
                 <h5 class="text-center h5-title">
                  {% t agoras.feature_knowledge_economy_title %}
                 </h5>
                 <p class="text-center fdescription">
-                {% t agoras.feature_knowledge_economy_content %}
+                {% t agoras.feature_knowledge_economy_content %}<a class="read-more" href="{{site.url}}/zennet.pdf">Read more</a>
                 </p>
               </li>
-              <li class="col-md-4 col-sm-6 item-equal-height">
+              <li class="col-sm-6 item-equal-height">
                 <div class="text-center this-is-wave-center">
                   <img class="fimage" src=
-                  "{{site.url}}/assets/images/icon-market.png" alt=
+                  "{{site.url}}/assets/images/agoras_advance.svg" alt=
                   "icon-market" />
                 </div>
                 <h5 class="text-center h5-title">
@@ -79,10 +79,10 @@
                  {% t agoras.feature_computational_content %}
                 </p>
               </li>
-              <li class="col-md-4 col-sm-6 item-equal-height">
+              <li class="col-sm-6 item-equal-height">
                 <div class="text-center this-is-wave-center">
                   <img class="fimage" src=
-                  "{{site.url}}/assets/images/icon-financial.png"
+                  "{{site.url}}/assets/images/agoras_businesses.svg"
                   alt="icon-financial" />
                 </div>
                 <h5 class="text-center h5-title">
@@ -92,11 +92,10 @@
                 {% t agoras.feature_advanced_content %}
                 </p>
               </li>
-              <li class="col-md-2 item-equal-height hidden-xs"></li>
-              <li class="col-md-4 col-sm-6 item-equal-height">
+              <li class="col-sm-6 item-equal-height">
                 <div class="text-center this-is-wave-center">
                   <img class="fimage" src=
-                  "{{site.url}}/assets/images/icon4.png" alt=
+                  "{{site.url}}/assets/images/agoras_fairness.svg" alt=
                   "icon-collaboration" />
                 </div>
                 <h5 class="text-center h5-title">
@@ -106,20 +105,6 @@
                  {% t agoras.feature_vel_content %}
                 </p>
               </li>
-              <li class="col-md-4 col-sm-6 item-equal-height">
-                <div class="text-center this-is-wave-center">
-                  <img class="fimage" src=
-                  "{{site.url}}/assets/images/icon5.png" alt=
-                  "icon-choice" />
-                </div>
-                <h5 class="text-center h5-title">
-                  {% t agoras.feature_dictas_title %}
-                </h5>
-                <p class="text-center fdescription">
-                 {% t agoras.feature_dictas_content %}
-                </p>
-              </li>
-              <li class="col-md-2 item-equal-height hidden-xs"></li>
             </ul>
           </div>
         </div>
@@ -133,9 +118,10 @@
              {% t agoras.cryptocurrency %}
             </h3>
             <div class="row">
-              <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+              <div class="col-sm-10 col-sm-offset-1">
                 <p class="fdescription max-inherit text-center marginbttom50">
-                  {% t agoras.content_cryptocurrency %}
+                  {% t agoras.content_cryptocurrency1 %} <br>
+                  {% t agoras.content_cryptocurrency2 %}
                 </p>
               </div>
             </div>
@@ -143,7 +129,7 @@
               {% t agoras.pre_sale %}
               </h3>
               <div class="row text-pre-sale">
-                <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                <div class="col-sm-10 col-sm-offset-1">
                   <p class="fdescription mrg-1 max-inherit text-center ">
                     {% t agoras.pre_sale_content_1 %}
                   </p>

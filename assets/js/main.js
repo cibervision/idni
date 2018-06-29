@@ -87,6 +87,11 @@ $(document).ready(function(){
         }
       });
   }
+
+  if ($('.list-feature .item-equal-height').length > 0) {
+      $('.list-feature .item-equal-height').matchHeight();
+      $('.list-feature .h5-title').matchHeight();
+  }
 });
 
 $(window).resize(function() {
