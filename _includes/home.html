@@ -65,10 +65,12 @@
                {% t tau.what_is_tau_chain %}
               </h2>
               <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-                  <p>
-                   {% t tau.content_what_is_tau_chain %}
-                  </p>  
+                <div class="col-sm-10 col-sm-offset-1">
+                  <div class="tau-chain-txt">
+                    <p><em>{% t tau.content_what_is_tau_chain_italic %}</em></p>
+                    <p>{% t tau.content_what_is_tau_chain_p1 %}</p>
+                    <p>{% t tau.content_what_is_tau_chain_p2 %}</p>
+                  </div><!-- tau-chain-txt -->
                 </div>
               </div>
             </div><!-- sticky-content -->
@@ -96,9 +98,14 @@
                 <h5 class="text-center h5-title">
                     {% t tau.feature_lang_title %}
                 </h5>
-                <p class="text-center fdescription">
-                 {% t tau.feature_lang_content %}
-                </p>
+                <div class="txt-des">
+                  <div class="des-inner">
+                  <p class="text-center">
+                   {% t tau.feature_lang_content %}
+                  </p>
+                  </div>
+                </div><!-- txt-des -->
+                <p class="more-less hidden"><span>+</span></p>
               </li>
               <li class="col-md-4 col-sm-6 col-xs-12 item-equal-height">
                 <div class="text-center this-is-wave-center">
@@ -109,11 +116,16 @@
                 <h5 class="text-center h5-title">
                   {% t tau.feature_knowledge_title %}
                 </h5>
-                <p class="text-center fdescription">
-                  {% t tau.feature_knowledge_content %}
-                </p>
+                <div class="txt-des">
+                  <div class="des-inner">
+                  <p class="text-center">
+                    {% t tau.feature_knowledge_content %}
+                  </p>
+                  </div>
+                </div><!-- txt-des -->
+                <p class="more-less hidden"><span>+</span></p>
               </li>
-              <li class="col-md-4 col-sm-6 col-xs-12 item-equal-height margin-top-45">
+              <li class="col-md-4 col-sm-6 col-xs-12 item-equal-height">
                 <div class="text-center this-is-wave-center">
                   <a href="{{site.url}}/agoras "><img class="fimage" src=
                   "{{site.url}}/assets/images/icon-economy.png"
@@ -122,10 +134,15 @@
                 <h5 class="text-center h5-title">
                   {% t tau.feature_economy_title %}
                 </h5>
-                <p class="text-center fdescription">
-                  {% t tau.feature_economy_content %}<br />
-                  <a class="read-more" href="{{site.url}}/agoras">Read more</a>
-                </p>
+                <div class="txt-des">
+                  <div class="des-inner">
+                  <p class="text-center">
+                    {% t tau.feature_economy_content %}
+                  </p>
+                  </div>
+                </div>
+                <p class="more-less hidden"><span>+</span></p>
+                <p class="text-center"><a class="read-more" href="{{site.url}}/agoras">Read more</a></p>
               </li>
               <li class="col-md-4 col-sm-6 col-xs-12 item-equal-height">
                 <div class="text-center this-is-wave-center">
@@ -136,11 +153,16 @@
                 <h5 class="text-center h5-title">
                     {% t tau.feature_discussion_title %}
                 </h5>
-                <p class="text-center fdescription">
-                   {% t tau.feature_discussion_content %}
-                </p>
+                <div class="txt-des">
+                  <div class="des-inner">
+                  <p class="text-center">
+                     {% t tau.feature_discussion_content %}
+                  </p>
+                  </div>
+                </div>
+                <p class="more-less hidden"><span>+</span></p>
               </li>
-              <li class="col-md-4 col-sm-6 col-xs-12 item-equal-height margin-top-45">
+              <li class="col-md-4 col-sm-6 col-xs-12 item-equal-height">
                 <div class="text-center this-is-wave-center">
                   <img class="fimage" src=
                   "{{site.url}}/assets/images/icon-collaboration.png"
@@ -149,9 +171,14 @@
                 <h5 class="text-center h5-title">
                    {% t tau.feature_collaboration_title %}
                 </h5>
-                <p class="text-center fdescription">
-                  {% t tau.feature_collaboration_content %}
-                </p>
+                <div class="txt-des">
+                  <div class="des-inner">
+                  <p class="text-center">
+                    {% t tau.feature_collaboration_content %}
+                  </p>
+                  </div>
+                </div>
+                <p class="more-less hidden"><span>+</span></p>
               </li>
               <li class="col-md-4 col-sm-6 col-xs-12 item-equal-height">
                 <div class="text-center this-is-wave-center">
@@ -162,9 +189,14 @@
                 <h5 class="text-center h5-title">
                     {% t tau.feature_choice_title %}
                 </h5>
-                <p class="text-center fdescription">
-                  {% t tau.feature_choice_content %}
-                </p>
+                <div class="txt-des">
+                  <div class="des-inner">
+                  <p class="text-center">
+                    {% t tau.feature_choice_content %}
+                  </p>
+                  </div>
+                </div>
+                <p class="more-less hidden"><span>+</span></p>
               </li>
             </ul>
           </div>
@@ -181,7 +213,10 @@
                  {% t tau.only_dynamic %}
               </h3>
               <p class="fdescription line-26">
-              {% t tau.content_only_dynamic %}
+              {% t tau.content_only_dynamic1 %}
+              </p>
+              <p class="fdescription line-26">
+              {% t tau.content_only_dynamic2 %}
               </p>
             </div>
             <div class="col-md-6">
@@ -221,8 +256,8 @@
                  {% t tau.the_road_map %}
               </h3>
               <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-                  <p class="fdescription max-inherit text-center marginbttom80">
+                <div class="col-sm-10 col-sm-offset-1">
+                  <p class="fdescription max-inherit text-center marginbttom50">
                    {% t tau.content_the_road_map %}
                   </p>
                 </div>
@@ -231,96 +266,122 @@
             <div class="container">
               <div class="time-line">
                 <div class="row time-line-list">
-                  <div class="col-sm-6 time-line-item">
-                    <div class="content-lines grp-2 text-right">
-                      <span class="timer"> {% t tau.roadmap_date_alpha %}</span>
-                      <h5>
-                         {% t tau.roadmap_title_alpha %}
-                        <span class="point-time"><span class="point"><em>&nbsp;</em></span></span>
-                      </h5>
-                      <p>
-                       {% t tau.roadmap_content_alpha %}
-                      </p>
-                    </div><!-- content-lines -->
-
-                    <div class="content-lines grp-4 text-right">
-                      <span class="timer">{% t tau.roadmap_date_tau_chain %}</span>
-                      <h5>
-                        {% t tau.roadmap_title_tau_chain %}
-                        <span class="point-time"><span class="point"><em>&nbsp;</em></span></span>
-                      </h5>
-                      <p>
-                       {% t tau.roadmap_content_tau_chain %}
-                      </p>
-                    </div><!-- content-lines -->
-                    <div class="content-lines grp-6 text-right">
-                      <span class="timer">{% t tau.roadmap_date_6 %}</span>
-                      <h5>
-                        {% t tau.roadmap_title_6 %}
-                        <span class="point-time"><span class="point"><em>&nbsp;</em></span></span>
-                      </h5>
-                      <p>
-                       {% t tau.roadmap_content_6%}
-                      </p>
-                    </div><!-- content-lines -->
-                     <div class="content-lines grp-8 text-right">
-                      <span class="timer">{% t tau.roadmap_date_8 %}</span>
-                      <h5>
-                        {% t tau.roadmap_title_8 %}
-                        <span class="point-time"><span class="point"><em>&nbsp;</em></span></span>
-                      </h5>
-                      <p>
-                       {% t tau.roadmap_content_8 %}
-                      </p>
-                    </div><!-- content-lines -->
+                  <div class="col-sm-6 col-sm-offset-6 time-line-item grp-1">
+                      <div class="content-lines">
+                        <span class="timer"> {% t tau.roadmap_date_1 %}</span>
+                        <h5>
+                           {% t tau.roadmap_title_1 %}
+                          <span class="point-time"><span class="point"><em>&nbsp;</em></span></span>
+                        </h5>
+                        <p>
+                         {% t tau.roadmap_content_1 %}
+                        </p>
+                      </div><!-- content-lines -->
                   </div><!-- time-line-item -->
 
-                  <div class="col-sm-6 time-line-item">
-                    <div class="content-lines grp-1">
-                      <span class="timer"> {% t tau.roadmap_date_tau_meta %}</span>
-                      <h5>
-                       {% t tau.roadmap_title_tau_meta %}
-                        <span class="point-time"><span class="point"><em>&nbsp;</em></span></span>
-                      </h5>
-                      <p>
-                        {% t tau.roadmap_content_tau_meta %}
-                      </p>
-                    </div><!-- content-lines -->
+                  <div class="col-sm-6 time-line-item grp-2">
+                      <div class="content-lines text-right">
+                        <span class="timer"> {% t tau.roadmap_date_2 %}</span>
+                        <h5>
+                           {% t tau.roadmap_title_2 %}
+                          <span class="point-time"><span class="point"><em>&nbsp;</em></span></span>
+                        </h5>
+                        <p>
+                         {% t tau.roadmap_content_2 %}
+                        </p>
+                      </div><!-- content-lines -->
+                  </div><!-- time-line-item -->
 
-                    <div class="content-lines grp-3">
-                      <span class="timer">{% t tau.roadmap_date_beta %}</span>
-                      <h5>
-                       {% t tau.roadmap_title_beta %}
-                        <span class="point-time"><span class="point"><em>&nbsp;</em></span></span>
-                      </h5>
-                      <p>
-                      {% t tau.roadmap_content_beta %}
-                      </p>
-                    </div><!-- content-lines -->
+                  <div class="col-sm-6 col-sm-offset-6 time-line-item grp-3">
+                      <div class="content-lines">
+                        <span class="timer"> {% t tau.roadmap_date_3 %}</span>
+                        <h5>
+                           {% t tau.roadmap_title_3 %}
+                          <span class="point-time"><span class="point"><em>&nbsp;</em></span></span>
+                        </h5>
+                        <p>
+                         {% t tau.roadmap_content_3 %}
+                        </p>
+                      </div><!-- content-lines -->
+                  </div><!-- time-line-item -->
 
-                    <div class="content-lines grp-5">
-                      <span class="timer">{% t tau.roadmap_date_agoras %}</span>
-                      <h5>
-                        {% t tau.roadmap_title_agoras %}
-                        <span class="point-time"><span class="point"><em>&nbsp;</em></span></span>
-                      </h5>
-                      <p>
-                      {% t tau.roadmap_content_agoras %}
-                      </p>
-                    </div><!-- content-lines -->
+                  <div class="col-sm-6 time-line-item grp-4">
+                      <div class="content-lines text-right">
+                        <span class="timer"> {% t tau.roadmap_date_4 %}</span>
+                        <h5>
+                           {% t tau.roadmap_title_4 %}
+                          <span class="point-time"><span class="point"><em>&nbsp;</em></span></span>
+                        </h5>
+                        <p>
+                         {% t tau.roadmap_content_4 %}
+                        </p>
+                      </div><!-- content-lines -->
+                  </div><!-- time-line-item -->
 
-                    <div class="content-lines grp-7">
-                      <span class="timer">{% t tau.roadmap_date_7 %}</span>
-                      <h5>
-                        {% t tau.roadmap_title_7 %}
-                        <span class="point-time"><span class="point"><em>&nbsp;</em></span></span>
-                      </h5>
-                      <p>
-                      {% t tau.roadmap_content_7 %}
-                      </p>
-                    </div><!-- content-lines -->
-                    
-                  </div>
+                  <div class="col-sm-6 col-sm-offset-6 time-line-item grp-5">
+                      <div class="content-lines">
+                        <span class="timer"> {% t tau.roadmap_date_5 %}</span>
+                        <h5>
+                           {% t tau.roadmap_title_5 %}
+                          <span class="point-time"><span class="point"><em>&nbsp;</em></span></span>
+                        </h5>
+                        <p>
+                         {% t tau.roadmap_content_5 %}
+                        </p>
+                      </div><!-- content-lines -->
+                  </div><!-- time-line-item -->
+
+                  <div class="col-sm-6 time-line-item grp-6">
+                      <div class="content-lines text-right">
+                        <span class="timer"> {% t tau.roadmap_date_6 %}</span>
+                        <h5>
+                           {% t tau.roadmap_title_6 %}
+                          <span class="point-time"><span class="point"><em>&nbsp;</em></span></span>
+                        </h5>
+                        <p>
+                         {% t tau.roadmap_content_6 %}
+                        </p>
+                      </div><!-- content-lines -->
+                  </div><!-- time-line-item -->
+
+                  <div class="col-sm-6 col-sm-offset-6 time-line-item grp-7">
+                      <div class="content-lines">
+                        <span class="timer"> {% t tau.roadmap_date_7 %}</span>
+                        <h5>
+                           {% t tau.roadmap_title_7 %}
+                          <span class="point-time"><span class="point"><em>&nbsp;</em></span></span>
+                        </h5>
+                        <p>
+                         {% t tau.roadmap_content_7 %}
+                        </p>
+                      </div><!-- content-lines -->
+                  </div><!-- time-line-item -->
+
+                  <div class="col-sm-6 time-line-item grp-8">
+                      <div class="content-lines text-right">
+                        <span class="timer"> {% t tau.roadmap_date_8 %}</span>
+                        <h5>
+                           {% t tau.roadmap_title_8 %}
+                          <span class="point-time"><span class="point"><em>&nbsp;</em></span></span>
+                        </h5>
+                        <p>
+                         {% t tau.roadmap_content_8 %}
+                        </p>
+                      </div><!-- content-lines -->
+                  </div><!-- time-line-item -->
+
+                  <div class="col-sm-6 col-sm-offset-6 time-line-item grp-9">
+                      <div class="content-lines">
+                        <span class="timer"> {% t tau.roadmap_date_9 %}</span>
+                        <h5>
+                           {% t tau.roadmap_title_9 %}
+                          <span class="point-time"><span class="point"><em>&nbsp;</em></span></span>
+                        </h5>
+                        <p>
+                         {% t tau.roadmap_content_9 %}
+                        </p>
+                      </div><!-- content-lines -->
+                  </div><!-- time-line-item -->
                 </div><!-- time-line-item -->
               </div><!-- time-line -->
 

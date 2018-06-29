@@ -4,66 +4,73 @@ pages:
   work: Work
 
 tau:
-  what_is_tau_chain: What is Tau-Chain
-  content_what_is_tau_chain: Tau is a network that we build, intended to solve bottlenecks inherent in human communication, specifically large scale discussions. For that we develop a paradigm which we call Human-Machine-Human communication. Tau will be a blockchain-based peer-to-peer decentralized network, that will be able to automatically redefine and recode itself based on its users’ opinions and consensus. It will be able to do so for anything else that a group of people intend to collaborate on or discuss over. To make it actually happen in real life and large scale, users will have to speak in languages that machines can understand. Given that, Tau will be able to understand the entire conversation and to scale human collaboratio, and to amplify the creation of knowledge and the information efficiency of human interaction. The interface languages can be many and update with time, thanks to an infrastructure network we build called the Internet of Languages.
+  what_is_tau_chain: What is Tau
+  content_what_is_tau_chain_italic: Tau is a decentralized blockchain network intended to solve the bottlenecks inherent in large scale human communication and accelerate productivity in human collaboration.
+  content_what_is_tau_chain_p1: Currently, large scale discussions and collaborative efforts carried out directly between people are highly inefficient. To address this problem, we developed a paradigm which we call Human-Machine-Human communication&colon; the core principle is that the users can not only interact with each other but also make their statements clear to their Tau client. Our paradigm enables Tau to deduce areas of consensus among its users in real time, allowing the network to boost communication by acting as an intermediary between humans. It does so by collecting the opinions and preferences its users wish to share and logically constructing opinions into a semantic knowledge base.
+  content_what_is_tau_chain_p2: Able to deduce consensus and understand discussions, Tau can automatically generate and execute code on consensus basis, through a process known as code synthesis. This will greatly accelerate knowledge production and expedite most large scale collaborative efforts we can imagine in today's world.
   tau_feature: Tau-chain Main Features
-  only_dynamic: The only dynamic decentralized social network
-  content_only_dynamic: When Tau’s community will face a decision to change the Tau network code, or rules, or protocols, they will simply need to express their opinions and perspectives, like we do today in the social networks and everyday life. Once they do so in a language available over the network, Tau will self-amend itself based on users’ agreement. This, while taking into account the perspectives of the entire community, unlike in the common method of voting where people are free to vote but not to propose what to vote over. It is the only way to reach a decentralized decision that benefits all users. Tau’s ability to scale discussions is the only decentralized solution to create a true dynamic protocol.
+  only_dynamic: The Only Dynamic Decentralized Social Network
+  content_only_dynamic1: This process of scaling discussions, code automation and real time social choice can be applied to the network itself, allowing the entire blockchain protocol of Tau to be defined and amended seamlessly by the choices of its users.
+  content_only_dynamic2: When the Tau community intends to make changes to the network code, rules or protocols, they will simply need to express these opinions and perspectives in a compatible language over the network. The self defining logic of the Tau blockchain network will enable it to detect the consensus among these opinions and automatically amend its own code to reflect this consensus from block to block. Unlike the common method of voting, Tau’s approach will take into account the perspectives of the entire community, where people will be free to vote and propose what to vote for in real time. This unique ability of Tau’s is the only decentralized solution to create a truly dynamic protocol.
   content_video: The video above is only a highly iniial illustration of how discussions over Tau may take form. User discussions can focus on everyday subjects or particular disciplines, even science and politics. Tau will be aware to discussions about itself and change accordingly.
   the_road_map: The Roadmap
-  content_the_road_map: We designed a five-stage roadmap where each stage supports the development of the next one and is a useful technological innovation by its own. We expect to complete the development of TML and Alpha Tau, during 2018. Using Alpha Tau’s discussion platform an infinite number of developers can join the project to support building Beta Tau expediting its go-to-market date. After Beta Tau is developed, it will only be a matter of time until Tau-Chain is completed as all technical challenges will be resolved using Beta Tau, collaboratively, and hopefully in a development scale never seen before.
+  content_the_road_map: We designed a roadmap where each stage supports the development of the next one and is a useful technological innovation on its own. We expect to complete the development of TML and Alpha Tau in 2019. Using Alpha Tau’s discussion platform, an unbounded number of developers can join the project to support building Beta Tau, expediting its go-to-market date. After Beta Tau is developed, it will only be a matter of time until Tau-Chain is completed as all technical challenges will be resolved using Beta Tau, collaboratively, and hopefully in a development scale never seen before.
  
-  feature_lang_title : Language
-  feature_lang_content: We build the Internet of Languages, featuring Tau Meta Language (TML), a self-defining meta language for defining and translating formal languages. It will allow ever developing interfaces between humans and machines, and various formats to coexist and present knowledge in various ways.
+  feature_lang_title : The Internet of Languages
+  feature_lang_content: There is no single best language for all purposes which is why we build the Tau Meta Language (TML)&colon; a language intended to define other languages and translate between them while maintaining the same information. TML allows seamless communication and semantic translation between programming languages, knowledge representation languages, visualization and organization formats, domain-specific languages, and more.
 
-  feature_knowledge_title : Knowledge
-  feature_knowledge_content: Using any knowledge-representation language defined in TML, knowledge can be processed by machines as if the machines understand it. The knowledge can then be queried, stored, and shared in a network.
+  feature_knowledge_title : Global Knowledgebase
+  feature_knowledge_content: Once knowledge representation languages are defined under the TML, any user can freely submit opinions and ideas as logical predicates to their Tau client, or broadcast it to the Tau network, which combine to form a knowledge base. Users may in turn query this knowledge base and Tau will help them deduce the answers they seek. The production of knowledge heavily depends on the efficiency of discussions. Therefore, by resolving the bottleneck of large scale discussions, Tau can effectively greatly accelerate the production of all knowledge worldwide.
 
-  feature_economy_title : Economy
-  feature_economy_content: We build Agoras, a futuristic knowledge economy, to allow pure knowledge-cash transactions …
+  feature_economy_title : Agoras Smart Knowledge Economy
+  feature_economy_content: Agoras is an advanced knowledge economy that enables pure knowledge-cash transactions...
 
-  feature_collaboration_title : Collaboration
-  feature_collaboration_content: We build the Internet of Languages, featuring Tau Meta Language (TML), a self-defining meta language for defining and translating formal languages.
+  feature_collaboration_title : Accelerating and Automating Collaboration
+  feature_collaboration_content: Many worthwhile human undertakings depend on collaborative efforts. By expediting these efforts, we can effectively accelerate the development of our entire species. In addition to being able to scale discussions, Tau's decidable logical framework allows it to synthesize and execute code based on user specifications. Users can create their own teams under Tau to discuss and collaborate on a project with its own private knowledge base. After taking advantage of Tau's ability to scale discussions, teams can quickly reach a consensus on the specifications and Tau can automatically generate and execute code, according to those specifications.
 
-  feature_discussion_title : Discussion
-  feature_discussion_content: We work on solving the problem of poor scaling of discussion. We build a platform allowing efficient discussions in any scale, by human-machine-human communication.
+  feature_discussion_title : Scaling Discussions
+  feature_discussion_content: Discussions are a highly valuable social process of exchanging thoughts and opinions which can lead to inspiring fresh ideas and deducing new concepts. Currently, discussions on a large scale are highly inefficient&colon; having a discussion among 500 people generally yields a less productive result than a discussion between 5 people. But what if we could not only listen to hundreds of people at once, but comprehend and process all this information in a useful way? By having Tau as an organizer in our Human-Machine-Human approach to communication, we can effectively summarize and query all discussed data in an efficient and comprehensible way, and, for the first time in history, allow discussions to accommodate for any number of participants while remaining productive. Having a 100x increase in discussion participants under Tau could, in theory, yield 100x more information utility and knowledge productivity.
 
-  feature_choice_title : Choice
-  feature_choice_content: We work on an innovative, logic based, social choice mechanism. We will not need to vote, only to express our opinion. By that the right to vote will be equal to the right to propose, in a practical way, for the first time.
+  feature_choice_title : Real Time Social Choice
+  feature_choice_content: Forming a fair, comprehensive and efficient method of social choice has proven elusive in many fields. In large communities, deciding on which issues to vote on becomes unwieldy, leading to many important social topics and insights being ignored. Similarly, large organizations are often paralyzed in their inability to make important network wide choices, leading to low productivity and even failure. Tau introduces an innovative social choice mechanism&colon; users only need to express their opinions in the form of logical predicates (using language defined over TML) posted on the network, enabling Tau knowledge base to be an aggregate of social preferences of every opinion of all its users. Together with the logical property of decidability and a novel consensus formula of ours, the social choice mechanism allows Tau to calculate things like the consensus on every topic expressed, regardless of how remote or esoteric the subject matter.
 
-  roadmap_title_tau_meta: TML Implementation
-  roadmap_date_tau_meta: Q4 2018
-  roadmap_content_tau_meta: Implementation of self-definition of TML and Futamura's projections mark the readiness of TML and the end of this milestone.
+  roadmap_title_1: MVP Launch&colon; Tau Meta Language (TML) 
+  roadmap_date_1: Q3 2018
+  roadmap_content_1: We start by developing a metalanguage (TML) as a tool to define new languages that can be translated among themselves. TML will be a decidable language that holds unique characteristic to interpret and redefine itself, similar (but more expressive) to Datalog, as it allows unrestricted [unstratified] negation. TML will also be able to perform all computational tasks that are computable in polynomial space. We learned from history's mistakes to insist that our implementation will be highly optimized.
 
-  roadmap_title_alpha: TAU Meta Language (TML)
-  roadmap_date_alpha: Agust 2018
-  roadmap_content_alpha: We will start by developing a metalanguage (TML) as a tool to define new languages such that they all translate to each other. This will form the "Internet of Languages".
+  roadmap_title_2: Demo
+  roadmap_date_2: Q3 2018
+  roadmap_content_2: A program will be released for users to get a teaser of how communicating to Tau may look like.
 
-  roadmap_title_beta: Internet of Languages
-  roadmap_date_beta: Q4 2018
-  roadmap_content_beta: Given TML we will build the essential user interface and features around it in order to have a system usable for defining, storing, and translating languages.
+  roadmap_title_3: Futamura's Projections
+  roadmap_date_3: Q4 2018
+  roadmap_content_3: TML’s first mission is to define itself in the method of Partial Evaluation, which gives rise to Futamura's projections. It will be the first non-Turing-complete implementation of Futamura's projections, the holy grail of compilation abilities.
 
-  roadmap_title_tau_chain: Knowledge Network
-  roadmap_date_tau_chain: Q4 2018
-  roadmap_content_tau_chain: Towards a discussion platform, we will first create an infrastructure to store and query bulks of knowledge represented by languages from the Internet of Languages.
+  roadmap_title_4: Internet of Languages
+  roadmap_date_4: Q1 2019
+  roadmap_content_4: A user interface that leverages TML will be created to develop a system that can easily define, store, and translate languages. The Internet of Languages will make languages irrelevant, given the network’s ability to translate from one language to another while keeping the same exact meaning.
 
-  roadmap_title_agoras: Alpha Version Launched  
-  roadmap_date_agoras: January 2019
-  roadmap_content_agoras: Alpha is a social platform that allows efficient discussions even among very large numbers of participants. Today, an effective conversation cannot be held with too many people; However, Alpha will be able to scale discussions and detect logical points of consensus between users and allow users to explore the opinion map raised in the discussion, thus enabling better knowledge sharing and construction.
+  roadmap_title_5: Knowledge Network
+  roadmap_date_5: Q2 2019
+  roadmap_content_5: To finally reach a scalable discussion platform, we will build infrastructures to store and query bulks of knowledge, represented by languages from the Internet of Languages.
 
-  roadmap_title_6: Beta Version Lauched  
-  roadmap_date_6: July 2019
-  roadmap_content_6: Beta will advance Alpha by allowing users to discuss code requirements and then automatically synthesized a correct-by-construction code.
-
-
-  roadmap_title_7: Tau-Chain
-  roadmap_date_7: November 2019
-  roadmap_content_7: Tau is applying all previous stages to itself. Tau is about perpetual collaborative development of itself based on users’ agreements. It will do so as a decentralized and blockchain-based p2p network.
+  roadmap_title_6: Alpha Version Launched
+  roadmap_date_6: Q3 2019
+  roadmap_content_6: Alpha is a social platform that allows efficient discussions between an infinite number of participants. It will be able to scale discussions and detect logical points of consensus between users, enabling users to easily map the opinions raised during any discussions. Better knowledge sharing and construction will be made possible.
 
 
-  roadmap_title_8: Agoras
-  roadmap_date_8: 01 Jan 2020
-  roadmap_content_8: A fully featured knowledge economy allowing knowledge-case transactions, computational resources market, and advanced financials..
+  roadmap_title_7: Beta Version Launched
+  roadmap_date_7: Q4 2019
+  roadmap_content_7: Beta will advance Alpha by allowing users to discuss code requirements and then automatically synthesize a correct-by-construction code.
+
+
+  roadmap_title_8: Tau-Chain
+  roadmap_date_8: Q1 2020
+  roadmap_content_8: Tau is about perpetual collaborative development of itself based on user agreements. It will do so as a decentralized and blockchain-based p2p network.
+
+  roadmap_title_9: Agoras
+  roadmap_date_9: Q1 2020
+  roadmap_content_9: A fully featured knowledge economy allowing knowledge-cash transactions, computational resources market, and advanced financial tools.
   
 agoras:
   what_is_agoras: What is Agoras

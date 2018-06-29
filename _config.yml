@@ -46,7 +46,7 @@ sass:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-gems: 
+plugins: 
   - jekyll-multiple-languages-plugin
 languages: ["en"]
 exclude_from_localizations: ["assets","css"]

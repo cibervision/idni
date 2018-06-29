@@ -61,11 +61,38 @@ $(document).ready(function(){
 	if ($('.wrap-logo-sticky').length) {
 		stickyLogo();
 	}
+
+  // Show more feature
+  if ($('.txt-des').length) {
+    var limit = 88;
+    $('.txt-des').each(function(index, el) {
+      var getHeight = $(this).height();
+      if ($(this).find('.des-inner').height() > limit) {
+        $(this).css('height', limit);
+        $(this).siblings('.more-less').removeClass('hidden');
+      }
+    });
+    $('.more-less span').click(function(event) {
+        if ($(this).parent().hasClass('show-less')) {
+          $(this).parent().siblings('.txt-des').css('height', limit);
+          $(this).text('+');  
+          $(this).parent().removeClass('show-less');
+          $('.list-feature .item-equal-height').matchHeight();
+        }
+        else {
+          $(this).parent().siblings('.txt-des').css('height', 'auto');
+          $(this).text('-'); 
+          $(this).parent().addClass('show-less');
+          $('.list-feature .item-equal-height').matchHeight();
+        }
+      });
+  }
 });
 
 $(window).resize(function() {
     if ($('.list-feature .item-equal-height').length > 0) {
-        //$('.list-feature .item-equal-height').matchHeight();
+        $('.list-feature .item-equal-height').matchHeight();
+        $('.list-feature .h5-title').matchHeight();
     }
 
     // Member
@@ -84,10 +111,8 @@ $(window).resize(function() {
 $(document).on("DOMContentLoaded", function(event) {
 
     if ($('.list-feature .item-equal-height').length > 0) {
-        // $('.list-feature .item-equal-height').matchHeight({
-        //   byRow : false,
-        //   property: 'height'
-        // })
+        $('.list-feature .item-equal-height').matchHeight();
+        $('.list-feature .h5-title').matchHeight();
     }
     
     // Member
