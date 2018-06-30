@@ -6,7 +6,7 @@
             {% if blog.link == 'project-roadmap' %}
                 {% increment indexLoop %}
                 {% assign index = indexLoop %}
-                 {% assign next = data[blog.order].link %}
+                {% assign next = data[blog.order].link %}
                 {% assign prev = data[blog.id].link %}
                 {% assign title = blog.title %}
                 {% assign author = blog.author %}

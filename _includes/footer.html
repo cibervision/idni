@@ -14,11 +14,14 @@
                         <div class="col-md-5 col-sm-5 col-xs-12">
                             <div class="row fmenu">
                                 <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <a href="{{site.url}}/{{url}}" >Tau</a>
-                                    <a href="{{site.url}}{% translate_link agoras {{site.lang}} %}">Agoras</a>
+                                    <a href="{{site.url}}" >Tau</a>
+                                    <!-- <a href="{{site.url}}/{{url}}" >Tau</a> -->
+                                    <!-- {{site.lang}} -->
+                                    <a href="{{site.url}}{% translate_link agoras en %}">Agoras</a>
                                 </div>
                                   <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <a href="{{site.url}}{% translate_link about {{site.lang}} %}" >About</a>
+                                    <!-- {{site.lang}} -->
+                                    <a href="{{site.url}}{% translate_link about en %}" >About</a>
                                     <a href="{{site.url}}{% translate_link faq {{site.lang}} %}" >Blog</a>
                                 </div>
                             </div>

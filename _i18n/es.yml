@@ -116,6 +116,13 @@ about:
 networks:
   title: Join Our Social Networks
 
+blog:
+  title: Official Articles
+  next: Next article
+  prev: Previous article 
+  back: Back to the list
+  archived: Archived posts
+
 term_condition:
   title: Terms and Conditions
   timer: Last updated&#58; 10 Feb 2015

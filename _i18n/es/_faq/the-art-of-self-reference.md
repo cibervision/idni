@@ -1,7 +1,16 @@
 <div class="main-wrapper" id="page-blog">
     <div class="hidden">
         {% assign index = false %} 
-        {% assign data = site.data.blogen %} 
+        {% if site.lang == 'en' %}
+             {% assign url = '' %}
+             {% assign data = site.data.blogen %}
+        {% endif %}
+        {% if site.lang == 'cn' %}
+             {% assign data = site.data.blogcn %}
+        {% endif %}
+        {% if site.lang == 'es' %}
+            {% assign data = site.data.bloges %}
+        {% endif %}
         {% for blog in data %}
             {% if blog.link == 'the-art-of-self-reference' %}
                 {% assign index = blog.order %}

@@ -138,9 +138,16 @@ about:
 networks:
   title: Join Our Social Networks
 
+blog:
+  title: Official Articles
+  next: Next article
+  prev: Previous article 
+  back: Back to the list
+  archived: Archived posts
+
 term_condition:
   title: Terms and Conditions
-  timer: Last modified&#58; June 28, 2018 (view archived versions)
+  timer: Last modified&#58; June 28, 2018 (view <a target="_blank" href="/TOS.pdf">archived versions</a>)
   content: <h3>Welcome to Tau-Chain!</h3>
         <p>Thanks for using our website. The Site is provided by and is property of Intelligent Decentralized Networks Initiatives Limited, (‘IDNI’), located in Road Town, Tortola, BVI. </p>
         <p>By using our Site, you are agreeing to these terms. Please read them carefully.</p>

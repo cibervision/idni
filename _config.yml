@@ -48,7 +48,7 @@ sass:
 #   - vendor/ruby/
 plugins: 
   - jekyll-multiple-languages-plugin
-languages: ["en"]
+languages: ["en","cn","es"]
 exclude_from_localizations: ["assets","css"]
 collections:
   faq:
