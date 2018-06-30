@@ -254,7 +254,7 @@ article.post{
 #blog {
     #roadmap {
         margin-top: -150px;
-        .dont-skew {
+        .dont-skew { 
             padding-top: 150px;}
     }
 }
@@ -1522,7 +1522,13 @@ article.post{
 #home {
     #roadmap {
         .dont-skew {
-            background:  url('{{site.url}}/assets/images/roots-left.png') no-repeat left center, url('{{site.url}}/assets/images/arrow_left.svg') no-repeat left center;
+            background:   url('{{site.url}}/assets/images/arrow_left.svg') no-repeat left center;
+            background-attachment: fixed;
+            -webkit-background-size: contain;
+            background-size: contain;
+        }
+        .content{
+        	  background:  url('{{site.url}}/assets/images/roots-left.png') no-repeat left center;
             background-attachment: fixed;
             -webkit-background-size: contain;
             background-size: contain;
@@ -2399,6 +2405,11 @@ footer{
 	}
 }
 @media (max-width: 1024px) {
+	#home #roadmap .content{
+		background-size: 500px;
+		background-position: left 500px;
+	}
+	
 	.fdescription{
 		min-height: auto;
 	}

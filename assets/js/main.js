@@ -65,6 +65,9 @@ $(document).ready(function(){
   // Show more feature
   if ($('.txt-des').length) {
     var limit = 88;
+    if($('#agoras').length){
+      limit = 130;
+    }
     $('.txt-des').each(function(index, el) {
       var getHeight = $(this).height();
       if ($(this).find('.des-inner').height() > limit) {
