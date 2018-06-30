@@ -15,7 +15,7 @@
                             <div class="row fmenu">
                                 <div class="col-md-6 col-sm-6 col-xs-6">
                                     <a href="{{site.url}}" >Tau</a>
-                                    <!-- <a href="{{site.url}}/{{url}}" >Tau</a> -->
+                                    <!-- <a href="{{site.url}}/{{url}}" >Tau</a> --> 
                                     <!-- {{site.lang}} -->
                                     <a href="{{site.url}}{% translate_link agoras en %}">Agoras</a>
                                 </div>
@@ -50,12 +50,18 @@
                 </div>
             </div>
         </footer>
-        <script src="{{site.url}}/assets/js/jquery-3.3.1.min.js"  crossorigin="anonymous"></script>
-        <script src="{{site.url}}/assets/js/bootstrap.min.js"  crossorigin="anonymous"></script>
-        <script src="{{site.url}}/assets/js/video.js"  crossorigin="anonymous"></script>
-        <script src="{{site.url}}/assets/js/aos.js"  crossorigin="anonymous"></script>
-        <script src="{{site.url}}/assets/js/smooth-scroll.js"  crossorigin="anonymous"></script>
-        <script src="{{site.url}}/assets/js/jquery.matchHeight.js"  crossorigin="anonymous"></script>
-        <script src="{{site.url}}/assets/js/main.js"  crossorigin="anonymous"></script>
+   
+        {% if site.env  != 'production' %}
+            <script src="{{site.url}}/assets/js/jquery-3.3.1.min.js"  crossorigin="anonymous"></script>
+            <script src="{{site.url}}/assets/js/bootstrap.min.js"  crossorigin="anonymous"></script>
+            <script src="{{site.url}}/assets/js/video.js"  crossorigin="anonymous"></script>
+            <script src="{{site.url}}/assets/js/aos.js"  crossorigin="anonymous"></script>
+            <script src="{{site.url}}/assets/js/smooth-scroll.js"  crossorigin="anonymous"></script>
+            <script src="{{site.url}}/assets/js/jquery.matchHeight.js"  crossorigin="anonymous"></script>
+            <script src="{{site.url}}/assets/js/main.js"  crossorigin="anonymous"></script>
+        {% else %}
+            <script src="{{site.url}}/assets/js/app.bundle.js"  crossorigin="anonymous"></script>
+        {% endif %}
+      
     </body>
 </html>
