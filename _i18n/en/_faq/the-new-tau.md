@@ -17,7 +17,6 @@
         <div class="dont-skew-wrap">
             <div class="dont-skew width-100">
                 <div class="content container blog">
-                    <h1>{{data[blog.id].title}}</h1>
                     {% include blog-header.html nextBlog=next prevBlog=prev %}
                     <div class="row">
                         <div class="col-md-9">
