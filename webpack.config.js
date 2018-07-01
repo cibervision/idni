@@ -3,6 +3,7 @@ const path = require('path');
 const sourcePath = path.join(__dirname, './');
 const sourceOutPath = path.join(__dirname, './assets/js/');
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = function (env) {
     const nodeEnv = env && env.prod ? 'production' : 'development';
@@ -17,6 +18,7 @@ module.exports = function (env) {
                 NODE_ENV: JSON.stringify(nodeEnv) 
             }
         }),
+       //new HtmlWebpackPlugin(),
         new webpack.NamedModulesPlugin(),
         new ExtractTextPlugin({ filename: 'bundle.css',disable: false, allChunks: true})
 
