@@ -577,7 +577,7 @@ article.post{
 			//margin-top: -140px; 
 		}
 		#roadmap{
-		    margin-top: -160px;
+		    margin-top: -125px;
 			padding-top: 60px;
             .dont-skew {
                 padding-bottom: 120px;
@@ -2647,6 +2647,9 @@ footer{
 }
 
 @media screen and (max-width: 991px) {
+	.main-wrapper#page-about #roadmap .content{
+		padding-top: 65px;
+	}
 	#home #features .list-feature li.margin-top-45{
 		margin-top:45px;
 	}
