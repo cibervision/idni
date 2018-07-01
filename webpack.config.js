@@ -18,10 +18,14 @@ module.exports = function (env) {
                 NODE_ENV: JSON.stringify(nodeEnv) 
             }
         }),
-       //new HtmlWebpackPlugin(),
+        // new HtmlWebpackPlugin({
+        //     filename: './build/index.html',
+        //     template: './_site/index.html',
+        //     minify: true
+        // }),
         new webpack.NamedModulesPlugin(),
         new ExtractTextPlugin({ filename: 'bundle.css',disable: false, allChunks: true})
-
+        
     ];
 
     if (isProd) {
