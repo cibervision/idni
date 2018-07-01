@@ -583,7 +583,7 @@ article.post{
                 padding-bottom: 120px;
             }
 			.content{
-				padding-top:250px;
+				padding-top:165px;
 			}
 			.group-member{
 				h3{
@@ -2454,9 +2454,11 @@ footer{
         width: 100%;
         background-image: url('{{site.url}}/assets/images/path.png');
         background-repeat: no-repeat;
-        background-position: center 115%;
-        -webkit-background-size: auto 200px;
-        background-size: auto 200px;
+        background-position: center 120%;
+        // -webkit-background-size: auto 200px;
+        // background-size: auto 200px;
+		 -webkit-background-size: auto 70%;
+        background-size: auto 70%;
         padding: 100px 0;
     }
 	.main-wrapper#page-about #roadmap{
@@ -2566,7 +2568,7 @@ footer{
 		height: 100%;
 		display: block;
 		padding-bottom: 100%;
-        background-position: left;
+        background-position: center;
 	}
 	#background-mobile-agoras{
 		background-image: url('{{site.url}}/assets/images/agoras-tablet.png');
@@ -2843,7 +2845,7 @@ footer{
 		font-size: 33px;
 	}
 	.main-wrapper#page-about #roadmap .content{
-		padding-top: 200px;
+		padding-top: 70px;
 	}
 	#content-about {
         padding: 60px 0;

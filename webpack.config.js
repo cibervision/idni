@@ -80,53 +80,6 @@ module.exports = function (env) {
                     use: [{
                         loader: "css-loader" // translates CSS into CSS
                     }]
-                },
-                {
-                    test: /\.less$/,
-                    use: [{
-                        loader: "style-loader" // creates style nodes from JS strings
-                    }, {
-                        loader: "css-loader" // translates CSS into CommonJS
-                    }, {
-                        loader: "less-loader" // compiles Less to CSS
-                    }]
-                },
-                {
-                    test: /\.css$/,
-                    use: [{
-                        loader: "css-loader" // translates CSS into CommonJS
-                    }]
-                },
-                {
-                    test: /\.(png|gif|jpg|jpeg|woff|woff2|eot|ttf|svg|otf)(\?v=[a-z0-9]\.[a-z0-9]\.[a-z0-9])?$/,
-                    use: [
-                            {
-                                loader: 'file-loader',
-                                options: {name: '[name].[ext]' , 
-                                publicPath: 'assets/admin/images/',
-                                }  
-                            },
-                            {
-                                loader: 'image-webpack-loader',
-                                options: {
-                                    query: {
-                                    mozjpeg: {
-                                        progressive: true,
-                                        quality : 65
-                                    },
-                                    pngquant:{
-                                        quality: "65-90",
-                                        speed: 4
-                                    },
-                                    gifsicle: {
-                                        interlaced: true,
-                                    },
-                                    optipng: {
-                                        optimizationLevel: 7,
-                                    }
-                                }
-                            }
-                        }]
                 }]
               },
         resolve: {
