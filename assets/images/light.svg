@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="353px" viewBox="0 0 1440 353" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 11 Copy 9</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="70.5921875%" x2="50%" y2="3.061617e-15%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#004DA4" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Tau-home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.15">
+        <g id="TAU_home" transform="translate(0.000000, -4105.000000)" fill="url(#linearGradient-1)">
+            <g id="footer" transform="translate(0.000000, 4055.000000)">
+                <g id="Social">
+                    <g id="Group-11-Copy-9" transform="translate(0.000000, 50.000000)">
+                        <polygon id="Rectangle-2" points="0 0 70 0 280 500 210 500"></polygon>
+                        <polygon id="Rectangle-2-Copy" points="182 0 332 0 542 500 392 500"></polygon>
+                        <polygon id="Rectangle-2-Copy-3" points="300 0 508 0 718 500 510 500"></polygon>
+                        <polygon id="Rectangle-2-Copy-4" points="662 0 810 0 1020 500 872 500"></polygon>
+                        <polygon id="Rectangle-2-Copy-6" points="1186 0 1334 0 1544 500 1396 500"></polygon>
+                        <polygon id="Rectangle-2-Copy-5" points="791 0 839 0 1049 500 1001 500"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
