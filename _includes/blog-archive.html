@@ -6,7 +6,7 @@
     {% endif %}
     {% for blog in site.data.blogen %}
         {% if blog.key == 'archive' %}
-            <li><a href="{{site.url}}/{{url}}/blog/{{blog.link}}">{{ blog.title }}</a></li>
+            <li><a href="{{site.url}}/{{url}}/blog/{{blog.link}}.html">{{ blog.title }}</a></li>
         {% endif %}
     {% endfor %}  
 </ul>
