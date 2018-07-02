@@ -5,7 +5,7 @@ pages:
 
 tau:
   what_is_tau_chain: What is Tau
-  content_what_is_tau_chain_italic: Tau is a decentralized blockchain network intended to solve the bottlenecks inherent in large scale human communication and accelerate productivity in human collaboration.
+  content_what_is_tau_chain_italic: Tau is a decentralized blockchain network intended to solve the bottlenecks inherent in large scale human communication and accelerate productivity in human collaboration using logic based Articficial Intelligence.
   content_what_is_tau_chain_p1: Currently, large scale discussions and collaborative efforts carried out directly between people are highly inefficient. To address this problem, we developed a paradigm which we call Human-Machine-Human communication&colon; the core principle is that the users can not only interact with each other but also make their statements clear to their Tau client. Our paradigm enables Tau to deduce areas of consensus among its users in real time, allowing the network to boost communication by acting as an intermediary between humans. It does so by collecting the opinions and preferences its users wish to share and logically constructing opinions into a semantic knowledge base.
   content_what_is_tau_chain_p2: Able to deduce consensus and understand discussions, Tau can automatically generate and execute code on consensus basis, through a process known as code synthesis. This will greatly accelerate knowledge production and expedite most large scale collaborative efforts we can imagine in today's world.
   tau_feature: Tau-chain Main Features
