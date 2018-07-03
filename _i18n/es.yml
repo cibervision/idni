@@ -4,77 +4,101 @@ pages:
   work: Work
 
 tau:
-  what_is_tau_chain: What is Tau-Chain
-  content_what_is_tau_chain: Tau is a blockchain based decentralized network that can automatically be changed based on its users’ decisions. To reach effective decisions, Tau will help its users overcome the bottlenecks inherent in discussions among humans by using a paradigm of Human-Machine-Human communication. As such, Tau could understand the entire conversation and will be able to scale human collaboration and amplify the creation of knowledge for its users
-  tau_feature: Tau-chain Main Features
-  only_dynamic: The only dynamic decentralized social network
-  content_only_dynamic: When Tau’s community will face a decision to change Tau or its blockchain protocol, they will just need to express their opinions and perspectives, like we do today in the social networks, and Tau will self-amend itself based on users’ agreement. Considering the perspectives of the entire community (unlike voting) is the only way to reach a decentralized decision that benefits all users. Tau’s ability to scale discussions is the only decentralized solution to create a true dynamic protocol.
-  content_video: The video above is only an illustration of Tau’s design. User discussions can focus on everyday subjects or particular disciplines (life science, politics, computer science, etc.). Only discussions about Tau’s specifications will change its protocol upon reaching an agreement
-  the_road_map: The Roadmap
-  content_the_road_map: We designed a five-stage roadmap where each stage can support the development of the next one. We expect to complete the development of TML and Alpha Tau, during 2018. Using Alpha Tau’s discussion platform an infinite number of developers can join the project to support building Beta Tau expediting its go-to-market date. After Beta Tau is developed, it will only be a matter of time until Tau-Chain is completed as all technical challenges will be resolved using Beta Tau.
+  what_is_tau_chain: Qué es Tau
+  content_what_is_tau_chain_italic: Tau es una red blockchain descentralizada destinada a resolver las limitaciones inherentes en la comunicación humana a gran escala y acelerar la productividad en la colaboración humana utilizando inteligencia artificial basada en la lógica.
+  content_what_is_tau_chain_p1: Actualmente, las discusiones a gran escala y los esfuerzos de colaboración llevados a cabo directamente entre personas son altamente ineficientes. Para abordar este problema, desarrollamos un paradigma que llamamos comunicación Humano-Máquina-Humano&#58; el principio central es que los usuarios no solo pueden interactuar entre ellos sino también aclarar sus afirmaciones a su cliente Tau. Nuestro paradigma permite a Tau deducir áreas de consenso entre sus usuarios en tiempo real, permitiendo a la red impulsar la comunicación actuando como intermediario entre humanos. Lo hace recogiendo las opiniones y preferencias que sus usuarios desean compartir y construyendo de forma lógica opiniones en una base de conocimiento semántico.
+  content_what_is_tau_chain_p2: Capaz de deducir el consenso y comprender las discusiones, Tau puede generar y ejecutar código automáticamente basándose en el consenso, a través de un proceso conocido como síntesis de código. Esto acelerará en gran medida la producción de conocimiento y agilizará la mayoría de los esfuerzos de colaboración a gran escala que podemos imaginar en el mundo actual.
+  tau_feature: Características Principales de Tau-Chain
+  only_dynamic: La Única Red Social Dinámica Descentralizada
+  content_only_dynamic1: Este proceso de escalamiento de discusiones, automatización de código y elección social en tiempo real se puede aplicar a la red en sí misma, permitiendo que todo el protocolo blockchain sea definido y enmendado a la perfección por las elecciones de sus usuarios.
+  content_only_dynamic2: Cuando la comunidad Tau tenga la intención de realizar cambios en el código de red, las reglas o los protocolos, simplemente deberán expre-sar estas opiniones y perspectivas en un lenguaje compatible a través de la red. La lógica autodefinida de la red blockchain le permitirá detec-tar el consenso entre estas opiniones y modificar automáticamente su propio código para reflejar este consenso, de bloque a bloque. A dife-rencia del método común de votación, el enfoque de Tau tendrá en cuenta las perspectivas de toda la comunidad, donde las personas po-drán votar libremente y proponer qué votar en tiempo real. Esta capaci-dad única de Tau es la única solución descentralizada para crear un protocolo verdaderamente dinámico.
 
-  feature_lang_title : Language
-  feature_lang_content: We build the Internet of Languages, featuring Tau Meta Language (TML), a self-defining meta language for defining and translating new languages.
+  content_video: El video de arriba es una ilustración preliminar de cómo las conversacio-nes sobre Tau pueden tomar forma. Las discusiones de los usuarios pueden enfocarse en temas cotidianos o disciplinas particulares, como ciencia y política. Tau estará al tanto de las discusiones sobre sí misma y cambiará en consecuencia.
+  the_road_map: La Hoja de Ruta
+  content_the_road_map: Hemos diseñado una hoja de ruta donde cada etapa apoya el desarro-llo de la siguiente y es una innovación tecnológica útil por sí misma. Es-peramos completar el desarrollo de TML y Alfa Tau en 2019. Usando la plataforma de discusión de Alfa Tau, un número ilimitado de desarrolla-dores puede unirse al proyecto para apoyar la construcción de Beta Tau, agilizando su fecha de lanzamiento al mercado. Después de que se desarrolle Beta Tau, solo será cuestión de tiempo hasta que Tau-Chain se complete ya que todos los desafíos técnicos se resolverán uti-lizando Beta Tau, en colaboración y, con suerte, en una escala de desarrollo nunca antes vista.
 
-  feature_knowledge_title : Knowledge,
-  feature_knowledge_content: Using any knowledge-representation language defined in TML, knowledge can be shared and stored in one place.
+  feature_lang_title : El Internet de Lenguajes
+  feature_lang_content: No existe un único y mejor lenguaje para todos los fines, por lo que creamos el Meta Lenguaje Tau (TML)&#58; un lenguaje destinado a definir otros lenguajes y traducirlos manteniendo la misma información. TML permite una comunicación fluida y una traducción semántica entre los lenguajes de programación, los lenguajes de representación del cono-cimiento, los formatos de visualización y organización, los lenguajes de dominio específico y más.
 
-  feature_economy_title : Economy,
-  feature_economy_content: We build Agoras, a futuristic knowledge economy, to allow pure knowledge-cash transactions …
+  feature_knowledge_title : Base de Conocimiento Global
+  feature_knowledge_content: Una vez que los lenguajes de representación del conocimiento se defi-nen bajo el TML, cualquier usuario puede enviar libremente opiniones e ideas como predicados lógicos a su cliente Tau, o transmitirlo a la red Tau, que se combinan para formar una base de conocimiento. Los usuarios pueden consultar esta base de conocimiento y Tau les ayudará a deducir las respuestas que buscan. La producción de conocimiento depende en gran medida de la eficiencia de las discusiones. Por lo tan-to, al resolver las limitaciones de las discusiones a gran escala, Tau puede acelerar en gran medida la producción de todo el conocimiento en todo el mundo.
 
-  feature_collaboration_title : Collaboration,
-  feature_collaboration_content: We build the Internet of Languages, featuring Tau Meta Language (TML), a self-defining meta language for defining and translating new languages.
+  feature_economy_title : La Economía del Conocimiento Inteligente de Agoras
+  feature_economy_content: Agoras es una economía de conocimiento avanzada que permite reali-zar transacciones conocimiento-efectivo …
 
-  feature_discussion_title : Discussion,
-  feature_discussion_content: We work on solving the problem of nonscaling discussions. We build a platform allowing efficient discussions in any scale, by human-machine-human communication.
+  feature_collaboration_title : Acelerando y Automatizando la Colaboración
+  feature_collaboration_content: Muchos compromisos humanos que valen la pena dependen de esfuer-zos de colaboración. Al agilizar estos esfuerzos, podemos acelerar de manera efectiva el desarrollo de toda nuestra especie. Además de po-der escalar las discusiones, el marco lógico decidible de Tau permite sin-tetizar y ejecutar código en función de las especificaciones del usuario. Los usuarios pueden crear sus propios equipos bajo Tau para discutir y colaborar en un proyecto con su propia base de conocimiento privada. Después de aprovechar la capacidad de Tau de escalar las discusiones, los equipos pueden llegar rápidamente a un consenso sobre las especi-ficaciones y Tau puede generar y ejecutar código automáticamente, de acuerdo con esas especificaciones.
 
-  feature_choice_title : Language,
-  feature_choice_content: We work on an innovative, logic based, social choice mechanism.
+  feature_discussion_title : Escalando Discusiones
+  feature_discussion_content: Las discusiones son un proceso social de gran valor para intercambiar pensamientos y opiniones, pudiendo conducir a nuevas ideas inspirado-ras y deducir nuevos conceptos. Actualmente, las discusiones a gran escala son muy ineficientes&#58; tener una discusión entre 500 personas generalmente arroja un resultado menos productivo que una discusión entre 5 personas. Pero, ¿qué pasaría si no solo pudiéramos escuchar a cientos de personas a la vez, sino también comprender y procesar toda esta información de manera útil? Al tener a Tau como organizador en nuestro enfoque de comunicación Humano-Máquina-Humano, podemos resumir y consultar eficazmente todos los datos discutidos de una mane-ra eficiente y comprensible, y, por primera vez en la historia, permitir que las discusiones se adapten a cualquier cantidad de participantes mien-tras se mantienen productivas. Tener un aumento de 100x en los parti-cipantes de una discusión bajo Tau podría, en teoría, producir 100x ve-ces más utilidad de la información y productividad del conocimiento.
 
-  roadmap_title_tau_meta: TAU Meta Language (TML)
-  roadmap_date_tau_meta: Agust 2018
-  roadmap_content_tau_meta: We will start by developing a metalanguage (TML) as a tool to define new languages such that they all translate to each other. This will form the "Internet of Languages".
+  feature_choice_title : Elección Social en Tiempo Real
+  feature_choice_content: Formar un método justo, completo y eficiente de elección social ha resul-tado esquivo en muchos campos. En las comunidades grandes, decidir sobre qué temas votar se vuelve poco manejable, lo que lleva a ignorar muchos puntos de vista y tópicos sociales importantes. Del mismo modo, las grandes organizaciones suelen quedar paralizadas por su incapaci-dad para tomar decisiones importantes en la red, lo que conduce a una baja productividad e incluso al fracaso. Tau presenta un mecanismo de elección social innovador&#58; los usuarios solo necesitan expresar sus opi-niones en forma de predicados lógicos (utilizando el lenguaje definido sobre TML) publicados en la red, lo que permite que la base de conoci-miento de Tau sea un agregado de preferencias sociales de todas las opiniones de todos sus usuarios. Junto con la propiedad lógica de deci-dibilidad y una nueva fórmula de consenso, el mecanismo de elección social permite a Tau calcular cosas como el consenso sobre cada tema expresado, independientemente de cuán remoto o esotérico sea el te-ma.
 
-  roadmap_title_alpha: Alpha Version Launched
-  roadmap_date_alpha: January 2019
-  roadmap_content_alpha: Alpha is a social platform that allows efficient discussions even among very large numbers of participants. Today, an effective conversation cannot be held with too many people; However, Alpha will be able to scale discussions and detect logical points of consensus between users and allow users to explore the opinion map raised in the discussion, thus enabling better knowledge sharing and construction.
+  roadmap_title_1: Lanzamiento de MVP&#58; Meta Lenguaje Tau (TML)
+  roadmap_date_1: Q3 2018
+  roadmap_content_1: Comenzamos desarrollando un metalenguaje (TML) como una herra-mienta para definir nuevos lenguajes que se pueden traducir entre ellos. TML será un lenguaje decidible que posee una característica única para interpretar y redefinirse a sí mismo, similar (pero más expresivo) a Data-log, ya que permite la negación [no estratificada] sin restricciones. TML también podrá realizar todas las tareas computacionales que son computables en espacio polinomial. Aprendimos de los errores de la his-toria para insistir en que nuestra implementación será altamente optimi-zada.
 
-  roadmap_title_beta: Beta Version Lauched
-  roadmap_date_beta: July 2019
-  roadmap_content_beta: Beta will advance Alpha by allowing users to discuss code requirements and then automatically synthesized a correct-by-construction code.
+  roadmap_title_2: Demo
+  roadmap_date_2: Q3 2018
+  roadmap_content_2: Se lanzará un programa para que los usuarios obtengan un adelanto de cómo puede ser la comunicación con Tau.
 
-  roadmap_title_tau_chain: Tau-Chain 
-  roadmap_date_tau_chain: November 2019
-  roadmap_content_tau_chain: Tau is applying all previous stages to itself. Tau is about perpetual collaborative development of itself based on users’ agreements. It will do so as a decentralized and blockchain-based p2p network.
+  roadmap_title_3: Proyecciones de Futamura
+  roadmap_date_3: Q4 2018
+  roadmap_content_3: La primera misión de TML es definirse en el método de Evaluación Par-cial, que da lugar a las proyecciones de Futamura. Será la primera im-plementación no completa de Turing de las proyecciones de Futamura, el santo grial de las capacidades de compilación.
 
-  roadmap_title_agoras: Agoras  
-  roadmap_date_agoras: 01 Jan 2020
-  roadmap_content_agoras: A fully featured knowledge economy allowing knowledge-case transactions, computational resources market, and advanced financials.
+  roadmap_title_4: Internet de Lenguajes
+  roadmap_date_4: Q1 2019
+  roadmap_content_4: Se creará una interfaz de usuario que aprovecha TML para desarrollar un sistema que pueda definir, almacenar y traducir fácilmente los len-guajes. El Internet de Lenguajes hará que los lenguajes sean irrelevan-tes, dada la capacidad de la red de traducción de un lenguaje a otro manteniendo el mismo significado exacto.
+
+  roadmap_title_5: Red de Conocimiento
+  roadmap_date_5: Q2 2019
+  roadmap_content_5: Para llegar finalmente a una plataforma de debate escalable, crearemos infraestructuras para almacenar y consultar grandes cantidades de co-nocimiento, representados por los lenguajes presentes en el Internet de Lenguajes.
+
+  roadmap_title_6: Versión Alfa Lanzada
+  roadmap_date_6: Q3 2019
+  roadmap_content_6: Alfa es una plataforma social que permite discusiones eficientes entre un número infinito de participantes. Podrá escalar discusiones y detectar puntos lógicos de consenso entre usuarios, permitiendo a los usuarios mapear fácilmente las opiniones planteadas durante cualquier discusión. Será posible un mejor intercambio y construcción de conocimiento.
+
+
+  roadmap_title_7: Versión Beta Lanzada
+  roadmap_date_7: Q4 2019
+  roadmap_content_7: Beta adelantará a Alfa permitiendo a los usuarios discutir los requisitos del código y luego sintetizar automáticamente un código correcto por construcción.
+
+
+  roadmap_title_8: Tau-Chain
+  roadmap_date_8: Q1 2020
+  roadmap_content_8: Tau trata sobre el desarrollo colaborativo perpetuo de sí mismo basado en acuerdos de usuario. Lo hará como una red p2p descentralizada y basada en blockchain.
+
+  roadmap_title_9: Agoras
+  roadmap_date_9: Q1 2020
+  roadmap_content_9: Una economía del conocimiento completamente funcional que permite transacciones conocimiento-efectivo, mercado de recursos computacio-nales y herramientas financieras avanzadas.
 
 agoras:
-  what_is_agoras: What is Agoras
-  content_what_is_agoras: Agoras is a new, smart economy, where everyone can generate income by conducting knowledge-based transactions. Leveraging Tau’s design and architecture, Agoras will connect users with relevant knowledge to solve complex problems in different disciplines. Agoras will use its own smart contract capabilities to avoid fraudulent activities, set transaction price and verify “shipping” of knowledge. As AGRS will inherit Tau's architecture, the parameters of AGRS will be dynamic and can be changed based on the community desire
-  main_features: Agoras Main Features
-  cryptocurrency: Our Cryptocurrency (AGRS)
-  content_cryptocurrency : Lorem ipsum dolor sit amet, porro pertinacia ut pro, et per eros duis insolens. Debet scribentur ne quo, et sit sumo latine. Ex tollit utinam blandit sed. Dico movet fabellas eum in, vim ne diam salutatus sententiae. Ne per quot propriae deserunt. Lorem ipsum dolor sit amet, porro pertinacia ut pro, et per eros duis insolens. Debet scribentur ne quo, et sit sumo latine. Ex tollit utinam blandit sed. Dico movet fabellas eum in, vim ne diam salutatus sententiae. Ne per quot propriae deserunt.
-  exchanges: Exchanges
-  pre_sale: Pre-Sale
-  pre_sale_content_1: We made a pre-sale of part of the future Agoras coins, and the rest will be pre-sold on a later stage. There is a total amount of 42,000,000 intermediate coins (IDNI Agoras Tokens), that represent 100% of future Agoras coins.
-  pre_sale_content_2: IDNI Agoras (AGRS, Omni asset ID 58) is listed on <a class="text-coinmarketcap" target="_blank" href="https://coinmarketcap.com/currencies/agoras-tokens/">coinmarketcap</a> featuring a partial list of exchanges.
-  pre_sale_content_3: IMPORTANT&#58; BEWARE OF FAKE TOKENS! ALWAYS VALIDATE THE ASSET ID!
-  pre_sale_content_4: Please read our pre-sale
+  what_is_agoras: Qué es Ágoras
+  content_what_is_agoras: Agoras será una economía inteligente completamente funcional que girará en torno a la producción, distribución y fijación de precios del co-nocimiento, alineando así los incentivos monetarios con las capacidades de Tau sobre las que se construye. Agoras también compartirá la arqui-tectura dinámica de Tau, permitiendo que sus parámetros se modifiquen en función del deseo de la comunidad en tiempo real. Además, contará con un mercado de recursos computacionales, así como con herramien-tas financieras avanzadas, como un mercado de derivados que permite intereses sin riesgo con inflación cero.
+  main_features: Características Principales de Agoras
+  cryptocurrency: Nuestra Futura Criptomoneda (AGRS)
+  content_cryptocurrency1: Agoras será la moneda del conocimiento natural y artificial sobre la nueva sociedad en línea que estamos construyendo. Agoras representará todo el conocimiento comerciable y los recursos computacionales en la red, mientras actúa como el primer mercado monetario en adquirir intereses sin riesgo, sin necesidad de imprimir dinero nuevo. 
+  content_cryptocurrency2: La eficiencia de Agoras nos permitirá tener un mercado de derivados a un buen precio para permitir la cobertura, la estabilidad de precios y el interés libre de riesgo.
+  exchanges: Casas de cambio
+  pre_sale: Preventa
+  pre_sale_content_1: Hicimos una preventa de parte de las futuras monedas Agoras, y el res-to se pre-venderá en una etapa posterior. Hay una cantidad total de 42,000,000 de monedas intermedias (tokens Agoras IDNI) que repre-sentan el 100% de las futuras monedas Agoras.
+  pre_sale_content_2: IDNI Agoras (AGRS, activo Omni ID 58) aparece en coinmarketcap con una lista parcial de intercambios.
+  pre_sale_content_3: IMPORTANTE&#58; ¡CUIDADO CON LOS TOKENS FALSOS! ¡SIEMPRE VA-LIDE LA ID DEL ACTIVO!
+  pre_sale_content_4: Por favor, lea nuestros Términos y condiciones de preventa.
 
-  feature_knowledge_economy_title: Knowledge Economy
-  feature_knowledge_economy_content: With all facilities to create a fully featured economy, including production, shipment, pricing, supply, demand, and arena.
 
-  feature_computational_title: Computational Resources Market
-  feature_computational_content: To be able to rent or rent out computational resources.
+  feature_knowledge_economy_title: Mercado de Recursos Computacionales
+  feature_knowledge_economy_content: El poder computacional combinado de todos los servidores de Google, Apple y Facebook es solo una pequeña fracción del poder de procesa-miento total de los cientos de millones de teléfonos inteligentes y computadoras que permanecen inactivas en manos de usuarios comu-nes. Para permitir a los usuarios de la red Tau acceder a este recurso no arrendado, se construirá en Agoras un mercado de alquiler para la po-tencia de procesamiento computacional. El diseño se basa en el proyec-to Zennet y su innovadora fórmula de fijación de precios...
 
-  feature_advanced_title: Advanced finaicials
-  feature_advanced_content: Including for example the ability to obtain risk-free interest without any creation of new money.
+  feature_computational_title: Herramientas Financieras Avanzadas
+  feature_computational_content: La economía de Agoras contendrá naturalmente varios tipos de jugado-res, como propietarios / arrendatarios de hardware, propietarios / com-pradores de conocimiento, mineros y plataformas de intercambio, donde cada jugador tiene sus propias necesidades de cobertura. Nuestra eco-nomía contendrá un mercado avanzado y electrónico de derivados que no tendrá apalancamiento alguno y permitirá intereses sin riesgo, sin la necesidad de imprimir nuevo "dinero" (tokens).
 
-  feature_vel_title: Vel maiorum reprehendunt ad
-  feature_vel_content: Cum maiorum voluptaria omittantur te. Qui eligendi pericula ea, no primis graeci ius, id mel utroque volumus .
+  feature_advanced_title: Negocios Automatizados
+  feature_advanced_content: Aprovechando el poder de Tau, los participantes de Agoras tendrán ac-ceso a una gran cantidad de conocimientos sobre todos los temas ima-ginables, como la economía, la ley, la sociedad y la información sobre los comerciantes y sus productos disponibles en el mercado. Es por eso que puede operar como un empresario personal y automático del usua-rio, adaptando inteligentemente las operaciones complejas de una ma-nera que proporcionen ventajas competitivas.
+
+  feature_vel_title: Eficiencia y Equidad
+  feature_vel_content: La eficiencia de un mercado es, ante todo, una función de la velocidad a la que la información se propaga dentro de ese mercado. Como nues-tra economía está completamente en línea, la información puede fluir de forma rápida y gratuita, por lo que podemos esperar que Agoras sea altamente eficiente. Esto crea un mercado más justo en términos de dis-ponibilidad de información, siendo así más uniforme. Otro aspecto de la equidad es que los recursos en nuestra red generalmente son compra-dos por entidades más grandes y vendidos por la audiencia más amplia&#58; es más probable que los jugadores más grandes necesiten alquilar mi-llones de computadoras y estén dispuestos a pagar por el conocimiento único que posee el usuario-base, mientras que los participantes más pequeños pueden simplemente alquilar su poder de computación inacti-vo. Por lo tanto, podemos esperar que el dinero fluya en la dirección correcta&#58; de los ricos a los pobres.
 
   feature_dictas_title: Dictas pertinax tractatos ex nam
   feature_dictas_content: Quem vocent sanctus sea ex. At quem augue virtute eos, quo odio graeci accusamus ad, sit nihil rationibus id.
@@ -82,46 +106,46 @@ agoras:
 
 
 about:
-  our_vision: Our Vision
-  content: Agoras is a new, smart economy, where everyone can generate income by conducting knowledge-based transactions. Leveraging Tau’s design and architecture, Agoras will connect users with relevant knowledge to solve complex problems in different disciplines. Agoras will use its own smart contract capabilities to avoid fraudulent activities, set transaction price and verify “shipping” of knowledge. As AGRS will inherit Tau's architecture, the parameters of AGRS will be dynamic and can be changed based on the community desire
-  our_team: Our Team
-  our_team_content: We gathered people who are passionate about changing our world and motivate to build a better society. Our team is composed of professionals from different industries and practices, to make sure our development is relevant to people from all disciplines
-  core_team: Core Team
+  our_vision: Nuestra visión
+  content: Nuestro objetivo es construir una sociedad mejor donde el conocimiento se pueda crear de manera más eficiente y distribuir mejor para resolver problemas complejos. Con la ayuda de las máquinas, podemos resolver el problema de escalamiento de conocimiento y opiniones. No más co-nocimiento olvidado o descartado, y no más restricciones en el descu-brimiento y la transferencia de conocimiento.
+  our_team: Nuestro Equipo
+  our_team_content: Hemos reunido personas apasionadas por cambiar nuestro mundo y construir una sociedad mejor. Nuestro equipo está compuesto por profe-sionales de diferentes industrias y prácticas, asegurando así, que nues-tro desarrollo sea relevante para personas de todas las disciplinas.
+  core_team: Equipo Central
 
-  team_carrier_isar: Strategy and Operations
-  team_content_isar: Isar has 3 years of consulting experience from Ernst & Young, where he worked with startup companies. He is a veteran member of the Israeli Bitcoin Community and the president and co-founder of the Blockchain and Innovation Club at Cornell University. Isar is an MBA candidate at Cornell University and holds a LL.M and BS in Economics.
+  team_carrier_isar: Estrategia y Operaciones
+  team_content_isar: Isar tiene 3 años de experiencia en consultoría de Ernst & Young, don-de trabajó con empresas startup. Es un miembro veterano de la Comu-nidad de Bitcoin Israelí y presidente y cofundador del Blockchain and Innovation Club en la Universidad de Cornell. Isar es candidato a un MBA en la Universidad de Cornell y posee un LL.M y un BS en Econo-mía.
 
-  team_carrier_ohad: Development
-  team_content_ohad: Ohad is a Software Developer and Mathematician on the top tech companies in Israel since 1995. He was the youngest university student in Israel, studying Mathematics and Computer Science. Of his additional fields of interests are physics, philosophy, psychology, and economics
+  team_carrier_ohad: Desarrollo
+  team_content_ohad: Ohad es un desarrollador de software y matemático en las principales compañías de tecnología en Israel desde 1995. Era el estudiante uni-versitario más joven de Israel, estudiando Matemáticas e Informática. A lo largo de los años, ha acumulado amplios conocimientos y experiencia en programación y diversas áreas de matemáticas, con un enfoque re-ciente en lógica, aprendizaje automático, teoría de la complejidad, filoso-fía de la ciencia, economía, elección social y redes descentralizadas. Él diseñó e implementa Tau y Agoras. Como fundador, actualmente lidera el desarrollo del proyecto.
 
-  team_carrier_karov: Legal
-  team_content_karov: Karov is a Lawyer with over 20 years of post-qualified experience in number of jurisdictions. He is providing (as Behest.io) legal and consulting services for blockchain enterprises, while serving as a general counsel for ET3. Karov holds a LL.M and BS in Economics.
+  team_carrier_karov: Competencias Legales
+  team_content_karov: Karov es un abogado con más de 20 años de experiencia post-calificada en numerosas jurisdicciones. Está prestando (como Behest.io) servicios legales y de consultoría para empresas de la blockchain, mien-tras se desempeña como asesor general de ET3. Karov tiene un LL.M y BS en Economía.
 
-  team_carrier_douglas: Knowledge Representation & Reasoning
-  team_content_douglas: DMiles is a software design & research engineer with over 30 years of experience in a number of programming languages. During his career, he had created several artificial intelligence applications for government and military contracts. Past and present he has designed the minds of some of the famous social robot companies, such as Daxtron Labs, Hanson Robotics, and Terasim Movement are known for.
+  team_carrier_douglas: Representación del Conocimiento y el Razonamiento
+  team_content_douglas: DMiles es un ingeniero de diseño e investigación de software con más de 30 años de experiencia en varios lenguajes de programación. Duran-te su carrera, creó varias aplicaciones de inteligencia artificial para con-tratos gubernamentales y militares. Pasado y presente ha diseñado las mentes de algunas de las famosas compañías de robots sociales, tales como Daxtron Labs, Hanson Robotics y Terasim Movement.
 
-  team_carrier_felix : Business Development
-  team_content_felix : Felix advises a large VC on their emerging tech strategy and is interested in all kinds of complex dynamical systems. Operating in the blockchain space for many years, Felix founded a first-generation payment provider for cryptocurrencies in 2013, while operating a company that developed automated trading systems for the stock market. He studied business and economics with focus on information systems and marketing.
+  team_carrier_felix : Desarrollo Empresarial
+  team_content_felix : Felix asesora a un gran VC en su estrategia tecnológica emergente y está interesado en todo tipo de sistemas dinámicos complejos. Operan-do en el espacio de blockchain durante muchos años, Félix fundó un proveedor de pagos de primera generación para criptomonedas en 2013, mientras operaba una compañía que desarrolló sistemas de co-mercio automatizados para el mercado bursátil. Estudió negocios y eco-nomía con enfoque en sistemas de información y marketing.
 
-  team_carrier_yann: Asian Market Communications
-  team_content_yann: Yann has abundant project management experience working in China Academy of Social Sciences, the top research institute in China. He is an entrepreneur (founded SPO and LunarX), an angel investor and a veteran in the crypto-world, where he helped building communities for various projects since 2013. Yann holds a M.Phil and B.Eng.
+  team_carrier_yann: Comunicaciones en el Mercado Asiático
+  team_content_yann: Yann tiene una amplia experiencia en gestión de proyectos trabajando en la Academia de Ciencias Sociales de China, el principal instituto de investigación en China. Es un emprendedor (fundador de SPO y co-fundador de LunarX), un angel investor y un veterano en el mundo crip-to, donde ayudó a construir comunidades para varios proyectos desde 2013. Yann tiene un M.Phil y B.Eng.
 
-  team_carrier_ethan: Marketing
-  team_content_ethan: Ethan has over 14 years of experience as a product and marketing manager in a global megabank and an online forex company, focusing mainly on large enterprises. In the past few years, he was providing marketing and community building services to several ICO projects, including Starbase, Mainstreet, SingularDTV, Firstblood and BlockCDN. Ethan holds a BS in Business Management
+  team_carrier_ethan: Márketing
+  team_content_ethan: Ethan tiene más de 14 años de experiencia como gerente de productos y marketing en un megabanco global y una compañía de divisas en lí-nea, que se enfoca principalmente en grandes empresas. En los últimos años, proporcionó servicios de marketing y desarrollo comunitario a va-rios proyectos ICO, incluidos Starbase, Mainstreet, SingularDTV, Firstblood y BlockCDN. Ethan tiene una licenciatura en Administración de Empresas.
 
-  team_carrier_capitanArt: Design
-  team_content_capitanArt: CapitanArt is a graphic design and 3D animation business, led by Juan, a graphic illustrator with more than 20 years of experience, and his brother Jordi, a member of the Blockchain Association in Catalonia. CapitanArt provides design and concept art services for top companies such as Amazon, Ubisoft and Motorola. Juan is a master and a trainer for digital drawing, while Jordi has BS in computer science and telecommunications.
+  team_carrier_capitanArt: Diseño
+  team_content_capitanArt: CapitanArt es un negocio de diseño gráfico y animación 3D, liderado por Juan, un ilustrador gráfico con más de 20 años de experiencia, y su hermano Jordi, miembro de la Asociación Blockchain en Cataluña. Capi-tanArt ofrece servicios de diseño y arte conceptual para las principales compañías como Amazon, Ubisoft y Motorola. Juan es formador en dibu-jo digital, mientras que Jordi tiene una licenciatura en informática y tele-comunicaciones.
 
 
 networks:
-  title: Join Our Social Networks
+  title: Únase a nuestras redes sociales
 
 blog:
-  title: Official Articles
-  next: Next article
-  prev: Previous article 
-  back: Back to the list
-  archived: Archived posts
+  title: Artículos Oficiales
+  next: Artículo siguiente
+  prev: Artículo anterior
+  back: Vuelve a la lista
+  archived: Publicaciones Archivadas
   read_more: Leer más
 
 term_condition:

@@ -33,6 +33,12 @@
                                 {% if site.lang == 'en' %}
                                     {% assign url = '' %}
                                 {% endif %}
+                                {% if site.lang == 'cn' %}
+                                    {% assign url = '/cn' %}
+                                {% endif %}
+                                {% if site.lang == 'es' %}
+                                    {% assign url = '/es' %}
+                                {% endif %}
                                 <div class="child-block">
                                     <a href="{{site.url}}/{{url}}"><img id="logo" alt="TAU-LOGO" src="{{site.url}}/assets/images/logo_header.svg" /></a>
                                 </div>
@@ -48,17 +54,17 @@
                                             <span class="title-lang-default">English</span>
                                              {% endif %}
                                              {% if site.lang == 'cn' %}
-                                            <span class="title-lang-default">English</span>
+                                            <span class="title-lang-default">Chinese</span>
                                              {% endif %}
                                              {% if site.lang == 'es' %}
-                                            <span class="title-lang-default">English</span>
+                                            <span class="title-lang-default">Spanish</span>
                                              {% endif %}
                                             <span class="caret"></span>
                                         </a>
                                         <ul id="my-dropdown-lang" class="dropdown-menu" aria-labelledby="dLabel">
                                             <li><a href="{{site.url}}">English</a></li>
-                                            <li class="disabled"><a>Chinese</a></li>
-                                            <li class="disabled"><a>Spanish</a></li>
+                                            <li><a href="{{site.url}}/cn">Chinese</a></li>
+                                            <li><a href="{{site.url}}/es">Spanish</a></li>
                                         </ul>
                                 </div>
                             </div>

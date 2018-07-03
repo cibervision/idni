@@ -1,11 +1,11 @@
 {% assign current = page.url | downcase | split: '/' %}
 <ul class="list-menu-desktop">
-   <!--  <li><a href='{{site.url}}{% translate_link home {{site.lang}} %}' {% if page.nav == 'home' %} class='active'{% endif %} >Tau</a></li>
+    <li><a href='{{site.url}}{% translate_link home {{site.lang}} %}' {% if page.nav == 'home' %} class='active'{% endif %} >Tau</a></li>
     <li><a href='{{site.url}}{% translate_link agoras {{site.lang}} %}' {% if current[1] == 'agoras' %} class='active'{% endif %}>Agoras</a></li>
     <li><a href='{{site.url}}{% translate_link about {{site.lang}} %}' {% if current[1] == 'about' %} class='active'{% endif %}>About</a></li>
-    <li><a href='{{site.url}}{% translate_link faq {{site.lang}} %}' {% if current[1] == 'blog' %} class='active'{% endif %}>Blog</a></li> -->
-    <li><a href='{{site.url}}' {% if page.nav == 'home' %} class='active'{% endif %} >Tau</a></li>
+    <li><a href='{{site.url}}{% translate_link faq {{site.lang}} %}' {% if current[1] == 'blog' %} class='active'{% endif %}>Blog</a></li>
+    <!--<li><a href='{{site.url}}' {% if page.nav == 'home' %} class='active'{% endif %} >Tau</a></li>
     <li><a href='{{site.url}}{% translate_link agoras en %}' {% if current[1] == 'agoras' %} class='active'{% endif %}>Agoras</a></li>
     <li><a href='{{site.url}}{% translate_link about en %}' {% if current[1] == 'about' %} class='active'{% endif %}>About</a></li>
-    <li><a href='{{site.url}}{% translate_link faq {{site.lang}} %}' {% if current[1] == 'blog' %} class='active'{% endif %}>Blog</a></li> 
+    <li><a href='{{site.url}}{% translate_link faq {{site.lang}} %}' {% if current[1] == 'blog' %} class='active'{% endif %}>Blog</a></li> -->
 </ul>

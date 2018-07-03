@@ -1,3 +1,15 @@
+{% if site.lang == 'en' %}
+    {% assign thumbVideo = 'thumbnail-video-EN' %}
+    {% assign videoLink = 'Tau-English' %}
+{% endif %}
+{% if site.lang == 'cn' %}
+   {% assign thumbVideo = 'thumbnail-video-CH' %}
+   {% assign videoLink = 'Tau-Chinese' %}
+{% endif %}
+{% if site.lang == 'es' %}
+  {% assign thumbVideo = 'thumbnail-video-ES' %}
+  {% assign videoLink = 'Tau-Spanish' %}
+{% endif %}
 <div class="main-wrapper">
   <div class="sticky-logo sticky-front">
     <p><img src="{{site.url}}/assets/images/bg_tau/tau_logo.svg" alt=""></p>
@@ -222,10 +234,10 @@
             <div class="col-md-6">
               <div id="tau-video">
                   <video id="my-video" class="video-js" controls preload="auto" width="342" height="604"
-                      poster="{{site.url}}/assets/images/thumbnail-video.png" 
+                      poster="{{site.url}}/assets/images/{{thumbVideo}}.png" 
                       data-setup="{}">
-                      <source src="{{site.url}}/assets/images/media/tau-video.mp4" type='video/mp4'>
-                      <source src="{{site.url}}/assets/images/media/tau-video.webm" type='video/webm'>
+                      <source src="{{site.url}}/assets/images/media/{{videoLink}}.mp4" type='video/mp4'>
+                      <source src="{{site.url}}/assets/images/media/{{videoLink}}.webm" type='video/webm'>
                       <p class="vjs-no-js">
                       To view this video please enable JavaScript, and consider upgrading to a web browser that
                       <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
