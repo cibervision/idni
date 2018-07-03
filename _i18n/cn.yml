@@ -1,131 +1,165 @@
 
 pages:
-  home: CHINA
+  home: 中文
   work: Work
 
+menu:
+  tau: Tau
+  agoras: Agoras
+  about: 关于
+  blog: 博客
+
 tau:
-  what_is_tau_chain: 什么是Tau-Chain
-  content_what_is_tau_chain: Tau是基于区块链的分散式网络，可以根据用户的决定自动进行更改。 为了做出有效的决策，Tau将通过使用人机交互的范例帮助用户克服人类讨论中固有的瓶颈。 因此，Tau可以理解整个对话，并能够扩展人与人之间的协作，并为其用户创造知识
-  tau_feature: Tau-chain Main Features
-  only_dynamic: The only dynamic decentralized social network
-  content_only_dynamic: When Tau’s community will face a decision to change Tau or its blockchain protocol, they will just need to express their opinions and perspectives, like we do today in the social networks, and Tau will self-amend itself based on users’ agreement. Considering the perspectives of the entire community (unlike voting) is the only way to reach a decentralized decision that benefits all users. Tau’s ability to scale discussions is the only decentralized solution to create a true dynamic protocol.
-  content_video: The video above is only an illustration of Tau’s design. User discussions can focus on everyday subjects or particular disciplines (life science, politics, computer science, etc.). Only discussions about Tau’s specifications will change its protocol upon reaching an agreement
-  the_road_map: The Roadmap
-  content_the_road_map: We designed a five-stage roadmap where each stage can support the development of the next one. We expect to complete the development of TML and Alpha Tau, during 2018. Using Alpha Tau’s discussion platform an infinite number of developers can join the project to support building Beta Tau expediting its go-to-market date. After Beta Tau is developed, it will only be a matter of time until Tau-Chain is completed as all technical challenges will be resolved using Beta Tau.
+  what_is_tau_chain: Tau是什么
+  content_what_is_tau_chain_italic: Tau是一个去中心化的区块链网络，旨在解决人类交流过程中所固有的规模化瓶颈，以人工智能为基础，提高协作水平，加速生产力的发展。
+  content_what_is_tau_chain_p1: 目前，人类进行大规模的集体讨论和协作的效率非常低。为了解决这一问题，我们开发了一种人-机器-人的交流模式：其核心原则是，不仅用户之间可以沟通，而且用户可以将自己的观点通过一定的方式向Tau客户端表述。Tau能够实时地推导出用户群体的共识点和分歧点，从而以一种中间人的角色促进人类之间的交流。Tau能够做到这一点，是因为它可以汇集用户群体希望分享的知识和观点，以逻辑的方式进行重建，并整合进语义知识库。
+  content_what_is_tau_chain_p2: 在理解集体讨论和推导共识的基础上，Tau能够以共识为基础自动生成和执行代码，这个过程被称为代码合成。在当今世界，这将极大地促进知识的生产, 并将人类大规模协作的能力提高到一个新的水平。
+  tau_feature: Tau-Chain的主要特征
+  only_dynamic: 唯一的动态的去中心化社会网络
+  content_only_dynamic1: 规模化的讨论，自动化的协作以及实时的社会选择同样可以应用到Tau网络本身，使得Tau区块链网络协议可以根据用户的选择被重新定义和修正。
+  content_only_dynamic2: 当Tau社区用户希望对网络的代码，规则或者协议做出修改，他们仅仅需要使用TML定义的语言表达自己的观点。Tau区块链网络拥有自我定义的逻辑能力，能够检测到全体成员观点中的共识，并依此自动修正自身的代码。与普通的投票方式不同，Tau能够考虑到全体成员的建议，任何成员都可以实时地自由地投票表决，以及提出自己的观点供全体成员投票表决。Tau的这种独一无二的特征将成为唯一的动态的去中心化方案。
+  content_video: 以上视频是关于在Tau网络上进行讨论的初步阐述。用户讨论的可以是日常生活中的主题，或者某一特定领域比如科学的或政治的主题。值得注意的是，在Tau网络上同样可以讨论Tau本身，使Tau随之做出改变。
+  the_road_map: 路线图
+  content_the_road_map: 我们设计了一份路线图，每一阶段都是下一阶段的基础，每一阶段都有自己技术上的创新。我们有望在2019年完成TML和Alpha Tau。以Alpha Tau的讨论平台为基础，大量的开发者都可以参与到Beta Tau的开发，从而加快主网上线。Beta Tau开发好以后，完成Tau-Chain只是一个时间问题，因为所有的技术难题都可以在Beta Tau上以协作的方式解决，而且有希望以一种前所未有的开发规模进行。
 
-  feature_lang_title : Language
-  feature_lang_content: We build the Internet of Languages, featuring Tau Meta Language (TML), a self-defining meta language for defining and translating new languages.
+  feature_lang_title : 语言网络
+  feature_lang_content: 根据使用目的不同，最适合的语言也会千差万别，不能用单一语言所替代，这就是为什么我们要创建Tau Meta Language (TML)：TML用来定义其他语言，而且这些语言可以在保持语义相同的前提下通过TML互相转换翻译。因此，TML能够使各种语言之间的顺畅交流和语义翻译得以实现，这些语言包括编程语言，知识表示语言（knowledge representation languages），可视化和组织格式（visualization and organization formats）语言，以及某领域专用语言（domain-specific languages）等等。
 
-  feature_knowledge_title : Knowledge,
-  feature_knowledge_content: Using any knowledge-representation language defined in TML, knowledge can be shared and stored in one place.
+  feature_knowledge_title : 全球知识库
+  feature_knowledge_content: 以TML定义知识表示语言（knowledge representation languages），任何用户都能够自由地将自己的知识和观点以逻辑语言（logical predicates）的形式提交到自己的Tau 客户端，或者广播到Tau网络用来形成知识库。另一方面，用户可以查询这个知识库，Tau将帮助用户推导出问题的答案。知识的产生很大程度上取决于讨论的效率。因此, 通过解决大规模讨论的瓶颈, 可以大大提升世界范围内创造知识的效率。
 
-  feature_economy_title : Economy,
-  feature_economy_content: We build Agoras, a futuristic knowledge economy, to allow pure knowledge-cash transactions …
+  feature_economy_title : Agoras智能化知识经济
+  feature_economy_content: Agoras 是一种先进的知识经济, 能够实现知识与货币之间的交易...
 
-  feature_collaboration_title : Collaboration,
-  feature_collaboration_content: We build the Internet of Languages, featuring Tau Meta Language (TML), a self-defining meta language for defining and translating new languages.
+  feature_collaboration_title : 协作的自动化提升了协作的水平
+  feature_collaboration_content: 人类的很多工作任务依靠团队协作。提高协作水平可以有效加速人类的发展。在实现规模化讨论的基础上，Tau的可判定性逻辑框架（decidable logical framework）使之能够以用户的共识规范为基础合成和执行代码。用户可以在Tau平台上就某一项目进行讨论协作，形成私有的知识库。团队能够通过可扩展性讨论平台迅速地达成共识，形成一系列的规范，据此Tau能够自动生成和执行代码，完成团队任务。
 
-  feature_discussion_title : Discussion,
-  feature_discussion_content: We work on solving the problem of nonscaling discussions. We build a platform allowing efficient discussions in any scale, by human-machine-human communication.
+  feature_discussion_title : 规模化讨论
+  feature_discussion_content: 讨论是交换思想和观点的一个非常宝贵的社会活动, 它可以激发新的想法, 并演绎出全新的概念。目前, 大规模的讨论效率很低，通常在500人之间进行讨论产生的效果不如5人之间的讨论。设想一下我们不仅能够同时听取数百人的想法，而且能够以一种创新的方式理解和处理这些信息。通过Tau作为组织平台来促进人-机器-人之间的交流，我们可以高效地总结和查询讨论过程中产生的数据，而且参与讨论的人数不受任何限制，这将是史无前例的创新。从理论上讲, 在Tau平台上参与讨论的人数增加100倍，对信息的利用度以及产生的知识也将增加100倍。
 
-  feature_choice_title : Language,
-  feature_choice_content: We work on an innovative, logic based, social choice mechanism.
+  feature_choice_title : 实时的社会选择（Social Choice）
+  feature_choice_content: 公平，广泛而高效的社会选择方法在很多领域都被认为是遥不可及的。在大型的团体中，选择哪些议题需要投票表决是一件棘手的事情，往往很多重要的社会议题和见解都被忽略掉了。同样的，一些大型组织由于无法做到全体成员都能够参与选择和决策，导致了低效甚至失败。Tau引入了一种创新的社会选择机制，用户只需要以逻辑语言（logical predicates，由TML所定义）在Tau网络上表达他们的观点，Tau便能够汇集整理所有用户的观点和整体偏好。得益于Tau的可判定性的逻辑属性和新颖的共识方式，这种社会选择机制能够计算出每一项议题的共识水平。
 
-  roadmap_title_tau_meta: TAU Meta Language (TML)
-  roadmap_date_tau_meta: Agust 2018
-  roadmap_content_tau_meta: We will start by developing a metalanguage (TML) as a tool to define new languages such that they all translate to each other. This will form the "Internet of Languages".
+  roadmap_title_1: 上线最简模块：Tau Meta Language (TML)
+  roadmap_date_1: Q3 2018
+  roadmap_content_1: 我们以开发meta language (TML)最为起点，来定义新的语言，并作为新语言之间翻译的桥梁。TML是一种可判定性语言，拥有可以解释和重定义自身的特性，这一点与Datalog相似但有更好的表达属性，因为它允许无限制否定（unrestricted negation）。TML 也能够执行在多项式空间（polynomial space）中可计算的所有运算任务。我们从历史的错误中吸取教训，产品只有充分优化以后才会推出实施。
 
-  roadmap_title_alpha: Alpha Version Launched
-  roadmap_date_alpha: January 2019
-  roadmap_content_alpha: Alpha is a social platform that allows efficient discussions even among very large numbers of participants. Today, an effective conversation cannot be held with too many people; However, Alpha will be able to scale discussions and detect logical points of consensus between users and allow users to explore the opinion map raised in the discussion, thus enabling better knowledge sharing and construction.
+  roadmap_title_2: Demo
+  roadmap_date_2: Q3 2018
+  roadmap_content_2: 发布一个演示程序，用户可以了解与Tau交互的大概过程。
 
-  roadmap_title_beta: Beta Version Lauched
-  roadmap_date_beta: July 2019
-  roadmap_content_beta: Beta will advance Alpha by allowing users to discuss code requirements and then automatically synthesized a correct-by-construction code.
+  roadmap_title_3: Futamura's Projections
+  roadmap_date_3: Q4 2018
+  roadmap_content_3: TML的首要任务是用Partial Evaluation的方法定义自身，这就出现了Futamura's projections。这将是Futamura's projections的首个非图灵完备的实例，可以称得上是编译能力的圣杯。
 
-  roadmap_title_tau_chain: Tau-Chain 
-  roadmap_date_tau_chain: November 2019
-  roadmap_content_tau_chain: Tau is applying all previous stages to itself. Tau is about perpetual collaborative development of itself based on users’ agreements. It will do so as a decentralized and blockchain-based p2p network.
+  roadmap_title_4: 语言网络
+  roadmap_date_4: Q1 2019
+  roadmap_content_4: 将创建一个基于 TML 的用户界面, 以开发一个可以轻松定义、存储和翻译各种语言的系统。这个语言网络在保证语义相同的前提下，相互之间可以翻译转换。
 
-  roadmap_title_agoras: Agoras  
-  roadmap_date_agoras: 01 Jan 2020
-  roadmap_content_agoras: A fully featured knowledge economy allowing knowledge-case transactions, computational resources market, and advanced financials.
+  roadmap_title_5: 知识网络
+  roadmap_date_5: Q2 2019
+  roadmap_content_5: 为了实现可扩展的讨论平台这一目标，我们将建立一些基础设施，用来存储和查询大量的知识，这些知识以TML定义的语言表示。
+
+  roadmap_title_6: Alpha 版发布
+  roadmap_date_6: Q3 2019
+  roadmap_content_6: Alpha版作为讨论平台，可以允许无数人在平台上进行有效地讨论。它不仅将解决讨论的扩展性问题，而且能够以逻辑化的方式探测到全体用户的共识，从而很容易整理出讨论过程中所有用户的观点。在此平台上，知识的创建和分享将变得更加高效。
+
+
+  roadmap_title_7: Beta 版发布
+  roadmap_date_7: Q4 2019
+  roadmap_content_7: Beta版在Alpha基础上，将允许用户讨论代码设计要求，然后自动合成代码。
+
+
+  roadmap_title_8: Tau-Chain上线
+  roadmap_date_8: Q1 2020
+  roadmap_content_8: Tau将是一个根据用户集体讨论决策而不断自我更新的永久性的协作平台，是一个去中心化的点对点的区块链网络。
+
+  roadmap_title_9: Agoras上线
+  roadmap_date_9: Q1 2020
+  roadmap_content_9: Agoras将是一个独具特色的允许知识交易的知识经济市场， 还是一个计算资源市场和高级金融工具。
   
 
 agoras:
-  what_is_agoras: What is Agoras
-  content_what_is_agoras: Agoras is a new, smart economy, where everyone can generate income by conducting knowledge-based transactions. Leveraging Tau’s design and architecture, Agoras will connect users with relevant knowledge to solve complex problems in different disciplines. Agoras will use its own smart contract capabilities to avoid fraudulent activities, set transaction price and verify “shipping” of knowledge. As AGRS will inherit Tau's architecture, the parameters of AGRS will be dynamic and can be changed based on the community desire
-  main_features: Agoras Main Features
-  cryptocurrency: Our Cryptocurrency (AGRS)
-  content_cryptocurrency : Lorem ipsum dolor sit amet, porro pertinacia ut pro, et per eros duis insolens. Debet scribentur ne quo, et sit sumo latine. Ex tollit utinam blandit sed. Dico movet fabellas eum in, vim ne diam salutatus sententiae. Ne per quot propriae deserunt. Lorem ipsum dolor sit amet, porro pertinacia ut pro, et per eros duis insolens. Debet scribentur ne quo, et sit sumo latine. Ex tollit utinam blandit sed. Dico movet fabellas eum in, vim ne diam salutatus sententiae. Ne per quot propriae deserunt.
-  exchanges: Exchanges
-  pre_sale: Pre-Sale
-  pre_sale_content_1: We made a pre-sale of part of the future Agoras coins, and the rest will be pre-sold on a later stage. There is a total amount of 42,000,000 intermediate coins (IDNI Agoras Tokens), that represent 100% of future Agoras coins.
-  pre_sale_content_2: IDNI Agoras (AGRS, Omni asset ID 58) is listed on <a class="text-coinmarketcap" target="_blank" href="https://coinmarketcap.com/currencies/agoras-tokens/">coinmarketcap</a> featuring a partial list of exchanges.
-  pre_sale_content_3: IMPORTANT&#58; BEWARE OF FAKE TOKENS! ALWAYS VALIDATE THE ASSET ID!
-  pre_sale_content_4: Please read our pre-sale
+  what_is_agoras: 什么是Agoras
+  content_what_is_agoras: Agoras是建立在Tau基础之上的一个功能全面的知识经济体，以货币激励的方式对知识进行定价，并促进知识的创造，分配和交换。Agoras沿袭了Tau的动态架构，其参数可以根据社区整体意愿进行实时地修正。此外，Agoras也是一个允许算力交易的计算资源市场；也是一个高级金融工具，可以进行金融衍生品交易，允许零通胀的无风险收益（risk-free interest）。
+  main_features: Agoras主要特征
+  cryptocurrency: 未来Agoras经济体系的加密货币（AGRS）
+  content_cryptocurrency1 : Agoras（AGRS）这个词也被用作Agoras在线经济社会的货币。Agoras代表了Tau网络上所有可交易的知识和计算资源，同时也担当了一个无需增发货币而能获得无风险收益的货币市场的角色。
+  content_cryptocurrency2: Agoras的高效性使我们能够拥有一个合理定价的衍生品市场，使对冲风险，稳定价格以及无风险收益得以实现。
+  exchanges: 交易所
+  pre_sale: 预售
+  pre_sale_content_1: 我们已经预售了一部分Agoras代币，剩余部分将在晚些时候销售。Agoras代币一共42,000,000枚（IDNI Agoras Tokens），代表了未来全部的Agoras货币。
+  pre_sale_content_2: IDNI Agoras (AGRS, Omni asset ID 58) 已经被coinmarketcap收录，其中也列出了一部分交易所。
+  pre_sale_content_3: 注意：当心假的代币，注意验证代币的asset ID。
+  pre_sale_content_4: 请阅读我们的预售条款协议。
 
-  feature_knowledge_economy_title: Knowledge Economy
-  feature_knowledge_economy_content: With all facilities to create a fully featured economy, including production, shipment, pricing, supply, demand, and arena.
 
-  feature_computational_title: Computational Resources Market
-  feature_computational_content: To be able to rent or rent out computational resources.
+  feature_knowledge_economy_title: 计算资源市场
+  feature_knowledge_economy_content: 谷歌、苹果和 Facebook 的所有服务器的计算资源仅仅相当于普通用户群体手中智能手机和个人电脑闲置计算资源的一小部分。为了使Tau网络上的用户能够利用这些闲置资源，Agoras建立了算力资源租赁市场，这一功能是以Zennet项目特别是该项目独特的定价公式为基础设计创建的 ... 
 
-  feature_advanced_title: Advanced finaicials
-  feature_advanced_content: Including for example the ability to obtain risk-free interest without any creation of new money.
+  feature_computational_title: 先进的金融工具
+  feature_computational_content: 参与Agoras经济活动的用户可分为多种角色，比如算力提供者和租用者，知识的卖方和买方，矿工，交易所等，每种用户都有对冲风险的需求。Agoras将包含一个先进的电子化金融衍生品市场，无需杠杆，无需增发货币（代币），允许无风险收益（risk-free interest）。
 
-  feature_vel_title: Vel maiorum reprehendunt ad
-  feature_vel_content: Cum maiorum voluptaria omittantur te. Qui eligendi pericula ea, no primis graeci ius, id mel utroque volumus .
+  feature_advanced_title: 商业自动化
+  feature_advanced_content: Agoras充分利用Tau的优势，其参与者有机会接触到海量的知识，包括可以想到的方方面面，比如经济，法律，社会，以及市场上有关商家和商品的信息。它可以充当用户私人的自动化商务助理，智能化地定制各种复杂的交易，从而获得竞争优势。
+
+  feature_vel_title: 效率和公平
+  feature_vel_content: 市场的效率首先是取决于信息在市场中传播的速度。基于Agoras的经济活动是完全在线的，信息可以快速地自由地流动，所以Agoras 是高效率的。从信息可用性的角度来衡量，Agoras创造了一个更公平的市场。公平的另一个原因是，Agoras系统的资源通常由较大的实体购买，而卖方由更广泛的受众群体组成：大的实体更有可能需要租用数以百万计的电脑，或者购买某一特定领域的知识，中小参与者只需要简单的出租自己闲置的计算资源即可。因此，我们可以期望看到资金流经正确的方向：从富人到穷人。
 
   feature_dictas_title: Dictas pertinax tractatos ex nam
   feature_dictas_content: Quem vocent sanctus sea ex. At quem augue virtute eos, quo odio graeci accusamus ad, sit nihil rationibus id.
 
 
 about:
-  our_vision: Our Vision
-  content: Agoras is a new, smart economy, where everyone can generate income by conducting knowledge-based transactions. Leveraging Tau’s design and architecture, Agoras will connect users with relevant knowledge to solve complex problems in different disciplines. Agoras will use its own smart contract capabilities to avoid fraudulent activities, set transaction price and verify “shipping” of knowledge. As AGRS will inherit Tau's architecture, the parameters of AGRS will be dynamic and can be changed based on the community desire
-  our_team: Our Team
-  our_team_content: We gathered people who are passionate about changing our world and motivate to build a better society. Our team is composed of professionals from different industries and practices, to make sure our development is relevant to people from all disciplines
-  core_team: Core Team
+  our_vision: 我们的愿景
+  content: 我们竭尽所能创造一个更加美好的社会，这里知识的创造和传播更加高效，从而为解决复杂的问题创造条件。有了机器的帮助，任何讨论和协作不再被人数规模所限，知识的分享和观点的交流不再会有扩展性的障碍。不要忘记和忽略知识，知识的发现和传播不再会有瓶颈。
+  our_team: 我们的团队
+  our_team_content: 我们的团队汇集了一批胸怀改变世界，建立美好社会梦想的有识之士。团队由不同行业不同领域的专业人士组成，以确保我们的发展方向与各行各业的需求保持一致。
+  core_team: 核心团队
 
-  team_carrier_isar: Strategy and Operations
-  team_content_isar: Isar has 3 years of consulting experience from Ernst & Young, where he worked with startup companies. He is a veteran member of the Israeli Bitcoin Community and the president and co-founder of the Blockchain and Innovation Club at Cornell University. Isar is an MBA candidate at Cornell University and holds a LL.M and BS in Economics.
+  team_carrier_isar: 战略与运营
+  team_content_isar: Isar在Ernst & Young咨询公司工作3年，与初创企业一起合作，积累了丰富的咨询工作经验。他是以色列比特币社区的资深成员，也是康奈尔大学区块链创新俱乐部的创始人和主席。Isar是康奈尔大学的MBA学员，拥有经济学学士学位和法学硕士学位。
 
-  team_carrier_ohad: Development
-  team_content_ohad: Ohad is a Software Developer and Mathematician on the top tech companies in Israel since 1995. He was the youngest university student in Israel, studying Mathematics and Computer Science. Of his additional fields of interests are physics, philosophy, psychology, and economics
+  team_carrier_ohad: 研发
+  team_content_ohad: Ohad是一名数学家及软件开发者，自1995年起工作于以色列一家高科技公司。他曾经是以色列最年轻的大学生，主修数学和计算机科学。学习和工作期间，Ohad在计算机和数学领域学习了大量的知识，积累了丰富的经验，近几年还对逻辑学，机器学习，复杂性理论，科学哲学，经济学，社会选择（social choice），以及去中心化网络进行了深入的研究。他设计实施了Tau和Agoras项目。作为创始人，Ohad领导整个项目的开发。
 
-  team_carrier_karov: Legal
-  team_content_karov: Karov is a Lawyer with over 20 years of post-qualified experience in number of jurisdictions. He is providing (as Behest.io) legal and consulting services for blockchain enterprises, while serving as a general counsel for ET3. Karov holds a LL.M and BS in Economics.
+  team_carrier_karov: 法律
+  team_content_karov: Karov是一名律师，拥有超过20年的法律事务工作经验。他为 区块链企业提供法律和咨询服务 (as Behest.io)，同时担任 ET3 的总法律顾问。Karov拥有经济学学士学位和法学硕士学位。
 
-  team_carrier_douglas: Knowledge Representation & Reasoning
-  team_content_douglas: DMiles is a software design & research engineer with over 30 years of experience in a number of programming languages. During his career, he had created several artificial intelligence applications for government and military contracts. Past and present he has designed the minds of some of the famous social robot companies, such as Daxtron Labs, Hanson Robotics, and Terasim Movement are known for.
+  team_carrier_douglas: 知识表示和推理（Knowledge Representation & Reasoning）
+  team_content_douglas: DMiles是一名有30余年工作经验的软件设计和研发工程师，精通多种编程语言。在DMiles的职业生涯中，他为政府和军方开发了数个人工智能的项目。迄今为止，他已经为几家著名的机器人公司如Daxtron Labs，Hanson Robotics，Terasim Movement等提供智能设计方案。
 
-  team_carrier_felix : Business Development
-  team_content_felix : Felix advises a large VC on their emerging tech strategy and is interested in all kinds of complex dynamical systems. Operating in the blockchain space for many years, Felix founded a first-generation payment provider for cryptocurrencies in 2013, while operating a company that developed automated trading systems for the stock market. He studied business and economics with focus on information systems and marketing.
+  team_carrier_felix : 商务拓展
+  team_content_felix : Felix服务于一家大型VC的新兴技术战略部门，涉猎各种复杂动态系统。Felix在区块链领域耕耘多年，于2013年创建了第一代基于加密货币的支付公司。此外还创建了一家专注于股票市场自动交易系统的公司。Felix对信息系统和市场营销也有所研究。
 
-  team_carrier_yann: Asian Market Communications
-  team_content_yann: Yann has abundant project management experience working in China Academy of Social Sciences, the top research institute in China. He is an entrepreneur (founded SPO and LunarX), an angel investor and a veteran in the crypto-world, where he helped building communities for various projects since 2013. Yann holds a M.Phil and B.Eng.
+  team_carrier_yann: 亚洲市场负责人
+  team_content_yann: Yann工作于中国顶级的研究机构中国社科院，拥有丰富的项目管理经验。他是一位企业家（创建了SPO and LunarX），同时也是区块链领域的天使投资人和布道者，自2013年起帮助多个区块链项目建立了社区。Yann拥有工学学士和哲学硕士学位。
 
-  team_carrier_ethan: Marketing
-  team_content_ethan: Ethan has over 14 years of experience as a product and marketing manager in a global megabank and an online forex company, focusing mainly on large enterprises. In the past few years, he was providing marketing and community building services to several ICO projects, including Starbase, Mainstreet, SingularDTV, Firstblood and BlockCDN. Ethan holds a BS in Business Management
+  team_carrier_ethan: 市场营销
+  team_content_ethan: Ethan在全球性的大型银行和外汇公司担任产品经理和销售经理，拥有14余年的工作经验，主要面向大型企业用户。在过去几年，他为一些区块链企业的ICO项目提供市场营销及社区建设服务，其中包括Starbase， Mainstreet，SingularDTV， Firstblood and BlockCDN等。Ethan拥有商业管理学士学位。
 
-  team_carrier_capitanArt: Design
-  team_content_capitanArt: CapitanArt is a graphic design and 3D animation business, led by Juan, a graphic illustrator with more than 20 years of experience, and his brother Jordi, a member of the Blockchain Association in Catalonia. CapitanArt provides design and concept art services for top companies such as Amazon, Ubisoft and Motorola. Juan is a master and a trainer for digital drawing, while Jordi has BS in computer science and telecommunications.
+  team_carrier_capitanArt: 艺术设计
+  team_content_capitanArt: CapitanArt是一家由Juan和Jordi领导的专注于平面设计和3D动画设计的实体，为亚马逊，Ubisoft和摩托罗拉等大型公司提供创意设计服务。Juan在艺术设计领域有20余年的工作经验，在数字绘画领域造诣精深。Jordi是Catalonia区块链协会的成员，拥有计算机通信科学学士学位。
 
 
 networks:
-  title: Join Our Social Networks
+  title: 加入我们的社交媒体
 
 blog:
-  title: Official Articles
-  next: Next article
-  prev: Previous article 
-  back: Back to the list
-  archived: Archived posts
-  read_more: 更多
+  title: 官方文章
+  next: 下一篇文章
+  prev: 上一篇文章 
+  back: 返回列表
+  archived: 已存档文章
+  read_more: 阅读更多
+
+footer: 
+  download_logo_tau: 下载 Tau logo
+  download_logo_agoras: 下载Agoras logo
+  all_right: 保留所有权利
 
 term_condition:
-  title: Terms and Conditions
+  title: 条款和条件
   timer: Last updated&#58; 10 Feb 2015
   content: <h3>Welcome to Tau-Chain!</h3>
         <p>Thanks for using our website. The Site is provided by and is property of Intelligent Decentralized Networks Initiatives Limited, (‘IDNI’), located in Road Town, Tortola, BVI. </p>

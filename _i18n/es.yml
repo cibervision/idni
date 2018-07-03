@@ -3,6 +3,12 @@ pages:
   home: English
   work: Work
 
+menu:
+  tau: Tau
+  agoras: Agoras
+  about: Acerca de
+  blog: Blog
+
 tau:
   what_is_tau_chain: Qué es Tau
   content_what_is_tau_chain_italic: Tau es una red blockchain descentralizada destinada a resolver las limitaciones inherentes en la comunicación humana a gran escala y acelerar la productividad en la colaboración humana utilizando inteligencia artificial basada en la lógica.
@@ -148,8 +154,13 @@ blog:
   archived: Publicaciones Archivadas
   read_more: Leer más
 
+footer: 
+  download_logo_tau: Descargar Logo de Tau
+  download_logo_agoras: Descargar Logo de Agoras
+  all_right: Todos los derechos reservados
+
 term_condition:
-  title: Terms and Conditions
+  title: Términos y Condiciones
   timer: Last updated&#58; 10 Feb 2015
   content: <h3>Welcome to Tau-Chain!</h3>
         <p>Thanks for using our website. The Site is provided by and is property of Intelligent Decentralized Networks Initiatives Limited, (‘IDNI’), located in Road Town, Tortola, BVI. </p>

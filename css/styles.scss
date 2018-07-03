@@ -3851,6 +3851,11 @@ footer{
 	}
 }
 @media (max-width: 1024px) {
+    .page-cn{
+        #h2-blog{
+            margin-top:85px;
+        }
+    }
 	.main-wrapper#page-about #roadmap .group-member .list .content-hover.yann{
 		min-height: 245px;
 	}

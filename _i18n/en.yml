@@ -3,6 +3,12 @@ pages:
   home: English
   work: Work
 
+menu:
+  tau: Tau
+  agoras: Agoras
+  about: About
+  blog: Blog
+
 tau:
   what_is_tau_chain: What is Tau
   content_what_is_tau_chain_italic: Tau is a decentralized blockchain network intended to solve the bottlenecks inherent in large scale human communication and accelerate productivity in human collaboration using logic based Artificial Intelligence.
@@ -145,6 +151,11 @@ blog:
   back: Back to the list
   archived: Archived posts
   read_more: Read more
+
+footer: 
+  download_logo_tau: Download Tau Logo
+  download_logo_agoras: Download Agoras Logo
+  all_right: All rights reserved
 
 term_condition:
   title: Terms and Conditions
