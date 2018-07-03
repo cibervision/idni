@@ -46,6 +46,7 @@
                         </div>
                         <div class="col-md-7 nav-main">
                            {% include nav.html %}
+                          
                             <div class="dropdown-lang">
                                 <div class="dropdown">
                                         <a id="dLabel" data-target="my-dropdown-lang" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
@@ -72,9 +73,17 @@
                                 <a target="_blank" href="https://github.com/IDNI/tau"><img src="{{site.url}}/assets/images/git.png" alt="github-icon" /></a>
                             </div>
                         </div>
+                        <div id="lang-list">
+                            <ul>
+                                <li><a href="{{site.url}}"><img src="{{site.url}}/assets/images/en.png" alt="en-icon" />English</a></li>
+                                <li><a href="{{site.url}}/cn"><img src="{{site.url}}/assets/images/cn.png" alt="cn-icon" />Chinese</a></li>
+                                <li><a href="{{site.url}}/es"><img src="{{site.url}}/assets/images/es.png" alt="es-icon" />Spanish</a></li>
+                            </ul>
+                        </div>
                         <div id="menu-mobile-button">
                             <ul>
-                                <li><a class="icon-git-nav" target="_blank" href="https://github.com/IDNI/tau"><img src="{{site.url}}/assets/images/git.png" alt="github-icon" /></a></li>
+                                <li><a class="icon-git-nav none-lang" target="_blank" href="https://github.com/IDNI/tau"><img src="{{site.url}}/assets/images/git.png" alt="github-icon" /></a></li>
+                                <li><a id="menu-default-lang" class="icon-git-nav v-lang" target="_blank" href="javascript:void(0)"><img src="{{site.url}}/assets/images/{{site.lang}}.png" alt="{{site.lang}}" /><i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
                                 <li><a id="navigation-mobile" href="javascript:void(0)" class="icon-nav"><i class="fa fa-bars" aria-hidden="true"></i></a></li>
                             </ul>
                         </div>

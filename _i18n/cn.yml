@@ -116,6 +116,7 @@ about:
   our_team: 我们的团队
   our_team_content: 我们的团队汇集了一批胸怀改变世界，建立美好社会梦想的有识之士。团队由不同行业不同领域的专业人士组成，以确保我们的发展方向与各行各业的需求保持一致。
   core_team: 核心团队
+  advisers: 顾问
 
   team_carrier_isar: 战略与运营
   team_content_isar: Isar在Ernst & Young咨询公司工作3年，与初创企业一起合作，积累了丰富的咨询工作经验。他是以色列比特币社区的资深成员，也是康奈尔大学区块链创新俱乐部的创始人和主席。Isar是康奈尔大学的MBA学员，拥有经济学学士学位和法学硕士学位。
@@ -155,7 +156,7 @@ blog:
 
 footer: 
   download_logo_tau: 下载 Tau logo
-  download_logo_agoras: 下载Agoras logo
+  download_logo_agoras: 下载 Agoras logo
   all_right: 保留所有权利
 
 term_condition:

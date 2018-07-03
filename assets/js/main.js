@@ -1,4 +1,5 @@
 
+
 function hoverContent(){
 	$('.block-hover').hover(function(){
 		//$(this).parent('.parent-hover').find('.content-hover').addClass('active')
@@ -54,6 +55,14 @@ function stickyLogo() {
 }
 
 $(document).ready(function(){
+   $('#menu-default-lang').click(function() {
+      var langList = $('#lang-list');
+      if(langList.hasClass('active')){
+         $('#lang-list').removeClass('active')
+      }else{
+         $('#lang-list').addClass('active')
+      }
+   });
 	// $fn.scrollSpeed(step, speed, easing);
 	// jQuery.scrollSpeed(200, 1000);
 
