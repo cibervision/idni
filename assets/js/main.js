@@ -1,4 +1,28 @@
+function detectIE() {
+    var ua = window.navigator.userAgent;
 
+    var msie = ua.indexOf('MSIE ');
+    if (msie > 0) {
+        // IE 10 or older => return version number
+        return parseInt(ua.substring(msie + 5, ua.indexOf('.', msie)), 10);
+    }
+
+    var trident = ua.indexOf('Trident/');
+    if (trident > 0) {
+        // IE 11 => return version number
+        var rv = ua.indexOf('rv:');
+        return parseInt(ua.substring(rv + 3, ua.indexOf('.', rv)), 10);
+    }
+
+    var edge = ua.indexOf('Edge/');
+    if (edge > 0) {
+       // Edge (IE 12+) => return version number
+       return parseInt(ua.substring(edge + 5, ua.indexOf('.', edge)), 10);
+    }
+
+    // other browser
+    return false;
+}
 
 function hoverContent(){
 	$('.block-hover').hover(function(){
@@ -55,6 +79,10 @@ function stickyLogo() {
 }
 
 $(document).ready(function(){
+  var isIe = detectIE();
+  if( detectIE()){
+     $('body').addClass('ie ie-'+isIe);
+  }
    $('#menu-default-lang').click(function() {
       var langList = $('#lang-list');
       if(langList.hasClass('active')){
@@ -153,34 +181,33 @@ function getHeightScreen(){
 function castParallax() {
   var opThresh = 350;
   var opFactor = 750;
-
-  window.addEventListener("scroll", function(event) {
-    var top = this.pageYOffset;
-	if(top > 300){
-		scrollingHeader(true);
-	}else{
-		scrollingHeader(false);
-	}
-    var layers = document.getElementsByClassName("parallax");
-    var layer, speed, yPos;
-    for (var i = 0; i < layers.length; i++) {
-      layer = layers[i];
-      speed = layer.getAttribute("data-speed");
-      direct = layer.getAttribute('data-direct');
-      var yPos = -(top * speed / 100);
-      // layer.setAttribute(
-      //   "style",
-      //   "transform: translate3d(0px, " + yPos + "px, 0px)"
-      // );
-		if(direct === 'right'){
-			layer.setAttribute('style', 'transform: translate3d(' + -yPos + 'px, 0px , 0px)');
-		}
-		else {
-			layer.setAttribute('style', 'transform: translate3d(0px, ' + yPos + 'px, 0px)');
-		}
+   var isIe = detectIE();
+   if(isIe === false){
+    window.addEventListener("scroll", function(event) {
+        var top = this.pageYOffset;
+      if(top > 300){
+        scrollingHeader(true);
+      }else{
+        scrollingHeader(false);
+      }
+      
+        var layers = document.getElementsByClassName("parallax");
+        var layer, speed, yPos;
+        for (var i = 0; i < layers.length; i++) {
+          layer = layers[i];
+          speed = layer.getAttribute("data-speed");
+          direct = layer.getAttribute('data-direct');
+          var yPos = -(top * speed / 100);
+        if(direct === 'right'){
+          layer.setAttribute('style', 'transform: translate3d(' + -yPos + 'px, 0px , 0px)');
+        }
+        else {
+          layer.setAttribute('style', 'transform: translate3d(0px, ' + yPos + 'px, 0px)');
+        }
+        }
+      });
     }
-  });
-}
+  }
 
 function dispelParallax() {
   $("#nonparallax").css("display", "block");
