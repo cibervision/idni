@@ -1,14 +1,17 @@
 {% if site.lang == 'en' %}
     {% assign thumbVideo = 'thumbnail-video-EN' %}
     {% assign videoLink = 'Tau-English' %}
+    {% assign url = null %}
 {% endif %}
 {% if site.lang == 'cn' %}
    {% assign thumbVideo = 'thumbnail-video-CH' %}
    {% assign videoLink = 'Tau-Chinese' %}
+   {% assign url = '/cn' %}
 {% endif %}
 {% if site.lang == 'es' %}
   {% assign thumbVideo = 'thumbnail-video-ES' %}
   {% assign videoLink = 'Tau-Spanish' %}
+  {% assign url = '/es' %}
 {% endif %}
 <div class="main-wrapper">
   <div class="sticky-logo sticky-front">
@@ -208,7 +211,7 @@
                   </div>
                 </div>
                 <p class="more-less hidden"><span>+</span></p>
-                <p class="text-center"><a class="read-more" href="{{site.url}}/agoras">{% t blog.read_more %}</a></p>
+                <p class="text-center"><a class="read-more" href="{{site.url}}{{url}}/agoras">{% t blog.read_more %}</a></p>
               </li>
             </ul>
           </div>

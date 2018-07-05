@@ -1900,6 +1900,7 @@ article.post{
 	position: fixed;
     width: 100%;
     z-index: 1000;
+    -webkit-backface-visibility: hidden;
 	@include tran(all,0.4s);
 	&.fixed{
 		position: fixed;
@@ -3604,6 +3605,7 @@ footer{
     opacity: 1!important;
     filter: alpha(opacity=100)!important;
 }
+/* FIXING IE */
 .ie-11{
     .my-video-dimensions{
         width: 340px;
@@ -3636,6 +3638,17 @@ body.ie{
                 top:0px;
              }
         }
+        &.ie-16{
+             #features .list-feature li .fimage{
+                transition:none;
+                opacity: 1;
+                border-radius: 0px;
+                &:hover{
+                    border:none;
+                }
+            }
+        }
+       
 }
 
 /********************/
