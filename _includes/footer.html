@@ -5,16 +5,22 @@
                     <div class="row">
                         {% assign url = site.lang %}
                         {% if site.lang == 'en' %}
-                            {% assign url = '' %}
+                            {% assign url = null %}
+                        {% endif %}
+                         {% if site.lang == 'cn' %}
+                            {% assign url = '/cn' %}
+                        {% endif %}
+                         {% if site.lang == 'es' %}
+                            {% assign url = '/es' %}
                         {% endif %}
                         <div class="col-md-3 col-sm-4 col-xs-12">
-                            <a href="{{site.url}}/{{url}}"><img class="logo" alt="TAU-LOGO" src="{{site.url}}/assets/images/logo_header.svg" /></a>
+                            <a href="{{site.url}}{{url}}"><img class="logo" alt="TAU-LOGO" src="{{site.url}}/assets/images/logo_header.svg" /></a>
                             <p class="support"><a href="mailto:contact@idni.org"><i class="fa fa-envelope" aria-hidden="true"></i><span>contact@idni.org</span></a></p>
                         </div>
                         <div class="col-md-5 col-sm-5 col-xs-12">
                             <div class="row fmenu">
                                 <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <a href="{{site.url}}" >Tau</a>
+                                    <a href="{{site.url}}{{url}}" >Tau</a>
                                     <!-- <a href="{{site.url}}/{{url}}" >Tau</a> --> 
                                     <!-- {{site.lang}} -->
                                     <a href="{{site.url}}{% translate_link agoras {{site.lang}} %}">Agoras</a>

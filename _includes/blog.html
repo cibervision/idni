@@ -1,27 +1,33 @@
+    {% assign url = site.lang %}
+    {% if site.lang == 'en' %}
+            {% assign url = null %}
+            {% assign data = site.data.blogen %}
+            {% assign nameCN = 'Chinese' %}
+            {% assign nameES = 'Spanish' %}
+    {% endif %}
+    {% if site.lang == 'cn' %}
+            {% assign url = '/cn' %}
+            {% assign data = site.data.blogcn %}
+            {% assign nameCN = '中文 ' %}
+             {% assign nameES = 'Spanish' %}
+    {% endif %}
+    {% if site.lang == 'es' %}
+        {% assign url = '/es' %}
+        {% assign data = site.data.bloges %}
+        {% assign nameCN = 'Chinese' %}
+        {% assign nameES = 'Español' %}
+    {% endif %}
 <div class="content container blog">
     <h2 class="text-center" id="h2-blog">{% t blog.title %}</h2>   
     <ul  class="list-lang">
         <li ><a href="{{site.url}}/blog">English</a></li>
-        <li><a href="{{site.url}}/cn/blog" >Chinese</a> </li>
-        <li><a href="{{site.url}}/es/blog">Spanish</a> </li>
+        <li><a href="{{site.url}}/cn/blog">中文</a> </li>
+        <li><a href="{{site.url}}/es/blog">Español</a> </li>
         
     </ul>
     <div class="row">
         <div class="col-md-9">
             <ul class="list-blog">
-                {% assign url = site.lang %}
-                {% if site.lang == 'en' %}
-                     {% assign url = null %}
-                     {% assign data = site.data.blogen %}
-                {% endif %}
-                {% if site.lang == 'cn' %}
-                     {% assign url = '/cn' %}
-                     {% assign data = site.data.blogcn %}
-                {% endif %}
-                {% if site.lang == 'es' %}
-                    {% assign url = '/es' %}
-                    {% assign data = site.data.bloges %}
-                {% endif %}
                 {% for blog in data %}
                     {% if blog.key == 'main' %}
                     <li>

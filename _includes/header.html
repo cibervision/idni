@@ -49,7 +49,7 @@
                                     {% assign nameES = 'Español' %}
                                 {% endif %}
                                 <div class="child-block">
-                                    <a href="{{site.url}}/{{url}}"><img id="logo" alt="TAU-LOGO" src="{{site.url}}/assets/images/logo_header.svg" /></a>
+                                    <a href="{{site.url}}{{url}}"><img id="logo" alt="TAU-LOGO" src="{{site.url}}/assets/images/logo_header.svg" /></a>
                                 </div>
                             </div>
                         </div>
@@ -64,17 +64,17 @@
                                             <span class="title-lang-default">English</span>
                                              {% endif %}
                                              {% if site.lang == 'cn' %}
-                                            <span class="title-lang-default">{{nameCN}}</span>
+                                            <span class="title-lang-default">中文</span>
                                              {% endif %}
                                              {% if site.lang == 'es' %}
-                                            <span class="title-lang-default">{{nameES}}</span>
+                                            <span class="title-lang-default">Español</span>
                                              {% endif %}
                                             <span class="caret"></span>
                                         </a>
                                         <ul id="my-dropdown-lang" class="dropdown-menu" aria-labelledby="dLabel">
                                             <li><a href="{{site.url}}">English</a></li>
-                                            <li><a href="{{site.url}}/cn">{{nameCN}}</a></li>
-                                            <li><a href="{{site.url}}/es">{{nameES}}</a></li>
+                                            <li><a href="{{site.url}}/cn">中文</a></li>
+                                            <li><a href="{{site.url}}/es">Español</a></li>
                                         </ul>
                                 </div>
                             </div>
@@ -85,8 +85,8 @@
                         <div id="lang-list">
                             <ul>
                                 <li><a href="{{site.url}}"><img src="{{site.url}}/assets/images/en.png" alt="en-icon" />English</a></li>
-                                <li><a href="{{site.url}}/cn"><img src="{{site.url}}/assets/images/cn.png" alt="cn-icon" />{{nameCN}}</a></li>
-                                <li><a href="{{site.url}}/es"><img src="{{site.url}}/assets/images/es.png" alt="es-icon" />{{nameES}}</a></li>
+                                <li><a href="{{site.url}}/cn"><img src="{{site.url}}/assets/images/cn.png" alt="cn-icon" />中文</a></li>
+                                <li><a href="{{site.url}}/es"><img src="{{site.url}}/assets/images/es.png" alt="es-icon" />Español</a></li>
                             </ul>
                         </div>
                         <div id="menu-mobile-button">
