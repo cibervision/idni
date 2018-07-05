@@ -1,7 +1,5 @@
 
-pages:
-  home: English
-  work: Work
+name_lang_en : English
 
 menu:
   tau: Tau

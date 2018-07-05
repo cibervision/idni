@@ -5,10 +5,11 @@
         <meta charset="utf-8">
         <title>Intelligent Decentralized Networks Initiatives - {{ page.title }}</title>
         <meta property="og:locale:alternate" content="{{site.lang}}" />
-        <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+        <meta name="keywords" content="{{page.key_word}}">
         <link rel="shortcut icon" href="{{site.url}}/assets/images/favicon.ico">
      
         <meta name="twitter:card" content="{{page.card}}">
+        <meta name="twitter:image" content="{{site.url}}/assets/images/cover/{{page.image_twitter}}">
         <meta name="twitter:site" content="@{{page.publisher_handle}}">
         <meta name="twitter:title" content="{{page.title}}">
         <meta name="twitter:description" content="{{page.description}}">
@@ -16,6 +17,7 @@
 
         <meta property="og:title"  content="{{page.title}}" />
         <meta property="og:type"  content="{{page.type}}" />
+        <meta property="og:image" content="{{site.url}}/assets/images/cover/{{page.image_facebook}}">
         <meta property="og:description"  content="{{page.description}}" /> 
         <meta property="og:site_name" content="{{site.url}}{{page.permalink}}" />
         <meta property="fb:admins"  content="{{page.fbnumberID}}" />
@@ -33,12 +35,18 @@
                                 {% assign url = site.lang %}
                                 {% if site.lang == 'en' %}
                                     {% assign url = '' %}
+                                    {% assign nameCN = 'Chinese' %}
+                                    {% assign nameES = 'Spanish' %}
                                 {% endif %}
                                 {% if site.lang == 'cn' %}
                                     {% assign url = '/cn' %}
+                                    {% assign nameCN = '中文 ' %}
+                                    {% assign nameES = 'Spanish' %}
                                 {% endif %}
                                 {% if site.lang == 'es' %}
                                     {% assign url = '/es' %}
+                                    {% assign nameCN = 'Chinese' %}
+                                    {% assign nameES = 'Español' %}
                                 {% endif %}
                                 <div class="child-block">
                                     <a href="{{site.url}}/{{url}}"><img id="logo" alt="TAU-LOGO" src="{{site.url}}/assets/images/logo_header.svg" /></a>
@@ -56,17 +64,17 @@
                                             <span class="title-lang-default">English</span>
                                              {% endif %}
                                              {% if site.lang == 'cn' %}
-                                            <span class="title-lang-default">Chinese</span>
+                                            <span class="title-lang-default">{{nameCN}}</span>
                                              {% endif %}
                                              {% if site.lang == 'es' %}
-                                            <span class="title-lang-default">Spanish</span>
+                                            <span class="title-lang-default">{{nameES}}</span>
                                              {% endif %}
                                             <span class="caret"></span>
                                         </a>
                                         <ul id="my-dropdown-lang" class="dropdown-menu" aria-labelledby="dLabel">
                                             <li><a href="{{site.url}}">English</a></li>
-                                            <li><a href="{{site.url}}/cn">Chinese</a></li>
-                                            <li><a href="{{site.url}}/es">Spanish</a></li>
+                                            <li><a href="{{site.url}}/cn">{{nameCN}}</a></li>
+                                            <li><a href="{{site.url}}/es">{{nameES}}</a></li>
                                         </ul>
                                 </div>
                             </div>
@@ -77,8 +85,8 @@
                         <div id="lang-list">
                             <ul>
                                 <li><a href="{{site.url}}"><img src="{{site.url}}/assets/images/en.png" alt="en-icon" />English</a></li>
-                                <li><a href="{{site.url}}/cn"><img src="{{site.url}}/assets/images/cn.png" alt="cn-icon" />Chinese</a></li>
-                                <li><a href="{{site.url}}/es"><img src="{{site.url}}/assets/images/es.png" alt="es-icon" />Spanish</a></li>
+                                <li><a href="{{site.url}}/cn"><img src="{{site.url}}/assets/images/cn.png" alt="cn-icon" />{{nameCN}}</a></li>
+                                <li><a href="{{site.url}}/es"><img src="{{site.url}}/assets/images/es.png" alt="es-icon" />{{nameES}}</a></li>
                             </ul>
                         </div>
                         <div id="menu-mobile-button">

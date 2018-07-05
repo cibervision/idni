@@ -1,8 +1,6 @@
 
-pages:
-  home: 中文
-  work: Work
 
+name_lang_cn : 中文 
 menu:
   tau: Tau
   agoras: Agoras
