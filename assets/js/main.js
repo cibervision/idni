@@ -166,9 +166,12 @@ $(document).on("DOMContentLoaded", function(event) {
     }
 
     getHeightScreen();
-    //alert($(window).height() -100);
 
-
+    var ua = navigator.userAgent.toLowerCase();
+    var isAndroid = ua.indexOf("android") > -1; 
+    if(isAndroid) {
+      $('body').addClass('isAndroid');
+    }
 });
 
 function getHeightScreen(){
@@ -226,7 +229,7 @@ function startSite() {
   var platform = navigator.platform.toLowerCase();
   var userAgent = navigator.userAgent.toLowerCase();
 
-  if (platform.indexOf("ipad") != -1 || platform.indexOf("iphone") != -1) {
+  if ( platform.indexOf("iphone") != -1) {
     dispelParallax();
   } else if (
     platform.indexOf("win32") != -1 ||

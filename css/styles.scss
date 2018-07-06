@@ -1561,6 +1561,9 @@ $wave:#021942;
 	width: 100%;
     text-align: right;
 }
+.root-iphone{
+    display: none;
+}
 .none-padding{
 	padding: 0px;
 }
@@ -3085,6 +3088,11 @@ footer{
 .vjs-control-bar{
 	display: none !important;
 }
+body.isAndroid{
+    .vjs-control-bar{
+        display: block !important;
+    }
+}
 .video-js .vjs-big-play-button{
 	background-image: url('{{site.url}}/assets/images/play.png');
 	width: 110px;
@@ -3097,7 +3105,7 @@ footer{
 	margin: auto;
     text-align: center;
     position: relative;
-    top: 48.7%;
+    top: 63.7%;
     left: 3px;
 	&:hover{
 		background-image: url('{{site.url}}/assets/images/play-hover.png');
@@ -4564,6 +4572,22 @@ body.ie{
     }
 }
 @media (max-width: 601px) {
+    .video-js .vjs-big-play-button{
+        top: 48.7%;
+    }
+     #home #roadmap .content{
+         background-size: contain;
+         background-position: left;
+         background-attachment: inherit;
+         background-image: none;
+         background-image: none;
+        
+    }
+    .root-iphone{
+        position: absolute;
+        width: 90%;
+        display: block
+    }
 	.title-h3, .title-h2{
 		font-size: 26px;
 		margin-bottom: 20px;
@@ -4579,7 +4603,7 @@ body.ie{
 		margin: auto;
 	}
 	.background-home{
-		margin-top: -20px;
+		margin-top: -25px;
 	}
 	#background-mobile-home{
 		background-image: url('{{site.url}}/assets/images/tau-mobile.png');
