@@ -1680,10 +1680,10 @@ article.post{
     ul{
          display: block;
         list-style: none;
-        padding-top: 25px;
-        padding-left: 35px;
+         padding-top: 15px;
+    	padding-left: 30px;
         li{
-            margin-bottom: 15px;
+            margin-bottom: 10px;
             img{
               width: 35px;
               margin-right: 15px;
@@ -2163,12 +2163,61 @@ article.post{
     width: 100%;
     z-index: 99;
 }
+.dropdown-menu{
+	list-style: none !important;
+}
 .root-left{
     position: absolute;
     left: 1px;
     width: 366px;
     z-index: 4;
     top: -189px;
+}
+.sprites-img{
+	background-image:url('{{site.url}}/assets/images/images-css.png');
+	background-repeat: no-repeat;
+	&.flag-global{
+		background-position: -225px -10px;
+	    width: 32px;
+	    height: 31px;
+	    display: inline-block;
+	    position: relative;
+	    top: 9px;
+	}
+	&.git-i{
+		background-position: -190px -12px;
+	    width: 30px;
+	    height: 32px;
+	    display: inline-block;
+	    position: relative;
+	}
+	&.flag-cn{
+	    background-position: -10px -12px;
+	    width: 40px;
+	    height: 28px;
+	    display: inline-block;
+	    position: relative;
+	    top: 5px;
+	    margin-right: 10px;
+	}
+	&.flag-en{
+	    background-position: -70px -12px;
+	    width: 40px;
+	    height: 28px;
+	    display: inline-block;
+	    position: relative;
+	    top: 5px;
+	    margin-right: 10px;
+	}
+	&.flag-es{
+	    background-position: -130px -12px;
+	    width: 40px;
+	    height: 28px;
+	    display: inline-block;
+	    position: relative;
+	    top: 5px;
+	    margin-right: 10px;
+	}
 }
 #join-our{
 	background-color: #DBEBFC;
@@ -3973,6 +4022,10 @@ body.ie{
 	}
 }
 @media (max-width: 1024px) {
+	.sprites-img.git-i{
+		top:7px;
+		position: relative;
+	}
     .page-cn{
         #h2-blog{
             margin-top:85px;
