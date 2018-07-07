@@ -11,7 +11,7 @@ type: Agoras
 fbnumberID: ARSPSs08qmchtVLR0kVb_UwG5dfUzbNOBDDfZ_RFFn44FfdJN0Crymsm2kcHsTqcYEg
 key_word: blockchain, cryptocurrency, crypto economy, bitcoin, agoras, tau-chain, tau
 
-image_facebook: Facebook-Group-Tauchain.jpg
+image_facebook: Facebook-Group-Tauchain.png
 image_twitter: Twitter.png
 
 namespace: agoras
