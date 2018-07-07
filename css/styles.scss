@@ -3129,8 +3129,8 @@ body.isAndroid{
 	margin: auto;
     text-align: center;
     position: relative;
-    top: 63.7%;
-    left: 3px;
+    top: 50.8%;
+    left: 0px;
 	&:hover{
 		background-image: url('{{site.url}}/assets/images/play-hover.png');
 	}
@@ -4619,7 +4619,7 @@ body.ie{
 		max-width:100%;
 	}
     .video-js .vjs-big-play-button{
-        top: 48.7%;
+       top: 36.1%;
     }
      #home #roadmap .content{
          background-size: contain;

@@ -36,7 +36,6 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-minifier
-  
 
 sass:
     style: compressed
@@ -53,8 +52,14 @@ sass:
 #   - vendor/ruby/
 plugins: 
   - jekyll-multiple-languages-plugin
+  - jekyll-sitemap
+  
 languages: ["en","cn","es"]
 exclude_from_localizations: ["assets","css"]
 collections:
   faq:
     output: true
+
+defaults:
+    values:
+      sitemap:         false
