@@ -3,7 +3,7 @@ const path = require('path');
 const sourcePath = path.join(__dirname, './');
 const sourceOutPath = path.join(__dirname, './assets/js/');
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
-const HtmlWebpackPlugin = require('html-webpack-plugin')
+//const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = function (env) {
     const nodeEnv = env && env.prod ? 'production' : 'development';

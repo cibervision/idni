@@ -1,3 +1,4 @@
+
 function detectIE() {
     var ua = window.navigator.userAgent;
 
@@ -33,6 +34,20 @@ function hoverContent(){
 }
 //AOS.init();
 $(function () {
+    $('#youtube-video-1').click(function(){
+       $('#modal-video-1').modal('show')
+    })
+    $('#modal-video-1').on('hidden.bs.modal', function (e) {
+        $("#modal-video-1 iframe").attr("src", $("#modal-video-1 iframe").attr("src"));
+    })
+
+     $('#youtube-video-2').click(function(){
+       $('#modal-video-2').modal('show')
+    })
+    $('#modal-video-2').on('hidden.bs.modal', function (e) {
+        $("#modal-video-2 iframe").attr("src", $("#modal-video-2 iframe").attr("src"));
+    })
+ 
   /* Call dropdown menu */
   $('.dropdown-toggle').dropdown();
    /* */

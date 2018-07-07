@@ -1638,28 +1638,28 @@ input:-webkit-autofill:focus {
 .w7 {
     font-weight: 700 !important;
 }
-.modal {
-    text-align: center;
-    padding: 0!important;
-}
-.modal-backdrop {
-    background: rgb(0, 0, 0);
-}
-.modal:before {
-    content: '';
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-    margin-right: -4px;
-}
-.modal-content {
-    @include box-shadow(0, 8px, 37px, 0, rgba(0, 0, 0, .2) 0 40px 77px 0 rgba(0, 0, 0, .22));
-}
-.modal-dialog {
-    display: inline-block;
-    text-align: left;
-    vertical-align: middle;
-}
+// .modal {
+//     text-align: center;
+//     padding: 0!important;
+// }
+// .modal-backdrop {
+//     background: rgb(0, 0, 0);
+// }
+// .modal:before {
+//     content: '';
+//     display: inline-block;
+//     height: 100%;
+//     vertical-align: middle;
+//     margin-right: -4px;
+// }
+// .modal-content {
+//     @include box-shadow(0, 8px, 37px, 0, rgba(0, 0, 0, .2) 0 40px 77px 0 rgba(0, 0, 0, .22));
+// }
+// .modal-dialog {
+//     display: inline-block;
+//     text-align: left;
+//     vertical-align: middle;
+// }
 article.post{
 	.post-header{
 		display: none!important;
@@ -2455,6 +2455,7 @@ article.post{
 	width: 100%;
 	.margin-auto{
 		margin: auto;
+		position: relative;
 	}
 }
 .max-width-100{
@@ -3093,6 +3094,29 @@ body.isAndroid{
         display: block !important;
     }
 }
+.btn-play{
+	background-image: url({{site.url}}/assets/images/play.png);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: absolute;
+    pointer-events: none;
+    background-size: 100%;
+    left: 40%;
+    top: 85px;
+}
+.bg-hover-play{
+
+	&:hover{
+		.btn-play{
+			background-image: url({{site.url}}/assets/images/play-hover.png);
+		}
+	}
+}
+.width-100 .margin-auto.bg-hover-play{
+	 width: 480px;
+	 margin-bottom:15px;
+}
 .video-js .vjs-big-play-button{
 	background-image: url('{{site.url}}/assets/images/play.png');
 	width: 110px;
@@ -3660,6 +3684,17 @@ body.ie{
             }
         }
        
+}
+.modal .modal-dialog{
+	width:488px;
+	iframe{
+		border:none;
+		position:relative;
+		top:2px;
+	}
+}
+.features-img{
+	max-width:100%;
 }
 
 /********************/
@@ -4572,6 +4607,17 @@ body.ie{
     }
 }
 @media (max-width: 601px) {
+	.width-100 .margin-auto.bg-hover-play{
+		width:auto;
+	}
+	.modal .modal-dialog iframe{
+		width:100%;
+		height:auto;
+	}
+	.modal.in .modal-dialog{
+		width:100%;
+		max-width:100%;
+	}
     .video-js .vjs-big-play-button{
         top: 48.7%;
     }
