@@ -20,7 +20,7 @@
 
   <div class="keyart" id="parallax">
     <div class="keyart_layer parallax" id="keyart-0" data-speed="0" style="transform: translate3d(0px, 0px, 0px)"></div>
-     <div class="keyart_layer parallax" id="keyart-1b" data-direct="top" data-speed="3" style="transform: translate3d(0px, 0px, 0px)"></div>
+     <div class="keyart_layer parallax {{site.lang}}" id="keyart-1b" data-direct="top" data-speed="3" style="transform: translate3d(0px, 0px, 0px)"></div>
     <!-- 00.0 -->
     <div class="keyart_layer parallax" id="keyart-1"  data-speed="5" style="transform: translate3d(0px, 0px, 0px)"></div>
 
@@ -43,7 +43,7 @@
 
     <div class="parallax-end"></div>
   </div>
-  <div id="background-mobile-home" class="height-bg-mobile"></div>
+  <div id="background-mobile-home" class="height-bg-mobile {{site.lang}}"></div>
   <div id="wrapper-content">
     <div class="wrap-root">
     <div class="background-home">
@@ -272,7 +272,7 @@
                  {% t tau.the_road_map %}
               </h3>
               <div class="row">
-                <img class="root-iphone" src="{{site.url}}/assets/images/roots-left.png" />
+                <img class="root-iphone" alt="root-left" src="{{site.url}}/assets/images/roots-left.png" />
                 <div class="col-sm-10 col-sm-offset-1">
                   <p class="fdescription max-inherit text-center marginbttom50">
                    {% t tau.content_the_road_map %}
