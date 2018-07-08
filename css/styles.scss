@@ -1638,28 +1638,28 @@ input:-webkit-autofill:focus {
 .w7 {
     font-weight: 700 !important;
 }
-.modal {
-    text-align: center;
-    padding: 0!important;
-}
-.modal-backdrop {
-    background: rgb(0, 0, 0);
-}
-.modal:before {
-    content: '';
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-    margin-right: -4px;
-}
-.modal-content {
-    @include box-shadow(0, 8px, 37px, 0, rgba(0, 0, 0, .2) 0 40px 77px 0 rgba(0, 0, 0, .22));
-}
-.modal-dialog {
-    display: inline-block;
-    text-align: left;
-    vertical-align: middle;
-}
+// .modal {
+//     text-align: center;
+//     padding: 0!important;
+// }
+// .modal-backdrop {
+//     background: rgb(0, 0, 0);
+// }
+// .modal:before {
+//     content: '';
+//     display: inline-block;
+//     height: 100%;
+//     vertical-align: middle;
+//     margin-right: -4px;
+// }
+// .modal-content {
+//     @include box-shadow(0, 8px, 37px, 0, rgba(0, 0, 0, .2) 0 40px 77px 0 rgba(0, 0, 0, .22));
+// }
+// .modal-dialog {
+//     display: inline-block;
+//     text-align: left;
+//     vertical-align: middle;
+// }
 article.post{
 	.post-header{
 		display: none!important;
@@ -1680,10 +1680,10 @@ article.post{
     ul{
          display: block;
         list-style: none;
-        padding-top: 25px;
-        padding-left: 35px;
+         padding-top: 15px;
+    	padding-left: 30px;
         li{
-            margin-bottom: 15px;
+            margin-bottom: 10px;
             img{
               width: 35px;
               margin-right: 15px;
@@ -2163,12 +2163,61 @@ article.post{
     width: 100%;
     z-index: 99;
 }
+.dropdown-menu{
+	list-style: none !important;
+}
 .root-left{
     position: absolute;
     left: 1px;
     width: 366px;
     z-index: 4;
     top: -189px;
+}
+.sprites-img{
+	background-image:url('{{site.url}}/assets/images/images-css.png');
+	background-repeat: no-repeat;
+	&.flag-global{
+		background-position: -225px -10px;
+	    width: 32px;
+	    height: 31px;
+	    display: inline-block;
+	    position: relative;
+	    top: 9px;
+	}
+	&.git-i{
+		background-position: -190px -12px;
+	    width: 30px;
+	    height: 32px;
+	    display: inline-block;
+	    position: relative;
+	}
+	&.flag-cn{
+	    background-position: -10px -12px;
+	    width: 40px;
+	    height: 28px;
+	    display: inline-block;
+	    position: relative;
+	    top: 5px;
+	    margin-right: 10px;
+	}
+	&.flag-en{
+	    background-position: -70px -12px;
+	    width: 40px;
+	    height: 28px;
+	    display: inline-block;
+	    position: relative;
+	    top: 5px;
+	    margin-right: 10px;
+	}
+	&.flag-es{
+	    background-position: -130px -12px;
+	    width: 40px;
+	    height: 28px;
+	    display: inline-block;
+	    position: relative;
+	    top: 5px;
+	    margin-right: 10px;
+	}
 }
 #join-our{
 	background-color: #DBEBFC;
@@ -2455,6 +2504,7 @@ article.post{
 	width: 100%;
 	.margin-auto{
 		margin: auto;
+		position: relative;
 	}
 }
 .max-width-100{
@@ -3093,6 +3143,29 @@ body.isAndroid{
         display: block !important;
     }
 }
+.btn-play{
+	background-image: url({{site.url}}/assets/images/play.png);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: absolute;
+    pointer-events: none;
+    background-size: 100%;
+    left: 40%;
+    top: 85px;
+}
+.bg-hover-play{
+
+	&:hover{
+		.btn-play{
+			background-image: url({{site.url}}/assets/images/play-hover.png);
+		}
+	}
+}
+.width-100 .margin-auto.bg-hover-play{
+	 width: 480px;
+	 margin-bottom:15px;
+}
 .video-js .vjs-big-play-button{
 	background-image: url('{{site.url}}/assets/images/play.png');
 	width: 110px;
@@ -3105,8 +3178,8 @@ body.isAndroid{
 	margin: auto;
     text-align: center;
     position: relative;
-    top: 63.7%;
-    left: 3px;
+    top: 50.8%;
+    left: 0px;
 	&:hover{
 		background-image: url('{{site.url}}/assets/images/play-hover.png');
 	}
@@ -3661,6 +3734,17 @@ body.ie{
         }
        
 }
+.modal .modal-dialog{
+	width:650px;
+	iframe{
+		border:none;
+		position:relative;
+		top:2px;
+	}
+}
+.features-img{
+	max-width:100%;
+}
 
 /********************/
 /********************/
@@ -3938,6 +4022,10 @@ body.ie{
 	}
 }
 @media (max-width: 1024px) {
+	.sprites-img.git-i{
+		top:7px;
+		position: relative;
+	}
     .page-cn{
         #h2-blog{
             margin-top:85px;
@@ -4572,8 +4660,19 @@ body.ie{
     }
 }
 @media (max-width: 601px) {
+	.width-100 .margin-auto.bg-hover-play{
+		width:auto;
+	}
+	.modal .modal-dialog iframe{
+		width:100%;
+		height:auto;
+	}
+	.modal.in .modal-dialog{
+		width:100%;
+		max-width:100%;
+	}
     .video-js .vjs-big-play-button{
-        top: 48.7%;
+       top: 36.1%;
     }
      #home #roadmap .content{
          background-size: contain;

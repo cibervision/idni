@@ -60,7 +60,7 @@
                             <div class="dropdown-lang">
                                 <div class="dropdown">
                                         <a id="dLabel" data-target="my-dropdown-lang" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                                            <img width="19" height="19" src="{{site.url}}/assets/images/global.png" alt="global-icon-lang" />
+                                            <span class="sprites-img flag-global "></span>
                                             {% if site.lang == 'en' %}
                                             <span class="title-lang-default">English</span>
                                              {% endif %}
@@ -80,20 +80,21 @@
                                 </div>
                             </div>
                             <div class="git-icon">
-                                <a target="_blank" href="https://github.com/IDNI/tau"><img src="{{site.url}}/assets/images/git.png" alt="github-icon" /></a>
+                             <a target="_blank" href="https://github.com/IDNI/tau"><span class="sprites-img git-i "></span></a>
                             </div>
                         </div>
                         <div id="lang-list">
                             <ul>
-                                <li><a href="{{site.url}}"><img src="{{site.url}}/assets/images/en.png" alt="en-icon" />English</a></li>
-                                <li><a href="{{site.url}}/cn"><img src="{{site.url}}/assets/images/cn.png" alt="cn-icon" />中文</a></li>
-                                <li><a href="{{site.url}}/es"><img src="{{site.url}}/assets/images/es.png" alt="es-icon" />Español</a></li>
+                                <li><a href="{{site.url}}"><span class="sprites-img flag-en "></span>English</a></li>
+                                <li><a href="{{site.url}}/cn"><span class="sprites-img flag-cn "></span>中文</a></li>
+                                <li><a href="{{site.url}}/es"><span class="sprites-img flag-es "></span>Español</a></li>
                             </ul>
                         </div>
                         <div id="menu-mobile-button">
                             <ul>
-                                <li><a class="icon-git-nav none-lang" target="_blank" href="https://github.com/IDNI/tau"><img src="{{site.url}}/assets/images/git.png" alt="github-icon" /></a></li>
-                                <li><a id="menu-default-lang" class="icon-git-nav v-lang" target="_blank" href="javascript:void(0)"><img src="{{site.url}}/assets/images/{{site.lang}}.png" alt="{{site.lang}}" /><i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+                                <li><a class="icon-git-nav none-lang" target="_blank" href="https://github.com/IDNI/tau"><span class="sprites-img git-i "></a></li>
+                                <li><a id="menu-default-lang" class="icon-git-nav v-lang" target="_blank" href="javascript:void(0)">
+                                    <img src="{{site.url}}/assets/images/{{site.lang}}.png" alt="{{site.lang}}" /><i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
                                 <li><a id="navigation-mobile" href="javascript:void(0)" class="icon-nav"><i class="fa fa-bars" aria-hidden="true"></i></a></li>
                             </ul>
                         </div>
