@@ -1,5 +1,5 @@
 ---
-layout: blog-tau-as-a-generalized-blockchain
+layout: blog-generalized-blockchain
 title: Tau as a Generalized Blockchain
 
 nav: blog
@@ -10,8 +10,8 @@ description: Bitcoin may abstractly be described as a decentralized machine that
 type: blog
 fbnumberID: ARSPSs08qmchtVLR0kVb_UwG5dfUzbNOBDDfZ_RFFn44FfdJN0Crymsm2kcHsTqcYEg
 
-namespace: faq.tau-as-a-generalized-blockchain
-permalink: /blog/tau-as-a-generalized-blockchain
-permalink_en: /blog/tau-as-a-generalized-blockchain
-permalink_es: /blog/tau-as-a-generalized-blockchain
+namespace: faq.generalized-blockchain
+permalink: /blog/generalized-blockchain
+permalink_en: /blog/generalized-blockchain
+permalink_es: /blog/generalized-blockchain
 ---
