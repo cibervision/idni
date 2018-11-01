@@ -2,7 +2,7 @@
   key: main
   id: 7
   order: 1
-  link: the-art-of-self-ref
+  link: art-of-self-ref
   author: Ohad Asor
   date: 发表于2018年5月27日下午8:09分
   content: 这篇文章与前两篇文章一样，阐述了相同的主题。 “The New Tau”这个帖子从TML到Agoras专注于讨论scaling。“From Agoras to TML”这个帖子相反，专注于知识经济。在这里，我们通过强调自我定义来探讨这个问题。 我们这里的主要例子是立法。假定一个创建和修改法律的议会。假设议会有兴趣修改现有的法律。那么，在一个正常的世界里，他们不能随意的去修改法律，而是应该按照修改法律的法律来修改法律。为了区分法律和修改法律的法律，我们称前者为“一阶法律”，后者称为“二阶法律”。三阶法律是一个关于二阶法律（也可能是一阶法律）的法律。
@@ -29,7 +29,7 @@
                 <p>下次：谁来决定？ </p>
 
 - title: 从 Agoras 到 TML
-  link: from-agoras-to-tml
+  link: agoras-to-tml
   id: 0
   order: 2
   key: main
@@ -111,7 +111,7 @@
                
 
 - title: "Project Roadmap"
-  link: project-roadmap
+  link: projectroadmap
   key: archive
   id: 3
   order: 5
@@ -138,7 +138,7 @@
 
 
 - title: "Tau as a Generalized Blockchain"
-  link: tau-as-a-generalized-blockchain
+  link: generalized-blockchain
   key: archive
   id: 4
   order: 6
@@ -169,7 +169,7 @@
                 <p>Of course, an explanation of what is Tau should come now and tell more about its features and uses, and we have discussed those in the past in various places (especially on this blog and on bitcointalk). So far on this post we concluded the Naive Tau construction, why it is doomed, and what is the correct way to perform secure multiparty computation.</p>
 
 - title: "Proof of Code Execution"
-  link: proof-of-code-execution
+  link: proof-of-exec
   id: 5
   order: 7
   author: Ohad Asor
@@ -187,7 +187,7 @@
                 <p>I guess that would be enough to ignite the imagination. The 21st advancements of decentralization, cryptography, provability and verifiable computing, open frontiers to a new kind of networking abilities and experience.</p>
 
 - title: Decentralized Democracy and the Role of the First Users
-  link: decentralized-democracy-and-the-role-of-the-first-users
+  link: decentralized-democracy
   author: Ohad Asor
   id: 6
   order: 0 
