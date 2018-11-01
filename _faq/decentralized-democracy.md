@@ -1,5 +1,5 @@
 ---
-layout: blog-decentralized-democracy-and-the-role-of-the-first-users
+layout: blog-decentralized-democracy
 title: Decentralized Democracy and the Role of the First Users
 
 nav: blog
