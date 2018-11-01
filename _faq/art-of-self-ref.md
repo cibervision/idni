@@ -10,7 +10,7 @@ description: This post, like the previous two, comes to shed light on the same s
 type: blog
 fbnumberID: ARSPSs08qmchtVLR0kVb_UwG5dfUzbNOBDDfZ_RFFn44FfdJN0Crymsm2kcHsTqcYEg
 
-namespace: faq.art-of-self-reference
+namespace: faq.art-of-self-ref
 permalink: /blog/art-of-self-ref
 permalink_en: /blog/art-of-self-ref
 permalink_es: /blog/art-of-self-ref
