@@ -1,5 +1,5 @@
 ---
-layout: blog-project-roadmap
+layout: blog-projectroadmap
 title: Project Roadmap
 
 nav: blog
@@ -10,8 +10,8 @@ description:  Tau is a language. It is a programming language, but not only such
 type: blog
 fbnumberID: ARSPSs08qmchtVLR0kVb_UwG5dfUzbNOBDDfZ_RFFn44FfdJN0Crymsm2kcHsTqcYEg
 
-namespace: faq.project-roadmap
-permalink: /blog/project-roadmap
-permalink_en: /blog/project-roadmap
-permalink_es: /blog/project-roadmap
+namespace: faq.projectroadmap
+permalink: /blog/projectroadmap
+permalink_en: /blog/projectroadmap
+permalink_es: /blog/projectroadmap
 ---
