@@ -31,7 +31,7 @@
 
 
 - title: De Agoras a TML
-  link: from-agoras-to-tml
+  link: agoras-to-tml
   id: 0
   order: 2
   key: main
@@ -126,7 +126,7 @@
                 <p>Como conclusión, nuestro viaje resultó ser diferente de lo que esperábamos desde el aspecto de la implementación, pero terminará con un mejor producto que nos dará la oportunidad de resolver la crisis de la verdad y la paradoja de la auto-enmienda en un contexto global, social y electrónico. Personalmente tengo la intención (y prometí) de seguir trabajando a tiempo completo hasta cumplir con Tau y Agoras que introducirán muchas más características de las que se describen aquí. Recientemente <a target="_blank" href="https://www.youtube.com/watch?v=TKhzo_60f6Y">grabé una descripción condensada</a> de los productos que me he comprometido a entregar. Otro artículo y otro video están en camino para explicar más detalles. Si está dispuesto a ayudar a lograr estos objetivos y se encuentra a usted mismo (o a su amigo) comprendiendo los documentos de Kobayashi, estaré encantado de cooperar.</p>
 
 - title: "Project Roadmap"
-  link: project-roadmap
+  link: projectroadmap
   key: archive
   id: 3
   order: 5
@@ -153,7 +153,7 @@
 
 
 - title: "Tau as a Generalized Blockchain"
-  link: tau-as-a-generalized-blockchain
+  link: generalized-blockchain
   key: archive
   id: 4
   order: 6
@@ -184,7 +184,7 @@
                 <p>Of course, an explanation of what is Tau should come now and tell more about its features and uses, and we have discussed those in the past in various places (especially on this blog and on bitcointalk). So far on this post we concluded the Naive Tau construction, why it is doomed, and what is the correct way to perform secure multiparty computation.</p>
 
 - title: "Proof of Code Execution"
-  link: proof-of-code-execution
+  link: proof-of-exec
   id: 5
   order: 7
   author: Ohad Asor
@@ -202,7 +202,7 @@
                 <p>I guess that would be enough to ignite the imagination. The 21st advancements of decentralization, cryptography, provability and verifiable computing, open frontiers to a new kind of networking abilities and experience.</p>
 
 - title: Decentralized Democracy and the Role of the First Users
-  link: decentralized-democracy-and-the-role-of-the-first-users
+  link: decentralized-democracy
   author: Ohad Asor
   id: 6
   order: 0 
