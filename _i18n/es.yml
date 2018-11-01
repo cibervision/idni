@@ -41,41 +41,32 @@ tau:
   feature_choice_content: Formar un método justo, completo y eficiente de elección social ha resultado esquivo en muchos campos. En las comunidades grandes, decidir sobre qué temas votar se vuelve poco manejable, lo que lleva a ignorar muchos puntos de vista y tópicos sociales importantes. Del mismo modo, las grandes organizaciones suelen quedar paralizadas por su incapacidad para tomar decisiones importantes en la red, lo que conduce a una baja productividad e incluso al fracaso. Tau presenta un mecanismo de elección social innovador&#58; los usuarios solo necesitan expresar sus opiniones en forma de predicados lógicos (utilizando el lenguaje definido sobre TML) publicados en la red, lo que permite que la base de conocimiento de Tau sea un agregado de preferencias sociales de todas las opiniones de todos sus usuarios. Junto con la propiedad lógica de decidibilidad y una nueva fórmula de consenso, el mecanismo de elección social permite a Tau calcular cosas como el consenso sobre cada tema expresado, independientemente de cuán remoto o esotérico sea el tema.
 
   roadmap_title_1: Lanzamiento de MVP&#58; Meta Lenguaje Tau (TML)
-  roadmap_date_1: Q3 2018
   roadmap_content_1: Comenzamos desarrollando un metalenguaje (TML) como una herramienta para definir nuevos lenguajes que se pueden traducir entre ellos. TML será un lenguaje decidible que posee una característica única para interpretar y redefinirse a sí mismo, similar (pero más expresivo) a Datalog, ya que permite la negación [no estratificada] sin restricciones. TML también podrá realizar todas las tareas computacionales que son computables en espacio polinomial. Aprendimos de los errores de la historia para insistir en que nuestra implementación será altamente optimizada.
 
   roadmap_title_2: Demo
-  roadmap_date_2: Q3 2018
   roadmap_content_2: Se lanzará un programa para que los usuarios obtengan un adelanto de cómo puede ser la comunicación con Tau.
 
   roadmap_title_3: Proyecciones de Futamura
-  roadmap_date_3: Q4 2018
   roadmap_content_3: La primera misión de TML es definirse en el método de Evaluación Parcial, que da lugar a las proyecciones de Futamura. Será la primera implementación no completa de Turing de las proyecciones de Futamura, el santo grial de las capacidades de compilación.
 
   roadmap_title_4: Internet de Lenguajes
-  roadmap_date_4: Q1 2019
   roadmap_content_4: Se creará una interfaz de usuario que aprovecha TML para desarrollar un sistema que pueda definir, almacenar y traducir fácilmente los lenguajes. El Internet de Lenguajes hará que los lenguajes sean irrelevantes, dada la capacidad de la red de traducción de un lenguaje a otro manteniendo el mismo significado exacto.
 
   roadmap_title_5: Red de Conocimiento
-  roadmap_date_5: Q2 2019
   roadmap_content_5: Para llegar finalmente a una plataforma de debate escalable, crearemos infraestructuras para almacenar y consultar grandes cantidades de conocimiento, representados por los lenguajes presentes en el Internet de Lenguajes.
 
   roadmap_title_6: Versión Alfa Lanzada
-  roadmap_date_6: Q3 2019
   roadmap_content_6: Alfa es una plataforma social que permite discusiones eficientes entre un número infinito de participantes. Podrá escalar discusiones y detectar puntos lógicos de consenso entre usuarios, permitiendo a los usuarios mapear fácilmente las opiniones planteadas durante cualquier discusión. Será posible un mejor intercambio y construcción de conocimiento.
 
 
   roadmap_title_7: Versión Beta Lanzada
-  roadmap_date_7: Q4 2019
   roadmap_content_7: Beta adelantará a Alfa permitiendo a los usuarios discutir los requisitos del código y luego sintetizar automáticamente un código correcto por construcción.
 
 
   roadmap_title_8: Tau-Chain
-  roadmap_date_8: Q1 2020
   roadmap_content_8: Tau trata sobre el desarrollo colaborativo perpetuo de sí mismo basado en acuerdos de usuario. Lo hará como una red p2p descentralizada y basada en blockchain.
 
   roadmap_title_9: Agoras
-  roadmap_date_9: Q1 2020
   roadmap_content_9: Una economía del conocimiento completamente funcional que permite transacciones conocimiento-efectivo, mercado de recursos computacionales y herramientas financieras avanzadas.
 
 agoras:
