@@ -2,7 +2,7 @@
   key: main
   id: 7
   order: 1
-  link: the-art-of-self-ref
+  link: art-of-self-ref
   author: Ohad Asor
   date: May 27, 2018
   content: This post, like the previous two, comes to shed light on the same subjects. The post "The New Tau" went bottom up from TML to Agoras and focused on scaling discussions.  The post "From Agoras to TML" went the other way around, and focused on knowledge economy. Here we approach the subject by emphasizing on self definition.
@@ -30,7 +30,7 @@
                 <p>Next time, Who gets to decide? </p>
 
 - title: From Agoras to TML
-  link: from-agoras-to-tml
+  link: agoras-to-tml
   id: 0
   order: 2
   key: main
@@ -126,7 +126,7 @@
 
 
 - title: "Project Roadmap"
-  link: project-roadmap
+  link: projectroadmap
   key: archive
   id: 3
   order: 5
@@ -159,7 +159,7 @@
 
 
 - title: "Tau as a Generalized Blockchain"
-  link: tau-as-a-generalized-blockchain
+  link: generalized-blockchain
   key: archive
   id: 4
   order: 6
@@ -190,7 +190,7 @@
                 <p>Of course, an explanation of what is Tau should come now and tell more about its features and uses, and we have discussed those in the past in various places (especially on this blog and on bitcointalk). So far on this post we concluded the Naive Tau construction, why it is doomed, and what is the correct way to perform secure multiparty computation.</p>
 
 - title: "Proof of Code Execution"
-  link: proof-of-code-execution
+  link: proof-of-exec
   id: 5
   order: 7
   author: Ohad Asor
@@ -208,7 +208,7 @@
                 <p>I guess that would be enough to ignite the imagination. The 21st advancements of decentralization, cryptography, provability and verifiable computing, open frontiers to a new kind of networking abilities and experience.</p>
 
 - title: Decentralized Democracy and the Role of the First Users
-  link: decentralized-democracy-and-the-role-of-the-first-users
+  link: decentralized-democracy
   author: Ohad Asor
   id: 6
   order: 0 
