@@ -1,5 +1,5 @@
 ---
-layout: blog-the-art-of-self-reference
+layout: art-of-self-ref
 title: The Art of Self-Reference
 
 nav: blog
@@ -10,8 +10,8 @@ description: This post, like the previous two, comes to shed light on the same s
 type: blog
 fbnumberID: ARSPSs08qmchtVLR0kVb_UwG5dfUzbNOBDDfZ_RFFn44FfdJN0Crymsm2kcHsTqcYEg
 
-namespace: faq.the-art-of-self-reference
-permalink: /blog/the-art-of-self-reference
-permalink_en: /blog/the-art-of-self-reference
-permalink_es: /blog/the-art-of-self-reference
+namespace: faq.art-of-self-reference
+permalink: /blog/art-of-self-ref
+permalink_en: /blog/art-of-self-ref
+permalink_es: /blog/art-of-self-ref
 ---
