@@ -12,7 +12,7 @@
             {% assign data = site.data.bloges %}
         {% endif %}
         {% for blog in data %}
-            {% if blog.link == 'the-art-of-self-reference' %}
+            {% if blog.link == 'the-art-of-self-ref' %}
                 {% assign index = blog.order %}
                 {% assign next = data[blog.order].link %}
                 {% assign prev = data[blog.id].link %}
