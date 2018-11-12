@@ -1,5 +1,5 @@
 ---
-layout: art-of-self-ref
+layout: blog-art-of-self-ref
 title: The Art of Self-Reference
 
 nav: blog

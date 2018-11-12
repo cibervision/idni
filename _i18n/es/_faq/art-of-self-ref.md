@@ -1,6 +1,6 @@
 <div class="main-wrapper" id="page-blog">
     <div class="hidden">
-        {% assign index = false %}
+        {% assign index = false %} 
         {% if site.lang == 'en' %}
              {% assign url = '' %}
              {% assign data = site.data.blogen %}
@@ -12,10 +12,9 @@
             {% assign data = site.data.bloges %}
         {% endif %}
         {% for blog in data %}
-            {% if blog.link == 'agoras-to-tml' %}
-                {% increment indexLoop %}
-                {% assign index = indexLoop %}
-                 {% assign next = data[blog.order].link %}
+            {% if blog.link == 'art-of-self-ref' %}
+                {% assign index = blog.order %}
+                {% assign next = data[blog.order].link %}
                 {% assign prev = data[blog.id].link %}
                 {% assign title = blog.title %}
                 {% assign author = blog.author %}

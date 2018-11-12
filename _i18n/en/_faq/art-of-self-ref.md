@@ -1,21 +1,11 @@
 <div class="main-wrapper" id="page-blog">
     <div class="hidden">
-        {% assign index = false %}
-        {% if site.lang == 'en' %}
-             {% assign url = '' %}
-             {% assign data = site.data.blogen %}
-        {% endif %}
-        {% if site.lang == 'cn' %}
-             {% assign data = site.data.blogcn %}
-        {% endif %}
-        {% if site.lang == 'es' %}
-            {% assign data = site.data.bloges %}
-        {% endif %}
+        {% assign index = false %} 
+        {% assign data = site.data.blogen %} 
         {% for blog in data %}
-            {% if blog.link == 'agoras-to-tml' %}
-                {% increment indexLoop %}
-                {% assign index = indexLoop %}
-                 {% assign next = data[blog.order].link %}
+            {% if blog.link == 'art-of-self-ref' %}
+                {% assign index = blog.order %}
+                {% assign next = data[blog.order].link %}
                 {% assign prev = data[blog.id].link %}
                 {% assign title = blog.title %}
                 {% assign author = blog.author %}

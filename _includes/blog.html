@@ -31,13 +31,13 @@
                 {% for blog in data %}
                     {% if blog.key == 'main' %}
                     <li>
-                        <h3><a href="{{site.url}}{{url}}/blog/{{blog.link}}.html">{{ blog.title }}</a></h3>
+                        <h3><a href="{{site.url}}{{url}}/blog/{{blog.link}}">{{ blog.title }}</a></h3>
                         <span class="author">{{blog.author}}</span>
                         <span class="dot"></span>
                         <span class="date">{{blog.date}}</span>
                         <p class="blog-content">
                             {{blog.content}} 
-                            <a href="{{site.url}}{{url}}/blog/{{blog.link}}.html">{% t blog.read_more %}...</a>
+                            <a href="{{site.url}}{{url}}/blog/{{blog.link}}">{% t blog.read_more %}...</a>
                         </p>
                     </li>
                     {% endif %}

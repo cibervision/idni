@@ -39,32 +39,41 @@ tau:
   feature_choice_content: 公平，广泛而高效的社会选择方法在很多领域都被认为是遥不可及的。在大型的团体中，选择哪些议题需要投票表决是一件棘手的事情，往往很多重要的社会议题和见解都被忽略掉了。同样的，一些大型组织由于无法做到全体成员都能够参与选择和决策，导致了低效甚至失败。Tau引入了一种创新的社会选择机制，用户只需要以逻辑语言（logical predicates，由TML所定义）在Tau网络上表达他们的观点，Tau便能够汇集整理所有用户的观点和整体偏好。得益于Tau的可判定性的逻辑属性和新颖的共识方式，这种社会选择机制能够计算出每一项议题的共识水平。
 
   roadmap_title_1: 上线最简模块：Tau Meta Language (TML)
+  roadmap_date_1: Q3 2018
   roadmap_content_1: 我们以开发meta language (TML)最为起点，来定义新的语言，并作为新语言之间翻译的桥梁。TML是一种可判定性语言，拥有可以解释和重定义自身的特性，这一点与Datalog相似但有更好的表达属性，因为它允许无限制否定（unrestricted negation）。TML 也能够执行在多项式空间（polynomial space）中可计算的所有运算任务。我们从历史的错误中吸取教训，产品只有充分优化以后才会推出实施。
 
   roadmap_title_2: Demo
+  roadmap_date_2: Q3 2018
   roadmap_content_2: 发布一个演示程序，用户可以了解与Tau交互的大概过程。
 
   roadmap_title_3: Futamura's Projections
+  roadmap_date_3: Q4 2018
   roadmap_content_3: TML的首要任务是用Partial Evaluation的方法定义自身，这就出现了Futamura's projections。这将是Futamura's projections的首个非图灵完备的实例，可以称得上是编译能力的圣杯。
 
   roadmap_title_4: 语言网络
+  roadmap_date_4: Q1 2019
   roadmap_content_4: 将创建一个基于 TML 的用户界面, 以开发一个可以轻松定义、存储和翻译各种语言的系统。这个语言网络在保证语义相同的前提下，相互之间可以翻译转换。
 
   roadmap_title_5: 知识网络
+  roadmap_date_5: Q2 2019
   roadmap_content_5: 为了实现可扩展的讨论平台这一目标，我们将建立一些基础设施，用来存储和查询大量的知识，这些知识以TML定义的语言表示。
 
   roadmap_title_6: Alpha 版发布
+  roadmap_date_6: Q3 2019
   roadmap_content_6: Alpha版作为讨论平台，可以允许无数人在平台上进行有效地讨论。它不仅将解决讨论的扩展性问题，而且能够以逻辑化的方式探测到全体用户的共识，从而很容易整理出讨论过程中所有用户的观点。在此平台上，知识的创建和分享将变得更加高效。
 
 
   roadmap_title_7: Beta 版发布
+  roadmap_date_7: Q4 2019
   roadmap_content_7: Beta版在Alpha基础上，将允许用户讨论代码设计要求，然后自动合成代码。
 
 
   roadmap_title_8: Tau-Chain上线
+  roadmap_date_8: Q1 2020
   roadmap_content_8: Tau将是一个根据用户集体讨论决策而不断自我更新的永久性的协作平台，是一个去中心化的点对点的区块链网络。
 
   roadmap_title_9: Agoras上线
+  roadmap_date_9: Q1 2020
   roadmap_content_9: Agoras将是一个独具特色的允许知识交易的知识经济市场， 还是一个计算资源市场和高级金融工具。
   
 
@@ -136,7 +145,7 @@ networks:
   title: 加入我们的社交媒体
 
 blog:
-  title: 官方文章
+  title: IDNI Blog
   next: 下一篇文章
   prev: 上一篇文章 
   back: 返回列表

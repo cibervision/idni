@@ -1,6 +1,5 @@
 <div class="main-wrapper" id="page-blog">
     <div class="hidden">
-        {% assign index = false %}
         {% if site.lang == 'en' %}
              {% assign url = '' %}
              {% assign data = site.data.blogen %}
@@ -12,10 +11,10 @@
             {% assign data = site.data.bloges %}
         {% endif %}
         {% for blog in data %}
-            {% if blog.link == 'agoras-to-tml' %}
+            {% if blog.link == 'art-of-self-ref' %}
                 {% increment indexLoop %}
                 {% assign index = indexLoop %}
-                 {% assign next = data[blog.order].link %}
+                {% assign next = data[blog.order].link %}
                 {% assign prev = data[blog.id].link %}
                 {% assign title = blog.title %}
                 {% assign author = blog.author %}
@@ -25,10 +24,9 @@
         {% endfor %}
     </div>  
     <div id="roadmap">
-        <div class="dont-skew-wrap">
             <div class="dont-skew width-100">
                 <div class="content container blog">
-                    {% include blog-header.html nextBlog=next prevBlog=prev %}
+                    {% include blog-header.html  nextBlog=next prevBlog=prev %}
                     <div class="row">
                         <div class="col-md-9">
                             <ul class="list-blog">
@@ -47,7 +45,6 @@
                     </div>
                 </div>
             </div>
-        </div>
      </div>
     {% include networks.html %}
 </div>
