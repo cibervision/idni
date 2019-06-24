@@ -161,8 +161,10 @@ blog:
 
 careers:
   title: IDNI Careers
-  join_us: Join Us
-  content_feature: We are on the lookout for smart and passionate individuals who are looking for the next step in their career paths
+  join_us: Join Us  
+  info_title: We are IDNI
+  content_feature1: We are on the lookout for smart and passionate individuals 
+  content_feature2: who are looking for the next step in their career paths
   info_featured: Tau was founded in 2015 with the goal of improving the way people reach collective decisions, by using revolutionary technology for large scale discussions and decentralized decision-making processes. After completing a few key R&D stages, we are looking for more Tau crew members to develop our life-changing product and build a modern knowledge society.
   info_featured_contact: To apply, please send your CV to careers@idni.org and mention the position number.
 
