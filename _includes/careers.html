@@ -1,0 +1,96 @@
+
+
+
+<div class="main-wrapper" id="page-about">
+    <div id="content-about">
+        <div class="content container">
+            <h2  class="title-h2 text-center bottom-39">{% t careers.join_us %}   </h2>
+            <div class="row">
+                <div class="col-sm-10 col-sm-offset-1">
+                    <p class="text-center">{% t careers.content_feature%}</p>
+                </div>
+            </div>
+        </div>
+        <div class="wave-about">
+           <div class="keyart" id="parallax">
+            <div data-direct="right" class="keyart_layer parallax" id="about-wave-1" data-speed="100" style="transform: translate3d(0px, 0px, 0px)"></div>
+            <div data-direct="right"  class="keyart_layer parallax" id="about-wave-2" data-speed="300" style="transform: translate3d(0px, 0px, 0px)"></div>
+            <div data-direct="right"  class="keyart_layer parallax" id="about-wave-3" data-speed="150" style="transform: translate3d(0px, 0px, 0px)"></div>
+            <div data-direct="right"  class="keyart_layer parallax" id="about-wave-4" data-speed="450" style="transform: translate3d(0px, 0px, 0px)"></div>
+            <!-- <div data-direct="right"  class="keyart_layer parallax" id="about-wave-5" data-speed="300" style="transform: translate3d(0px, 0px, 0px)"></div> -->
+        </div>
+    </div>
+</div>
+
+<div id="roadmap">
+    <div class="dont-skew-wrap">
+        <div class="dont-skew">
+            <div class="content">
+                {% assign url = site.lang %}
+    {% if site.lang == 'en' %}
+            {% assign url = null %}
+            {% assign data = site.data.careersen %}
+            {% assign nameCN = 'Chinese' %}
+            {% assign nameES = 'Spanish' %}
+    {% endif %}
+    {% if site.lang == 'cn' %}
+            {% assign url = '/cn' %}
+            {% assign data = site.data.careerscn %}
+            {% assign nameCN = '中文 ' %}
+             {% assign nameES = 'Spanish' %}
+    {% endif %}
+    {% if site.lang == 'es' %}
+        {% assign url = '/es' %}
+        {% assign data = site.data.careerses %}
+        {% assign nameCN = 'Chinese' %}
+        {% assign nameES = 'Español' %}
+    {% endif %}
+
+
+<div class="content container ">
+
+<p class="text-center ">{% t careers.info_featured %}</p>
+    <p class="text-center"> {% t careers.info_featured_contact %} </p>  
+    </div>
+
+<div class="content container careers">
+     
+    
+
+
+    
+
+    <div class="row">
+        <div class="col-md-9">
+            <ul class="list-blog">
+                {% for careers in data %}
+                    {% if careers.key == 'main' %}
+                    <li>
+                        <h3> {{careers.title }}</h3>                        
+                        
+                        <p class="blog-content">
+                            {{careers.content}}
+
+                            {{careers.main_content}}
+
+                            
+                            
+                        </p>
+                    </li>
+                    {% endif %}
+                {% endfor %}  
+            </ul>
+        </div>
+        
+    </div>
+</div>
+            
+        </div>
+    </div>
+</div><!-- dont-skew-wrap -->
+</div>
+{% include networks.html %}
+</div>
+
+
+    
