@@ -52,17 +52,16 @@
 
 
 <div class="content container ">
-
 <div class="row">
 <div class="col-md-2"></div>
-        <div class="col-md-8">
-<h3 class="text-center">{% t careers.info_title%}</h3>
-<p class="text-center ">{% t careers.info_featured %}</p>
-    <p class="text-center"> {% t careers.info_featured_contact %} </p>  
+<div class="col-md-8 careers-info-text">
+<h3 >{% t careers.info_title%}</h3>
+<p >{% t careers.info_featured %}</p>
+    <p > {% t careers.info_featured_contact %} </p> 
     </div>
     <div class="col-md-2"></div>
-     </div>
-      </div>
+    </div> 
+    </div>
 
 <div class="content container careers">
      
@@ -76,7 +75,7 @@
             
                 {% for careers in data %}
                     {% if careers.key == 'main' %}
-                    <div class="careers-item">
+                    <div>
                         <h3> <a>{{careers.title }}</a></h3>                        
                         
                         <p class="blog-content">
