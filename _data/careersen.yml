@@ -1,0 +1,56 @@
+- title: QA Manager (position number 10021)
+  key: main
+  id: 7
+  order: 1
+  link: #
+  author: Ohad Asor
+  date: May 27, 2018
+  content: We are looking for a talented QA manager to build our QA team and to be responsible for testing TML (a Datalog-like logic language), cryptocurrency wallets, and a discussion platform.
+
+  main_content: <h4>Job requirements</h4>
+                  <ul>
+                <li>Minimum of 3 years of experience in QA management, worked on at least two projects</li>
+                <li>Working on products with strong algorithmic and security aspects</li>
+                <li>Cross-platform experience (Linux/Windows/Mac)</li>
+                <li>Understanding of the cryptocurrency environment and blockchain technology</li>
+                <li>Structured project management (time, team and workstream’s management)</li>
+                <li>Ability to manage remote employees</li>
+                </ul>
+
+
+- title: C++ Algorithms Developer (position number 10023)
+  link: #
+  id: 0
+  order: 2
+  key: main
+  author: Ohad Asor
+  date: Mar 13, 2018
+  content: We are looking for a rockstar C++ server-side developer to coordinate data transfer between many clients. 
+  main_content: <h4>Job requirements </h4>
+                <ul>
+              <li>At least 7 years of experience in CPP</li>
+              <li>Experience with modern C++ (C++11 and above)</li>
+              <li>Experience with networking and server-side development</li>
+              <li>A team player with great interpersonal skills</li>
+              <li>Ability to deliver time-pressured project on-time and on-quality</li>
+              </ul>
+
+
+ 
+- title: C++ Algorithms Developer (position number 10023)
+  link: #
+  id: 1
+  order: 3
+  key: main
+  author: Ohad Asor
+  date: Dec 31, 2017
+  content: We are looking for an experienced C++ Algorithms developer to join the development team of TML, a Datalog-like language.
+  main_content: <h4>Job requirements</h4>
+                <ul>
+              <li>At least 10 years of experience in CPP</li>
+              <li>Experience with modern C++ (C++11 and above)</li>
+              <li>Extensive experience with algorithms</li>
+              <li>Strong analytical and problem-solving skills</li>
+              <li> Advantage- Experience with logic algorithms, databases, Prolog/datalog interpreters implementation, and binary decision diagrams</li>
+              </ul>
+

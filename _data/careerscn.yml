@@ -1,0 +1,56 @@
+- title: 質量保證經理（職位編號10021）
+  key: main
+  id: 7
+  order: 1
+  link: #
+  author: Ohad Asor
+  date: May 27, 2018
+  content: 我們正在尋找一位才華橫溢的QA經理來建立我們的QA團隊，並負責測試TML（類似數據目錄的邏輯語言），加密貨幣錢包和討論平台。
+
+  main_content: <h4>工作要求</h4>
+                  <ul>
+                <li>至少3年的質量保證管理經驗，至少參與過兩個項目</li>
+                <li>致力於具有強大算法和安全性的產品</li>
+                <li>跨平台體驗（Linux / Windows / Mac）</li>
+                <li>了解加密貨幣環境和區塊鏈技術</li>
+                <li>結構化項目管理（時間，團隊和工作流程的管理）</li>
+                <li>能夠管理遠程員工</li>
+                </ul>
+
+
+- title: C ++ Algorithms Developer（職位編號10023）
+  link: #
+  id: 0
+  order: 2
+  key: main
+  author: Ohad Asor
+  date: Mar 13, 2018
+  content: 我們正在尋找一位搖滾明星C ++服務器端開發人員來協調許多客戶端之間的數據傳輸。
+  main_content: <h4>工作要求</h4>
+                <ul>
+              <li>至少7年的CPP經驗</li>
+              <li>使用現代C ++（C ++ 11及以上版本）的經驗</li>
+              <li>具有網絡和服務器端開發經驗</li>
+              <li>具有良好人際交往能力的團隊合作者</li>
+              <li>能夠按時按時交付時間緊迫的項目</li>
+              </ul>
+
+
+ 
+- title: C ++ Algorithms Developer（職位編號10023）
+  link: #
+  id: 1
+  order: 3
+  key: main
+  author: Ohad Asor
+  date: Dec 31, 2017
+  content: 我們正在尋找一位經驗豐富的C ++ Algorithms開發人員加入TML的開發團隊，這是一種類似Datalog的語言。
+  main_content: <h4>工作要求</h4>
+                <ul>
+              <li>至少10年的CPP經驗</li>
+              <li>使用現代C ++（C ++ 11及以上版本）的經驗</li>
+              <li>豐富的算法經驗</li>
+              <li>良好的分析和解決問題的能力</li>
+              <li> 優勢 - 具有邏輯算法，數據庫，Prolog /數據記錄解釋器實現和二元決策圖的經驗</li>
+              </ul>
+
