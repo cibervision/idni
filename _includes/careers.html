@@ -1,0 +1,52 @@
+    {% assign url = site.lang %}
+    {% if site.lang == 'en' %}
+            {% assign url = null %}
+            {% assign data = site.data.careersen %}
+            {% assign nameCN = 'Chinese' %}
+            {% assign nameES = 'Spanish' %}
+    {% endif %}
+    {% if site.lang == 'cn' %}
+            {% assign url = '/cn' %}
+            {% assign data = site.data.careerscn %}
+            {% assign nameCN = '中文 ' %}
+             {% assign nameES = 'Spanish' %}
+    {% endif %}
+    {% if site.lang == 'es' %}
+        {% assign url = '/es' %}
+        {% assign data = site.data.careerses %}
+        {% assign nameCN = 'Chinese' %}
+        {% assign nameES = 'Español' %}
+    {% endif %}
+<div class="content container blog">
+    <h2 class="text-center" id="h2-blog">{% t careers.title %}</h2>   
+    <ul  class="list-lang">
+        <li ><a href="{{site.url}}/careers">English</a></li>
+        <li><a href="{{site.url}}/cn/careers">中文</a> </li>
+        <li><a href="{{site.url}}/es/careers">Español</a> </li>
+        
+    </ul>
+
+    <div class="row">
+        <div class="col-md-9">
+            <ul class="list-blog">
+                {% for careers in data %}
+                    {% if careers.key == 'main' %}
+                    <li>
+                        <h3> {{careers.title }}</h3>                        
+                        
+                        <p class="blog-content">
+                            {{careers.content}}
+
+                            {{careers.main_content}}
+
+                            
+                            
+                        </p>
+                    </li>
+                    {% endif %}
+                {% endfor %}  
+            </ul>
+        </div>
+        
+    </div>
+</div>
