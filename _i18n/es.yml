@@ -7,6 +7,7 @@ menu:
   agoras: Agoras
   about: Acerca de
   blog: Blog
+  careers: Únete
 
 tau:
   what_is_tau_chain: Qué es Tau
@@ -150,7 +151,7 @@ about:
   team_content_tomas: Tomáš es un especialista en TI con más de 20 años de experiencia en desarrollo de software, integración de sistemas y administración. Ha trabajado para varias compañías, incluyendo SUSE y Liberty Global. Su interés en las tecnologías de la Web Semántica y el futuro de Internet expusieron a Tomáš a la cadena Tau, donde ya desarrolló el primer parque de juegos TML.
 
 
-  team_carrier_fran: Desarrollador web
+  team_carrier_fran: Desarrollador web 
   team_content_fran: Fran comenzó en el año 2000 a programar y diseñar páginas web y en su trayectoria de 18 años ha realizado cientos de proyectos para empresas y administraciones públicas en Galicia - España. Se define como un  apasionado autodidacta en perpetua formación. Criptoentusiasta desde el 2015 cree en la descentralización y transparencia de cualquier tipo de poder.
 
 networks:
@@ -163,6 +164,13 @@ blog:
   back: Vuelve a la lista
   archived: Publicaciones Archivadas
   read_more: Leer más
+
+careers:
+  title: IDNI Careers
+  join_us: Únete a nosotros
+  content_feature: Estamos en la búsqueda de personas inteligentes y apasionadas que estén buscando el próximo paso en sus trayectorias profesionales.
+  info_featured: Tau se fundó en 2015 con el objetivo de mejorar la forma en que las personas toman decisiones colectivas, utilizando tecnología revolucionaria para discusiones a gran escala y procesos descentralizados de toma de decisiones. Después de completar algunas etapas clave de I + D, estamos buscando más miembros de la tripulación de Tau para desarrollar nuestro producto que cambia la vida y construir una sociedad de conocimiento moderna.
+  info_featured_contact: Para aplicar, envíe su CV a careers@idni.org y mencione el número de posición.
 
 footer: 
   download_logo_tau: Descargar Logo de Tau
