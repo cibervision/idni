@@ -27,13 +27,15 @@
 
         <link rel="stylesheet" href="{{site.url}}/css/styles.css">
 
+        
+
     </head>
     <body class="page-{{site.lang}}">
         <main id="{{page.nav}}" class="main-page">
             <header id="header" class="container-fluid">
                 <div class="row header-background height-60">
                     <div class="container rma" id="navigation">
-                        <div class="col-md-5 height-60">
+                        <div class="col-md-4 height-60">
                             <div class="parent-block">
                                 {% assign url = site.lang %}
                                 {% if site.lang == 'en' %}
@@ -56,7 +58,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-7 nav-main">
+                        <div class="col-md-8 nav-main">
                            {% include nav.html %}
 
                             <div class="dropdown-lang">
