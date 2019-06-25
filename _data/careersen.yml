@@ -8,7 +8,7 @@
   content: We are looking for a talented QA manager to build our QA team and to be responsible for testing TML (a Datalog-like logic language), cryptocurrency wallets, and a discussion platform.
 
   main_content: <h4>Job requirements</h4>
-                  <ul>
+                  <ul class="job_requeriments">
                 <li>Minimum of 3 years of experience in QA management, worked on at least two projects</li>
                 <li>Working on products with strong algorithmic and security aspects</li>
                 <li>Cross-platform experience (Linux/Windows/Mac)</li>
@@ -27,7 +27,7 @@
   date: Mar 13, 2018
   content: We are looking for a rockstar C++ server-side developer to coordinate data transfer between many clients. 
   main_content: <h4>Job requirements </h4>
-                <ul>
+                <ul class="job_requeriments">
               <li>At least 7 years of experience in CPP</li>
               <li>Experience with modern C++ (C++11 and above)</li>
               <li>Experience with networking and server-side development</li>
@@ -46,7 +46,7 @@
   date: Dec 31, 2017
   content: We are looking for an experienced C++ Algorithms developer to join the development team of TML, a Datalog-like language.
   main_content: <h4>Job requirements</h4>
-                <ul>
+                <ul class="job_requeriments">
               <li>At least 10 years of experience in CPP</li>
               <li>Experience with modern C++ (C++11 and above)</li>
               <li>Extensive experience with algorithms</li>

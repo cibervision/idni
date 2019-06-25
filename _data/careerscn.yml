@@ -8,7 +8,7 @@
   content: 我們正在尋找一位才華橫溢的QA經理來建立我們的QA團隊，並負責測試TML（類似數據目錄的邏輯語言），加密貨幣錢包和討論平台。
 
   main_content: <h4>工作要求</h4>
-                  <ul>
+                  <ul class="job_requeriments">
                 <li>至少3年的質量保證管理經驗，至少參與過兩個項目</li>
                 <li>致力於具有強大算法和安全性的產品</li>
                 <li>跨平台體驗（Linux / Windows / Mac）</li>
@@ -27,7 +27,7 @@
   date: Mar 13, 2018
   content: 我們正在尋找一位搖滾明星C ++服務器端開發人員來協調許多客戶端之間的數據傳輸。
   main_content: <h4>工作要求</h4>
-                <ul>
+                <ul class="job_requeriments">
               <li>至少7年的CPP經驗</li>
               <li>使用現代C ++（C ++ 11及以上版本）的經驗</li>
               <li>具有網絡和服務器端開發經驗</li>
@@ -46,7 +46,7 @@
   date: Dec 31, 2017
   content: 我們正在尋找一位經驗豐富的C ++ Algorithms開發人員加入TML的開發團隊，這是一種類似Datalog的語言。
   main_content: <h4>工作要求</h4>
-                <ul>
+                <ul class="job_requeriments">
               <li>至少10年的CPP經驗</li>
               <li>使用現代C ++（C ++ 11及以上版本）的經驗</li>
               <li>豐富的算法經驗</li>

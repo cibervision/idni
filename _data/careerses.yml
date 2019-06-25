@@ -7,7 +7,7 @@
   date: May 27, 2018
   content: Estamos buscando un administrador de control de calidad con talento para crear nuestro equipo de control de calidad y ser responsables de probar TML (un lenguaje lógico similar a Datalog), carteras de criptomonedas y una plataforma de discusión.
   main_content: <h4>Requisitos de trabajo</h4>
-                  <ul>
+                  <ul class="job_requeriments">
                 <li>Mínimo de 3 años de experiencia en gestión de control de calidad, trabajando en al menos dos proyectos.</li>
                 <li>Trabajando en productos con fuertes  algorítmicos y aspectos de seguridad.</li>
                 <li>Experiencia multiplataforma  (Linux/Windows/Mac)</li>
@@ -26,7 +26,7 @@
   date: Mar 13, 2018
   content: Estamos buscando un desarrollador rockstar del lado del servidor C ++ para coordinar la transferencia de datos entre muchos clientes. 
   main_content: <h4>Requisitos de trabajo</h4>
-                <ul>
+                <ul class="job_requeriments">
               <li>Al menos 7 años de experiencia en CPP.</li>
               <li>Experiencia con C ++ moderno (C ++ 11 y superior)</li>
               <li>Experiencia con redes y desarrollo del lado del servidor.</li>
@@ -45,7 +45,7 @@
   date: Dec 31, 2017
   content: Estamos buscando un desarrollador de Algoritmos de C ++ con experiencia que se una al equipo de desarrollo de TML, un lenguaje similar a Datalog.
   main_content: <h4>Requisitos de trabajo</h4>
-                <ul>
+                <ul class="job_requeriments">
               <li>Al menos 10 años de experiencia en CPP.</li>
               <li>Experiencia con C ++ moderno (C ++ 11 y superior)</li>
               <li>Amplia experiencia con algoritmos.</li>
