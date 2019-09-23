@@ -1,7 +1,33 @@
+- title: Consensus and options
+  key: main
+  id: 8
+  order: 1
+  link: consensus-and-options
+  author: Ohad Asor
+  date: Mon 23, 2019
+  content: In this post we won't get into an overview of Tau and Agoras as we did in the last three posts, but we'll dive into two specific parts of each&#58; Tau's governance model, and Agoras derivatives market.
+  main_content: <p  >In this post we won't get into an overview of Tau and Agoras as we did in the last three posts, but we'll dive into two specific parts of each&#58; Tau's governance model, and Agoras derivatives market.</p>
+                <p  >As promised in the last post, in this post we'll talk on who gets to decide. Recall that Tau is a software that is effectively determined by its users, this and nothing more. For that to happen, users will have to discuss an effective discussion in large scale (the Alpha and the Internet of Languages) stating what next Tau's code is required to do, then convert the consensus to code (the Beta), and then to update all clients with the latest code. But which kind of consensus should be used? Unanimity, majority, or any other?</p>
+                <p  >The main technical problem with majority vote in a decentralized network software is the inability to detect multiple votes by the same person. This can be circumvented if we soften the requirement of decentralization by requiring to give some amount of trust and voting power to some people. An example for a protocol which is somewhere in the middle between fully decentralized and fully centralized, is DPOS (Delegated Proof of Stake), or even power purely by stake. Unanimity is also a problem in a decentralized setting, because a participant may, honestly or dishonestly, prevent the whole network from reaching consensus</p>
+                <p  >One rule of thumb is to not limit the user from doing anything that doesn't affect other users. If some group of people want the system to behave in a certain way, and another group wants it behave in a different way, we can then check whether it's possible that both groups' preferences coexist and each gets a different view of the product. We'll be able to detect that thanks to the decidability abilities of the languages we work with. But indeed it is not always possible to make the two changes coexist, as they might contain some contradiction on the very basis of the system, which will turn the system incompatible between the groups.</p>
+                <p  >One way to deal with this case, of a disagreement between groups which cannot compatibly coexist, is to require the groups to compute hashes of their proposal (mining) until the hash is small enough. This is the Bitcoin's mechanism&#58; the chain longer in terms of mining computational power invested in it, is the one preferred by the network. Many similar blockchain-based algorithms are possible, each with its own advantages and disadvantages. Another way, which may come with or without the first one, is to give certain users the power to vote on such case. This weakens the decentralization requirement for the benefit of having a way to resolve otherwise-irresolvable conflicts.</p>
+                <p  >Can be many other ways, none of which is perfect. It therefore requires a discussion among the users, raising the offers and their advantages and disadvantages, and by that we begin with a community-backed set of rules. This will be done over the centralized Alpha and Beta. The users over the Alpha and Beta will decide how the initial Tau would be like, and how it will resolve a contradiction that cannot be resolved by letting each group run their client code, in case that it will make the clients incompatible.</p>
+                <p  >Now let's move to speak about an aspect of Agoras which we always mentioned but never really explained. Agoras will offer an innovative derivative market, featuring also the ability to get risk free interest in deposit, that, without any issuance of new coins, or in other words, without inflation.</p>
+                <p  >To go step by step, let's first understand how the derivatives market will look like. First consider a market in which people just sell assets to each other. The ledger would then be buy/sell orders of the form &quot;Sell N units from asset A and buy asset B at price P&quot;. For derivative markets, it&rsquo;s quite similar&#58; A line on the ledger may look like &quot;If the market price of the pair A/B is below (or above) threshold T in a month from now, then at that time, sell N units from asset A and buy asset B in price P. For you to enter this contract, I will pay you a premium of R coins&quot;. For this transaction to get filled, there must be someone else who puts the opposite transaction&#58; &quot;If the market price of the pair A/B is below (or above) threshold T in a month from now, then at that time, I will buy N units of asset A and sell asset B in price P, and for that I require a premium of -R&quot;. Note that R can be positive or negative, in which case, the side that states this contract requires to get paid in order to get into the contract.</p>
+                <p  >To give an example, suppose the BTC/USD price is $10,000, and consider the contract &quot;If in 2 months from now, the BTC/USD price would be at least $11,000, then I'll buy from you 1 BTC for $10,000, and for you to get into this contract I'll pay you $800&quot;. So the counterpart of this contract will immediately get $800 and will be obliged to pay $1000 in case the BTC/USD price is $11,000, and higher sums in case BTC/USD price goes even higher. For that they'll have to lock a collateral (the &quot;Margins&quot; in everyday derivative markets). Such contracts are called options. Note that the settlement currency can be anything&#58; we don't need the buyer to actually buy 1 BTC for $10,000 and then sell it for say $11,000 and make a $1,000 profit. This settlement can be done with any equivalent of $1,000. In derivative theory terminology, we therefore consider American options rather European options.</p>
+                <p  >One immediate difficulty is how to price the premium (the $1200 in the example). For that there's a standard, Nobel-winning formula, called the Black and Scholes model. In real life, the actual premium prices that people require or give for entering a contract, typically varies from the exact theoretical (Black&amp;Scholes) price, depending on how the market participants foresee the future.</p>
+                <p  >The Black and Scholes model offers important information beyond only pricing an option. It can tell the sensitivity of the option's price to changes in the value of the underlying asset (the Delta), and several more important indicators, called &quot;<a href="https://en.wikipedia.org/wiki/Greeks_(finance)">the Greeks</a>&quot;. Taking it a step forward, Black and Scholes showed that certain combination of options can yield a risk free interest. It is risk free because the sum of the deltas of the options, is zero, cf. Zero-Delta Portfolio. It also yields an interest because the time value of money is taken into account in the price of the option&#58; an option for 2 month ahead should be priced higher than an option for 1 month ahead, because the uncertainty is larger, and because of the cost of opportunity incurred by having to lock a collateral.</p>
+                <p  >The uses of derivative markets is typically two-fold&#58; hedging, and speculation. Common derivative markets in the world are <a href="https://en.wikipedia.org/wiki/Leverage_(finance)">leveraged</a>, and leverage is just a laundried term for taking a loan, allowing very risky speculations, and was widely criticised (at the scope of derivatives) as endangering the world economy. Therefore Agoras' derivative market will not support any kind of leverage. The more genuine need for options, which is why they were invented in the first place, is hedging. Suppose we have a client of a European company exporting to the USA, such that it gets EUR and so the client holding USD has to convert USD to EUR. If the EUR/USD ratio goes up, the client may suffer loses. To avoid that, the client can hedge by buying options in a derivative market. The client will pay a premium but will reduce the risk of currency fluctuations. A counterparty for that option may be a client of a company getting paid in USD but the client is holding EUR. To give a cryptocurrency-related hedging needs, suppose someone buys a lot of bitcoin mining hardware and paying for that in USD. The revenue from mining in terms of bitcoins is more or less known, but if BTC/USD price goes down, the mining initiative might incur losses. Therefore they might want to buy an option and reduce their risk.</p>
+                <p  >Getting back to Agoras' risk-free interest without inflation, the answer to the question &quot;so where does the interest money come from if not newly printed?&quot; would be that it comes from the hedging needs of the players in the economy. Note that this is not arbitrage, and indeed Black&amp;Scholes assume that the market has no arbitrage opportunities. The income from a zero-delta portfolio will reflect the time value of money, or in other words, the reward for locking a collateral.</p>
+                <p  >We showed an example of a conditional future buy/sell order, but the conditions might be much more complex than as in the example. Further, they can be given implicitly, for example in terms of the Greeks&#58; &quot;I'd like any combination of contracts that'll give me delta D and theta T, and I'll pay a premium P for that&quot;. Calculating the theoretical price P for such a contract, and further finding on the order book a combination that will yield the given conditions, is not a computationally trivial task. But it is something that we will achieve in Agoras, at least to a satisfying approximation. This will allow next-generation portfolio management, by specifying only what is required from the portfolio, without the need to manually break it down to which derivatives to hold.</p>
+                <p >Last thing worth mentioning is the ability of such a derivative market to become decentralized. If multiple coins are encoded on the same chain, then it should be possible to encode on that chain also the buy/sell and derivatives orders. But this cannot support, for example, BTC/USD, because we have no on-chain quote of the up to date exchange rate. For such a derivative market to work on cryptocurrencies with different blockchains, or even over any financial asset like stock in the stock exchange, a weakening of the decentralization concept has to come in place. It will require trusted entities to write on the blockchain what was the market price of the assets, and clear the amounts between the parties in some least-authority fashion (like multisig). The range between full decentralization and full centralization is wide, and our above example of DPOS, is also an example for something in the middle which can be applied to off-chain derivatives as well.</p>
+                <p >More to come, and thanks for reading!</p>
+
+
 - title: The Art of Self-Reference
   key: main
   id: 7
-  order: 1
+  order: 2
   link: art-of-self-ref
   author: Ohad Asor
   date: May 27, 2018
@@ -32,7 +58,7 @@
 - title: From Agoras to TML
   link: agoras-to-tml
   id: 0
-  order: 2
+  order: 3
   key: main
   author: Ohad Asor
   date: Mar 13, 2018
@@ -64,7 +90,7 @@
 - title: The New Tau
   link: the-new-tau
   id: 1
-  order: 3
+  order: 4
   key: main
   author: Ohad Asor
   date: Dec 31, 2017
@@ -104,7 +130,7 @@
 - title: "Tau and the Crisis of Truth"
   link: tau-and-the-crisis-of-truth
   id: 2
-  order: 4
+  order: 5
   key: main
   author: Ohad Asor
   date: Sep 11, 2016
@@ -129,7 +155,7 @@
   link: projectroadmap
   key: archive
   id: 3
-  order: 5
+  order: 6
   author: Ohad Asor
   date: Apr 9, 2016
   content: Tau is a language. It is a programming language, but not only such. It may express virtually any arbitrary knowledge, rules, and processes. Examples are contracts, mathematical proofs, scientific facts and arguments, and legal documents.
@@ -162,7 +188,7 @@
   link: generalized-blockchain
   key: archive
   id: 4
-  order: 6
+  order: 7
   author: Ohad Asor
   date: Oct 17, 2015
   content: Bitcoin may abstractly be described as a decentralized machine that appends new data (transactions) to a public shared database (ledger) given certain proofs (signatures).
@@ -192,7 +218,7 @@
 - title: "Proof of Code Execution"
   link: proof-of-exec
   id: 5
-  order: 7
+  order: 8
   author: Ohad Asor
   key: archive
   date: Sep 6, 2015

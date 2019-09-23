@@ -1,7 +1,33 @@
+- title: Consenso y opciones
+  key: main
+  id: 8
+  order: 1
+  link: consensus-and-options
+  author: Ohad Asor
+  date: Mon 23, 2019
+  content: En esta publicación no entraremos en una visión general de Tau y Agoras como lo hicimos en las últimas tres publicaciones, pero profundizaremos en dos partes específicas de cada una&#58; el modelo de gobernanza de Tau y el mercado de derivados de Agoras.
+  main_content: <p dir="ltr">En esta publicación no entraremos en una visión general de Tau y Agoras como lo hicimos en las últimas tres publicaciones, sino que profundizaremos en dos partes específicas de cada una&#58; el modelo de gobernanza de Tau y el mercado de derivados de Agoras.</p>
+                <p dir="ltr">Como se prometió en la última publicación, en esta publicación hablaremos sobre quién puede decidir. Recordemos que Tau es un software que es efectivamente determinado por sus usuarios, esto y nada más. Para que eso suceda, los usuarios tendrán que discutir una discusión efectiva a gran escala (el Alfa e Internet de los idiomas) indicando qué debe hacer el siguiente código de Tau, luego convertir el consenso en código (el Beta) y luego actualizar Todos los clientes con el último código. Pero, ¿qué tipo de consenso debería usarse? ¿Unanimidad, mayoría o cualquier otra?</p>
+                <p dir="ltr">El principal problema técnico con el voto mayoritario en un software de red descentralizado es la incapacidad de detectar múltiples votos por la misma persona. Esto se puede eludir si atenuamos el requisito de descentralización al exigirles cierta confianza y poder de voto a algunas personas. Un ejemplo de un protocolo que se encuentra en algún punto intermedio entre totalmente descentralizado y totalmente centralizado es DPOS (Prueba delegada de participación), o incluso el poder solo por estaca. La unanimidad también es un problema en un entorno descentralizado, porque un participante puede, honesta o deshonestamente, evitar que toda la red llegue a un consenso.</p>
+                <p dir="ltr">Una regla general es no limitar al usuario para que no haga nada que no afecte a otros usuarios. Si algún grupo de personas quiere que el sistema se comporte de cierta manera, y otro grupo quiere que se comporte de una manera diferente, entonces podemos verificar si es posible que las preferencias de ambos grupos coexistan y cada uno tenga una visión diferente del producto. Podremos detectar eso gracias a las capacidades de capacidad de decisión de los idiomas con los que trabajamos. Pero, de hecho, no siempre es posible hacer que los dos cambios coexistan, ya que pueden contener alguna contradicción sobre la base del sistema, lo que hará que el sistema sea incompatible entre los grupos.</p>
+                <p dir="ltr">Una forma de tratar este caso, de un desacuerdo entre grupos que no pueden coexistir de manera compatible, es exigir a los grupos que calculen los hash de su propuesta (minería) hasta que el hash sea lo suficientemente pequeño. Este es el mecanismo de Bitcoin&#58; la cadena más larga en términos de potencia computacional minera invertida en ella es la preferida por la red. Son posibles muchos algoritmos similares basados ​​en blockchain, cada uno con sus propias ventajas y desventajas. Otra forma, que puede venir con o sin la primera, es dar a ciertos usuarios el poder de votar sobre tal caso. Esto debilita el requisito de descentralización en beneficio de tener una manera de resolver conflictos que de otro modo serían irresolubles.</p>
+                <p dir="ltr">Puede haber muchas otras formas, ninguna de las cuales es perfecta. Por lo tanto, requiere una discusión entre los usuarios, elevar las ofertas y sus ventajas y desventajas, y con eso comenzamos con un conjunto de reglas respaldado por la comunidad. Esto se realizará a través de las versiones alfa y beta centralizadas. Los usuarios sobre Alpha y Beta decidirán cómo sería la Tau inicial y cómo resolverá una contradicción que no se puede resolver permitiendo que cada grupo ejecute su código de cliente, en caso de que los haga incompatibles.</p>
+                <p dir="ltr">Ahora pasemos a hablar sobre un aspecto de Agoras que siempre mencionamos pero nunca explicamos realmente. Agoras ofrecerá un innovador mercado de derivados, que también ofrece la posibilidad de obtener un interés en depósitos sin riesgo, que, sin emisión de nuevas monedas, o en otras palabras, sin inflación.</p>
+                <p dir="ltr">Para ir paso a paso, primero comprendamos cómo se verá el mercado de derivados. Primero considere un mercado en el que las personas solo vendan activos entre sí. El libro mayor sería entonces órdenes de compra / venta de la forma &quot;Vender N unidades del activo A y comprar el activo B al precio P&quot;. Para los mercados de derivados, es bastante similar&#58; una línea en el libro mayor puede verse como &quot;Si el precio de mercado del par A / B está por debajo (o por encima) del umbral T en un mes a partir de ahora, entonces en ese momento, venda N unidades de activo A y compre el activo B en el precio P. Para que usted firme este contrato, le pagaré una prima de monedas R &quot;. Para que esta transacción se complete, debe haber alguien más que realice la transacción opuesta&#58; &quot;Si el precio de mercado del par A / B está por debajo (o por encima) del umbral T en un mes a partir de ahora, entonces en ese momento, lo haré compre N unidades del activo A y venda el activo B en el precio P, y para eso requiero una prima de -R &quot;. Tenga en cuenta que R puede ser positivo o negativo, en cuyo caso, el lado que establece este contrato requiere que se le pague para entrar en el contrato.</p>
+                <p dir="ltr">Para dar un ejemplo, suponga que el precio BTC / USD es de $ 10,000, y considere el contrato &quot;Si dentro de 2 meses a partir de ahora, el precio BTC / USD sería de al menos $ 11,000, entonces le compraré 1 BTC por $ 10,000, y para que entres en este contrato te pagaré $ 800 &quot;. Por lo tanto, la contraparte de este contrato obtendrá inmediatamente $ 800 y estará obligado a pagar $ 1000 en caso de que el precio BTC / USD sea de $ 11,000, y sumas más altas en caso de que el precio BTC / USD sea aún más alto. Para eso tendrán que bloquear una garantía (los &quot;Márgenes&quot; en los mercados de derivados cotidianos). Dichos contratos se denominan opciones. Tenga en cuenta que la moneda de liquidación puede ser cualquier cosa&#58; no necesitamos que el comprador realmente compre 1 BTC por $ 10,000 y luego lo venda por decir $ 11,000 y obtenga una ganancia de $ 1,000. Este acuerdo puede hacerse con cualquier equivalente de $ 1,000. Por lo tanto, en la terminología de la teoría derivada, consideramos las opciones estadounidenses en lugar de las europeas.</p>
+                <p dir="ltr">Una dificultad inmediata es cómo fijar el precio de la prima (los $ 1200 en el ejemplo). Para eso hay una fórmula estándar, ganadora de un Nobel, llamada modelo Black and Scholes. En la vida real, los precios premium reales que las personas requieren o dan para firmar un contrato, generalmente varían del precio teórico exacto (Black &amp; Scholes), dependiendo de cómo los participantes del mercado prevean el futuro.</p>
+                <p dir="ltr">El modelo Black and Scholes ofrece información importante más allá de solo el precio de una opción. Puede indicar la sensibilidad del precio de la opción a los cambios en el valor del activo subyacente (el Delta), y varios indicadores más importantes, llamados &quot;<a href="https://en.wikipedia.org/wiki/Greeks_(finance)">los griegos</a>&quot;. Dando un paso adelante, Black y Scholes mostraron que cierta combinación de opciones puede generar un interés libre de riesgo. No tiene riesgos porque la suma de los deltas de las opciones es cero, cf. Portafolio Zero-Delta. También genera un interés porque el valor del dinero en el tiempo se tiene en cuenta en el precio de la opción&#58; una opción para 2 meses por delante debe tener un precio más alto que una opción por 1 mes por delante, porque la incertidumbre es mayor y debido a la costo de oportunidad incurrido al tener que bloquear una garantía.</p>
+                <p dir="ltr">Los usos de los mercados de derivados suelen ser dobles&#58; cobertura y especulación. Los mercados de derivados comunes en el mundo están <a href="https://en.wikipedia.org/wiki/Leverage_(finance)">apalancados</a>, y el apalancamiento es solo un término lavado para tomar un préstamo, lo que permite especulaciones muy riesgosas, y fue ampliamente criticado (en el ámbito de los derivados) por poner en peligro la economía mundial. Por lo tanto, el mercado de derivados de Agoras no admitirá ningún tipo de apalancamiento. La necesidad más genuina de opciones, razón por la cual se inventaron en primer lugar, es la cobertura. Supongamos que tenemos un cliente de una empresa europea que exporta a los EE. UU., De modo que obtiene EUR y el cliente que tiene USD tiene que convertir USD a EUR. Si la relación EUR / USD sube, el cliente puede sufrir pérdidas. Para evitar eso, el cliente puede cubrirse comprando opciones en un mercado de derivados. El cliente pagará una prima pero reducirá el riesgo de fluctuaciones monetarias. Una contraparte de esa opción puede ser un cliente de una empresa que recibe un pago en USD, pero el cliente tiene EUR. Para satisfacer las necesidades de cobertura relacionadas con la criptomoneda, supongamos que alguien compra una gran cantidad de hardware de minería de bitcoins y paga eso en USD. Los ingresos de la minería en términos de bitcoins son más o menos conocidos, pero si el precio BTC / USD baja, la iniciativa minera podría incurrir en pérdidas. Por lo tanto, podrían querer comprar una opción y reducir su riesgo.</p>
+                <p dir="ltr">Volviendo al interés libre de riesgo de Agoras sin inflación, la respuesta a la pregunta &quot;entonces, ¿de dónde viene el dinero de los intereses si no se imprime recientemente?&quot; sería que proviene de las necesidades de cobertura de los jugadores en la economía. Tenga en cuenta que esto no es arbitraje, y de hecho Black &amp; Scholes asume que el mercado no tiene oportunidades de arbitraje. Los ingresos de una cartera de delta cero reflejarán el valor temporal del dinero, o en otras palabras, la recompensa por bloquear una garantía.</p>
+                <p dir="ltr">Mostramos un ejemplo de una orden de compra / venta futura condicional, pero las condiciones pueden ser mucho más complejas que en el ejemplo. Además, se les puede dar forma implícita, por ejemplo, en terms de los griegos&#58; &quot;Me gustaría cualquier combinación de contratos que me dará delta y theta D T, y voy a pagar una prima para que P &quot;. Calcular el precio teórico P para dicho contrato, y encontrar más en el libro de pedidos una combinación que produzca las condiciones dadas, no es una tarea computacionalmente trivial. Pero es algo que lograremos en Agoras, al menos con una aproximación satisfactoria. Esto permitirá la gestión de la cartera de próxima generación, especificando solo lo que se requiere de la cartera, sin la necesidad de desglosar manualmente a qué derivados mantener.</p>
+                <p dir="ltr">Lo último que vale la pena mencionar es la capacidad de dicho mercado de derivados para descentralizarse. Si se codifican varias monedas en la misma cadena, entonces debería ser posible codificar en esa cadena también las órdenes de compra / venta y derivados. Pero esto no puede admitir, por ejemplo, BTC / USD, porque no tenemos una cotización en cadena del tipo de cambio actualizado. Para que un mercado de derivados de este tipo trabaje en criptomonedas con diferentes cadenas de bloques, o incluso sobre cualquier activo financiero como acciones en la bolsa de valores, debe producirse un debilitamiento del concepto de descentralización. Requerirá que las entidades de confianza escriban en la cadena de bloques cuál fue el precio de mercado de los activos y eliminen los montos entre las partes de alguna manera con menos autoridad (como multisig). El rango entre descentralización total y centralización completa es amplio, y nuestro ejemplo anterior de DPOS, también es un ejemplo para algo en el medio que también se puede aplicar a derivados fuera de la cadena.</p>
+                <p dir="ltr">Más por venir, y gracias por leer!</p>
+
+
 - title: El arte de la autorreferencia
   key: main
   id: 7
-  order: 1
+  order: 2
   link: art-of-self-ref
   author: Ohad Asor
   date: Publicado el 27 de mayo de 2018, a las 5:09 AM 
@@ -33,7 +59,7 @@
 - title: De Agoras a TML
   link: agoras-to-tml
   id: 0
-  order: 2
+  order: 3
   key: main
   author: Ohad Asor
   date: Publicado el 12 de marzo de 2018, a las 6:30 PM
@@ -65,7 +91,7 @@
 - title: La nueva Tau
   link: the-new-tau
   id: 1
-  order: 3
+  order: 4
   key: main
   author: Ohad Asor
   date: Publicado el 30/12/2017, 3:27 PM
@@ -105,7 +131,7 @@
 - title: Tau y la crisis de la verdad
   link: tau-and-the-crisis-of-truth
   id: 2
-  order: 4
+  order: 5
   key: main
   author: Ohad Asor
   date: Publicado el 10 de septiembre de 2016, a las 11:25 
@@ -129,7 +155,7 @@
   link: projectroadmap
   key: archive
   id: 3
-  order: 5
+  order: 6
   author: Ohad Asor
   date: Apr 9, 2016
   content: Tau is a language. It is a programming language, but not only such. It may express virtually any arbitrary knowledge, rules, and processes. Examples are contracts, mathematical proofs, scientific facts and arguments, and legal documents.
@@ -156,7 +182,7 @@
   link: generalized-blockchain
   key: archive
   id: 4
-  order: 6
+  order: 7
   author: Ohad Asor
   date: Oct 17, 2015
   content: Bitcoin may abstractly be described as a decentralized machine that appends new data (transactions) to a public shared database (ledger) given certain proofs (signatures).
@@ -186,7 +212,7 @@
 - title: "Proof of Code Execution"
   link: proof-of-exec
   id: 5
-  order: 7
+  order: 8
   author: Ohad Asor
   key: archive
   date: Sep 6, 2015
