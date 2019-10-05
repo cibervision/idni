@@ -114,12 +114,14 @@ about:
   our_team: Our Team
   our_team_content: We gathered people who are passionate about changing our world and to build a better society. Our team is composed of professionals across different industries and practices, to make sure our development is relevant to people from all disciplines.
   core_team: Core Team
+  development: Development
+  business: Business
   advisers: Advisers
 
   team_carrier_isar: Strategy and Operations 
   team_content_isar: Isar has years of management consulting experience from Ernst & Young (in New York and Tel Aviv), where he worked with Fortune 500 and startup companies. He is a veteran member of the Israeli Bitcoin Community and the co-founder of the Blockchain Club at Cornell University. Isar holds an MBA degree from Cornell University and a LL.M and BS in Economics from the University of Haifa.
   
-  team_carrier_ohad: Development
+  team_carrier_ohad: Head of Development
   team_content_ohad: Ohad is a Software Developer and Mathematician at top tech companies in Israel since 1995. He was the youngest university student in Israel, studying Mathematics and Computer Science. Over the years he has accumulated extensive knowledge and experience in programming and various areas of math, with recent focus on and logic, machine learning, complexity theory, philosophy of science, economics, social choice, and decentralized networks. He designed and implements Tau and Agoras. As the founder, he is currently leading the development of the project.
 
   team_carrier_karov: Legal
@@ -143,10 +145,18 @@ about:
   team_carrier_fola: Business Development
   team_content_fola: Fola is a startup expert, with years of experience in managing, and unifying global teams. He has an industrious career in product creation through his dealings in global manufacturing, co-ordinating product design and delivery, for Fortune 500 companies. Armed with first-hand knowledge as the founder of a successful company prior, Fola understands how to take a company from a single apartment to a global network.
 
-  team_carrier_tomas: Development
+  team_carrier_tomas: Alpha Client Developer
   team_content_tomas: Tomáš is an IT specialist with more than 20 years of experience in software development, integrating systems and administration. He has worked for various companies, including SUSE and Liberty Global. His interest in Semantic Web technologies and the future of internet exposed Tomáš to Tau-chain, where he already developed the first TML playground
+  
   team_carrier_fran: Web Developer
   team_content_fran: Fran started programming and designing web pages in the year 2000 and in his 18 year career he has carried out hundreds of projects for companies and public administrations in Galicia - Spain. He defines himself as a passionate self-taught in perpetual training. Crypto-enthusiast since 2015 believes in decentralization and transparency of any kind of power
+  
+  team_carrier_andrei: Alpha Server Developer
+  team_content_andrei:  Andrei is a skilled C/C++ programmer with many years of experience. He started programming C at the Khrunichev Space Center more than 20 years ago, and since then worked at various IT companies developing and delivering products and services to companies including Lukoil, Gazprom and Alrosa. Andrei’s main focus of interest is the development of scalable network communication systems
+
+  team_carrier_dragan: TML Developer
+  team_content_dragan: Dragan is a Senior Software Architect and core C++ developer since the early 90s, he helped design and develop large scale trading tools and ticker plants (for Reuters, FutureSource), Sports/Betting live feeds and full server solutions (Las Vegas Casinos), Harvard University (HMS) web server, various automated web solutions and APIs (for WPromote.com, US marketing agencies, and shipping), Medical s/w, low-level drivers and security solutions for Windows and Linux, SMS gateways and more. Most recently he designed & implemented an internet unique fully anonymous blockchain network (a redesigned fork of the I2P/d for one of the altcoin cryptocurrencies) and mostly working as a very passionate blockchain and ETH/EOS smart-contracts architect/developer. Dragan is a hacker for what now seems forever and fanatical about anything that 'moves' and needs automating
+
 
 networks:
   title: Join Our Social Networks

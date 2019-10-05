@@ -115,6 +115,8 @@ about:
   our_team: 我们的团队
   our_team_content: 我们的团队汇集了一批胸怀改变世界，建立美好社会梦想的有识之士。团队由不同行业不同领域的专业人士组成，以确保我们的发展方向与各行各业的需求保持一致。
   core_team: 核心团队
+  development: 发展历程
+  business: 商业
   advisers: 顾问
 
   team_carrier_isar: 战略与运营
@@ -123,7 +125,7 @@ about:
   team_carrier_ohad: 研发
   team_content_ohad: Ohad是一名数学家及软件开发者，自1995年起工作于以色列一家高科技公司。他曾经是以色列最年轻的大学生，主修数学和计算机科学。学习和工作期间，Ohad在计算机和数学领域学习了大量的知识，积累了丰富的经验，近几年还对逻辑学，机器学习，复杂性理论，科学哲学，经济学，社会选择（social choice），以及去中心化网络进行了深入的研究。他设计实施了Tau和Agoras项目。作为创始人，Ohad领导整个项目的开发。
 
-  team_carrier_karov: 法律
+  team_carrier_karov: 开发部主管
   team_content_karov: Karov是一名律师，拥有超过20年的法律事务工作经验。他为 区块链企业提供法律和咨询服务 (as Behest.io)，同时担任 ET3 的总法律顾问。Karov拥有经济学学士学位和法学硕士学位。
 
   team_carrier_douglas: 知识表示和推理（Knowledge Representation & Reasoning）
@@ -144,11 +146,19 @@ about:
   team_carrier_fola: 商業發展
   team_content_fola: Fola是一名初創專家，擁有多年管理和統一全球團隊的經驗。 他在財富500強公司的全球製造業務，協調產品設計和交付方面，在產品創造方面擁有勤奮的職業生涯。 憑藉作為先前成功公司創始人的第一手知識，Fola了解如何將公司從單一公寓轉變為全球網絡。
 
-  team_carrier_tomas: 發展
+  team_carrier_tomas: Alpha客户开发人员
   team_content_tomas: Tomáš是一位IT專家，在軟件開發，集成系統和管理方面擁有20多年的經驗。 他曾在多家公司工作過，包括SUSE和Liberty Global。 他對語義Web技術的興趣和互聯網的未來將Tomáš暴露給Tau-chain，他已經在那裡開發了第一個TML遊樂場
 
   team_carrier_fran: 網站管理員
   team_content_fran: Fran於2000年開始編程和設計網頁，在他18年的職業生涯中，他為西班牙加利西亞的公司和公共管理部門開展了數百個項目。 他將自己定義為在永久訓練中充滿激情的自學成才。 自2015年以來，加密愛好者相信權力下放和任何權力的透明度
+
+
+  team_carrier_andrei: Alpha服务器开发人员
+  team_content_andrei:  Andrei是一位经验丰富的C / C ++程序员，具有多年的经验。 20多年前，他开始在Khrunichev航天中心编程C，从那以后，他在多家IT公司工作，为Lukoil，Gazprom和Alrosa等公司开发产品和提供服务。 Andrei的主要关注点是可扩展网络通信系统的开发
+
+  team_carrier_dragan: TML开发
+  team_content_dragan: Dragan自90年代初以来一直是一名高级软件架构师和核心C开发人员，他帮助设计和开发了大型交易工具和自动报价机（针对路透社，FutureSource），体育/投注实时供稿和完整服务器解决方案（拉斯维加斯赌场），哈佛 大学（HMS）Web服务器，各种自动化Web解决方案和API（适用于WPromote.com，美国营销机构和运输），医疗软件，适用于Windows和Linux的低级驱动程序和安全解决方案，SMS网关等。 最近，他设计并实现了一个互联网独特的完全匿名的区块链网络（为一种山寨币加密货币重新设计的I2P / d分支），并且主要是一个非常热情的区块链和ETH / EOS智能合约的架构师/开发人员。 德拉甘（Dragan）是黑客，因为他似乎永远永久地狂热地对待“移动”并需要自动化的任何事物
+
 
 networks:
   title: 加入我们的社交媒体
