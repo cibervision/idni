@@ -2752,14 +2752,41 @@ article.post{
                 padding-bottom: 20px;
                 h5 {
                     position: relative;
+                     .in-progress{
+                			font-weight:bold;
+                			color:#F9B800;
+                			}
                     
                 }
+
+                
             }
             .point-time {
                 position: absolute;
                 right: -13px;
                 top: -15px;
                 z-index: 100;
+
+               
+
+                .in-progress-left{
+                					position:absolute;
+                					margin-left:-100px;
+                					
+                					font-weight:bold;
+                					color:#F9B800;
+                					}
+
+
+                .in-progress-right{
+                					position:absolute;
+                					margin-left:40px;
+                					text-align:left;
+                					font-weight:bold;
+                					color:#F9B800;
+                					width:200px;
+                					}
+
                 .point {
                     position: relative;
                     &:before {
@@ -2811,7 +2838,67 @@ article.post{
                         }
                     }
                 }
+
+                .point-in-progress{
+                    position: relative;
+                    &:before {
+                        content: "";
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        width: 30px;
+                        height: 30px;
+                        background: white;
+                        border: 1px solid #1088FE;
+                        border-radius: 100%;
+                    }
+                    &:after {
+                        content: "";
+                        position: absolute;
+                        left: 10px;
+                        top: 10px;
+                        width: 10px;
+                        height: 10px;
+                        border-radius: 9999px;
+                        background-color: #F9B800;
+                    }
+                    em {
+                        font-style: normal;
+                        position: relative;
+                        &:before {
+                            content: "";
+                            position: absolute;
+                            top: 7px;
+                            left: 7px;
+                            width: 16px;
+                            height: 16px;
+                            border-radius: 100%;
+                            background-color: #F9B800;
+                        }
+                        &:after {
+                            content: "";
+                            position: absolute;
+                            top: 10px;
+                            left: 10px;
+                            width: 10px;
+                            height: 10px;
+                            border-radius: 9999px;
+                            background-color: #F9B800;
+                            z-index: 10;
+                            pointer-events: none;
+                            //animation: sonarWave 2s linear infinite;
+                        }
+                    }
+                }
             }
+
+
+
+
+
+
+
+
             .time-line-item:nth-child(odd) {
                 padding-left: 50px;
                 position: relative;
