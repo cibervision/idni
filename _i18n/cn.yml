@@ -19,7 +19,7 @@ tau:
   content_only_dynamic2: 当Tau社区用户希望对网络的代码，规则或者协议做出修改，他们仅仅需要使用TML定义的语言表达自己的观点。Tau区块链网络拥有自我定义的逻辑能力，能够检测到全体成员观点中的共识，并依此自动修正自身的代码。与普通的投票方式不同，Tau能够考虑到全体成员的建议，任何成员都可以实时地自由地投票表决，以及提出自己的观点供全体成员投票表决。Tau的这种独一无二的特征将成为唯一的动态的去中心化方案。
   content_video: 以上视频是关于在Tau网络上进行讨论的初步阐述。用户讨论的可以是日常生活中的主题，或者某一特定领域比如科学的或政治的主题。值得注意的是，在Tau网络上同样可以讨论Tau本身，使Tau随之做出改变。
   the_road_map: 路线图
-  content_the_road_map: 我们设计了一份路线图，每一阶段都是下一阶段的基础，每一阶段都有自己技术上的创新。我们有望在2019年完成TML和Alpha Tau。以Alpha Tau的讨论平台为基础，大量的开发者都可以参与到Beta Tau的开发，从而加快主网上线。Beta Tau开发好以后，完成Tau-Chain只是一个时间问题，因为所有的技术难题都可以在Beta Tau上以协作的方式解决，而且有希望以一种前所未有的开发规模进行。
+  content_the_road_map: 我们设计了一份路线图，每一阶段都是下一阶段的基础，每一阶段都有自己技术上的创新。我们有望在2020年完成TML和Alpha Tau。以Alpha Tau的讨论平台为基础，大量的开发者都可以参与到Beta Tau的开发，从而加快主网上线。Beta Tau开发好以后，完成Tau-Chain只是一个时间问题，因为所有的技术难题都可以在Beta Tau上以协作的方式解决，而且有希望以一种前所未有的开发规模进行。
 
   feature_lang_title : 语言网络
   feature_lang_content: 根据使用目的不同，最适合的语言也会千差万别，不能用单一语言所替代，这就是为什么我们要创建Tau Meta Language (TML)：TML用来定义其他语言，而且这些语言可以在保持语义相同的前提下通过TML互相转换翻译。因此，TML能够使各种语言之间的顺畅交流和语义翻译得以实现，这些语言包括编程语言，知识表示语言（knowledge representation languages），可视化和组织格式（visualization and organization formats）语言，以及某领域专用语言（domain-specific languages）等等。
