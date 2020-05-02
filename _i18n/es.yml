@@ -21,7 +21,7 @@ tau:
 
   content_video: El video de arriba es una ilustración preliminar de cómo las conversaciones sobre Tau pueden tomar forma. Las discusiones de los usuarios pueden enfocarse en temas cotidianos o disciplinas particulares, como ciencia y política. Tau estará al tanto de las discusiones sobre sí misma y cambiará en consecuencia.
   the_road_map: La Hoja de Ruta
-  content_the_road_map: Hemos diseñado una hoja de ruta donde cada etapa apoya el desarrollo de la siguiente y es una innovación tecnológica útil por sí misma. Esperamos completar el desarrollo de TML y Alfa Tau en 2020. Usando la plataforma de discusión de Alfa Tau, un número ilimitado de desarrolladores puede unirse al proyecto para apoyar la construcción de Beta Tau, agilizando su fecha de lanzamiento al mercado. Después de que se desarrolle Beta Tau, solo será cuestión de tiempo hasta que Tau-Chain se complete ya que todos los desafíos técnicos se resolverán utilizando Beta Tau, en colaboración y, con suerte, en una escala de desarrollo nunca antes vista.
+  content_the_road_map: Hemos diseñado una hoja de ruta donde cada etapa apoya el desarrollo de la siguiente y es una innovación tecnológica útil por sí misma. Esperamos completar el desarrollo de TML y Alfa Tau en 2019. Usando la plataforma de discusión de Alfa Tau, un número ilimitado de desarrolladores puede unirse al proyecto para apoyar la construcción de Beta Tau, agilizando su fecha de lanzamiento al mercado. Después de que se desarrolle Beta Tau, solo será cuestión de tiempo hasta que Tau-Chain se complete ya que todos los desafíos técnicos se resolverán utilizando Beta Tau, en colaboración y, con suerte, en una escala de desarrollo nunca antes vista.
 
   feature_lang_title : El Internet de Lenguajes
   feature_lang_content: No existe un único y mejor lenguaje para todos los fines, por lo que creamos el Meta Lenguaje Tau (TML)&#58; un lenguaje destinado a definir otros lenguajes y traducirlos manteniendo la misma información. TML permite una comunicación fluida y una traducción semántica entre los lenguajes de programación, los lenguajes de representación del conocimiento, los formatos de visualización y organización, los lenguajes de dominio específico y más.
@@ -197,9 +197,9 @@ footer:
 
 term_condition:
   title: Términos y Condiciones
-  timer: Last modified&#58; June 09, 2019 
+  timer: Last modified&#58; May 02, 2020 
   content: <h3>Welcome to Tau-Chain!</h3>
-        <p>Thanks for using our website. The Site is provided by and is property of Intelligent Decentralized Networks Initiatives Limited, (‘IDNI’), located at Suites 103,106 & 107, Premier Building, Victoria, Mahe,Seychelles  </p>
+        <p>Thanks for using our website. The Site is provided by and is property of Intelligent Decentralized Networks Initiatives , (‘IDNI AG’), Landstrasse 36, FL-9495 Triesen Liechtenstein </p>
         <p>By using our Site, you are agreeing to these terms. Please read them carefully.</p>
         <p>We do not yet provide any services via our website. Once we commence website services provision they will be very diverse; Therefore, occasionally, additional terms or product requirements (including age requirements, territorial jurisdictional specifics, etc.) might apply. These additional terms and conditions will be added as modifications of this document and will be available with the relevant services, and those additional terms become part of your agreement with us if you use those services.</p>
         <h4>Using our website</h4>
@@ -231,7 +231,7 @@ term_condition:
 notice:
   link: Avisos
   title: Actualización de la compañía
-  content: <p>El deber de desarrollar los proyectos Tau y Agoras, bajo el desarrollo de&#58; Intelligent Decentralized Networks Initiatives LTD, una empresa de Seychelles, se transferirá a una empresa que se constituirá en Liechtenstein; IDNI AG.</p>
+  content: <p>El deber de desarrollar los proyectos Tau y Agoras, bajo el desarrollo de&#58; Intelligent Decentralized Networks Initiatives LTD, una empresa de Seychelles, se ha transferido  a una empresa que constituida en Liechtenstein; IDNI AG situada en Landstrasse 36, FL-9495 Triesen Liechtenstein</p>
            <p>Es importante enfatizar que no habrá cambios en la administración actual y que esta transferencia no cambia materialmente ni disminuye ninguno de sus derechos o nuestras responsabilidades. En cambio, esto nos ayuda enormemente a acelerar el desarrollo de los productos y debería considerarse como una bendición para el proyecto en general.</p>
            <p>La regulación en el espacio Blockchain ha visto una creación dramática y las compañías que crean productos en el espacio han tenido que asegurarse de cumplir con muchas regulaciones cambiantes a escala global. A través de nuestra extensa investigación (probando más de 20 países potenciales), Liechtenstein es fundamentalmente el espacio más fértil para que la compañía tenga su sede central por estas razones principales&#58;</p>
            <ul>

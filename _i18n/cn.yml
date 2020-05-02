@@ -19,7 +19,7 @@ tau:
   content_only_dynamic2: 当Tau社区用户希望对网络的代码，规则或者协议做出修改，他们仅仅需要使用TML定义的语言表达自己的观点。Tau区块链网络拥有自我定义的逻辑能力，能够检测到全体成员观点中的共识，并依此自动修正自身的代码。与普通的投票方式不同，Tau能够考虑到全体成员的建议，任何成员都可以实时地自由地投票表决，以及提出自己的观点供全体成员投票表决。Tau的这种独一无二的特征将成为唯一的动态的去中心化方案。
   content_video: 以上视频是关于在Tau网络上进行讨论的初步阐述。用户讨论的可以是日常生活中的主题，或者某一特定领域比如科学的或政治的主题。值得注意的是，在Tau网络上同样可以讨论Tau本身，使Tau随之做出改变。
   the_road_map: 路线图
-  content_the_road_map: 我们设计了一份路线图，每一阶段都是下一阶段的基础，每一阶段都有自己技术上的创新。我们有望在2020年完成TML和Alpha Tau。以Alpha Tau的讨论平台为基础，大量的开发者都可以参与到Beta Tau的开发，从而加快主网上线。Beta Tau开发好以后，完成Tau-Chain只是一个时间问题，因为所有的技术难题都可以在Beta Tau上以协作的方式解决，而且有希望以一种前所未有的开发规模进行。
+  content_the_road_map: 我们设计了一份路线图，每一阶段都是下一阶段的基础，每一阶段都有自己技术上的创新。我们有望在2019年完成TML和Alpha Tau。以Alpha Tau的讨论平台为基础，大量的开发者都可以参与到Beta Tau的开发，从而加快主网上线。Beta Tau开发好以后，完成Tau-Chain只是一个时间问题，因为所有的技术难题都可以在Beta Tau上以协作的方式解决，而且有希望以一种前所未有的开发规模进行。
 
   feature_lang_title : 语言网络
   feature_lang_content: 根据使用目的不同，最适合的语言也会千差万别，不能用单一语言所替代，这就是为什么我们要创建Tau Meta Language (TML)：TML用来定义其他语言，而且这些语言可以在保持语义相同的前提下通过TML互相转换翻译。因此，TML能够使各种语言之间的顺畅交流和语义翻译得以实现，这些语言包括编程语言，知识表示语言（knowledge representation languages），可视化和组织格式（visualization and organization formats）语言，以及某领域专用语言（domain-specific languages）等等。
@@ -195,7 +195,7 @@ term_condition:
   title: 条款和条件
   timer: Last modified&#58; June 09, 2019 
   content: <h3>Welcome to Tau-Chain!</h3>
-        <p>Thanks for using our website. The Site is provided by and is property of Intelligent Decentralized Networks Initiatives Limited, (‘IDNI’), located at Suites 103,106 & 107, Premier Building, Victoria, Mahe,Seychelles  </p>
+        <p>Thanks for using our website. The Site is provided by and is property of Intelligent Decentralized Networks Initiatives AG, (‘IDNI AG’), located at Landstrasse 36, FL-9495 Triesen Liechtensteins  </p>
         <p>By using our Site, you are agreeing to these terms. Please read them carefully.</p>
         <p>We do not yet provide any services via our website. Once we commence website services provision they will be very diverse; Therefore, occasionally, additional terms or product requirements (including age requirements, territorial jurisdictional specifics, etc.) might apply. These additional terms and conditions will be added as modifications of this document and will be available with the relevant services, and those additional terms become part of your agreement with us if you use those services.</p>
         <h4>Using our website</h4>
@@ -227,7 +227,7 @@ term_condition:
 notice:
   link: 告示
   title: 公司更新
-  content: <p>同時開發Tau和Agoras項目的職責是：塞舌爾的一家智能分散網絡倡議有限公司將轉移到列支敦士登即將成立的公司中。 IDNI AG。</p>
+  content: <p>在以下機構的開發下，開發Tau和Agoras項目的職責：塞舌爾的一家智能分散網絡計劃有限公司已轉移到一家在列支敦士登註冊的公司； IDNI AG位於Landstrasse 36，FL-9495特里森列支敦士登</p>
            <p>需要強調的是，目前的管理層將保持不變，並且此轉移不會對您的任何權利或我們的責任產生實質性的改變或減少。相反，這極大地幫助了我們加快產品開發速度，應該被視為對整個項目的福音。</p>
            <p>區塊鏈領域的法規已經出現了驚人的創造，並且在該領域中創建產品的公司必須確保它們遵守全球範圍內許多不斷變化的法規。通過我們的廣泛研究（遍及20個潛在國家/地區），列支敦士登從根本上來說是該公司總部最肥沃的地方，其主要原因如下：</p>
            <ul>
