@@ -1,7 +1,32 @@
+- title: Agoras and the Economics of Knowledge
+  key: main
+  id: 9
+  order: 1
+  link: economics-of-knowledge
+  author: Ohad Asor
+  date: May 02, 2020
+  content: In our current world one can rarely monetize their knowledge in a direct manner. We almost never buy or sell (or price) a single piece of knowledge.
+  main_content: <p >Agoras and the Economics of Knowledge</p>
+                <p>In our current world one can rarely monetize their knowledge in a direct manner. We almost never buy or sell (or price) a single piece of knowledge. Seeking knowledge in an economical setting is currently mostly done by appealing to people who we assume to be involved in a field where the knowledge of interest may exist, just like there isn't a book for each single answer, but we look up answers in books that deal with apparently relevant fields. Knowledge is a major part of our economy, and here we seek for cases in which we can make the economics of knowledge more efficient and more advanced.</p>
+                <p>Formalizing knowledge in a machine-accessible format offers an advantage over books and search engines&#58; the data isn&rsquo;t a stream of bits anymore but the meaning behind the bits, and therefore we can indeed perform an automatic semantic lookup of small pieces of knowledge even in a large compilation of writing. We spoke several times about how a shared knowledge base will evolve over Tau and its logic-based discussions. In a framework where knowledge is constantly formalized and shared between users, it's only natural to consider an economical infrastructure to facilitate all aspects of the economics of formal knowledge. On this post we'll focus on some aspects of economics of knowledge in Agoras while leaving some others to future writings. It is time to speak about Agoras indeed, since we now start its development in parallel to the ongoing development of Tau.</p>
+                <p>First let's consider how knowledge is generated, or &quot;mined&quot;. If we treat knowledge as something beyond [natural or artificial] sensory inputs, one can argue that the act of reasoning is the one that generates new knowledge from existing one. Such a process can also be done automatically. But how can we guide this automatic search process such that it'll produce interesting results?<br />In the past we spoke about the concept of &quot;interesting questions&quot;. Just like answers may be correct or not, in the same way questions may be interesting or not, but correctness is irrelevant and undefined for questions. We argue that this defines the roles of humans and machines in our setting&#58; machines will never be able to tell which question is interesting, as this is purely a human-nature-dependant thing. The machine's role is to help us answer our interesting questions by automatically performing the tedious work of reasoning over the knowledge we already fed into it.</p>
+                <p>It might be worth adding a remark about terminology here&#58; by &quot;queries&quot; we refer to question that we ask the machine, and we expect the machine to have enough data in its knowledge base in order to answer this query, while by &quot;question&quot; we refer to a question that we want to mark as &quot;interesting&quot;, assuming that the answer is yet unknown over the system. Also for more detailed discussion about questions and answers on Tau, please refer to the second half of the article <a href="http://www.idni.org/blog/art-of-self-ref">The Art of Self Reference</a>.</p>
+                <p>In short, questions and answers will play an important role in discussions and knowledge formalization over Tau, but this also helps understanding the economics of knowledge. A piece of knowledge is valuable if it&rsquo;s interesting, and its value should depend both on the level of interest and on the hardness of answering the question. Hardness of answering is something slightly more accessible to machines, since they can count steps, and besides there is a rich theory about complexities of various reasoning tasks (called Descriptive Complexity Theory).</p>
+                <p>Focusing on the economics of knowledge, questions and answers may be seen as demand and supply respectively, although this doesn't cover the full picture and we'll add more details later on. Users over the platform will be able to mark questions as interesting in the same convenient, collaborative, and natural way we proposed all along&#58; via the course of discussion.</p>
+                <p>Now let's imagine how a knowledgeable individual may generate income over Agoras. In a broad sense, users interested in certain questions may offer a reward for an answer. Verification of answers may be done in several ways. In some cases, like common mathematical questions, the answerer may supply a proof for the answer, and no dispute arises over whether or not the answer is correct. We might even have information about whether such a verification process is expected to be efficient, again by using considerations from Descriptive Complexity Theory, and there's a lot to add about this point from a cryptographic point of view, but this is out of the scope of the current article.</p>
+                <p>However, sometimes asking for a mathematical proof is too much. Sometimes one might trust an expert in the traditional way, simply by impression or recommendation or advertisement etc. as common, and then automatically trust their answers. A simple example would be to trust some medical doctor which you already know well, and not require them to supply a mathematical proof for each and every medical advice that they give, as this will render the whole thing impractical (well at least until the singularity comes).</p>
+                <p>So the last example gives rise to one form of knowledge trading, which was already mentioned in a previous post&#58; consider some reputable body, like a university or a trusted expert, which takes the hard task of formalizing some large and useful body of knowledge. They can then offer a subscription to users for automatic participation in their discussions. As we explain in the past, Tau will allow &quot;autocomment&quot; so it can automatically participate in a discussion on your behalf, once you tell it your opinions (what we call your &quot;worldview&quot;) over time, by posting or by agreeing/disagreeing with others. So, that subscription lets subscribers enjoy automatic participation in discussions where the data comes from a trusted source (from the single user's perspective). For a specific instance, a law firm offers their knowledgebase to automatically participate in corporate discussions and possibly autocomment on certain ideas to be legal or illegal.</p>
+                <p>Another form of subscription may be pay-per-query, allowing subscribers to ask questions and get answers without revealing the whole knowledgebase. Further, thanks to Tau's collaborative knowledge formation aspects, a group may formalize knowledge and monetize it together.</p>
+                <p>At this point it's worth mentioning one of the original Agoras' main innovations&#58; the concept of the Automatic Businessman. Users have their own local assets, being computational resources, knowledge, coins, and possibly other assets that they allow their formalized worldview to take into consideration. Agoras will then be able to tailor a deal by looking at the available knowledge and contracts offered out there, or by publishing a bid for certain knowledge or contract, all from a coherent and logically proven plan of combining the assets and opportunities into a good deal. One can even reach an extent that is unheard of in common automatic planners&#58; the user will be able to ask Agoras for deals that don't break laws and regulations, once law is formalized over the system. This is just a small example of what a logical reasoner may perform in an economy.</p>
+                <p>Recall that Agoras will also contain a computational resources market and a future contracts market, as detailed in previous posts. The Automatic Businessman is therefore a &quot;holistic&quot; application that may involve all parts of Tau and Agoras capabilities. Another such example was given in the post <a href="http://www.idni.org/blog/agoras-to-tml">From Agoras to TML</a>, outlining a decentralized search engine as a rather more complex form of a knowledge economy.</p>
+                <p>We have some new thoughts and plans to add to this design. That all emphasized, clearly a human touch is crucial for many forms of knowledge transfer, and not all knowledge may or is suitable to be formalized in all circumstances. Seeking quick advice from a doctor by means of exchanging formalized knowledge is not always the preferred way to go, same for taking a private tutor, and so many more examples. We therefore intend to have also a freestyle form of trading knowledge, in the form of text, audio, and video, based on a very old design appearing <a href="http://github.com/naturalog/bitagoras">on this link</a>. Please take a moment to read it. The Great Lockdown made us decide to start working on micropayment-based video calls right away indeed.</p>
+                <p>Much to say about this new addition to the plan, and we'll emphasize more in the upcoming monthly video update, among more and unrelated very good news.</p>
+                <p>And until then, stay healthy :)</p>
+
 - title: Consensus and Options
   key: main
   id: 8
-  order: 1
+  order: 2
   link: consensus-and-options
   author: Ohad Asor
   date: Sep 23, 2019
@@ -27,7 +52,7 @@
 - title: The Art of Self-Reference
   key: main
   id: 7
-  order: 2
+  order: 3
   link: art-of-self-ref
   author: Ohad Asor
   date: May 27, 2018
@@ -58,7 +83,7 @@
 - title: From Agoras to TML
   link: agoras-to-tml
   id: 0
-  order: 3
+  order: 4
   key: main
   author: Ohad Asor
   date: Mar 13, 2018
@@ -90,7 +115,7 @@
 - title: The New Tau
   link: the-new-tau
   id: 1
-  order: 4
+  order: 5
   key: main
   author: Ohad Asor
   date: Dec 31, 2017
@@ -130,7 +155,7 @@
 - title: "Tau and the Crisis of Truth"
   link: tau-and-the-crisis-of-truth
   id: 2
-  order: 5
+  order: 6
   key: main
   author: Ohad Asor
   date: Sep 11, 2016
@@ -155,7 +180,7 @@
   link: projectroadmap
   key: archive
   id: 3
-  order: 6
+  order: 7
   author: Ohad Asor
   date: Apr 9, 2016
   content: Tau is a language. It is a programming language, but not only such. It may express virtually any arbitrary knowledge, rules, and processes. Examples are contracts, mathematical proofs, scientific facts and arguments, and legal documents.
@@ -188,7 +213,7 @@
   link: generalized-blockchain
   key: archive
   id: 4
-  order: 7
+  order: 8
   author: Ohad Asor
   date: Oct 17, 2015
   content: Bitcoin may abstractly be described as a decentralized machine that appends new data (transactions) to a public shared database (ledger) given certain proofs (signatures).
@@ -218,7 +243,7 @@
 - title: "Proof of Code Execution"
   link: proof-of-exec
   id: 5
-  order: 8
+  order: 9
   author: Ohad Asor
   key: archive
   date: Sep 6, 2015
@@ -237,7 +262,7 @@
   link: decentralized-democracy
   author: Ohad Asor
   id: 6
-  order: 0 
+  order: 10 
   key: archive
   date: Sep 1, 2015
   content: Recently we mentioned several times the logical and technological properties of tau, and now maybe it is time to take a step back and look at the broader picture. We mentioned that tau's programming language is actually rules and logic. 

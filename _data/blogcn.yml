@@ -1,7 +1,32 @@
+- title: 集市與知識經濟學
+  key: main
+  id: 9
+  order: 1
+  link: economics-of-knowledge
+  author: Ohad Asor
+  date: May 02, 2020
+  content: 在我們當前的世界中，很少有人可以直接將其知識貨幣化。我們幾乎從不買賣任何知識...
+  main_content: <p>在我們當前的世界中，很少有人可以直接將其知識貨幣化。我們幾乎從不買賣任何知識。在經濟的環境中尋求知識通常是通過吸引那些我們認為可能涉及感興趣知識的領域的人們來完成的，就像沒有一個單獨的書回答每個問題，但是我們在涉及明顯領域的書籍。知識是我們經濟的重要組成部分，在這裡我們尋求能夠使知識經濟學更有效，更先進的案例。</p>
+                <p>以機器可訪問的格式來形式化知識相對於書籍和搜索引擎而言具有一個優勢：數據不再是比特流，而是比特背後的含義，因此我們確實可以對小的知識片段進行自動語義查找在大量的寫作中。我們多次談論了共享知識庫如何在Tau及其基於邏輯的討論中發展。在一個不斷地形式化知識並在用戶之間共享知識的框架中，考慮一種經濟的基礎設施來促進形式知識經濟學的各個方面都是很自然的。在這篇文章中，我們將重點關注Agoras中知識經濟學的某些方面，而另一些方面則留待以後的寫作。現在是時候談論Agoras了，因為我們現在開始與Tau的持續開發同時進行開發。</p>
+                <p>首先，讓我們考慮一下知識是如何產生或&ldquo;挖掘&rdquo;的。如果我們將知識視為超出[自然或人工]感官輸入的事物，則可以辯稱推理是從現有知識中產生新知識的行為。這樣的過程也可以自動完成。但是，我們如何指導這種自動搜索過程，使其產生有趣的結果？<br>
+                  在過去，我們談到了&ldquo;有趣的問題&rdquo;的概念。就像答案是否正確一樣，問題是否有趣也同樣，但正確與否無關緊要，對問題沒有定義。我們認為，這定義了人類和機器在我們的環境中的作用：機器永遠無法分辨出哪個問題很有趣，因為這純粹是人類自然的依賴。機器的作用是通過自動完成已經投入到其中的知識的推理工作來幫助我們回答有趣的問題。</p>
+                <p>可能需要在此處添加有關術語的說明：通過&ldquo;查詢&rdquo;，我們指的是我們要詢問機器的問題，並且我們希望機器在其知識庫中有足夠的數據以回答此查詢，而通過&ldquo;問題&rdquo;假設答案在系統中尚不明確，我們將其標記為&ldquo;有趣&rdquo;。另外，對於有關Tau的問題和答案的更詳細的討論，請參閱文章<a href="https://translate.google.com/translate?hl=es&prev=_t&sl=en&tl=zh-TW&u=http://www.idni.org/blog/art-of-self-ref">參考自我的</a>後半部分。</p>
+                <p>簡而言之，問題和答案將在有關Tau的討論和知識形式化中發揮重要作用，但這也有助於理解知識的經濟學。如果知識很有趣，那麼一條知識就是有價值的，知識的價值應取決於興趣水平和回答問題的難度。機器很難回答答案，因為機器可以計算步數，此外，還有關於各種推理任務的複雜性的豐富理論（稱為描述性複雜性理論）。</p>
+                <p>關注知識經濟學，問題和答案可能分別被視為需求和供應，儘管這並不能涵蓋全部情況，我們稍後將添加更多詳細信息。平台上的用戶將能夠以我們一貫提出的便捷，協作和自然的方式將問題標記為有趣的問題：通過討論。</p>
+                <p>現在，讓我們想像一個知識淵博的人如何通過Agoras產生收入。從廣義上講，對某些問題感興趣的用戶可以為答案提供獎勵。答案的驗證可以通過幾種方式完成。在某些情況下，如常見的數學問題一樣，答題者可以提供答案的證明，並且就答案是否正確沒有爭議。再次使用描述性複雜性理論的考慮，我們甚至可能擁有有關這種驗證過程是否有望高效的信息，並且從密碼學的角度來看，還有很多要補充的內容，但這超出了我們的範圍。當前文章。</p>
+                <p>但是，有時要求數學證明太多了。有時，人們可能會以傳統方式信任專家，只需通過常見的印像或推薦或廣告等方式，然後自動信任他們的答案。一個簡單的例子是信任一些您已經很熟悉的醫生，而不是要求他們為他們提供的每一項醫學建議提供數學證明，因為這會使整個事情變得不切實際（至少要等到唯一性之後）來）。</p>
+                <p>因此，最後一個例子產生了一種形式的知識交易，該知識交易在上一篇文章中已經提到：考慮一些信譽良好的機構，例如大學或受信任的專家，這需要艱鉅的任務來規範一些龐大而有用的知識體系。然後，他們可以向用戶提供訂閱，以自動參與他們的討論。正如我們過去解釋的那樣，Tau將允許&ldquo;自動評論&rdquo;，以便它可以在您隨時間，通過發布或通過同意/不同意告訴您自己的意見（我們稱為&ldquo;世界觀&rdquo;）時自動代表您參加討論。和其他人。因此，該訂閱使訂閱者可以自動參與討論，討論中的數據來自受信任的來源（從單個用戶的角度來看）。在特定情況下，律師事務所提供其知識庫以自動參與公司討論，並可能自動評論某些想法合法或非法。</p>
+                <p>訂閱的另一種形式是按查詢付費，允許訂閱者在不透露整個知識庫的情況下提出問題並獲得答案。此外，得益於Tau協作知識的形成，一個小組可以將知識形式化並一起貨幣化。</p>
+                <p>在這一點上，值得一提的是Agoras最初的主要創新之一：&ldquo;自動商人&rdquo;的概念。用戶擁有自己的本地資產，即計算資源，知識，硬幣以及可能允許其正式世界觀考慮在內的其他資產。然後，Agoras將能夠通過查看提供的可用知識和合同，或者通過發布對某些知識或合同的競標來量身定制交易，所有這些都來自於將資產和機會組合成一筆好交易的連貫且經邏輯證明的計劃。甚至可以達到一種常見的自動計劃程序所無法聞到的程度：一旦在系統上正式製定法律，用戶就可以向Agoras提出不違反法律法規的交易。這只是邏輯推理機可以在經濟中發揮作用的一個小例子。</p>
+                <p>回想一下，Agoras還將包含一個計算資源市場和一個未來的合同市場，如先前的帖子中所述。因此，&ldquo;自動商人&rdquo;是一個&ldquo;整體&rdquo;應用程序，可能涉及Tau和Agoras功能的所有部分。<a href="https://translate.google.com/translate?hl=es&prev=_t&sl=en&tl=zh-TW&u=http://www.idni.org/blog/agoras-to-tml">從Agoras到TML</a>的帖子中給出了另一個這樣的例子，概述了去中心化搜索引擎是一種相當複雜的知識經濟形式。</p>
+                <p>我們對此設計有一些新的想法和計劃。所有人都強調，很明顯，人的接觸對於許多形式的知識轉移至關重要，並且並非所有知識都可能或適合在所有情況下形式化。通過交流形式化的知識來尋求醫生的快速建議並不總是首選的方式，私人補習也是如此，還有更多的例子。因此，我們打算基於<a href="https://translate.google.com/translate?hl=es&prev=_t&sl=en&tl=zh-TW&u=http://github.com/naturalog/bitagoras">此鏈接上</a>出現的非常古老的設計，以文本，音頻和視頻的形式提供自由形式的交易知識。請花一點時間閱讀它。大鎖定讓我們決定確實立即開始進行基於小額支付的視頻通話。</p>
+                <p>關於這項計劃的新增內容，還有很多話要說，在即將發布的每月視頻更新中，我們將重點介紹更多和無關的非常好消息。</p>
+
+
 - title: 共識和選擇
   key: main
   id: 8
-  order: 1
+  order: 2
   link: consensus-and-options
   author: Ohad Asor
   date: Mon 23, 2019
@@ -26,7 +51,7 @@
 - title: The Art of Self-Reference
   key: main
   id: 7
-  order: 2
+  order: 3
   link: art-of-self-ref
   author: Ohad Asor
   date: 发表于2018年5月27日下午8:09分
@@ -56,7 +81,7 @@
 - title: 从 Agoras 到 TML
   link: agoras-to-tml
   id: 0
-  order: 3
+  order: 4
   key: main
   author: Ohad Asor
   date: 发表于2018年3月13日上午9:30分
@@ -82,7 +107,7 @@
 - title: The New Tau
   link: the-new-tau
   id: 1
-  order: 4
+  order: 5
   key: main
   author: Ohad Asor
   date: 发表于2017年12月31日上午7:27分
@@ -119,7 +144,7 @@
 - title: Tau和真相危机
   link: tau-and-the-crisis-of-truth
   id: 2
-  order: 5
+  order: 6
   key: main
   author: Ohad Asor
   date: 发表于2016年9月11日凌晨2:25
@@ -139,7 +164,7 @@
   link: projectroadmap
   key: archive
   id: 3
-  order: 6
+  order: 7
   author: Ohad Asor
   date: Apr 9, 2016
   content: Tau is a language. It is a programming language, but not only such. It may express virtually any arbitrary knowledge, rules, and processes. Examples are contracts, mathematical proofs, scientific facts and arguments, and legal documents.
@@ -166,7 +191,7 @@
   link: generalized-blockchain
   key: archive
   id: 4
-  order: 7
+  order: 8
   author: Ohad Asor
   date: Oct 17, 2015
   content: Bitcoin may abstractly be described as a decentralized machine that appends new data (transactions) to a public shared database (ledger) given certain proofs (signatures).
@@ -196,7 +221,7 @@
 - title: "Proof of Code Execution"
   link: proof-of-exec
   id: 5
-  order: 8
+  order: 9
   author: Ohad Asor
   key: archive
   date: Sep 6, 2015
@@ -215,7 +240,7 @@
   link: decentralized-democracy
   author: Ohad Asor
   id: 6
-  order: 0 
+  order: 10
   key: archive
   date: Sep 1, 2015
   content: Recently we mentioned several times the logical and technological properties of tau, and now maybe it is time to take a step back and look at the broader picture. We mentioned that tau's programming language is actually rules and logic. 
