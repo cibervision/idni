@@ -10,6 +10,8 @@ menu:
   careers: Únete
 
 tau:
+  content_what_is_tau_chain_announcement1: ¡Nos complace anunciar el lanzamiento del borrador del documento técnico para  la comunidad !
+  content_what_is_tau_chain_announcement2: Haz clic aquí para descargar el documento técnico
   what_is_tau_chain: Qué es Tau
   content_what_is_tau_chain_italic: Tau es una red blockchain descentralizada destinada a resolver las limitaciones inherentes en la comunicación humana a gran escala y acelerar la productividad en la colaboración humana utilizando inteligencia artificial basada en la lógica.
   content_what_is_tau_chain_p1: Actualmente, las discusiones a gran escala y los esfuerzos de colaboración llevados a cabo directamente entre personas son altamente ineficientes. Para abordar este problema, desarrollamos un paradigma que llamamos comunicación Humano-Máquina-Humano&#58; el principio central es que los usuarios no solo pueden interactuar entre ellos sino también aclarar sus afirmaciones a su cliente Tau. Nuestro paradigma permite a Tau deducir áreas de consenso entre sus usuarios en tiempo real, permitiendo a la red impulsar la comunicación actuando como intermediario entre humanos. Lo hace recogiendo las opiniones y preferencias que sus usuarios desean compartir y construyendo de forma lógica opiniones en una base de conocimiento semántico.
@@ -193,6 +195,7 @@ footer:
   download_logo_tau: Descargar Logo de Tau
   download_logo_agoras: Descargar Logo de Agoras
   all_right: Todos los derechos reservados
+  whitepaper: Borrador documento técnico 
 
 
 term_condition:

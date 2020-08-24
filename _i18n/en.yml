@@ -9,6 +9,8 @@ menu:
   careers: Careers
 
 tau:
+  content_what_is_tau_chain_announcement1: We are happy to announce the release of the Whitepaper's community draft! 
+  content_what_is_tau_chain_announcement2: Click Here for the Whitepaper
   what_is_tau_chain: What is Tau
   content_what_is_tau_chain_italic: Tau is a decentralized blockchain network intended to solve the bottlenecks inherent in large scale human communication and accelerate productivity in human collaboration using logic based Artificial Intelligence.
   content_what_is_tau_chain_p1: Currently, large scale discussions and collaborative efforts carried out directly between people are highly inefficient. To address this problem, we developed a paradigm which we call Human-Machine-Human communication&colon; the core principle is that the users can not only interact with each other but also make their statements clear to their Tau client. Our paradigm enables Tau to deduce areas of consensus among its users in real time, allowing the network to boost communication by acting as an intermediary between humans. It does so by collecting the opinions and preferences its users wish to share and logically constructing opinions into a semantic knowledge base.
@@ -188,6 +190,7 @@ footer:
   download_logo_tau: Download Tau Logo
   download_logo_agoras: Download Agoras Logo
   all_right: All rights reserved
+  whitepaper: Whitepaper's community draft
 
 term_condition:
   title: Terms and Conditions

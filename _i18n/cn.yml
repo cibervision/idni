@@ -9,6 +9,8 @@ menu:
   careers: 職業生涯
 
 tau:
+  content_what_is_tau_chain_announcement1: 我們很高興宣布發佈白皮書的社區草案！ 
+  content_what_is_tau_chain_announcement2: 單擊此處獲取白皮書
   what_is_tau_chain: Tau是什么
   content_what_is_tau_chain_italic: Tau是一个去中心化的区块链网络，旨在解决人类交流过程中所固有的规模化瓶颈，以人工智能为基础，提高协作水平，加速生产力的发展。
   content_what_is_tau_chain_p1: 目前，人类进行大规模的集体讨论和协作的效率非常低。为了解决这一问题，我们开发了一种人-机器-人的交流模式：其核心原则是，不仅用户之间可以沟通，而且用户可以将自己的观点通过一定的方式向Tau客户端表述。Tau能够实时地推导出用户群体的共识点和分歧点，从而以一种中间人的角色促进人类之间的交流。Tau能够做到这一点，是因为它可以汇集用户群体希望分享的知识和观点，以逻辑的方式进行重建，并整合进语义知识库。
@@ -189,7 +191,8 @@ careers:
 footer: 
   download_logo_tau: 下载 Tau logo
   download_logo_agoras: 下载 Agoras logo
-  all_right: 保留所有权利
+  all_right: 保留所有权利 
+  whitepaper: 白皮書的社區草案
 
 term_condition:
   title: 条款和条件
