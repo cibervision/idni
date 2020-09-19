@@ -158,13 +158,10 @@ about:
   
   team_carrier_andrei: Alpha Server Developer
   team_content_andrei:  Andrei is a skilled C/C++ programmer with many years of experience. He started programming C at the Khrunichev Space Center more than 20 years ago, and since then worked at various IT companies developing and delivering products and services to companies including Lukoil, Gazprom and Alrosa. Andrei’s main focus of interest is the development of scalable network communication systems
-  
-  team_carrier_mark: TML Developer
-  team_content_mark:  Mark Reynolds, PhD, is a mathematician and computer scientist who works on the theoretical foundations of programming languages, as well as their implementation. This specialties include domain specific languages, type theory, model theory, and formal methods
 
   
   team_carrier_juanAR: TML Developer
-  team_content_juanAR: Juan is a Computer Systems Engineer with more than 15 years of R&D experience in several fields of Software and Digital. He worked and collaborated as researcher, engineer, lecturer or independent consultant for several universities, government institutions, startups and corporations in the US, Costa Rica and ArgentinaHardware design. The projects he has been part of include the implementation of application-specific VLSI processors, lecturing in digital hardware design and verification, functional verification of satellite radar equipment, development of formal verification technology for system software and smart contracts, new PoW, secure protocols and mining equipment development for blockchain and scientific computing for optics, ray tracing and automatic speech recognition applications. Juan holds a Ph.D. in Microelectronics from UNS.
+  team_content_juanAR: Juan is a Computer Systems Engineer with +15 years of R&D experience in several fields of Software and Digital Hardware design. He worked and collaborated as researcher, engineer, lecturer or independent consultant for several universities, government institutions, startups and companies in the US, Costa Rica and Argentina. The projects he has been part of include the development of&#58; application-specific VLSI processors, verification environment for satellite radar equipment,formal verification technology for system software and smart contracts, new PoW, secure protocols and mining equipment for blockchain and software for optics, ray tracing and automatic speech recognition applications. Juan holds a Ph.D. in Microelectronics from UNS.
 
 networks:
   title: Join Our Social Networks
