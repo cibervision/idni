@@ -161,12 +161,11 @@ about:
   team_carrier_andrei: Alpha服务器开发人员
   team_content_andrei:  Andrei是一位经验丰富的C / C ++程序员，具有多年的经验。 20多年前，他开始在Khrunichev航天中心编程C，从那以后，他在多家IT公司工作，为Lukoil，Gazprom和Alrosa等公司开发产品和提供服务。 Andrei的主要关注点是可扩展网络通信系统的开发
 
-  team_carrier_mark: TML开发
-  team_content_mark: 馬克·雷諾茲（Mark Reynolds）博士是一位數學家和計算機科學家，致力於編程語言及其實現的理論基礎。這些專業包括領域特定語言，類型理論，模型理論和形式方法
-
-
   team_carrier_juanAR: TML开发
   team_content_juanAR: Juan是一位計算機系統工程師，在軟件和數字硬件設計的多個領域擁有超過15年的研發經驗。 他曾在美國，哥斯達黎加和阿根廷的幾所大學，政府機構，初創企業和公司中擔任研究員，工程師，講師或獨立顧問的工作和合作。 他參與的項目包括：專用VLSI處理器的開發，衛星雷達設備的驗證環境，系統軟件和智能合約的正式驗證技術，新的PoW，區塊鏈的安全協議和採礦設備以及光學軟件， 光線追踪和自動語音識別應用程序。 Juan擁有博士學位 從UNS獲得微電子學博士學位。
+  
+  team_carrier_mr: TML开发
+  team_content_mr: 馬克·雷諾茲（Mark Reynolds）博士是一位數學家和計算機科學家，致力於編程語言及其實現的理論基礎。這些專業包括領域特定語言，類型理論，模型理論和形式方法
 
 
 networks:
